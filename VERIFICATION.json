@@ -1,0 +1,89 @@
+{
+  "issues": 172,
+  "page_states": 28895,
+  "media_references_checked": 64304,
+  "media_reference_errors": [],
+  "package_audit": {
+    "files": 29358,
+    "bytes": 82204935,
+    "issues": 172,
+    "pages": 28895,
+    "errors": []
+  },
+  "browser_checks": {
+    "visualSamples": 9,
+    "videoSeeking": true,
+    "gallery": true,
+    "missingPagePrompt": true,
+    "errors": [],
+    "repairedLocalPage": true,
+    "localBrowse": true,
+    "localFonts": true
+  },
+  "visual_comparisons": [
+    {
+      "sample": "1-3-old",
+      "meanPixelDifference": 0.0
+    },
+    {
+      "sample": "155-40-old",
+      "meanPixelDifference": 0.0
+    },
+    {
+      "sample": "172-42-old",
+      "meanPixelDifference": 0.0
+    },
+    {
+      "sample": "133-30-old",
+      "meanPixelDifference": 0.0
+    },
+    {
+      "sample": "139-40-old",
+      "meanPixelDifference": 0.0
+    },
+    {
+      "sample": "172-41-old",
+      "meanPixelDifference": 0.0
+    },
+    {
+      "sample": "172-14-old",
+      "meanPixelDifference": 0.0
+    },
+    {
+      "sample": "85-12-old",
+      "meanPixelDifference": 0.0
+    },
+    {
+      "sample": "127-50-old",
+      "meanPixelDifference": 0.0
+    }
+  ],
+  "external_font_checks": [
+    {
+      "font": "GillSans.otf",
+      "matches": true,
+      "cors": "*"
+    },
+    {
+      "font": "Benguiat-BookItalic.otf",
+      "matches": true,
+      "cors": "*"
+    },
+    {
+      "font": "GillSans-Italic.otf",
+      "matches": true,
+      "cors": "*"
+    },
+    {
+      "font": "Benguiat-Book.otf",
+      "matches": true,
+      "cors": "*"
+    }
+  ],
+  "browser_scope": "Chrome: local folder loading and navigation. Safari 27: local images in issues 170 and 172, with folder selection retained through the library and Browse.",
+  "local_folder_progress": {
+    "browser": "Chrome",
+    "file_count_updates": true,
+    "indicator_clears_on_completion": true
+  }
+}

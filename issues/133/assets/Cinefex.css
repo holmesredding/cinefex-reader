@@ -1,0 +1,753 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background: rgb( 245, 245, 245);
+}
+
+body {
+    word-wrap: break-word;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-user-modify: none;
+    -webkit-user-drag: none;
+    -webkit-device-pixel-ratio: 1.8;
+}
+
+img {
+    //outline: 1px dashed red;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+div {
+    //outline: 1px dashed green;
+}
+
+p {
+	text-indent: 12px;
+}
+
+.page {
+	//outline: 1px dashed orange;
+    margin: 0;
+    padding: 0;
+    height: 768px; width: 1024px;
+}
+
+.imageGalleryPage {
+	//outline: 1px dashed blue;
+    margin: 0 0 0 0;
+	padding:0 0 0 0; 
+	height: 768px; 
+	min-height: 768px; 
+	max-height: 768px; 
+	width: 1024px;
+    background-repeat: no-repeat;
+    //background-position: center, center;
+    background-size: 100%;
+    float: left;
+}
+
+.manuscript, .manuscript01 {
+    //outline: 1px solid red;
+    padding: 54px 0px 0px 132px; 
+	font-family: "BenguiatStd-Book";
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 30px; /*  was 31 */
+    text-align: justify;
+    height: 714px; /* 768px minus padding */
+    width: 893px; /* 1024px minus paddng */
+}
+
+.manuscript01 {
+    padding-top: 93px;
+    height: 675px; /* 768px minus padding */
+    
+}
+.manuscript .content, .manuscript01 .content {
+    height: 646px; /*768 minus manuscript top padding and bottom buffer */
+    width: 660px;
+    padding: 0;
+    margin: 0;
+    //border: 1px dashed green;
+    float: left;
+//    -webkit-hyphens: auto;
+//    -moz-hyphens: auto;
+//    hyphens: auto;
+    
+}
+.manuscript01 .content {
+    height: 607px; /*768 minus manuscript top padding and bottom buffer */
+    //border: 1px dashed red;
+}
+.manuscript p, .manuscript01 p {
+    text-indent: 35px;
+}
+
+.manuscript .title, .manuscript .video, .manuscript01 .video, .manuscript .arrow, .manuscript01 .arrow {
+    float: left;
+    width: 174px;
+    text-align: right;
+    //border: 1px dashed red;
+}
+
+.manuscript .title {
+    height: 192px;
+    padding-top: 3px;    
+    //border: 1px dashed red;
+}
+
+.manuscript .video {
+    height: 439px;
+    //border: 1px dashed green;
+}
+
+.manuscript01 .video {
+    height: 441px;
+    padding-top: 155px;
+    //border: 1px dashed blue;
+}
+
+.manuscriptTitle {
+    padding: 0 0 4px 0px;
+    margin: 0;
+    display: block;  
+    //margin-left: auto;   
+    //margin-right: auto; 
+}
+.manuscriptAuthor {
+    text-transform:uppercase;
+    //text-align: center;
+    padding: 0 0 82px 0;
+    font-size: 16px;
+    line-height: normal;
+    //border: 1px solid red;
+}
+
+.scrollArrow {
+    margin: 0;
+    padding: 0;
+    line-height: 31px; 
+    //margin-right: -59px;
+    //width: 831px;
+    //height: 67px;
+    text-align: right;
+    vertical-align: bottom;
+    //border: 1px solid red;
+}
+
+
+.raisedLetter {
+	font-style: normal;
+    font-family: DucDeBerryLTStd;
+	font-size: 6.85em;
+    line-height: 30px;
+    //font-size: 4.6em;
+    //margin-right: 0.1em;
+    margin-right: -2px;
+    margin-left: -35px;
+    //margin-left: -0.56em;
+    //vertical-align: sub;
+	//line-height: 1.2em;
+	//color: blue;
+}
+
+.dropCap{
+    display: block;
+    float: left;
+    //margin-top: 5px;
+    margin-top: -0.63em; 
+    padding-top: 8px; 
+    //margin-top: -0.22em; /* use -0.205em for two lines, -0.63em for four lines */
+    text-indent: -2px;
+    margin-right: 0.2em;
+    height: 4.5em; //effects line underneath
+}
+
+.dropCap span{
+    /*font-style: italic;*/
+    /*font-family: "BenguiatStd-BookItalic", italic;*/
+	font-style: normal;
+    font-family: DucDeBerryLTStd;
+    font-size    : 6.5em;   /* use 3.33em for two lines, 4.6em for three lines, 5.6em for four lines */ /* was 7.0 */
+    line-height  : 1.0em;
+}
+
+.dropCapPad {
+    padding-top: 29px;
+}
+
+.gallery {
+    //outline: 1px solid red;
+    padding: 38px 59px 58px 59px;
+	font-family: "GillSansStd-Italic";
+    font-style: italic;
+    font-size: 15px; /* CLOSEST */
+    /* font-size: 11pt;  displays exactly as 15px */
+    line-height: 21px;
+    text-align: left;
+    height: 672px; /* 768px minus padding */
+    width: 906px; /* 1024px minus paddng */
+}
+
+.gallery em {
+    font-family: "GillSansStd";
+    font-style: normal;
+}
+
+.gallery .header {
+    //outline: 1px solid black;
+    height: 61px;
+}
+
+.logo {
+    float: left;
+    /* logo img is cut left to graphic edge margin makes it match mock perfectly */
+    margin-left: -1px; 
+    width: 95px;
+    height: 26px;
+    //border: 1px solid green;
+}
+.filmTitle, .filmTitleTop {
+    font-style: normal;
+    font-family: "GillSans-Bold", bold;
+    font-size: 10px;
+    color: #B3B3B3;
+    text-transform: uppercase;
+    margin: 0px 0px 0 0; /* used by manuscript to move */
+    float: right;
+    line-height: 18px;
+    //border: 1px solid red;
+}
+
+.filmTitleTop {
+    padding: 2px 0 0 10px;
+    margin-left: 10px;
+    margin-top: 4px;
+    float: left;
+    border-left: 1px solid #B3B3B3; /* makes pipe between logo and film title */
+    height: 21px;
+}
+
+.gallery .img-bleed-right img {
+    margin-right: -59px;
+    width: 965px;
+    //height: 565px;
+}
+
+.gallery .img-bleed-both {
+    margin: 0 -59px 0 -59px;
+    width: 1024px;
+}
+
+.gallery .img-bleed-bottom {
+    margin-bottom: -58px; 
+}
+.gallery .img-bleed-height img {
+    float: right;
+    margin: -99px -59px -59px 0;
+    height: 768px;
+}
+
+.img-center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    //height: 660px;
+    //border: 1px solid red;
+}
+
+.vert-center-1 {
+    display: table; 
+    height: 100%; 
+    #position: relative; 
+    overflow: hidden; 
+    width: 100%;
+}
+.vert-center-2 {
+    #position: absolute; 
+    #top: 50%;
+    display: table-cell; 
+    vertical-align: middle;    
+}
+.vert-center-3 {
+    #position: relative; 
+    #top: -50%
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.ad-left {
+    padding-right: 10px;
+}
+
+.ad-group {
+    border: 1px solid green;
+    width: 700px;
+}
+
+.ad-group img {
+    float: left;
+    padding: 0 0 20px 20px;
+    border: 1px solid red;
+}
+
+.img-all {
+    height: 660px;
+}
+
+.img-tall-bleed img {
+    height: 768px;
+}
+
+.gallery .img-align-video {
+    width: 763px;
+    height: 419px;
+}
+.gallery .img-bottom {
+    vertical-align: bottom;
+}
+
+.gallery .img-left {
+    float: left;
+}
+
+.gallery .img-left img {
+    float: left;
+    //padding-right: 5px;
+}
+
+.gallery .img-right {
+    float: right;
+    margin-right: -59px;
+ }
+
+.gallery .img-pad-right {
+    padding-right: 5px;
+}
+
+.gallery .img-pad-right-4 {
+    padding-right: 4px;
+}
+
+.gallery .img-pad-right-3 {
+    padding-right: 3px;
+}
+
+.gallery .img-pad-left-4 {
+    padding-left: 4px;
+}
+
+/* these 2 classes only used by layout 5.1 */
+
+.gallery .img-group-bleed-left {
+    float: left; 
+    //width: 49.75%;
+}
+.gallery .img-group-bleed-right {
+    //width: 49.75%; 
+    padding-left: 5px;
+    margin-right: -59px;
+}
+
+.gallery .img-full {
+    width: 95.5%;
+}
+
+.gallery .img-tall-left {
+    float: left; 
+}
+
+.gallery .img-tall-right {
+    padding-left: 5px;
+}
+
+/* only in use by layout 7.2 */
+.gallery .img-top-right {
+    padding: 0 0 4px 0;
+}
+
+/* only in use by layouts 7.3 and 7.4 */
+.gallery .img-pad-bottom-3 img {
+    padding: 0 0 3px 0;
+}
+.gallery .img-pad-bottom-4 img {
+    padding: 0 0 4px 0;
+}
+
+.gallery .img-bottom-right {
+    padding: 0;
+}
+
+/* below in use by layouts 1.0, 2.0, 3.0, 5.0 */
+
+.gallery .caption-bottom-left {
+    //float: left;
+    padding-top: 35px;
+    width: 620px;
+    line-height: 20px;
+}
+
+/* remove below style maybe */
+
+.gallery .caption-bottom-left-02 {
+    float: left;
+    width: 62%;
+    padding-top: 35px;
+}
+
+.gallery .caption-bottom-alone {
+    padding-top: 35px;
+    width: 770px;
+    line-height: 20px;
+}
+
+.gallery .caption-top {
+    float: right;
+    text-align: right;
+    width: 635px;
+    height: 73px;
+    margin-bottom: 35px;
+    line-height: 20px;
+   //overflow: hidden;
+}
+
+.gallery .caption-right {
+    float: left;
+    padding-left: 37px;
+    width: 255px;
+    //border: 1px solid blue;
+}
+
+.gallery .caption-left {
+    float: left;
+    width: 23%;
+}
+
+.gallery .captionBottomWrapper {
+    position: relative;
+    display:table;
+    float: right;
+    height: 99%;
+    padding-bottom: 46px;
+    padding-left: 6px; /* padding within col for text to wrap sooner */
+    width: 259px;
+    margin-right: 37px;
+    text-align: right;
+    //border: 1px solid blue;
+}
+
+.gallery .captionBottomWrapper61 {
+    position: relative;
+    display:table;
+    float: right;
+    height: 99%;
+    padding-bottom: 45px;
+    padding-left: 52px;  /* padding within col for text to wrap sooner */
+    width: 294px;
+    margin-right: 37px;
+    text-align: right;
+    //border: 1px solid blue;    
+}
+
+.gallery .captionBottom {
+    display:table-cell;
+    vertical-align: bottom;
+    height: auto;
+    //border: 1px solid red;
+}
+
+.gallery .nav-right {
+    float: right;
+}
+
+.gallery .nav-right-mid {
+    float: right;
+    padding-right: 45px;
+    padding-top: 38%;
+}
+
+.gallery .nav-right-mid-06 {
+    float: right;
+    padding-right: 45px;
+    padding-top: 45%;
+}
+
+.gallery .nav-right-lower {
+    float: right;
+    padding-right: 45px;
+    padding-top: 35px;
+    border: 1px solid red;
+}
+
+.gallery .video-left {
+    float: left;
+    padding-right: 35px;
+    border: 0;
+}
+
+/* buttons on top */
+
+.gallery .button-top, .button-top-2 {
+    clear: both;
+    position: absolute;
+    top: 467px;
+    left: 858px;
+}
+
+.gallery .button-top-2 {
+    left: 913px;
+}
+.gallery .button-top img, .button-top-2 img {
+    height: 52px;
+    width: 52px;
+}
+
+/*  buttons on left */
+
+.gallery .button-left, .button-left-2 {
+    clear: both;
+    position: fixed;
+    top: 554px;
+    left: 770px;
+}
+.gallery .button-left-2 {
+    //top: 609px;
+    //left: 770px;
+}
+.gallery .button-left img, .button-left-2 img {
+    height: 52px;
+    width: 52px;
+}
+
+.new_button-left {
+    //clear: both;
+    float: left;
+    //position: fixed;
+    //top: 554px;
+    //left: 770px;
+}
+    
+.new_button-left img {
+    height: 52px;
+    width: 52px;
+}
+
+.new_button-top {
+	//float: left;
+    //left: 913px;
+}
+
+.new_button-top-2 {
+	float: left;
+    //left: 913px;
+}
+
+.new_button-top img {
+    height: 52px;
+    width: 52px;
+    padding: 0 0 3px 3px;
+}
+
+.new_button-top-2 img {
+    height: 52px;
+    width: 52px;
+    padding: 0 0 3px 3px;
+}
+
+.gallery .controls-3d {
+    clear: both;
+    padding-top: 35px;
+}    
+.gallery .controls-note {
+    padding-top: 19px;
+}
+
+.gallery .controls-caption {
+    float: left;
+    padding-left: 37px;
+    width: 243px;
+    //padding-top: 23px;
+}
+.imageGalleryPage .thumbs {
+    //border: 1px solid blue;
+    //clear: both;
+    //position: fixed;
+    //margin: 554px 0 0 855px
+    //top: 554px;
+    //left: 855px;
+    width: 110px;
+    height: 110px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.thumbs img {
+    float: left;
+    padding: 0 0 3px 3px;
+    border: 0;
+    width: 52px;
+    height: 52px;
+}
+
+
+.masthead-page {
+    //outline: 1px solid red;
+    padding: 34px 0px 65px 37px;
+    height: 669px; /* 768px minus padding */
+    width: 987px; /* 1024px minus paddng */
+}
+
+.masthead {
+    float: left;
+    font-family: "GillSansStd";
+    text-align: center;
+    font-size: 13px;
+    width: 211px;
+    padding: 0 39px 0 0;
+    border-right: 1px solid #ccc;
+}
+
+.masthead p {
+    text-indent: 0;
+    padding-top: 15px;
+    padding-bottom: 2px;
+    font-size: 9px; 
+    line-height: 14px;
+}
+.masthead .add {
+    padding-top: 3px;
+}
+.masthead img {
+    padding-bottom: 39px;
+    width: 211px;
+    height: 60px;
+}
+.masthead .tinyCaps {
+    padding-top: 57px;
+    font-size: 9px;
+    text-align: center;
+    line-height: 11px;
+    text-transform: uppercase; 
+}
+.masthead .tiny {
+    font-size: 9px;
+    text-align: justify;
+    line-height: 11px;
+}
+
+.index {
+    float: right;
+}
+
+.index img {
+    padding-bottom: 14px;
+}
+
+.index .title {
+    padding-top: 0px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    font-family: "FuturaStd-ExtraBold";
+    font-style: bold;
+    font-size: 17px;
+}
+
+.index .author {
+    padding-bottom: 13px;
+    padding-left: 4px;
+    font-family: "BenguiatStd-BookItalic";
+    font-style: italic;
+    font-size: 16px;
+}
+
+.sideBar {
+	//outline: 1px dashed blue;
+	font-family: "GillSansStd-Italic", italic;
+	float: left;
+	margin: 0% 2% 1% 0%;
+	width: 17.0%;
+	font-size: 1.0em;
+}
+
+.factBox {
+    outline: 1px solid black;
+    text-align: center;
+    line-height:1.25em;
+    margin: 0 2.0% 0 0;
+	float: left;
+	width: 34.5%;
+}
+
+articleTitle {
+	font-family: "BenguiatStd-BookItalic", italic;
+	font-size: 24pt;
+	line-height:1.3em;
+}
+
+person {
+	//color: brown;
+    //font-style: italic;
+}
+
+movie {
+	//color: red;
+    font-style: italic;
+}
+
+company {
+	//color: green;
+    //font-style: italic;
+}
+
+page-num {
+	//color: purple;
+}
+
+.line
+{
+    border-top:1px solid;
+    margin-top:12px;
+    margin-left:12px;
+    margin-right:12px;
+}

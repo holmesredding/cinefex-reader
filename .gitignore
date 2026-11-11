@@ -1,0 +1,26 @@
+# Keep magazine media out of this repository.
+.DS_Store
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.avif
+*.mp4
+*.m4v
+*.mov
+*.otf
+*.ttf
+*.woff
+*.woff2
+*.pdf
+*.zip
+*.7z
+*.rar
+__pycache__/
+*.svg
+*.ico
+*.bmp
+*.tif
+*.tiff
+*.eot
