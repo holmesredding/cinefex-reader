@@ -10,17 +10,23 @@ The magazine files come from [Internet Archive](https://archive.org/details/cine
 
 ## Getting started
 
-Open `index.html` in your browser. Images, videos and fonts will load from Internet Archive, which can sometimes be slow.
+[Open Cinefex Reader](https://holmesredding.github.io/cinefex-reader/). Images, videos and fonts load from Internet Archive, which can sometimes be slow.
 
 Your reading position, bookmarks and read status are saved in that browser.
 
 ## Using local files
 
-Open **Information → Choose folder** and select the folder containing your issue ZIPs or extracted files. You can also select the complete Cinefex Web Archive folder if you have it. The reader checks for matching files and loads anything missing from Internet Archive.
+If you’ve downloaded the magazine files from [Internet Archive](https://archive.org/details/cinefex-index), you can read those copies without waiting for each image to download again.
+
+1. Put the downloaded issue ZIPs in a folder on your computer. Individual issue ZIPs can stay zipped. If your download is an outer ZIP containing more ZIPs, extract that outer ZIP first.
+2. Open the reader and click the information button (ⓘ), then **Choose folder**.
+3. Select the folder containing the issue ZIPs and wait for the file check to finish.
+
+Already extracted the issue ZIPs? Select the folder containing those extracted files. Keep their subfolders together. The reader searches through them automatically and uses Internet Archive for files it can’t find locally.
 
 Chrome and Edge can remember your folder. Safari keeps it selected while you move between issues in the same tab, but you’ll need to select it again after reloading or closing the tab.
 
-A few repaired images in issues 11–16 need the complete local Web Archive; they aren’t available in the original Internet Archive downloads.
+Issues 11–16 have some images that are unavailable in this online edition. These gaps remain when using the original Internet Archive downloads. The reader shows a notice on affected pages.
 
 ## Hosting
 
@@ -30,6 +36,6 @@ For GitHub Pages, go to **Settings → Pages**, choose **Deploy from a branch**,
 
 ## Repository contents
 
-This repository contains the reader, the catalogue and the magazine’s original HTML/CSS layouts. It doesn’t include the magazine images, videos, fonts or PDFs.
+The reader, catalogue and original magazine HTML/CSS layouts are stored here. Images, videos and fonts are loaded from Internet Archive or your selected folder.
 
 Run `python3 verify-package.py` to check the package for missing file references and bundled media. Browser check results are in `VERIFICATION.json`.
