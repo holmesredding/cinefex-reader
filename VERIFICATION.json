@@ -85,5 +85,50 @@
     "browser": "Chrome",
     "file_count_updates": true,
     "indicator_clears_on_completion": true
+  },
+  "repairs": {
+    "source": "https://archive.org/details/cinefex-reader-repairs-011-016",
+    "files": 436,
+    "affected_pages": 180,
+    "upload_md5": "51bd93ceb79ceaf084797d40c2b0af4c",
+    "all_page_layouts_checked": 180,
+    "public_browser_checks": [
+      {
+        "issue": 11,
+        "page": 5,
+        "images": 1,
+        "loaded": true
+      },
+      {
+        "issue": 12,
+        "page": 5,
+        "images": 1,
+        "loaded": true
+      },
+      {
+        "issue": 13,
+        "page": 5,
+        "images": 1,
+        "loaded": true
+      },
+      {
+        "issue": 14,
+        "page": 5,
+        "images": 1,
+        "loaded": true
+      },
+      {
+        "issue": 15,
+        "page": 5,
+        "images": 1,
+        "loaded": true
+      },
+      {
+        "issue": 16,
+        "page": 5,
+        "images": 1,
+        "loaded": true
+      }
+    ]
   }
 }

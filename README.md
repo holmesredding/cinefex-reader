@@ -26,7 +26,7 @@ Already extracted the issue ZIPs? Select the folder containing those extracted f
 
 Chrome and Edge can remember your folder. Safari keeps it selected while you move between issues in the same tab, but you’ll need to select it again after reloading or closing the tab.
 
-Issues 11–16 have some images that are unavailable in this online edition. These gaps remain when using the original Internet Archive downloads. The reader shows a notice on affected pages.
+Repaired image and text layers for issues 11–16 load automatically from a [separate repair pack](https://archive.org/details/cinefex-reader-repairs-011-016).
 
 ## Hosting
 
