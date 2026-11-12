@@ -16,17 +16,25 @@ Your reading position, bookmarks and read status are saved in that browser.
 
 ## Using local files
 
-If you’ve downloaded the magazine files from [Internet Archive](https://archive.org/details/cinefex-index), you can read those copies without waiting for each image to download again.
+To keep the magazine files together on your computer:
 
-1. Put the downloaded issue ZIPs in a folder on your computer. Individual issue ZIPs can stay zipped. If your download is an outer ZIP containing more ZIPs, extract that outer ZIP first.
-2. Open the reader and click the information button (ⓘ), then **Choose folder**.
-3. Select the folder containing the issue ZIPs and wait for the file check to finish.
+1. Download the issue files from [Internet Archive](https://archive.org/details/cinefex-index) and the [repair ZIP for issues 11–16](https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip).
+2. Put them in one folder, like this:
 
-Already extracted the issue ZIPs? Select the folder containing those extracted files. Keep their subfolders together. The reader searches through them automatically and uses Internet Archive for files it can’t find locally.
+   ```text
+   Cinefex files/
+     Original issues/
+       …issue ZIPs or extracted issue folders…
+     Cinefex Reader Repairs 011-016.zip
+   ```
 
-Chrome and Edge can remember your folder. Safari keeps it selected while you move between issues in the same tab, but you’ll need to select it again after reloading or closing the tab.
+3. In the reader, click **ⓘ → Choose folder** and select **Cinefex files**. Wait for the file check to finish.
 
-Repaired image and text layers for issues 11–16 load automatically from a [separate repair pack](https://archive.org/details/cinefex-reader-repairs-011-016).
+The reader searches subfolders and recognises matching originals and repairs automatically. Individual issue ZIPs and the repair ZIP can stay zipped. If a download is an outer ZIP containing more ZIPs, extract that outer ZIP first. Already-extracted issue folders work too; keep their contents together.
+
+For a fully local setup, also [download the reader](https://github.com/holmesredding/cinefex-reader/archive/refs/heads/main.zip), extract it into the same folder and open its `index.html`. Select **Cinefex files** as above. With all the issue files and repairs present, the reader can load the magazine material locally. Anything missing will still be requested from Internet Archive.
+
+Chrome and Edge can remember your folder. Safari keeps it selected while you move between issues in the same tab; select it again after reloading or closing the tab.
 
 ## Hosting
 
