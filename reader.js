@@ -59,9 +59,22 @@ $('player').addEventListener('close',releaseClip);
 window.addEventListener('pagehide',releaseClip);
 
 function route(href,fitRect){if(typeof href!=='string'||href==='#')return;if(href.startsWith('reader://state/')){const target=Number(href.slice(15));if(fitRect){try{pendingHighlight=JSON.parse(fitRect)}catch{}}show(target);}else if(href.startsWith('ns://Page/')){const id=href.slice(10),index=byId.get(id)??byId.get(id+'.1');if(index!==undefined)show(index);else note('This page is missing from the archive.')}else if(href.startsWith('ns://Video/'))play(href.slice(11));else if(href.startsWith('ns://'))note('This service is no longer available.');else if(/^(https?:|mailto:)/i.test(href))window.open(href,'_blank','noopener,noreferrer')}
-function key(e){if(document.querySelector('dialog[open]'))return;if(e.key==='ArrowRight'){e.preventDefault?.();turn(1)}else if(e.key==='ArrowLeft'){e.preventDefault?.();turn(-1)}else if(e.key==='Escape'){if(galleryOpen){galleryOpen=false;syncGallery();galleryToggle.focus()}else closeMobileContents()}}
-window.addEventListener('message',e=>{if(e.source!==frame.contentWindow||!e.data?.cinefex)return;if(e.data.key)key(e.data);else route(e.data.href,e.data.fit)});
-window.addEventListener('keydown',e=>{if(!['INPUT','SELECT','TEXTAREA','VIDEO'].includes(e.target.tagName))key(e)});
+function key(e){if(document.querySelector('dialog[open]'))return;if(e.ctrlKey||e.metaKey||e.altKey)return;if(e.key===' '){e.preventDefault?.();if(!e.repeat)turn(e.shiftKey?-1:1)}else if(e.key==='ArrowRight'){e.preventDefault?.();turn(1)}else if(e.key==='ArrowLeft'){e.preventDefault?.();turn(-1)}else if(e.key==='Escape'){if(galleryOpen){galleryOpen=false;syncGallery();galleryToggle.focus()}else closeMobileContents()}}
+window.addEventListener('message',e=>{if(e.source!==frame.contentWindow||!e.data?.cinefex)return;if(e.data.wheel)wheel(e.data.wheel,true);else if(e.data.key)key(e.data);else route(e.data.href,e.data.fit)});
+window.addEventListener('keydown',e=>{if(!e.target.closest('input,select,textarea,video,button,a,[contenteditable]:not([contenteditable=false])'))key(e)});
+let wheelTotal=0,wheelLast=0,wheelTurn=0;
+function wheel(e,fromPage=false){
+ if(document.querySelector('dialog[open]')||e.ctrlKey||e.metaKey||e.altKey)return;
+ const v=$('viewport'),dy=e.deltaY*(e.deltaMode===1?16:e.deltaMode===2?v.clientHeight:1);
+ if(fullSize){if(fromPage)v.scrollBy(e.deltaX||0,dy);return}
+ if(Math.abs(e.deltaX||0)>Math.abs(e.deltaY)||!dy)return;
+ e.preventDefault?.();const now=performance.now(),gap=now-wheelLast;wheelLast=now;
+ if(gap>180||Math.sign(dy)!==Math.sign(wheelTotal))wheelTotal=0;
+ if((wheelTurn&&now-wheelTurn<450)||(wheelTurn&&gap<180&&wheelTotal===0))return;
+ wheelTotal+=dy;if(Math.abs(wheelTotal)<40)return;
+ turn(Math.sign(wheelTotal));wheelTotal=0;wheelTurn=now;
+}
+$('viewport').addEventListener('wheel',e=>wheel(e),{passive:false});
 function closeMobileContents(){document.body.classList.remove('contents-open');updateContentsButton()}
 function updateContentsButton(){$('contentsButton').setAttribute('aria-expanded',String(innerWidth<=760?document.body.classList.contains('contents-open'):!document.body.classList.contains('focus')))}
 $('contentsButton').onclick=()=>{document.body.classList.toggle(innerWidth<=760?'contents-open':'focus');updateContentsButton();fit()};$('closeContents').onclick=closeMobileContents;$('scrim').onclick=closeMobileContents;
@@ -86,7 +99,8 @@ document.querySelector('.section-label > span').textContent=String(data.stories.
 document.getElementById('filmHelp').textContent=`Use Clips or a play button on the page.`;
 if(data.index===null)$('indexButton').hidden=true;
 if(!data.videos.length){$('videosButton').hidden=true;const dd=$('filmHelp');dd.hidden=true;dd.previousElementSibling.hidden=true;}
-if(data.edition==='archive'){const guide=document.querySelector('#help dl');guide.children[1].textContent='Turn pages with the arrow keys, buttons or slider.';guide.children[3].textContent='Use 100% to zoom; Fit to resize.';}
+if(data.edition==='archive'){const guide=document.querySelector('#help dl');guide.children[1].textContent='Turn pages with the arrow keys, Space or mousewheel. Shift–Space goes back.';guide.children[3].textContent='Use 100% to zoom; Fit to resize.';}
+document.querySelector('#help dl').children[1].textContent='Turn pages with the arrow keys, Space or mousewheel. Shift–Space goes back.';
 const contentsIndex=data.contentsIndex??data.pages.findIndex(p=>p.key==='masthead.html:0');
 if(contentsIndex>=0&&contentsIndex!==null){const b=document.createElement('button');b.textContent='Contents page';b.id='originalContentsButton';b.onclick=()=>{show(contentsIndex);closeMobileContents()};document.querySelector('.sidebar-bottom').prepend(b);}
 
@@ -146,7 +160,7 @@ function createPageCache(){
   entries.set(index,record);element.addEventListener('load',record.loaded);
   if(!foreground){loading=record;record.timeout=setTimeout(()=>{if(record.index!==activeIndex&&entries.get(index)===record){failures.set(index,Date.now()+30000);dispose(record);schedule()}},45000)}
   if(element!==original)paper.append(element);
-  element.src=data.pages[index].file+'?v=code1';
+  element.src=data.pages[index].file+'?v=nav2';
   return record;
  }
  function pause(){clearTimeout(timer);timer=0;if(loading&&loading.index!==activeIndex){attempted.delete(loading.index);dispose(loading)}}
