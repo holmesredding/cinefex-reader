@@ -29,3 +29,6 @@
 
 /* Mask the iframe scaling fringe. */
 #paper::after{content:"";position:absolute;top:0;bottom:0;right:-1px;width:3px;background:var(--stage);pointer-events:none;z-index:2}
+
+.controls-button{font-size:11px;padding:8px 10px;color:var(--muted);margin-left:auto}.controls-button:hover{color:var(--ink)}.mobile-controls{display:none}#help{width:520px}#help dd{color:var(--muted)}
+@media(max-width:760px){.desktop-controls{display:none}.mobile-controls{display:block}.controls-button{min-height:44px;padding:8px 12px}.turn{width:44px;height:44px;flex:0 0 44px}.footer-main{gap:8px}.reading-position{flex:1;min-width:0}.reading-position strong{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#help{padding:20px;max-height:85dvh}#help h2{font-size:27px}#help dt{margin-top:16px}#help dd{font:14px/1.5 Arial,sans-serif}#help .icon-button{width:44px;height:44px}#progress{min-height:20px;background-size:100% 2px;background-repeat:no-repeat;background-position:center}}

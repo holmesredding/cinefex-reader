@@ -5,3 +5,11 @@
  document.addEventListener('keydown',e=>{if(e.key!==' '||interactive(e)||e.ctrlKey||e.metaKey||e.altKey)return;e.preventDefault();parent.postMessage({cinefex:true,key:e.key,shiftKey:e.shiftKey,repeat:e.repeat},'*')});
  document.addEventListener('wheel',e=>{if(interactive(e)||e.ctrlKey||e.metaKey||e.altKey||Math.abs(e.deltaX)>Math.abs(e.deltaY))return;e.preventDefault();parent.postMessage({cinefex:true,wheel:{deltaX:e.deltaX,deltaY:e.deltaY,deltaMode:e.deltaMode}},'*')},{passive:false});
 })();
+
+(()=>{
+ let start=null;
+ document.addEventListener('touchstart',e=>{start=e.touches.length===1&&!e.target.closest('a,button,input,select,textarea,video,[contenteditable]')?{x:e.touches[0].screenX,y:e.touches[0].screenY,time:Date.now()}:null},{passive:true});
+ document.addEventListener('touchmove',e=>{if(e.touches.length!==1)start=null},{passive:true});
+ document.addEventListener('touchcancel',()=>{start=null},{passive:true});
+ document.addEventListener('touchend',e=>{const first=start;start=null;if(!first||e.touches.length||e.changedTouches.length!==1)return;const dx=e.changedTouches[0].screenX-first.x,dy=e.changedTouches[0].screenY-first.y;if(Date.now()-first.time<900&&Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.5)parent.postMessage({cinefex:true,swipe:dx<0?1:-1},'*')},{passive:true});
+})();

@@ -60,7 +60,7 @@ window.addEventListener('pagehide',releaseClip);
 
 function route(href,fitRect){if(typeof href!=='string'||href==='#')return;if(href.startsWith('reader://state/')){const target=Number(href.slice(15));if(fitRect){try{pendingHighlight=JSON.parse(fitRect)}catch{}}show(target);}else if(href.startsWith('ns://Page/')){const id=href.slice(10),index=byId.get(id)??byId.get(id+'.1');if(index!==undefined)show(index);else note('This page is missing from the archive.')}else if(href.startsWith('ns://Video/'))play(href.slice(11));else if(href.startsWith('ns://'))note('This service is no longer available.');else if(/^(https?:|mailto:)/i.test(href))window.open(href,'_blank','noopener,noreferrer')}
 function key(e){if(document.querySelector('dialog[open]'))return;if(e.ctrlKey||e.metaKey||e.altKey)return;if(e.key===' '){e.preventDefault?.();if(!e.repeat)turn(e.shiftKey?-1:1)}else if(e.key==='ArrowRight'){e.preventDefault?.();turn(1)}else if(e.key==='ArrowLeft'){e.preventDefault?.();turn(-1)}else if(e.key==='Escape'){if(galleryOpen){galleryOpen=false;syncGallery();galleryToggle.focus()}else closeMobileContents()}}
-window.addEventListener('message',e=>{if(e.source!==frame.contentWindow||!e.data?.cinefex)return;if(e.data.wheel)wheel(e.data.wheel,true);else if(e.data.key)key(e.data);else route(e.data.href,e.data.fit)});
+window.addEventListener('message',e=>{if(e.source!==frame.contentWindow||!e.data?.cinefex)return;if(e.data.swipe){if(!fullSize&&!document.querySelector('dialog[open]')&&(window.visualViewport?.scale||1)<=1)turn(e.data.swipe)}else if(e.data.wheel)wheel(e.data.wheel,true);else if(e.data.key)key(e.data);else route(e.data.href,e.data.fit)});
 window.addEventListener('keydown',e=>{if(!e.target.closest('input,select,textarea,video,button,a,[contenteditable]:not([contenteditable=false])'))key(e)});
 let wheelTotal=0,wheelLast=0,wheelTurn=0;
 function wheel(e,fromPage=false){
@@ -101,6 +101,10 @@ if(data.index===null)$('indexButton').hidden=true;
 if(!data.videos.length){$('videosButton').hidden=true;const dd=$('filmHelp');dd.hidden=true;dd.previousElementSibling.hidden=true;}
 if(data.edition==='archive'){const guide=document.querySelector('#help dl');guide.children[1].textContent='Turn pages with the arrow keys, Space or mousewheel. Shift–Space goes back.';guide.children[3].textContent='Use 100% to zoom; Fit to resize.';}
 document.querySelector('#help dl').children[1].textContent='Turn pages with the arrow keys, Space or mousewheel. Shift–Space goes back.';
+const controls=document.createElement('button');controls.className='controls-button';controls.textContent='Controls';controls.onclick=()=>$('help').showModal();document.querySelector('.reading-heading').insertBefore(controls,$('saveButton'));
+$('help').querySelector('h2').textContent='Reading controls';
+$('helpButton').firstChild.textContent='Controls ';
+$('help').querySelector('dl').innerHTML=`<dt>Turning pages</dt><dd class="desktop-controls">Use the left and right arrow keys, or scroll over the page. Space moves forward; Shift–Space goes back.</dd><dd class="mobile-controls">Swipe left for the next page, or right to go back. You can also use the arrows at the bottom.</dd><dt>Finding an article</dt><dd>Open Contents to choose a story. The slider at the bottom lets you jump through the issue.</dd><dt>A closer look</dt><dd>Choose 100% to see the page at its original size, then scroll around it. Choose Fit to see the whole page again.</dd>${data.pages.some(p=>p.gallery)?'<dt>Galleries</dt><dd>Tap a thumbnail to change the image. Hide images closes the thumbnails; Images brings them back.</dd>':''}<dt>Keeping your place</dt><dd>Your place is remembered automatically. Save page adds a bookmark in Contents.</dd>`;
 const contentsIndex=data.contentsIndex??data.pages.findIndex(p=>p.key==='masthead.html:0');
 if(contentsIndex>=0&&contentsIndex!==null){const b=document.createElement('button');b.textContent='Contents page';b.id='originalContentsButton';b.onclick=()=>{show(contentsIndex);closeMobileContents()};document.querySelector('.sidebar-bottom').prepend(b);}
 
@@ -160,7 +164,7 @@ function createPageCache(){
   entries.set(index,record);element.addEventListener('load',record.loaded);
   if(!foreground){loading=record;record.timeout=setTimeout(()=>{if(record.index!==activeIndex&&entries.get(index)===record){failures.set(index,Date.now()+30000);dispose(record);schedule()}},45000)}
   if(element!==original)paper.append(element);
-  element.src=data.pages[index].file+'?v=nav2';
+  element.src=data.pages[index].file+'?v=controls3';
   return record;
  }
  function pause(){clearTimeout(timer);timer=0;if(loading&&loading.index!==activeIndex){attempted.delete(loading.index);dispose(loading)}}
