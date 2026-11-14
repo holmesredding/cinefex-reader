@@ -2,7 +2,7 @@
 
 I put this together to make the Cinefex archive easier to read and browse. It covers all 172 issues, with an index of films, TV series and features that links directly to the articles.
 
-The galleries and video clips are available alongside the pages. You can bookmark pages, mark issues as read, and return to where you stopped reading. There’s also a dark mode that leaves the photographs in their original colours.
+The galleries and video clips are available alongside the pages. You can bookmark pages, mark issues as read, and return to where you stopped reading. There's also dark mode, it makes the text pages dark, but leaves the photos alone. Some pages may still have white sections.
 
 The magazine files come from [Internet Archive](https://archive.org/details/cinefex-index). If you have a local copy, you can use that instead.
 
