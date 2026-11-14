@@ -14,6 +14,8 @@ The magazine files come from [Internet Archive](https://archive.org/details/cine
 
 Your reading position, bookmarks and read status are saved in that browser.
 
+Choose **Small grid**, **Large grid** or **List** from the View menu on Issues and Browse. Your choice is remembered. In Browse, the letter shortcuts jump through titles when sorted A–Z.
+
 On a phone or tablet, swipe or tap the left and right edges to turn pages. Pinch to zoom the magazine page, then drag to move around it. The zoom control in the toolbar also has preset sizes and a slider. Choose **Fit** to return to the whole page and swipe between pages again. With a mouse, click and drag the page to move around while zoomed in.
 
 ## Using local files

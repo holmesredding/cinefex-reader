@@ -671,5 +671,99 @@
       "catalogue": 175
     },
     "published": false
+  },
+  "browseViews": {
+    "views": [
+      "Small grid",
+      "Large grid",
+      "List"
+    ],
+    "default": "Small grid",
+    "preference": "Shared between Issues and Browse, saved in the browser",
+    "letterJumps": "Numbers and A\u2013Z, available with Title A\u2013Z sorting and updated for active filters",
+    "chrome": [
+      {
+        "viewport": [
+          1440,
+          1050
+        ],
+        "passed": true,
+        "issueCount": 172,
+        "titleCount": 601,
+        "initialImages": 15,
+        "layouts": true,
+        "filters": true,
+        "letterJump": true,
+        "letterFocus": true,
+        "chooser": true,
+        "savedPreference": true,
+        "darkMode": true,
+        "errors": [],
+        "missing": []
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "passed": true,
+        "issueCount": 172,
+        "titleCount": 601,
+        "initialImages": 12,
+        "layouts": true,
+        "filters": true,
+        "letterJump": true,
+        "letterFocus": true,
+        "chooser": true,
+        "savedPreference": true,
+        "darkMode": true,
+        "errors": [],
+        "missing": []
+      },
+      {
+        "viewport": [
+          1024,
+          1366
+        ],
+        "passed": true,
+        "issueCount": 172,
+        "titleCount": 601,
+        "initialImages": 19,
+        "layouts": true,
+        "filters": true,
+        "letterJump": true,
+        "letterFocus": true,
+        "chooser": true,
+        "savedPreference": true,
+        "darkMode": true,
+        "errors": [],
+        "missing": []
+      }
+    ],
+    "safari": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "passed": true,
+      "checks": [
+        "Issue views and local thumbnails",
+        "Remembered view, letter jumps, filters, tabs and multiple features",
+        "Phone width and local folder retained through navigation"
+      ],
+      "before": {
+        "view": "list",
+        "stored": "list"
+      },
+      "after": {
+        "view": "list",
+        "stored": "list"
+      }
+    },
+    "safariMethod": "Native Safari with programmatic controls, a local image File and resizing the reader frame to phone width.",
+    "directFileOpening": {
+      "passed": true,
+      "viewRetainedAcrossPages": true,
+      "viewRetainedAfterReload": true,
+      "errors": []
+    },
+    "published": false
   }
 }
