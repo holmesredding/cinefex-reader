@@ -20,8 +20,13 @@
     const el = id => section.querySelector('#' + id), status = el('batchStatus'), progress = el('batchProgress');
     const folderSave = typeof showDirectoryPicker === 'function';
     const base = new URL('.', document.querySelector('script[src*="pdf-batch.js"]').src);
-    let catalog = null, ready = [], job = null, output = null, session = null, checked = false, archiveLibrary;
+    let catalog = null, ready = [], job = null, output = null, session = null, checked = false, archiveLibrary, sourceChosen = false;
     const online = () => section.querySelector('[name="batchSource"]:checked').value === 'archive';
+    function defaultSource() {
+      if (sourceChosen || job || session || output) return;
+      const value = sources.status().connected ? 'local' : 'archive';
+      section.querySelector(`[name="batchSource"][value="${value}"]`).checked = true;
+    }
     function script(file) {
       return new Promise((resolve, reject) => {
         const tag = document.createElement('script'); tag.src = new URL(file, base).href;
@@ -39,6 +44,7 @@
       el('batchEstimate').textContent = `${list.length} ${list.length === 1 ? 'PDF' : 'PDFs'}, ${folderSave ? 'estimated total' : 'estimated ZIP file size'} ${core.formatBytes(list.reduce((sum, item) => sum + item.estimatedBytes, 0))}`;
     }
     function controls() {
+      defaultSource();
       const busy = !!job, remote = online(), locked = busy || !!session || !!output;
       for (const input of section.querySelectorAll('[name="batchSource"]')) input.disabled = locked;
       el('batchSourceNote').textContent = remote
@@ -218,6 +224,7 @@
       el('batchDone').disabled = true; await clearOutput(); status.textContent = 'Export cleared.'; estimate(); controls();
     };
     for (const input of section.querySelectorAll('[name="batchSource"]')) input.onchange = () => {
+      sourceChosen = true;
       el('batchDetails').replaceChildren(); readyText(); estimate(); controls();
     };
     info.addEventListener('close', () => { if (!info.open) pause(); });
@@ -225,9 +232,11 @@
       if (session || output) return;
       if (!online()) pause();
       checked = false; ready = [];
+      defaultSource();
       if (!job) readyText(); estimate(); controls();
     });
     sources.ready.then(() => {
+      defaultSource();
       if (!session && !job && !output) readyText();
       controls();
     });

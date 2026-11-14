@@ -619,5 +619,57 @@
     },
     "safariMethod": "Native Safari with programmatic navigation and local File objects. Sample PDF builds used original files supplied by the local test server.",
     "published": false
+  },
+  "pdfSourceDefault": {
+    "checked": "2026-11-14",
+    "default": "Local folder when connected, Archive.org otherwise",
+    "chrome": [
+      {
+        "mode": "remembered directory handle",
+        "passed": true,
+        "noFolderArchive": true,
+        "connectedLocal": true,
+        "disconnectedArchive": true,
+        "manualChoicePreserved": true,
+        "newIssueUsesConnectedFolder": true,
+        "reloadDefaultCorrect": true,
+        "errors": []
+      },
+      {
+        "mode": "folder-input session",
+        "passed": true,
+        "noFolderArchive": true,
+        "connectedLocal": true,
+        "disconnectedArchive": true,
+        "manualChoicePreserved": true,
+        "newIssueUsesConnectedFolder": true,
+        "reloadDefaultCorrect": true,
+        "errors": []
+      }
+    ],
+    "safari": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "passed": true,
+      "checks": [
+        "Archive default without a folder, local when connected, Archive after disconnecting",
+        "Manual source choice survives refresh and panel reopening, next issue defaults to the connected folder"
+      ]
+    },
+    "safariMethod": "Native Safari with programmatic navigation and local File objects. Tests cover source selection, folder status changes and navigation.",
+    "stateChecks": {
+      "passed": true,
+      "checks": [
+        "Delayed remembered folder selects local",
+        "A remembered folder requiring permission does not select local",
+        "Running and resumable individual downloads retain Archive",
+        "Running and paused catalogue exports retain their source, ending restores the folder default"
+      ]
+    },
+    "stateCheckMethod": "Browser UI tests using controlled download fixtures for delayed permission checks and active or paused exports.",
+    "scriptReferencesUpdated": {
+      "single": 172,
+      "catalogue": 175
+    },
+    "published": false
   }
 }

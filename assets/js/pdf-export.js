@@ -22,8 +22,13 @@
   document.body.append(dialog);
   const el = id => dialog.querySelector('#' + id);
   const status = el('pdfStatus'), progress = el('pdfProgress'), details = el('pdfDetails');
-  let running = null, outputURL = null;
+  let running = null, outputURL = null, sourceChosen = false;
   const online = () => dialog.querySelector('[name="pdfSource"]:checked').value === 'archive';
+  function defaultSource() {
+    if (sourceChosen || running || outputURL || archive.count) return;
+    const value = sources.status().connected ? 'local' : 'archive';
+    dialog.querySelector(`[name="pdfSource"][value="${value}"]`).checked = true;
+  }
   function readyText() {
     if (online()) return archive.count ? `${archive.count} images downloaded. Ready to resume.` : 'Ready to download this issue.';
     return sources.status().connected ? 'Ready to check the local files for this issue.' : 'Choose the folder containing your issue files.';
@@ -36,6 +41,7 @@
     el('pdfSave').removeAttribute('href');
   }
   function controls() {
+    defaultSource();
     const connected = sources.status().connected, busy = !!running, remote = online();
     for (const input of dialog.querySelectorAll('[name="pdfSource"]')) input.disabled = busy;
     el('pdfSourceNote').textContent = remote ? 'Archive.org can be very slow. Keep this tab open while the images download.' : 'A local copy of this issue is required for this option.';
@@ -132,8 +138,7 @@
     await sources.ready;
     details.replaceChildren(); clearOutput();
     el('pdfExportTitle').textContent = `Cinefex ${issue.issue} PDF`;
-    status.textContent = readyText();
-    controls(); dialog.showModal();
+    controls(); status.textContent = readyText(); dialog.showModal();
   };
   el('pdfChoose').onclick = () => folder(false);
   el('pdfRecheck').onclick = () => folder(true);
@@ -147,8 +152,10 @@
     if (dialog.open && !running) status.textContent = readyText();
   });
   for (const input of dialog.querySelectorAll('[name="pdfSource"]')) input.onchange = () => {
+    sourceChosen = true;
     clearOutput(); details.replaceChildren(); controls(); status.textContent = readyText();
   };
+  sources.ready.then(() => { controls(); if (dialog.open && !running) status.textContent = readyText(); });
   addEventListener('cinefexfolderprogress', event => { if (running?.kind === 'folder') status.textContent = event.detail; });
   addEventListener('pagehide', () => { stopped(); clearOutput(); archive.clear(); });
 })();

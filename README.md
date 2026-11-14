@@ -40,11 +40,11 @@ Chrome and Edge can remember your folder. Safari keeps it selected while you mov
 
 ## Saving PDFs
 
-Open an issue and choose **Contents → Create PDF**. **Archive.org** is selected by default. Choose **Local folder** to use your downloaded files. Click **Create PDF**, then **Save PDF** when it is ready.
+Open an issue and choose **Contents → Create PDF**. **Local folder** is selected if you have a folder connected, otherwise **Archive.org** is selected. You can change this before creating the PDF. Click **Create PDF**, then **Save PDF** when it is ready.
 
 Archive.org can be very slow. Keep the tab open while it downloads. Failed downloads are retried automatically. If you cancel or a download fails, choose **Resume PDF** to reuse the images already downloaded. They are kept while you stay on that issue and are cleared when you leave it or reload.
 
-To save the catalogue, open **Information → Save as PDFs** and choose **Archive.org** or **Local folder**. A complete set is roughly **8.9 GB** at the original image resolution.
+To save the catalogue, open **Information → Save as PDFs**. This also defaults to your connected local folder, or **Archive.org** if none is connected. A complete set is roughly **8.9 GB** at the original image resolution.
 
 With **Archive.org**, click **Build all PDFs**. The reader downloads and builds one issue at a time, including the repair files for issues 11–16. Downloading the whole catalogue can take a very long time. Progress shows the current issue, images downloaded and completed PDFs.
 
