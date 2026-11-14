@@ -550,5 +550,74 @@
     "packageErrors": [],
     "installedFilesMatchTestedFiles": true,
     "published": false
+  },
+  "repositoryLayout": {
+    "checked": "2026-11-14",
+    "directories": [
+      "assets/js",
+      "assets/css",
+      "assets/data",
+      "assets/vendor",
+      "issues",
+      "scripts",
+      "docs"
+    ],
+    "movedFiles": 35,
+    "updatedHTMLFiles": 29070,
+    "package": {
+      "issues": 172,
+      "pages": 28895,
+      "errors": []
+    },
+    "earlyPDFLayoutsMatchPages": 126,
+    "allPDFLayoutFilesValid": 172,
+    "chrome": {
+      "httpSubdirectory": true,
+      "sessionNavigation": true,
+      "directFileOpening": {
+        "mode": "file",
+        "passed": true,
+        "library": true,
+        "browse": true,
+        "localFolderAcrossIssues": true,
+        "repairImages": true,
+        "zoomPan": true,
+        "pdfLayouts": [
+          72,
+          280
+        ],
+        "pdfBuilds": [
+          596971,
+          326096
+        ],
+        "errors": [],
+        "missing": []
+      },
+      "checks": [
+        "Library and feature index",
+        "Information panel",
+        "Local original and repaired images",
+        "Folder retained between issues",
+        "PDF layout and pdf-lib loading",
+        "Sample PDFs from issues 11 and 172",
+        "Zoom and drag panning"
+      ]
+    },
+    "safari": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "passed": true,
+      "checks": [
+        "Repaired page and PDF sample from local files",
+        "Library, Browse and issue navigation retain local folder",
+        "Interactive gallery PDF sample and relocated pdf-lib",
+        "Zoom controls"
+      ],
+      "pdfBytes": [
+        596971,
+        326096
+      ]
+    },
+    "safariMethod": "Native Safari with programmatic navigation and local File objects. Sample PDF builds used original files supplied by the local test server.",
+    "published": false
   }
 }

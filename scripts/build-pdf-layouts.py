@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 import sys
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 
 
 class Images(HTMLParser):

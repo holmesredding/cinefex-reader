@@ -68,8 +68,18 @@ For GitHub Pages, go to **Settings → Pages**, choose **Deploy from a branch**,
 
 The reader, catalogue and original magazine HTML/CSS layouts are stored here. Images, videos and fonts are loaded from Internet Archive or your selected folder.
 
-Run `python3 verify-package.py` to check the package for missing file references and bundled media. Browser check results are in `VERIFICATION.json`.
+- `assets/js/` contains the reader code and PDF tools.
+- `assets/css/` contains the reader styles.
+- `assets/data/` contains the issue catalogue and feature index.
+- `assets/vendor/` contains pdf-lib and its licence.
+- `issues/` contains each issue’s page layouts and PDF export data.
+- `scripts/` contains the build and verification tools.
+- `docs/` contains the verification results.
+
+The three HTML files at the top level open the library, feature index and reader session.
+
+Run `python3 scripts/verify-package.py` to check the package for missing file references and bundled media. Browser check results are in `docs/VERIFICATION.json`.
 
 ## PDF export development
 
-`build-pdf-layouts.py` rebuilds the export layouts for issues 1–126. Run `python3 build-pdf-layouts.py --check` to check that they still match the reader pages. The later issues have measured layouts in their `pdf-pages.js` files, including every gallery state. `build-gallery-layouts.py` generates the grouped arrangements from extracted image layers, using Pillow and NumPy. It repositions the original caption lettering. `verify-pdf-galleries.py` checks caption coverage, image placement and page mappings against those local files. Both scripts accept paths through their command-line options. `pdf-catalog.js` holds the resulting page counts and size estimates for the collection. PDF export uses the bundled pdf-lib 1.17.1 library. Its MIT licence is in `vendor/pdf-lib-LICENSE.md`.
+`scripts/build-pdf-layouts.py` rebuilds the export layouts for issues 1–126. Run `python3 scripts/build-pdf-layouts.py --check` to check that they still match the reader pages. The later issues have measured layouts in their `pdf-pages.js` files, including every gallery state. `scripts/build-gallery-layouts.py` generates the grouped arrangements from extracted image layers, using Pillow and NumPy. It repositions the original caption lettering. `scripts/verify-pdf-galleries.py` checks caption coverage, image placement and page mappings against those local files. Both scripts accept paths through their command-line options. `assets/data/pdf-catalog.js` holds the resulting page counts and size estimates for the collection. PDF export uses the bundled pdf-lib 1.17.1 library. Its MIT licence is in `assets/vendor/pdf-lib-LICENSE.md`.

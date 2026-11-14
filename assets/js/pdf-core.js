@@ -43,7 +43,7 @@
   }
   async function load(issue) {
     if (!Number.isInteger(issue) || issue < 1 || issue > 172) throw Error('Invalid issue');
-    if (!loads.has(issue)) loads.set(issue, script(`issues/${issue}/pdf-pages.js?v=3`).then(() => {
+    if (!loads.has(issue)) loads.set(issue, script(`../../issues/${issue}/pdf-pages.js?v=3`).then(() => {
       const data = window.CinefexPDFLayouts?.[issue];
       if (!data || data.issue !== issue || !data.pages.length) throw Error('The PDF page list could not load.');
       return arrange(data);
@@ -75,7 +75,7 @@
     } finally { bitmap.close(); canvas.width = canvas.height = 0; }
   }
   async function build(data, sources, job, progress = () => {}) {
-    library ||= script('vendor/pdf-lib.min.js').catch(error => { library = null; throw error; });
+    library ||= script('../vendor/pdf-lib.min.js').catch(error => { library = null; throw error; });
     await library; check(job);
     const { PDFDocument, PDFName, PDFString, PDFHexString, StandardFonts, rgb,
       pushGraphicsState, popGraphicsState, rectangle, clip, endPath } = window.PDFLib;

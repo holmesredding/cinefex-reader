@@ -2,7 +2,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urljoin,urlparse,unquote
 import json,re,sys
-root=Path(__file__).resolve().parent
+root=Path(__file__).resolve().parent.parent
 allowed={'.html','.css','.js','.json','.md','.txt','.py'}
 errors=[];files=[p for p in root.rglob('*') if p.is_file() and '.git' not in p.relative_to(root).parts and '__pycache__' not in p.relative_to(root).parts]
 for p in files:

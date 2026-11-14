@@ -30,7 +30,7 @@
         document.head.append(tag);
       });
     }
-    const catalogReady = script('pdf-catalog.js?v=3').then(() => { catalog = window.CinefexPDFCatalog; estimate(); controls(); });
+    const catalogReady = script('../data/pdf-catalog.js?v=3').then(() => { catalog = window.CinefexPDFCatalog; estimate(); controls(); });
     catalogReady.catch(error => { status.textContent = error.message; controls(); });
     function files() { return session?.items || (online() ? catalog || [] : ready); }
     function estimate() {
