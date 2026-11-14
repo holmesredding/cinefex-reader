@@ -130,5 +130,425 @@
         "loaded": true
       }
     ]
+  },
+  "pdf_export": {
+    "checked": "2026-11-14",
+    "grouped_gallery_issues": [
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172
+    ],
+    "grouped_galleries": 2028,
+    "separate_caption_galleries": 2,
+    "later_issue_pages": 11786,
+    "catalogue_pages": 25752,
+    "caption_ink_pixels_preserved_once": 102516915,
+    "source_images": "All original image byte payloads and transparency masks preserved in all 46 later issues.",
+    "navigation": "Bookmarks, contents links and video links checked in all 46 later issues.",
+    "chrome_complete_exports": 46,
+    "safari_complete_exports": [
+      1,
+      11,
+      16,
+      126,
+      127,
+      133,
+      141,
+      146,
+      156,
+      166,
+      172
+    ],
+    "safari_comparison": "Early issue exports match previous output. Later exports match Chrome drawing commands and source image bytes, allowing different internal resource names.",
+    "browser_test_source": "Local HTTP fixture supplying original files to the production exporter.",
+    "chrome_local_folder_download": {
+      "issue": 133,
+      "pages": 253,
+      "matches_complete_export": true
+    },
+    "visual_review_pages": 123,
+    "visual_review_issues": 46,
+    "errors": []
+  },
+  "pdf_archive_export": {
+    "checked": "2026-11-14",
+    "scope": "Individual issues. Catalogue export uses local files.",
+    "default_source": "Local folder",
+    "live_chrome_issue": {
+      "issue": 1,
+      "pages": 72,
+      "images": 154,
+      "matches_local_export": true
+    },
+    "live_safari_samples": [
+      {
+        "issue": 1,
+        "page": 1
+      },
+      {
+        "issue": 11,
+        "page": 5
+      },
+      {
+        "issue": 172,
+        "page": 43
+      }
+    ],
+    "safari_samples_match_local_pages": true,
+    "complete_fixture_exports": [
+      11,
+      172
+    ],
+    "fixture_exports_match_local_exports": true,
+    "transient_error_retries": true,
+    "checksum_validation": true,
+    "missing_file_error": true,
+    "cancellation_aborts_requests": true,
+    "resume_reuses_completed_downloads": true,
+    "local_folder_controls": true,
+    "errors": []
+  },
+  "page_zoom": {
+    "checked": "2026-11-14",
+    "chrome_touch": {
+      "method": "Native touch input through Chrome DevTools Protocol with phone and tablet emulation",
+      "viewports": [
+        [
+          390,
+          844
+        ],
+        [
+          1024,
+          1366
+        ]
+      ],
+      "issue": 172,
+      "pinch": true,
+      "interface_scale_unchanged": true,
+      "pinch_midpoint_preserved": true,
+      "pan_without_page_turn": true,
+      "swipe": true,
+      "edge_tap": true,
+      "presets_and_slider": true,
+      "controls_text": true
+    },
+    "chrome_desktop": {
+      "mousewheel": true,
+      "space": true,
+      "shiftSpace": true,
+      "arrows": true,
+      "ctrlWheelPageZoom": true,
+      "zoomedWheelPan": true,
+      "resize": true
+    },
+    "gallery_links": {
+      "pinchOnLinkDoesNotActivate": true,
+      "ordinaryTapStillWorks": true
+    },
+    "safari": {
+      "version": "27.0",
+      "method": "Synthetic touch events through the magazine iframe bridge in desktop Safari",
+      "issues": [
+        172,
+        1
+      ],
+      "pinch_and_pan": true,
+      "interface_scale_unchanged": true,
+      "pinch_midpoint_preserved": true,
+      "presets_and_slider": true,
+      "swipe_including_cached_page": true
+    },
+    "physical_ios_device_tested": false,
+    "package_links_checked": true,
+    "errors": [],
+    "ios_simulators": {
+      "checked": "2026-11-14",
+      "runtime": "iOS 27.0 (24A5408d)",
+      "method": "XCTest native multi-touch events in Mobile Safari. Reader served locally with original media fixtures.",
+      "iphone": {
+        "model": "iPhone Air",
+        "result": "passed",
+        "checks": [
+          "pinch zoom",
+          "page pan",
+          "fixed interface scale",
+          "zoom menu",
+          "Fit",
+          "150% preset",
+          "forward swipe",
+          "portrait and landscape layout"
+        ]
+      },
+      "ipad": {
+        "model": "iPad Air 11-inch (M3)",
+        "page_gestures": "passed",
+        "checks": [
+          "pinch in",
+          "pinch out to Fit",
+          "page pan",
+          "fixed interface scale",
+          "forward and backward swipes",
+          "right-edge tap",
+          "portrait and landscape layout"
+        ],
+        "toolbar_menu": "not verified",
+        "limitation": "Native toolbar taps fail in this simulator Safari environment. The failure also occurs before zooming and on a plain top-level HTML page with one button, without reader code."
+      },
+      "reader_code_changed": false,
+      "physical_devices_tested": false,
+      "committed": false,
+      "pushed": false,
+      "results": [
+        "iPhone-final.xcresult",
+        "iPad-gestures-2.xcresult",
+        "basic-tap-2.xcresult"
+      ]
+    }
+  },
+  "catalogueArchivePDFExport": {
+    "date": "2026-11-14",
+    "sourceOptions": [
+      "Local folder",
+      "Archive.org"
+    ],
+    "liveBatch": {
+      "passed": true,
+      "seconds": 294.719,
+      "files": [
+        {
+          "issue": 11,
+          "bytes": 39253690
+        },
+        {
+          "issue": 172,
+          "bytes": 96305859
+        }
+      ],
+      "pauseResumePassed": true,
+      "previousIssueNotDownloadedAgain": true,
+      "existingFolderPreserved": true,
+      "requests": 611
+    },
+    "pdfComparison": [
+      {
+        "issue": 11,
+        "pages": 72,
+        "allImagesAndPageCommandsMatchVerifiedExport": true
+      },
+      {
+        "issue": 172,
+        "pages": 280,
+        "allImagesAndPageCommandsMatchVerifiedExport": true
+      }
+    ],
+    "chromeSequence": {
+      "checks": [
+        "172 issues in ZIP, download failure recovery, pause and resume, no duplicate builds, image cache released per issue, output cleanup",
+        "Interrupted ZIP entry and directory writes roll back before resuming",
+        "Local check, incomplete issue excluded, closing panel pauses, End export removes unfinished ZIP"
+      ],
+      "passed": true,
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36"
+    },
+    "safariSequence": {
+      "checks": [
+        "172 issues in ZIP, download failure recovery, pause and resume, no duplicate builds, image cache released per issue, output cleanup",
+        "Interrupted ZIP entry and directory writes roll back before resuming",
+        "Local check, incomplete issue excluded, closing panel pauses, End export removes unfinished ZIP"
+      ],
+      "passed": true,
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15"
+    },
+    "catalogueAudit": {
+      "issues": 172,
+      "assets": 45288,
+      "sourceBytes": 7555907952,
+      "allAssetsHaveArchiveURLsAndChecksums": true,
+      "safariZipEntries": 172,
+      "safariRollbackZipEntries": 2,
+      "installedFilesMatchTestedFiles": true
+    },
+    "interface": {
+      "pass": true,
+      "entryPoints": 4,
+      "mobileFits": true,
+      "pageErrors": []
+    },
+    "testScope": "Full live PDFs for issues 11 and 172. Complete 172-issue sequence and failure recovery used small fixtures in Chrome and Safari. Folder writing used a browser storage directory in place of the output picker.",
+    "published": false
+  },
+  "informationAndPDFDefaults": {
+    "date": "2026-11-14",
+    "chrome": {
+      "passed": true,
+      "regularMouseClick": true,
+      "expandedClickArea": true,
+      "directSessionOpen": true,
+      "messageFallback": true,
+      "archiveDefaultWithConnectedFolder": true,
+      "localChoicePreserved": true,
+      "wording": true,
+      "pageErrors": []
+    },
+    "safari": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "errors": [],
+      "checks": [],
+      "button": {
+        "disabled": false,
+        "handler": "function",
+        "rect": {
+          "x": 2643,
+          "y": 20.5,
+          "width": 34,
+          "height": 34,
+          "top": 20.5,
+          "right": 2677,
+          "bottom": 54.5,
+          "left": 2643
+        },
+        "hit": "BUTTON",
+        "hitInside": true
+      },
+      "before": {
+        "dialog": true,
+        "source": "object"
+      },
+      "open": true,
+      "dialogRect": {
+        "x": 1093.5,
+        "y": 78.4375,
+        "width": 520,
+        "height": 1023.125,
+        "top": 78.4375,
+        "right": 1613.5,
+        "bottom": 1101.5625,
+        "left": 1093.5
+      },
+      "directAPI": true,
+      "archiveBatchDefault": true,
+      "wording": true,
+      "reopened": true,
+      "connected": true,
+      "archiveBatchWithLocal": true,
+      "archiveSingleWithLocal": true
+    },
+    "safariTestMethod": "Native Safari, programmatic button activation and hit-target inspection. User physical click awaiting confirmation.",
+    "interfaceMiddleDotsRemaining": 0,
+    "PDFDefault": "Archive.org",
+    "catalogueNotice": "This can take a very long time.",
+    "published": false
+  },
+  "mousePan": {
+    "date": "2026-11-14",
+    "chrome": {
+      "passed": true,
+      "mousePan": true,
+      "releaseOutside": true,
+      "fitUnchanged": true,
+      "rightClickUnchanged": true,
+      "galleryDragDoesNotActivate": true,
+      "galleryClicksWork": true,
+      "wheelRegression": true,
+      "controlsUpdated": true,
+      "errors": []
+    },
+    "earlyScannedIssue": {
+      "passed": true,
+      "issue": 1,
+      "mousePan": true,
+      "controlHeadings": true
+    },
+    "chromeTouchRegression": [
+      {
+        "device": "phone",
+        "nativeTouchPinch": true,
+        "interfaceScaleUnchanged": true,
+        "anchoring": true,
+        "panWithoutPageTurn": true,
+        "swipe": true,
+        "edgeTap": true,
+        "presets": true,
+        "slider": true,
+        "errors": []
+      },
+      {
+        "device": "tablet",
+        "nativeTouchPinch": true,
+        "interfaceScaleUnchanged": true,
+        "anchoring": true,
+        "panWithoutPageTurn": true,
+        "swipe": true,
+        "edgeTap": true,
+        "presets": true,
+        "slider": true,
+        "errors": []
+      }
+    ],
+    "safari": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "passed": true,
+      "checks": [
+        "Mouse pan in both directions, pointer release, cancellation, page position unchanged",
+        "Fit unchanged, gallery drag suppressed, ordinary gallery click works",
+        "Existing pinch and touch pan unchanged"
+      ],
+      "method": "Synthetic DOM pointer and touch events in native Safari. Physical mouse capture not tested in Safari."
+    },
+    "controlHeadings": [
+      "Page navigation",
+      "Contents",
+      "Zoom",
+      "Galleries",
+      "Bookmarks"
+    ],
+    "entrypointsUpdated": 172,
+    "pageBridgeReferencesUpdated": 28895,
+    "packageErrors": [],
+    "installedFilesMatchTestedFiles": true,
+    "published": false
   }
 }
