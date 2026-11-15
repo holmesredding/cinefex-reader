@@ -13,7 +13,7 @@
   let size = 21, activeArticle = null, builtArticle = null, revision = 0, updatingPage = false, scrollFrame = 0, alignedTop = null, imageRef = '';
   let position = { ref: issue.pages[reader.current].ref, fraction: 0 }, pendingPosition = null;
   const layout = index => byIndex.has(index) && (mode === 'text' || (mode === 'fit' && byIndex.get(index).crop)) ? mode : 'page';
-  try { size = Math.max(16, Math.min(30, Number(localStorage.getItem('cinefex-text-size')) || 21)); } catch {}
+  try { size = Math.max(12, Math.min(30, Number(localStorage.getItem('cinefex-text-size')) || 21)); } catch {}
   const heading = document.querySelector('.reading-heading');
   const views = document.createElement('div'); views.className = 'reading-views'; views.setAttribute('role', 'group'); views.setAttribute('aria-label', 'Article view');
   function switchView(value, explicit = true) {
@@ -44,8 +44,8 @@
   gallery.onclick = () => reader.show(activeArticle.gallery);
   retry.onclick = () => { pendingPosition = position; sync(reader.current); };
   function setSize(next) {
-    position = capturePosition(); size = Math.max(16, Math.min(30, next)); panel.style.setProperty('--article-size', size + 'px'); sizeOutput.textContent = size + 'px';
-    sizeButtons[0].disabled = size <= 16; sizeButtons[1].disabled = size >= 30; applyPosition();
+    position = capturePosition(); size = Math.max(12, Math.min(30, next)); panel.style.setProperty('--article-size', size + 'px'); sizeOutput.textContent = size + 'px';
+    sizeButtons[0].disabled = size <= 12; sizeButtons[1].disabled = size >= 30; applyPosition();
     try { localStorage.setItem('cinefex-text-size', String(size)); } catch {}
   }
   sizeButtons[0].onclick = () => setSize(size - 1); sizeButtons[1].onclick = () => setSize(size + 1);
