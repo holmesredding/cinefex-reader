@@ -24,3 +24,28 @@ def load_issue(root, n):
 
 def page_html(root, n, p):
     return open(os.path.join(root, 'issues', str(n), p['file']), encoding='utf-8').read()
+
+def page_text(root, n):
+    source = os.path.join(os.path.dirname(__file__), 'data', 'page-text', f'{n}.json')
+    if os.path.exists(source):
+        text = json.load(open(source))
+    else:
+        # Published page text can rebuild the index without repeating the OCR.
+        folder = os.path.join(root, 'assets', 'data', 'search', 'text')
+        js = os.path.join(folder, f'{n}.js')
+        raw = os.path.join(folder, f'{n}.json')
+        if os.path.exists(js):
+            body = open(js, encoding='utf-8').read()
+            data = json.loads(body[body.index(',') + 1:body.rfind(')')])
+        elif os.path.exists(raw):
+            data = json.load(open(raw))
+        else:
+            raise FileNotFoundError(f'No page text for issue {n}. Run ocr-pages.swift first.')
+        text = {row[0]: row[2] for row in data['pages']}
+    captions = os.path.join(os.path.dirname(__file__), 'data', 'background-text', f'{n}.json')
+    if os.path.exists(captions):
+        for ref, caption in json.load(open(captions)).items():
+            current = text.get(ref, '')
+            if caption.strip() and ' '.join(caption.split()) not in ' '.join(current.split()):
+                text[ref] = (caption + '\n' + current).strip()
+    return text

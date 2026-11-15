@@ -1,0 +1,1 @@
+CinefexSearchData.register("words/ck",{"ck":"1by9,re,e,rr,rt,rg,sc,rw,rg,ru,m,r4,s8,k,qj,l,rn,h,qp,f,rj,l,qx,j,rx,f,iec","ckaptir":"3ots","ckas":"35l2","ckdesign1":"1kfk,s8,r6,ry,ri,sg","cky":"1zsr"});

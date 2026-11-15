@@ -1,0 +1,1 @@
+CinefexSearchData.register("words/lc",{"lc":"fha,1yy1,zlf,ax5,1","lcd":"yqx,3,6y4,2,2bq,3,1,325,s7,34b,8gc,g,33f,1,qi,7q3,a25,a0f,dwr,3zz,63o,emr,1i5,sp","lcds":"1810,2294,1fg","lcfa":"1rcb","lck":"2upr,2","lco":"13el,q0,rs,26r5","lcpl":"33yl"});

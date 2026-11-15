@@ -9,9 +9,9 @@ function toast(text){$('toast').textContent=text;$('toast').classList.add('visib
 let pendingHighlight=null;
 const galleryChoices=new Map();
 function pruneGalleryChoices(groups){for(const group of galleryChoices.keys())if(!groups.has(group)&&group!==data.pages[current]?.group){for(const b of galleryChoices.get(group))for(const im of b.querySelectorAll('img'))CinefexSources.releaseImage(im);galleryChoices.delete(group)}}
-const pageZoom=CinefexPageZoom.create({viewport:$('viewport'),paper:$('paper'),button:$('zoomButton'),width:pageWidth,height:pageHeight,getFrame:()=>frame,turn,blocked:()=>!!document.querySelector('dialog[open]')});
+const pageZoom=CinefexPageZoom.create({viewport:$('viewport'),paper:$('paper'),button:$('zoomButton'),width:pageWidth,height:pageHeight,getFrame:()=>frame,turn,restoreControls:()=>window.CinefexDisplay?.restore(),blocked:()=>!!document.querySelector('dialog[open]')});
 const pageCache=createPageCache();
-function fit(){pageZoom.fit()}
+function fit(){if(!window.CinefexReadingView?.active())pageZoom.fit()}
 function syncSaved(){const active=saved.includes(data.pages[current].ref);$('saveButton').setAttribute('aria-pressed',String(active));$('saveButton').querySelector('span').textContent=active?'Saved':'Save page';$('savedList').replaceChildren();if(!saved.length){const p=document.createElement('p');p.className='empty';p.textContent='No saved pages yet.';$('savedList').append(p)}for(const id of saved){const index=byId.get(id),p=data.pages[index],row=document.createElement('div');row.className='saved-page';const b=document.createElement('button'),title=document.createElement('span'),small=document.createElement('small');title.textContent=p.title;small.textContent=`Page ${p.group+1}${p.gallery?', Gallery':''}`;b.append(title,small);b.onclick=()=>{show(index);closeMobileContents()};const remove=document.createElement('button');remove.textContent='×';remove.setAttribute('aria-label',`Remove saved ${p.title} page ${p.group+1}`);remove.onclick=()=>{saved=saved.filter(x=>x!==id);persist();syncSaved()};row.append(b,remove);$('savedList').append(row)}}
 let galleryOpen=true;
 const galleryToggle=document.createElement('button');galleryToggle.id='galleryToggle';galleryToggle.className='gallery-toggle';galleryToggle.type='button';galleryToggle.textContent='Images';galleryToggle.hidden=true;galleryToggle.setAttribute('aria-controls','galleryTray');galleryToggle.setAttribute('aria-expanded','false');document.querySelector('.reading-heading').prepend(galleryToggle);
@@ -19,7 +19,7 @@ function syncGallery(){const p=data.pages[current],available=p.gallery&&data.gro
 galleryToggle.onclick=()=>{galleryOpen=!galleryOpen;syncGallery()};
 function show(index,mode='push'){
  if(!Number.isInteger(index)||!data.pages[index])return;const changedGroup=data.pages[index].group!==data.pages[current].group;current=index;const p=data.pages[index],group=data.groups[p.group];
- pageCache.open(index);
+ if(!window.CinefexReadingView?.handles(index))pageCache.open(index);
  $('section').textContent=p.title;$('position').textContent=`${p.gallery?'Gallery, ':''}${p.group+1} / ${data.groups.length}`;
 
  $('previous').disabled=p.group===0;$('next').disabled=p.group===data.groups.length-1;$('progress').value=p.group;$('progress').setAttribute('aria-valuetext',`Page ${p.group+1} of ${data.groups.length}, ${p.title}`);const percentage=(p.group+1)/data.groups.length*100;$('progress').style.setProperty('--progress',percentage+'%');$('percent').textContent=Math.round(percentage)+'%';
@@ -30,8 +30,9 @@ function show(index,mode='push'){
   choices.forEach((b,k)=>b.setAttribute('aria-pressed',String(group.states[k]===index)));$('choices').append(...choices);
  }
  for(const s of document.querySelectorAll('.story'))s.classList.toggle('active',s.dataset.title===p.title);for(const b of document.querySelectorAll('.story-actions button')){const active=b.dataset.title===p.title&&(b.dataset.kind==='gallery')===p.gallery;b.classList.toggle('active',active);if(active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')}
- if(mode!=='none'){const url='#page='+encodeURIComponent(p.ref);if(mode==='replace')history.replaceState(null,'',url);else if(location.hash!==url)history.pushState(null,'',url)}
+ if(mode!=='none'){const url='#page='+encodeURIComponent(p.ref);if(mode==='replace'||window.CinefexDisplay?.hidden)history.replaceState(history.state,'',url);else if(location.hash!==url)history.pushState(null,'',url)}
  syncSaved();persist();fit();if(changedGroup)pageZoom.resetPan();
+ dispatchEvent(new CustomEvent('cinefexpagechange',{detail:{index}}));
 }
 function turn(delta){const g=data.groups[data.pages[current].group+delta];if(g)show(g.states[0])}
 function note(text){$('noticeText').textContent=text;$('notice').showModal()}
@@ -60,7 +61,7 @@ $('player').addEventListener('close',releaseClip);
 window.addEventListener('pagehide',releaseClip);
 
 function route(href,fitRect){if(typeof href!=='string'||href==='#')return;if(href.startsWith('reader://state/')){const target=Number(href.slice(15));if(fitRect){try{pendingHighlight=JSON.parse(fitRect)}catch{}}show(target);}else if(href.startsWith('ns://Page/')){const id=href.slice(10),index=byId.get(id)??byId.get(id+'.1');if(index!==undefined)show(index);else note('This page is missing from the archive.')}else if(href.startsWith('ns://Video/'))play(href.slice(11));else if(href.startsWith('ns://'))note('This service is no longer available.');else if(/^(https?:|mailto:)/i.test(href))window.open(href,'_blank','noopener,noreferrer')}
-function key(e){if(document.querySelector('dialog[open]'))return;if(e.ctrlKey||e.metaKey||e.altKey)return;if(e.key===' '){e.preventDefault?.();if(!e.repeat)turn(e.shiftKey?-1:1)}else if(e.key==='ArrowRight'){e.preventDefault?.();turn(1)}else if(e.key==='ArrowLeft'){e.preventDefault?.();turn(-1)}else if(e.key==='Escape'){if(galleryOpen){galleryOpen=false;syncGallery();galleryToggle.focus()}else closeMobileContents()}}
+function key(e){if(window.CinefexDisplay?.key(e))return;if(window.CinefexReadingView?.key(e))return;if(document.querySelector('dialog[open]'))return;if(e.ctrlKey||e.metaKey||e.altKey)return;if(e.key===' '){e.preventDefault?.();if(!e.repeat)turn(e.shiftKey?-1:1)}else if(e.key==='ArrowRight'){e.preventDefault?.();turn(1)}else if(e.key==='ArrowLeft'){e.preventDefault?.();turn(-1)}else if(e.key==='Escape'){if(galleryOpen){galleryOpen=false;syncGallery();galleryToggle.focus()}else closeMobileContents()}}
 window.addEventListener('message',e=>{if(e.source!==frame.contentWindow||!e.data?.cinefex)return;if(e.data.panReady)pageZoom.syncFrame();else if(e.data.mouse)pageZoom.mouse(e.data.mouse,true);else if(e.data.touch)pageZoom.input(e.data.touch,true);else if(e.data.wheel)wheel(e.data.wheel,true);else if(e.data.key)key(e.data);else if(!pageZoom.blocksClick())route(e.data.href,e.data.fit)});
 window.addEventListener('keydown',e=>{if(!e.target.closest('input,select,textarea,video,button,a,[contenteditable]:not([contenteditable=false])'))key(e)});
 let wheelTotal=0,wheelLast=0,wheelTurn=0;
@@ -88,7 +89,7 @@ data.stories.forEach((story,i)=>{const title=story.title,s=document.createElemen
 // Search link beside Browse in the reader's header.
 (()=>{const b=document.querySelector('nav a.library-link[href$="titles.html"]');if(b&&!document.querySelector('nav a[href$="search.html"]')){const a=document.createElement('a');a.className='library-link';a.href='../../search.html';a.textContent='Search';b.after(a)}})();
 // Related titles and companies for each story (assets/data/index-related.js, optional; built by scripts/indexing).
-(()=>{const add=()=>{const rel=window.CINEFEX_RELATED?.[data.issue];if(!rel)return;const sections=$('chapterList').querySelectorAll('section.story');data.stories.forEach((story,i)=>{const r=rel[story.article];if(!r||!sections[i])return;for(const [label,items,param] of [['Related',r.f,'franchise'],['Companies',r.c,'company']]){if(!items?.length)continue;const row=document.createElement('div');row.className='story-related';row.append(label+': ');items.forEach((name,j)=>{const a=document.createElement('a');a.href='../../titles.html?'+(param==='franchise'?'franchise='+encodeURIComponent(name):'type=companies&q='+encodeURIComponent(name));a.textContent=name;row.append(...(j?[', ',a]:[a]))});sections[i].append(row)}})};const sc=document.createElement('script');sc.src='../../assets/data/index-related.js?v=juju1';sc.onload=add;document.head.append(sc)})();
+(()=>{const add=()=>{const rel=window.CINEFEX_RELATED?.[data.issue];if(!rel)return;const sections=$('chapterList').querySelectorAll('section.story');data.stories.forEach((story,i)=>{const r=rel[story.article];if(!r||!sections[i])return;for(const [label,items,param] of [['Related',r.f,'franchise'],['Companies',r.c,'company']]){if(!items?.length)continue;const row=document.createElement('div');row.className='story-related';row.append(label+': ');items.forEach((name,j)=>{const a=document.createElement('a');a.href='../../titles.html?'+(param==='franchise'?'franchise='+encodeURIComponent(name):'type=companies&q='+encodeURIComponent(name));a.textContent=name;row.append(...(j?[', ',a]:[a]))});sections[i].append(row)}})};const sc=document.createElement('script');sc.src='../../assets/data/index-related.js?v=index2';sc.onload=add;document.head.append(sc)})();
 for(const film of films){const b=document.createElement('button');b.className='film-card';b.setAttribute('aria-label',`Play ${film.title}, ${film.detail.toLowerCase()}`);const art=document.createElement('div');art.className='film-art';const im=document.createElement('img');CinefexSources.image(im,film.poster);im.alt='';im.loading='lazy';const circle=document.createElement('span');circle.className='play-circle';circle.innerHTML='<svg><use href="#i-play"/></svg>';const duration=document.createElement('span');duration.className='film-duration';duration.textContent=film.duration;art.append(im,circle,duration);const title=document.createElement('strong');title.textContent=film.title;const detail=document.createElement('small');detail.textContent=film.detail;b.append(art,title,detail);b.onclick=()=>{$('videos').close();play(film.file)};$('videoList').append(b)}
 for(const b of document.querySelectorAll('[data-close]'))b.onclick=()=>$(b.dataset.close).close();for(const d of document.querySelectorAll('dialog'))d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}});
 $('player').addEventListener('close',()=>{$('video').pause();$('video').removeAttribute('src');$('video').load()});$('video').addEventListener('error',()=>{$('videoStatus').textContent='This clip couldn’t play. Close it and try again.'});
@@ -113,7 +114,7 @@ $('help').querySelector('dl').innerHTML=`<dt>Page navigation</dt><dd class="desk
 const contentsIndex=data.contentsIndex??data.pages.findIndex(p=>p.key==='masthead.html:0');
 if(contentsIndex>=0&&contentsIndex!==null){const b=document.createElement('button');b.textContent='Contents page';b.id='originalContentsButton';b.onclick=()=>{show(contentsIndex);closeMobileContents()};document.querySelector('.sidebar-bottom').prepend(b);}
 
-function fromHash(){const id=new URLSearchParams(location.hash.slice(1)).get('page');show(byId.get(id)??byId.get(remembered)??0,'none')}
+function fromHash(){if(window.CinefexDisplay?.ignoreHistory())return;const id=new URLSearchParams(location.hash.slice(1)).get('page'),index=byId.get(id)??byId.get(remembered)??0;if(!window.CinefexReader||index!==current)show(index,'none')}
 window.addEventListener('popstate',fromHash);window.addEventListener('hashchange',fromHash);window.addEventListener('resize',()=>{updateContentsButton();fit()});new ResizeObserver(fit).observe($('viewport'));updateContentsButton();fromHash();
 
 {const link=document.createElement("a");link.href="https://archive.org/details/"+data.sourceItem;link.textContent="Source files on Archive.org";link.target="_blank";link.rel="noopener noreferrer";document.querySelector("#help .about").append(document.createElement("br"),link)}
@@ -123,7 +124,7 @@ function createPageCache(){
  const maxPages=7,maxEstimatedBytes=96*1024*1024;
  let originalUsed=false,activeIndex=-1,direction=1,galleryDirection=1,clock=0,timer=0,loading=null;
  const connection=navigator.connection;
- function blocked(){return document.hidden||$('player').open||connection?.saveData||['slow-2g','2g'].includes(connection?.effectiveType)}
+ function blocked(){return !!window.CinefexReadingView?.active()||document.hidden||$('player').open||connection?.saveData||['slow-2g','2g'].includes(connection?.effectiveType)}
  function candidates(){
   if(activeIndex<0)return [];const p=data.pages[activeIndex],group=data.groups[p.group],result=[];
   const add=n=>{if(Number.isInteger(n)&&n!==activeIndex&&!result.includes(n))result.push(n)};
@@ -212,3 +213,5 @@ addEventListener('cinefexsourcechange',()=>{if($('player').open)$('player').clos
 {const button=document.createElement('button');button.id='readStatusButton';button.type='button';function sync(){const read=CinefexReading.isRead(data.issue);button.textContent=read?'Mark as unread':'Mark as read';button.setAttribute('aria-pressed',String(read))}button.onclick=()=>CinefexReading.setRead(data.issue,!CinefexReading.isRead(data.issue));document.querySelector('.sidebar-bottom').append(button);addEventListener('cinefexreadingchange',sync);sync()}
 
 addEventListener('message',e=>{if(e.source===frame.contentWindow&&e.data?.cinefexOpenLocal)document.querySelector('#infoButton')?.click()});
+
+window.CinefexReader={show,get current(){return current},pause:()=>pageCache.pause()};

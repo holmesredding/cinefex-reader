@@ -1,0 +1,970 @@
+{
+  "issue": 126,
+  "articles": [
+    {
+      "id": "1",
+      "format": "native",
+      "source": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/1.ReadingView.html",
+      "sourceBytes": 77666,
+      "sourceCrc": 1917989469,
+      "title": "God of Thunder",
+      "author": "Joe Fordham",
+      "indices": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        22,
+        23,
+        24,
+        25,
+        26,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "refs": [
+        "14",
+        "15",
+        "16",
+        "18",
+        "19",
+        "20",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "38"
+      ],
+      "images": {
+        "images_400/Cinefex-126-p14-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p14-img01.jpg",
+          "size": [
+            1712,
+            1536
+          ]
+        },
+        "images_400/Cinefex-126-p17-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p17-img01.jpg",
+          "size": [
+            1922,
+            833
+          ]
+        },
+        "images_400/Cinefex-126-p17-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p17-img02.jpg",
+          "size": [
+            1922,
+            838
+          ]
+        },
+        "images_400/Cinefex-126-p18-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p18-img01.jpg",
+          "size": [
+            1922,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p19-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p19-img01.jpg",
+          "size": [
+            1922,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p20-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p20-img01.jpg",
+          "size": [
+            1922,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p23-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p23-img01.jpg",
+          "size": [
+            1922,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p24-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p24-img01.jpg",
+          "size": [
+            1143,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p25-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p25-img01.jpg",
+          "size": [
+            1162,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p25-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p25-img02.jpg",
+          "size": [
+            759,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p26-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p26-img01.jpg",
+          "size": [
+            1922,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p27-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p27-img01.jpg",
+          "size": [
+            1162,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p27-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p27-img02.jpg",
+          "size": [
+            759,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p30-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p30-img01.jpg",
+          "size": [
+            1523,
+            838
+          ]
+        },
+        "images_400/Cinefex-126-p30-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p30-img02.jpg",
+          "size": [
+            1523,
+            842
+          ]
+        },
+        "images_400/Cinefex-126-p31-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p31-img01.jpg",
+          "size": [
+            1142,
+            842
+          ]
+        },
+        "images_400/Cinefex-126-p31-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p31-img02.jpg",
+          "size": [
+            1127,
+            852
+          ]
+        },
+        "images_400/Cinefex-126-p32-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p32-img01.jpg",
+          "size": [
+            1922,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p33-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p33-img01.jpg",
+          "size": [
+            1522,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p34-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p34-img01.jpg",
+          "size": [
+            1922,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p35-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p35-img01.jpg",
+          "size": [
+            1922,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p37-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p37-img01.jpg",
+          "size": [
+            1922,
+            829
+          ]
+        },
+        "images_400/Cinefex-126-p37-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p37-img02.jpg",
+          "size": [
+            1922,
+            838
+          ]
+        },
+        "images_400/Cinefex-126-p38-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p38-img01.jpg",
+          "size": [
+            1922,
+            825
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "14"
+    },
+    {
+      "id": "2",
+      "format": "native",
+      "source": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/2.ReadingView.html",
+      "sourceBytes": 87127,
+      "sourceCrc": 2598011712,
+      "title": "Reality Deconstructed",
+      "author": "Joe Fordham",
+      "indices": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "refs": [
+        "40",
+        "41",
+        "42",
+        "44",
+        "47",
+        "48",
+        "51",
+        "52",
+        "54",
+        "57",
+        "59",
+        "60",
+        "67"
+      ],
+      "images": {
+        "images_400/Cinefex-126-p40-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p40-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ]
+        },
+        "images_400/Cinefex-126-p43-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p43-img01.jpg",
+          "size": [
+            1922,
+            834
+          ]
+        },
+        "images_400/Cinefex-126-p43-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p43-img02.jpg",
+          "size": [
+            1922,
+            838
+          ]
+        },
+        "images_400/Cinefex-126-p44-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p44-img01.jpg",
+          "size": [
+            1522,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p47-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p47-img01.jpg",
+          "size": [
+            1522,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p49-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p49-img01.jpg",
+          "size": [
+            1523,
+            838
+          ]
+        },
+        "images_400/Cinefex-126-p49-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p49-img02.jpg",
+          "size": [
+            1523,
+            843
+          ]
+        },
+        "images_400/Cinefex-126-p50-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p50-img01.jpg",
+          "size": [
+            1523,
+            838
+          ]
+        },
+        "images_400/Cinefex-126-p50-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p50-img02.jpg",
+          "size": [
+            1523,
+            843
+          ]
+        },
+        "images_400/Cinefex-126-p51-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p51-img01.jpg",
+          "size": [
+            1134,
+            836
+          ]
+        },
+        "images_400/Cinefex-126-p51-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p51-img02.jpg",
+          "size": [
+            1142,
+            835
+          ]
+        },
+        "images_400/Cinefex-126-p53-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p53-img01.jpg",
+          "size": [
+            1523,
+            838
+          ]
+        },
+        "images_400/Cinefex-126-p53-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p53-img02.jpg",
+          "size": [
+            1523,
+            845
+          ]
+        },
+        "images_400/Cinefex-126-p54-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p54-img01.jpg",
+          "size": [
+            770,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p54-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p54-img02.jpg",
+          "size": [
+            1150,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p57-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p57-img01.jpg",
+          "size": [
+            1922,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p58-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p58-img01.jpg",
+          "size": [
+            1922,
+            833
+          ]
+        },
+        "images_400/Cinefex-126-p60-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p60-img01.jpg",
+          "size": [
+            1142,
+            833
+          ]
+        },
+        "images_400/Cinefex-126-p60-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p60-img02.jpg",
+          "size": [
+            1142,
+            842
+          ]
+        },
+        "images_400/Cinefex-126-p61-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p61-img01.jpg",
+          "size": [
+            1522,
+            838
+          ]
+        },
+        "images_400/Cinefex-126-p61-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p61-img02.jpg",
+          "size": [
+            1523,
+            840
+          ]
+        },
+        "images_400/Cinefex-126-p62-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p62-img01.jpg",
+          "size": [
+            957,
+            549
+          ]
+        },
+        "images_400/Cinefex-126-p62-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p62-img02.jpg",
+          "size": [
+            962,
+            550
+          ]
+        },
+        "images_400/Cinefex-126-p62-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p62-img03.jpg",
+          "size": [
+            961,
+            559
+          ]
+        },
+        "images_400/Cinefex-126-p62-img04.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p62-img04.jpg",
+          "size": [
+            954,
+            559
+          ]
+        },
+        "images_400/Cinefex-126-p62-img05.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p62-img05.jpg",
+          "size": [
+            955,
+            558
+          ]
+        },
+        "images_400/Cinefex-126-p63-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p63-img01.jpg",
+          "size": [
+            964,
+            558
+          ]
+        },
+        "images_400/Cinefex-126-p63-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p63-img02.jpg",
+          "size": [
+            954,
+            560
+          ]
+        },
+        "images_400/Cinefex-126-p63-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p63-img03.jpg",
+          "size": [
+            962,
+            557
+          ]
+        },
+        "images_400/Cinefex-126-p63-img04.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p63-img04.jpg",
+          "size": [
+            959,
+            549
+          ]
+        },
+        "images_400/Cinefex-126-p63-img05.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p63-img05.jpg",
+          "size": [
+            955,
+            554
+          ]
+        },
+        "images_400/Cinefex-126-p63-img06.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p63-img06.jpg",
+          "size": [
+            956,
+            550
+          ]
+        },
+        "images_400/Cinefex-126-p64-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p64-img01.jpg",
+          "size": [
+            1523,
+            838
+          ]
+        },
+        "images_400/Cinefex-126-p64-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p64-img02.jpg",
+          "size": [
+            1523,
+            845
+          ]
+        },
+        "images_400/Cinefex-126-p65-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p65-img01.jpg",
+          "size": [
+            1142,
+            1678
+          ]
+        },
+        "images_400/Cinefex-126-p66-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p66-img01.jpg",
+          "size": [
+            1523,
+            827
+          ]
+        },
+        "images_400/Cinefex-126-p66-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p66-img02.jpg",
+          "size": [
+            1523,
+            845
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {
+        "Colter�s": "Colter’s"
+      },
+      "startRef": "40"
+    },
+    {
+      "id": "3",
+      "format": "native",
+      "source": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/3.ReadingView.html",
+      "sourceBytes": 70903,
+      "sourceCrc": 283596918,
+      "title": "Holy Warriors",
+      "author": "Jody Duncan",
+      "indices": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92
+      ],
+      "refs": [
+        "70",
+        "71",
+        "72",
+        "75",
+        "76",
+        "79",
+        "81",
+        "82",
+        "84",
+        "87",
+        "88",
+        "90",
+        "91",
+        "92",
+        "93"
+      ],
+      "images": {
+        "images_400/Cinefex-126-p70-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p70-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ]
+        },
+        "images_400/Cinefex-126-p73-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p73-img01.jpg",
+          "size": [
+            1922,
+            835
+          ]
+        },
+        "images_400/Cinefex-126-p73-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p73-img02.jpg",
+          "size": [
+            1922,
+            838
+          ]
+        },
+        "images_400/Cinefex-126-p74-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p74-img01.jpg",
+          "size": [
+            1922,
+            837
+          ]
+        },
+        "images_400/Cinefex-126-p76-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p76-img01.jpg",
+          "size": [
+            1922,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p79-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p79-img01.jpg",
+          "size": [
+            1922,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p80-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p80-img01.jpg",
+          "size": [
+            1522,
+            821
+          ]
+        },
+        "images_400/Cinefex-126-p80-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p80-img02.jpg",
+          "size": [
+            758,
+            847
+          ]
+        },
+        "images_400/Cinefex-126-p80-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p80-img03.jpg",
+          "size": [
+            756,
+            845
+          ]
+        },
+        "images_400/Cinefex-126-p81-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p81-img01.jpg",
+          "size": [
+            1142,
+            842
+          ]
+        },
+        "images_400/Cinefex-126-p81-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p81-img02.jpg",
+          "size": [
+            1142,
+            836
+          ]
+        },
+        "images_400/Cinefex-126-p83-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p83-img01.jpg",
+          "size": [
+            1922,
+            834
+          ]
+        },
+        "images_400/Cinefex-126-p83-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p83-img02.jpg",
+          "size": [
+            1922,
+            838
+          ]
+        },
+        "images_400/Cinefex-126-p84-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p84-img01.jpg",
+          "size": [
+            1416,
+            608
+          ]
+        },
+        "images_400/Cinefex-126-p87-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p87-img01.jpg",
+          "size": [
+            1522,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p89-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p89-img01.jpg",
+          "size": [
+            1922,
+            835
+          ]
+        },
+        "images_400/Cinefex-126-p89-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p89-img02.jpg",
+          "size": [
+            1922,
+            838
+          ]
+        },
+        "images_400/Cinefex-126-p90-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p90-img01.jpg",
+          "size": [
+            1922,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p91-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p91-img01.jpg",
+          "size": [
+            1141,
+            823
+          ]
+        },
+        "images_400/Cinefex-126-p92-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p92-img01.jpg",
+          "size": [
+            770,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p92-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p92-img02.jpg",
+          "size": [
+            1150,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p93-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p93-img01.jpg",
+          "size": [
+            1921,
+            825
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "70"
+    },
+    {
+      "id": "4",
+      "format": "native",
+      "source": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/4.ReadingView.html",
+      "sourceBytes": 80775,
+      "sourceCrc": 614956311,
+      "title": "First Class Effects",
+      "author": "Jody Duncan",
+      "indices": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118
+      ],
+      "refs": [
+        "96",
+        "97",
+        "98",
+        "99",
+        "101",
+        "102",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "110",
+        "113",
+        "114",
+        "115",
+        "116",
+        "117",
+        "119"
+      ],
+      "images": {
+        "images_400/Cinefex-126-p96-img01a.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p96-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ]
+        },
+        "images_400/Cinefex-126-p99-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p99-img01.jpg",
+          "size": [
+            1522,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p100-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p100-img01.jpg",
+          "size": [
+            1922,
+            837
+          ]
+        },
+        "images_400/Cinefex-126-p100-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p100-img02.jpg",
+          "size": [
+            1922,
+            838
+          ]
+        },
+        "images_400/Cinefex-126-p102-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p102-img01.jpg",
+          "size": [
+            1922,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p105-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p105-img01.jpg",
+          "size": [
+            1162,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p105-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p105-img02.jpg",
+          "size": [
+            759,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p106-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p106-img01.jpg",
+          "size": [
+            770,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p106-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p106-img02.jpg",
+          "size": [
+            770,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p107-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p107-img01.jpg",
+          "size": [
+            1142,
+            1678
+          ]
+        },
+        "images_400/Cinefex-126-p108-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p108-img01.jpg",
+          "size": [
+            1142,
+            551
+          ]
+        },
+        "images_400/Cinefex-126-p108-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p108-img02.jpg",
+          "size": [
+            1142,
+            559
+          ]
+        },
+        "images_400/Cinefex-126-p108-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p108-img03.jpg",
+          "size": [
+            1142,
+            556
+          ]
+        },
+        "images_400/Cinefex-126-p109-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p109-img01.jpg",
+          "size": [
+            1922,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p113-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p113-img01.jpg",
+          "size": [
+            1922,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p114-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p114-img01.jpg",
+          "size": [
+            1922,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p115-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p115-img01.jpg",
+          "size": [
+            1162,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p115-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p115-img02.jpg",
+          "size": [
+            760,
+            825
+          ]
+        },
+        "images_400/Cinefex-126-p116-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p116-img01.jpg",
+          "size": [
+            1521,
+            826
+          ]
+        },
+        "images_400/Cinefex-126-p117-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p117-img01.jpg",
+          "size": [
+            1136,
+            841
+          ]
+        },
+        "images_400/Cinefex-126-p117-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p117-img02.jpg",
+          "size": [
+            1142,
+            842
+          ]
+        },
+        "images_400/Cinefex-126-p118-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p118-img01.jpg",
+          "size": [
+            1922,
+            832
+          ]
+        },
+        "images_400/Cinefex-126-p118-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2011/CineFex%202011%20No%20124-127/CineFex%202011%20No%20126.zip/images%2FCinefex-126-p118-img02.jpg",
+          "size": [
+            1922,
+            837
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "96"
+    }
+  ]
+}

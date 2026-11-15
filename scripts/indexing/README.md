@@ -17,6 +17,7 @@
 - **Companies.** These are the effects companies each article discusses (two or more mentions), from page text.
 
 ## Files
+
 | file | what |
 |---|---|
 | `build-index.py` | writes `assets/data/index-extra.js` and `index-related.js` from everything below |
@@ -25,14 +26,25 @@
 | `ads_interactive.py`, `ads_archive.py` | the two ad extractors |
 | `companies.py` | companies per article, from `data/page-text/` |
 | `build-search.py` | writes `assets/data/search/` (word index + page text) for the Search page |
-| `ocr-pages.swift` | OCR of every page with Apple Vision → `data/page-text/<issue>.json` |
+| `ocr-pages.swift` | OCR with Apple Vision, including background caption layers, cached by image |
 | `data/advertiser-index.json` | the printed advertiser indexes, parsed (issues 50–126) |
 | `data/archive-ad-text.json` | OCR text of archive ad pages |
 | `data/index-offsets.json` | issues whose printed page numbers are shifted from the page refs |
 
 ## Rebuilding
+
 ```sh
 python3 scripts/indexing/build-index.py              # after editing the curation or advertiser lists
 swift scripts/indexing/ocr-pages.swift . "<folder with issues/N/assets/…>"   # once, on a Mac with the issue files
 python3 scripts/indexing/companies.py && python3 scripts/indexing/build-index.py && python3 scripts/indexing/build-search.py
 ```
+
+To add caption layers to an existing OCR run, use `swift scripts/indexing/ocr-pages.swift . "<media folder>" --backgrounds`, then run `companies.py`, `build-index.py` and `build-search.py`. The additional text is saved in `data/background-text/`. Shared gallery backgrounds are read once and reused. The original image files are unchanged.
+
+`build-search.py` can also use the published page text when the original OCR cache is absent. It writes small `.js` data files so Search works when opening `index.html` directly from a folder. Each search loads the word files it needs, followed by page text for the results. The manifest lists available word files, and failed downloads can be retried.
+
+## Reader view
+
+Some articles in `issues/<number>/reading.js` use the page text in `assets/data/search/text/`. Their paragraph boundaries and corrections refer to exact character positions. A checksum check stops an article from opening if its source text has changed.
+
+Rebuilding the word index from the existing page text keeps those positions. Running OCR again can change them. If you replace the page text, update the affected Reader view mappings and check the articles before publishing. The [Reader view tools](../reader-view/README.md) rebuild the reviewed layouts and check them against the index. Coverage and source checks are recorded in [docs/READER-VIEW.json](../../docs/READER-VIEW.json).

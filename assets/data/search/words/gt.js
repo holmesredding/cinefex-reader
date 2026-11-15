@@ -1,0 +1,1 @@
+CinefexSearchData.register("words/gt",{"gt40":"3low,1,3,1,a,1,2,2,2,2,2,1,c,a,6,1,3","gt40s":"3low,3,d,2,9,d,9","gtco":"9av","gte":"180v,8im,4o8,2aq,s6,ro","gto":"1z19,1,2,6z8","gtomunch":"2dov","gtx":"2x40,d0t,u,1"});

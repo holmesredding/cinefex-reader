@@ -1,0 +1,40 @@
+{
+  "name": "Cinefex Reader icon",
+  "description": "The c from the reader\u2019s Georgia Bold Italic header, with a wide rust bookmark on charcoal.",
+  "created": "2026-11-15",
+  "files": [
+    {
+      "path": "assets/icons/reader-180.png",
+      "dimensions": [
+        180,
+        180
+      ],
+      "bytes": 3078,
+      "sha256": "5a6c34ce54c1b8dd2a79045bf9277d880293ef07693d30425c62ca5f7706958e"
+    },
+    {
+      "path": "assets/icons/reader-192.png",
+      "dimensions": [
+        192,
+        192
+      ],
+      "bytes": 3370,
+      "sha256": "1526283a2081838e19e8b8de9cf62009e9845ef692cfb2ee8117f2fa4644f69a"
+    },
+    {
+      "path": "assets/icons/reader-512.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 12822,
+      "sha256": "4d22a33d54bb016bf7fc0620f910d81bc3527125f9ab5fe98dc047c5c6add4ed"
+    }
+  ],
+  "letterform": {
+    "font": "Georgia Bold Italic",
+    "postScriptName": "Georgia-BoldItalic",
+    "character": "c",
+    "method": "Glyph outline taken directly from the font using Core Text. Uniformly scaled without changing its shape."
+  }
+}

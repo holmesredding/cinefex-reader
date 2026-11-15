@@ -1,0 +1,1 @@
+CinefexSearchData.register("words/gb",{"gb":"1hcj,sf,1fm,3e,oy,s7,34h,q7g,r0,r1,t2,qf,y,1iw,se,7,s9,rb,qj,ry,s6,s4,qv,33e,7o,7ne,nu","gba":"2hii","gberware":"17zz,1jm,rt1,65l,33e,qs,t4,qc,so,r0,4mc,s0,ue,p0","gbing":"3fp6"});

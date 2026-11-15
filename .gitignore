@@ -25,3 +25,10 @@ __pycache__/
 *.tiff
 *.eot
 scripts/indexing/data/page-text/
+scripts/indexing/data/background-text/
+scripts/indexing/data/image-text/
+
+# Home screen artwork.
+!/assets/icons/reader-180.png
+!/assets/icons/reader-192.png
+!/assets/icons/reader-512.png

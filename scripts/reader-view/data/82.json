@@ -1,0 +1,1116 @@
+{
+  "issue": 82,
+  "articles": [
+    {
+      "id": "1",
+      "format": "native",
+      "source": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/1.ReadingView.html",
+      "sourceBytes": 50624,
+      "sourceCrc": 3266089971,
+      "title": "A CUT ABOVE",
+      "author": "Kevin H. Martin",
+      "indices": [
+        11,
+        12,
+        13,
+        14,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "refs": [
+        "13",
+        "16",
+        "21",
+        "22",
+        "27",
+        "28",
+        "30"
+      ],
+      "images": {
+        "images_400/Cinefex-82-p13-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p13-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ]
+        },
+        "images_400/Cinefex-82-p15-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p15-img01.jpg",
+          "size": [
+            1921,
+            831
+          ]
+        },
+        "images_400/Cinefex-82-p15-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p15-img02.jpg",
+          "size": [
+            1921,
+            823
+          ]
+        },
+        "images_400/Cinefex-82-p16-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p16-img01.jpg",
+          "size": [
+            1266,
+            831
+          ]
+        },
+        "images_400/Cinefex-82-p16-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p16-img02.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-82-p21-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p21-img01.jpg",
+          "size": [
+            1266,
+            822
+          ]
+        },
+        "images_400/Cinefex-82-p22-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p22-img01.jpg",
+          "size": [
+            1266,
+            831
+          ]
+        },
+        "images_400/Cinefex-82-p22-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p22-img02.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-82-p27-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p27-img01.jpg",
+          "size": [
+            1266,
+            822
+          ]
+        },
+        "images_400/Cinefex-82-p29-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p29-img01.jpg",
+          "size": [
+            949,
+            546
+          ]
+        },
+        "images_400/Cinefex-82-p29-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p29-img02.jpg",
+          "size": [
+            948,
+            546
+          ]
+        },
+        "images_400/Cinefex-82-p29-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p29-img03.jpg",
+          "size": [
+            949,
+            540
+          ]
+        },
+        "images_400/Cinefex-82-p29-img04.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p29-img04.jpg",
+          "size": [
+            948,
+            540
+          ]
+        },
+        "images_400/Cinefex-82-p29-img05.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p29-img05.jpg",
+          "size": [
+            949,
+            544
+          ]
+        },
+        "images_400/Cinefex-82-p29-img06.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p29-img06.jpg",
+          "size": [
+            948,
+            544
+          ]
+        },
+        "images_400/Cinefex-82-p30-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p30-img01.jpg",
+          "size": [
+            1266,
+            831
+          ]
+        },
+        "images_400/Cinefex-82-p30-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p30-img02.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-82-p31-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p31-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "12"
+    },
+    {
+      "id": "2",
+      "format": "native",
+      "source": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/2.ReadingView.html",
+      "sourceBytes": 58576,
+      "sourceCrc": 276771318,
+      "title": "H O STILE",
+      "author": "Estelle Shay",
+      "indices": [
+        33,
+        34,
+        35,
+        36,
+        41,
+        42,
+        47,
+        48,
+        133,
+        134,
+        150
+      ],
+      "refs": [
+        "35",
+        "37",
+        "38",
+        "43",
+        "44",
+        "49",
+        "50",
+        "135",
+        "136",
+        "152"
+      ],
+      "images": {
+        "images_400/Cinefex-82-p35-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p35-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ]
+        },
+        "images_400/Cinefex-82-p37-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p37-img01.jpg",
+          "size": [
+            1921,
+            825
+          ]
+        },
+        "images_400/Cinefex-82-p38-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p38-img01.jpg",
+          "size": [
+            1266,
+            831
+          ]
+        },
+        "images_400/Cinefex-82-p38-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p38-img02.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-82-p43-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p43-img01.jpg",
+          "size": [
+            1266,
+            854
+          ]
+        },
+        "images_400/Cinefex-82-p44-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p44-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-82-p49-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p49-img01.jpg",
+          "size": [
+            1266,
+            822
+          ]
+        },
+        "images_400/Cinefex-82-p50-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p50-img01.jpg",
+          "size": [
+            1266,
+            831
+          ]
+        },
+        "images_400/Cinefex-82-p50-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p50-img02.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-82-p135-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p135-img01.jpg",
+          "size": [
+            1266,
+            822
+          ]
+        },
+        "images_400/Cinefex-82-p136-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p136-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "34"
+    },
+    {
+      "id": "3",
+      "format": "native",
+      "source": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/3.ReadingView.html",
+      "sourceBytes": 44567,
+      "sourceCrc": 796483558,
+      "title": "BATTLE FATIGUE",
+      "author": "Estelle Shay",
+      "indices": [
+        53,
+        54,
+        55,
+        56,
+        61,
+        62,
+        139,
+        140,
+        145,
+        146
+      ],
+      "refs": [
+        "55",
+        "56",
+        "57",
+        "58",
+        "63",
+        "64",
+        "141",
+        "142",
+        "147",
+        "148"
+      ],
+      "images": {
+        "images_400/Cinefex-82-p55-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p55-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ]
+        },
+        "images_400/Cinefex-82-p57-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p57-img01.jpg",
+          "size": [
+            1266,
+            831
+          ]
+        },
+        "images_400/Cinefex-82-p57-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p57-img02.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-82-p58-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p58-img01.jpg",
+          "size": [
+            1266,
+            547
+          ]
+        },
+        "images_400/Cinefex-82-p58-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p58-img02.jpg",
+          "size": [
+            1266,
+            540
+          ]
+        },
+        "images_400/Cinefex-82-p58-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p58-img03.jpg",
+          "size": [
+            1266,
+            544
+          ]
+        },
+        "images_400/Cinefex-82-p63-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p63-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-82-p64-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p64-img01.jpg",
+          "size": [
+            1266,
+            831
+          ]
+        },
+        "images_400/Cinefex-82-p64-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p64-img02.jpg",
+          "size": [
+            1266,
+            824
+          ]
+        },
+        "images_400/Cinefex-82-p141-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p141-img01.jpg",
+          "size": [
+            1266,
+            822
+          ]
+        },
+        "images_400/Cinefex-82-p142-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p142-img01.jpg",
+          "size": [
+            1266,
+            831
+          ]
+        },
+        "images_400/Cinefex-82-p142-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p142-img02.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-82-p147-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p147-img01.jpg",
+          "size": [
+            1266,
+            822
+          ]
+        },
+        "images_400/Cinefex-82-p148-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p148-img01.jpg",
+          "size": [
+            1265,
+            831
+          ]
+        },
+        "images_400/Cinefex-82-p148-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p148-img02.jpg",
+          "size": [
+            621,
+            823
+          ]
+        },
+        "images_400/Cinefex-82-p148-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p148-img03.jpg",
+          "size": [
+            621,
+            823
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "54"
+    },
+    {
+      "id": "4",
+      "format": "native",
+      "source": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/4.ReadingView.html",
+      "sourceBytes": 97861,
+      "sourceCrc": 277061216,
+      "title": "ENGENDERED SPECIES",
+      "author": "Mark Cotta Vaz",
+      "indices": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "refs": [
+        "68",
+        "71",
+        "72",
+        "74",
+        "75",
+        "76",
+        "79",
+        "80",
+        "82",
+        "83",
+        "84",
+        "85",
+        "87",
+        "88",
+        "89"
+      ],
+      "images": {
+        "images_400/Cinefex-82-p68a-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p68-img01.jpg",
+          "size": [
+            683,
+            1536
+          ]
+        },
+        "images_400/Cinefex-82-p70-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p70-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p70-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p70-img02.jpg",
+          "size": [
+            2041,
+            832
+          ]
+        },
+        "images_400/Cinefex-82-p71-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p71-img01.jpg",
+          "size": [
+            740,
+            1678
+          ]
+        },
+        "images_400/Cinefex-82-p73-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p73-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p73-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p73-img02.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p73-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p73-img03.jpg",
+          "size": [
+            1276,
+            828
+          ]
+        },
+        "images_400/Cinefex-82-p74-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p74-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p74-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p74-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p77-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p77-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p77-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p77-img02.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p77-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p77-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p78-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p78-img01.jpg",
+          "size": [
+            1277,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p78-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p78-img02.jpg",
+          "size": [
+            740,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p78-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p78-img03.jpg",
+          "size": [
+            2041,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p81-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p81-img01.jpg",
+          "size": [
+            740,
+            825
+          ]
+        },
+        "images_400/Cinefex-82-p81-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p81-img02.jpg",
+          "size": [
+            1278,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p81-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p81-img03.jpg",
+          "size": [
+            2041,
+            830
+          ]
+        },
+        "images_400/Cinefex-82-p82-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p82-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p82-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p82-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p85-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p85-img01.jpg",
+          "size": [
+            1260,
+            825
+          ]
+        },
+        "images_400/Cinefex-82-p85-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p85-img02.jpg",
+          "size": [
+            1250,
+            804
+          ]
+        },
+        "images_400/Cinefex-82-p86-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p86-img01.jpg",
+          "size": [
+            1277,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p86-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p86-img02.jpg",
+          "size": [
+            740,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p86-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p86-img03.jpg",
+          "size": [
+            2041,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p89-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p89-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p89-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p89-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "67"
+    },
+    {
+      "id": "5",
+      "format": "native",
+      "source": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/5.ReadingView.html",
+      "sourceBytes": 76036,
+      "sourceCrc": 609369720,
+      "title": "PERFECTING THE STORM",
+      "author": "Jody Duncan",
+      "indices": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "refs": [
+        "94",
+        "97",
+        "98",
+        "99",
+        "101",
+        "102",
+        "105",
+        "106",
+        "109",
+        "110",
+        "113"
+      ],
+      "images": {
+        "images_400/Cinefex-82-p94a-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p94-img01.jpg",
+          "size": [
+            683,
+            1536
+          ]
+        },
+        "images_400/Cinefex-82-p96-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p96-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p96-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p96-img02.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p96-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p96-img03.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p99-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p99-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p99-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p99-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p100-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p100-img01.jpg",
+          "size": [
+            1277,
+            1678
+          ]
+        },
+        "images_400/Cinefex-82-p100-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p100-img02.jpg",
+          "size": [
+            739,
+            825
+          ]
+        },
+        "images_400/Cinefex-82-p100-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p100-img03.jpg",
+          "size": [
+            739,
+            830
+          ]
+        },
+        "images_400/Cinefex-82-p102-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p102-img01.jpg",
+          "size": [
+            741,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p102-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p102-img02.jpg",
+          "size": [
+            741,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p103-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p103-img01.jpg",
+          "size": [
+            2040,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p103-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p103-img02.jpg",
+          "size": [
+            2040,
+            827
+          ]
+        },
+        "images_400/Cinefex-82-p104-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p104-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p104-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p104-img02.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p104-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p104-img03.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p107-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p107-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p107-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p107-img02.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p107-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p107-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p108-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p108-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p108-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p108-img02.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p108-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p108-img03.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p110-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p110-img01.jpg",
+          "size": [
+            741,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p110-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p110-img02.jpg",
+          "size": [
+            741,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p111-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p111-img01.jpg",
+          "size": [
+            739,
+            1678
+          ]
+        },
+        "images_400/Cinefex-82-p111-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p111-img02.jpg",
+          "size": [
+            1277,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p111-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p111-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p112-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p112-img01.jpg",
+          "size": [
+            1277,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p112-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p112-img02.jpg",
+          "size": [
+            740,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p112-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p112-img03.jpg",
+          "size": [
+            2041,
+            829
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "93"
+    },
+    {
+      "id": "6",
+      "format": "native",
+      "source": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/6.ReadingView.html",
+      "sourceBytes": 53857,
+      "sourceCrc": 3016132462,
+      "title": "POULTRY IN MOTION",
+      "author": "Kevin H. Martin",
+      "indices": [
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129
+      ],
+      "refs": [
+        "118",
+        "121",
+        "122",
+        "125",
+        "126",
+        "129",
+        "130",
+        "131"
+      ],
+      "images": {
+        "images_400/Cinefex-82-p118a-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p118-img01.jpg",
+          "size": [
+            684,
+            1536
+          ]
+        },
+        "images_400/Cinefex-82-p120-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p120-img01.jpg",
+          "size": [
+            1277,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p120-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p120-img02.jpg",
+          "size": [
+            740,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p120-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p120-img03.jpg",
+          "size": [
+            2041,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p123-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p123-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p123-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p123-img02.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p123-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p123-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p124-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p124-img01.jpg",
+          "size": [
+            1277,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p124-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p124-img02.jpg",
+          "size": [
+            741,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p124-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p124-img03.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p125-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p125-img01.jpg",
+          "size": [
+            741,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p125-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p125-img02.jpg",
+          "size": [
+            741,
+            829
+          ]
+        },
+        "images_400/Cinefex-82-p127-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p127-img01.jpg",
+          "size": [
+            740,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p127-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p127-img02.jpg",
+          "size": [
+            1278,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p127-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p127-img03.jpg",
+          "size": [
+            2041,
+            830
+          ]
+        },
+        "images_400/Cinefex-82-p128-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p128-img01.jpg",
+          "size": [
+            1277,
+            825
+          ]
+        },
+        "images_400/Cinefex-82-p128-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p128-img02.jpg",
+          "size": [
+            1275,
+            827
+          ]
+        },
+        "images_400/Cinefex-82-p128-img03.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p128-img03.jpg",
+          "size": [
+            739,
+            1678
+          ]
+        },
+        "images_400/Cinefex-82-p131-img01.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p131-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-82-p131-img02.jpg": {
+          "url": "https://archive.org/download/Cinefex_2000/CineFex%202000%20No%20082.zip/images%2FCinefex-82-p131-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "117"
+    }
+  ]
+}

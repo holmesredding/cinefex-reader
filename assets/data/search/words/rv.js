@@ -1,0 +1,1 @@
+CinefexSearchData.register("words/rv",{"rv":"1frd,14vd,inl,bm8,1,1","rva":"33ab","rved":"24e7","rvid":"1821,s4,2bm","rvs":"2kmq","rvx":"33a0,5,1,1,1,1,2,1,3,3,3,5,1,4,1,4,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,8,1,1,1,1,1,cwr,3,1,l,2,1","rvxi":"33ak"});

@@ -1,0 +1,1470 @@
+{
+  "issue": 55,
+  "articles": [
+    {
+      "id": "1",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/1.ReadingView.html",
+      "sourceBytes": 10687,
+      "sourceCrc": 3126895438,
+      "title": "VIDEO BEAT:DEEP SPACE WORMHOLES",
+      "author": "Christalene Loren",
+      "indices": [
+        10,
+        11
+      ],
+      "refs": [
+        "11",
+        "12"
+      ],
+      "images": {
+        "images_400/Cinefex-55-p11-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p11-img01.jpg",
+          "size": [
+            1258,
+            845
+          ]
+        },
+        "images_400/Cinefex-55-p12-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p12-img01.jpg",
+          "size": [
+            1274,
+            1089
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "11"
+    },
+    {
+      "id": "2",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/2.ReadingView.html",
+      "sourceBytes": 11297,
+      "sourceCrc": 4197206692,
+      "title": "QUICK CUTS:UNDER HEAVY CETACEAN",
+      "author": "John Shannon",
+      "indices": [
+        16,
+        17
+      ],
+      "refs": [
+        "17",
+        "18"
+      ],
+      "images": {
+        "images_400/Cinefex-55-p17-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p17-img01.jpg",
+          "size": [
+            1288,
+            863
+          ]
+        },
+        "images_400/Cinefex-55-p18-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p18-img01.jpg",
+          "size": [
+            1269,
+            915
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "17"
+    },
+    {
+      "id": "3",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/3.ReadingView.html",
+      "sourceBytes": 11763,
+      "sourceCrc": 922512693,
+      "title": "COMPANY FILE:PIXAR",
+      "author": "Estelle Shay",
+      "indices": [
+        22,
+        23
+      ],
+      "refs": [
+        "23",
+        "24"
+      ],
+      "images": {
+        "images_400/Cinefex-55-p23-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p23-img01.jpg",
+          "size": [
+            1291,
+            715
+          ]
+        },
+        "images_400/Cinefex-55-p24-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p24-img01.jpg",
+          "size": [
+            1299,
+            872
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "23"
+    },
+    {
+      "id": "4",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/4.ReadingView.html",
+      "sourceBytes": 12550,
+      "sourceCrc": 1958080279,
+      "title": "QUICK CUTS:ONCE MORE INTO THE ABYSS",
+      "author": "David C. Fein",
+      "indices": [
+        28,
+        29
+      ],
+      "refs": [
+        "29",
+        "30"
+      ],
+      "images": {
+        "images_400/Cinefex-55-p30-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p30-img01.jpg",
+          "size": [
+            1255,
+            538
+          ]
+        },
+        "images_400/Cinefex-55-p30-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p30-img02.jpg",
+          "size": [
+            1256,
+            541
+          ]
+        },
+        "images_400/Cinefex-55-p30-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p30-img03.jpg",
+          "size": [
+            1253,
+            542
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "29"
+    },
+    {
+      "id": "5",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/5.ReadingView.html",
+      "sourceBytes": 11309,
+      "sourceCrc": 2910520418,
+      "title": "QUICK CUTS:HAIL TO THE IMPOSTOR",
+      "author": "Bob Peishel",
+      "indices": [
+        34,
+        35
+      ],
+      "refs": [
+        "35",
+        "36"
+      ],
+      "images": {
+        "images_400/Cinefex-55-p35-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p35-img01.jpg",
+          "size": [
+            1287,
+            817
+          ]
+        },
+        "images_400/Cinefex-55-p36-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p36-img01.jpg",
+          "size": [
+            1263,
+            980
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "35"
+    },
+    {
+      "id": "6",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/6.ReadingView.html",
+      "sourceBytes": 256277,
+      "sourceCrc": 1817717134,
+      "title": "THEBEAUTYIN THEBEASTS",
+      "author": "Jody Duncan",
+      "indices": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "refs": [
+        "43",
+        "44",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "55",
+        "56",
+        "58",
+        "59",
+        "60",
+        "63",
+        "64",
+        "66",
+        "67",
+        "68",
+        "69",
+        "71",
+        "72",
+        "73",
+        "75",
+        "76",
+        "79",
+        "80",
+        "81",
+        "83",
+        "84",
+        "86",
+        "87",
+        "88",
+        "91",
+        "92",
+        "93",
+        "94",
+        "95"
+      ],
+      "images": {
+        "images_400/Cinefex-55-p43a-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p43-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ]
+        },
+        "images_400/Cinefex-55-p45-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p45-img01.jpg",
+          "size": [
+            744,
+            1707
+          ]
+        },
+        "images_400/Cinefex-55-p45-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p45-img02.jpg",
+          "size": [
+            1286,
+            842
+          ]
+        },
+        "images_400/Cinefex-55-p45-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p45-img03.jpg",
+          "size": [
+            1284,
+            839
+          ]
+        },
+        "images_400/Cinefex-55-p46-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p46-img01.jpg",
+          "size": [
+            2037,
+            818
+          ]
+        },
+        "images_400/Cinefex-55-p46-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p46-img02.jpg",
+          "size": [
+            1273,
+            831
+          ]
+        },
+        "images_400/Cinefex-55-p46-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p46-img03.jpg",
+          "size": [
+            735,
+            828
+          ]
+        },
+        "images_400/Cinefex-55-p47-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p47-img01.jpg",
+          "size": [
+            751,
+            835
+          ]
+        },
+        "images_400/Cinefex-55-p47-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p47-img02.jpg",
+          "size": [
+            750,
+            833
+          ]
+        },
+        "images_400/Cinefex-55-p49-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p49-img01.jpg",
+          "size": [
+            1257,
+            844
+          ]
+        },
+        "images_400/Cinefex-55-p49-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p49-img02.jpg",
+          "size": [
+            1253,
+            842
+          ]
+        },
+        "images_400/Cinefex-55-p50-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p50-img01.jpg",
+          "size": [
+            1249,
+            1719
+          ]
+        },
+        "images_400/Cinefex-55-p53-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p53-img01.jpg",
+          "size": [
+            2045,
+            829
+          ]
+        },
+        "images_400/Cinefex-55-p53-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p53-img02.jpg",
+          "size": [
+            738,
+            840
+          ]
+        },
+        "images_400/Cinefex-55-p53-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p53-img03.jpg",
+          "size": [
+            1281,
+            840
+          ]
+        },
+        "images_400/Cinefex-55-p54-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p54-img01.jpg",
+          "size": [
+            2055,
+            835
+          ]
+        },
+        "images_400/Cinefex-55-p54-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p54-img02.jpg",
+          "size": [
+            1288,
+            839
+          ]
+        },
+        "images_400/Cinefex-55-p54-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p54-img03.jpg",
+          "size": [
+            742,
+            835
+          ]
+        },
+        "images_400/Cinefex-55-p57-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p57-img01.jpg",
+          "size": [
+            2033,
+            824
+          ]
+        },
+        "images_400/Cinefex-55-p57-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p57-img02.jpg",
+          "size": [
+            735,
+            837
+          ]
+        },
+        "images_400/Cinefex-55-p57-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p57-img03.jpg",
+          "size": [
+            1276,
+            838
+          ]
+        },
+        "images_400/Cinefex-55-p58-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p58-img01.jpg",
+          "size": [
+            1256,
+            821
+          ]
+        },
+        "images_400/Cinefex-55-p58-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p58-img02.jpg",
+          "size": [
+            1261,
+            818
+          ]
+        },
+        "images_400/Cinefex-55-p60-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p60-img01.jpg",
+          "size": [
+            750,
+            841
+          ]
+        },
+        "images_400/Cinefex-55-p60-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p60-img02.jpg",
+          "size": [
+            754,
+            847
+          ]
+        },
+        "images_400/Cinefex-55-p61-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p61-img01.jpg",
+          "size": [
+            745,
+            845
+          ]
+        },
+        "images_400/Cinefex-55-p61-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p61-img02.jpg",
+          "size": [
+            1281,
+            847
+          ]
+        },
+        "images_400/Cinefex-55-p61-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p61-img03.jpg",
+          "size": [
+            2057,
+            850
+          ]
+        },
+        "images_400/Cinefex-55-p62-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p62-img01.jpg",
+          "size": [
+            1275,
+            1725
+          ]
+        },
+        "images_400/Cinefex-55-p62-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p62-img02.jpg",
+          "size": [
+            745,
+            847
+          ]
+        },
+        "images_400/Cinefex-55-p62-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p62-img03.jpg",
+          "size": [
+            748,
+            851
+          ]
+        },
+        "images_400/Cinefex-55-p65-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p65-img01.jpg",
+          "size": [
+            742,
+            839
+          ]
+        },
+        "images_400/Cinefex-55-p65-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p65-img02.jpg",
+          "size": [
+            1250,
+            841
+          ]
+        },
+        "images_400/Cinefex-55-p65-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p65-img03.jpg",
+          "size": [
+            2019,
+            840
+          ]
+        },
+        "images_400/Cinefex-55-p66-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p66-img01.jpg",
+          "size": [
+            1244,
+            838
+          ]
+        },
+        "images_400/Cinefex-55-p66-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p66-img02.jpg",
+          "size": [
+            1245,
+            843
+          ]
+        },
+        "images_400/Cinefex-55-p69-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p69-img01.jpg",
+          "size": [
+            1245,
+            843
+          ]
+        },
+        "images_400/Cinefex-55-p69-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p69-img02.jpg",
+          "size": [
+            1247,
+            845
+          ]
+        },
+        "images_400/Cinefex-55-p70-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p70-img01.jpg",
+          "size": [
+            1251,
+            1721
+          ]
+        },
+        "images_400/Cinefex-55-p70-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p70-img02.jpg",
+          "size": [
+            741,
+            847
+          ]
+        },
+        "images_400/Cinefex-55-p70-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p70-img03.jpg",
+          "size": [
+            745,
+            849
+          ]
+        },
+        "images_400/Cinefex-55-p71-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p71-img01.jpg",
+          "size": [
+            737,
+            837
+          ]
+        },
+        "images_400/Cinefex-55-p71-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p71-img02.jpg",
+          "size": [
+            742,
+            839
+          ]
+        },
+        "images_400/Cinefex-55-p73-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p73-img01.jpg",
+          "size": [
+            1237,
+            824
+          ]
+        },
+        "images_400/Cinefex-55-p73-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p73-img02.jpg",
+          "size": [
+            1236,
+            829
+          ]
+        },
+        "images_400/Cinefex-55-p74-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p74-img01.jpg",
+          "size": [
+            1257,
+            815
+          ]
+        },
+        "images_400/Cinefex-55-p74-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p74-img02.jpg",
+          "size": [
+            732,
+            828
+          ]
+        },
+        "images_400/Cinefex-55-p74-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p74-img03.jpg",
+          "size": [
+            2024,
+            841
+          ]
+        },
+        "images_400/Cinefex-55-p77-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p77-img01.jpg",
+          "size": [
+            739,
+            834
+          ]
+        },
+        "images_400/Cinefex-55-p77-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p77-img02.jpg",
+          "size": [
+            739,
+            837
+          ]
+        },
+        "images_400/Cinefex-55-p77-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p77-img03.jpg",
+          "size": [
+            1257,
+            1683
+          ]
+        },
+        "images_400/Cinefex-55-p78-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p78-img01.jpg",
+          "size": [
+            2021,
+            821
+          ]
+        },
+        "images_400/Cinefex-55-p78-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p78-img02.jpg",
+          "size": [
+            1260,
+            815
+          ]
+        },
+        "images_400/Cinefex-55-p78-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p78-img03.jpg",
+          "size": [
+            729,
+            818
+          ]
+        },
+        "images_400/Cinefex-55-p81-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p81-img01.jpg",
+          "size": [
+            1244,
+            847
+          ]
+        },
+        "images_400/Cinefex-55-p81-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p81-img02.jpg",
+          "size": [
+            1250,
+            844
+          ]
+        },
+        "images_400/Cinefex-55-p82-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p82-img01.jpg",
+          "size": [
+            1273,
+            1687
+          ]
+        },
+        "images_400/Cinefex-55-p82-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p82-img02.jpg",
+          "size": [
+            735,
+            821
+          ]
+        },
+        "images_400/Cinefex-55-p82-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p82-img03.jpg",
+          "size": [
+            735,
+            831
+          ]
+        },
+        "images_400/Cinefex-55-p85-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p85-img01.jpg",
+          "size": [
+            735,
+            1673
+          ]
+        },
+        "images_400/Cinefex-55-p85-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p85-img02.jpg",
+          "size": [
+            1273,
+            825
+          ]
+        },
+        "images_400/Cinefex-55-p85-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p85-img03.jpg",
+          "size": [
+            1276,
+            828
+          ]
+        },
+        "images_400/Cinefex-55-p86-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p86-img01.jpg",
+          "size": [
+            1237,
+            819
+          ]
+        },
+        "images_400/Cinefex-55-p86-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p86-img02.jpg",
+          "size": [
+            1235,
+            820
+          ]
+        },
+        "images_400/Cinefex-55-p89-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p89-img01.jpg",
+          "size": [
+            2027,
+            844
+          ]
+        },
+        "images_400/Cinefex-55-p89-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p89-img02.jpg",
+          "size": [
+            746,
+            848
+          ]
+        },
+        "images_400/Cinefex-55-p89-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p89-img03.jpg",
+          "size": [
+            1257,
+            844
+          ]
+        },
+        "images_400/Cinefex-55-p90-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p90-img01.jpg",
+          "size": [
+            1263,
+            837
+          ]
+        },
+        "images_400/Cinefex-55-p90-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p90-img02.jpg",
+          "size": [
+            1261,
+            835
+          ]
+        },
+        "images_400/Cinefex-55-p90-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p90-img03.jpg",
+          "size": [
+            733,
+            1689
+          ]
+        },
+        "images_400/Cinefex-55-p93-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p93-img01.jpg",
+          "size": [
+            629,
+            415
+          ]
+        },
+        "images_400/Cinefex-55-p93-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p93-img02.jpg",
+          "size": [
+            1277,
+            840
+          ]
+        },
+        "images_400/Cinefex-55-p94-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p94-img01.jpg",
+          "size": [
+            1248,
+            815
+          ]
+        },
+        "images_400/Cinefex-55-p94-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p94-img02.jpg",
+          "size": [
+            1257,
+            825
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "42"
+    },
+    {
+      "id": "7",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/7.ReadingView.html",
+      "sourceBytes": 1386,
+      "sourceCrc": 1160416492,
+      "title": "Portfolio: Jurassic Park Denizens",
+      "author": "Mark `Crash' McCreery",
+      "indices": [
+        98,
+        99,
+        100
+      ],
+      "refs": [
+        "99",
+        "100",
+        "101"
+      ],
+      "images": {
+        "images_400/Cinefex-55-p99-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p99-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ],
+          "crop": [
+            0,
+            0.225,
+            1,
+            0.72
+          ]
+        },
+        "images_400/Cinefex-55-p100-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p100-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ]
+        },
+        "images_400/Cinefex-55-p101-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p101-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "99"
+    },
+    {
+      "id": "8",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/8.ReadingView.html",
+      "sourceBytes": 11554,
+      "sourceCrc": 1656511015,
+      "title": "COMMERCIAL SPOT:EVOLUTIONARY AUTO",
+      "author": "Jody Duncan",
+      "indices": [
+        104,
+        105
+      ],
+      "refs": [
+        "105",
+        "106"
+      ],
+      "images": {
+        "images_400/Cinefex-55-p105-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p105-img01.jpg",
+          "size": [
+            1276,
+            796
+          ]
+        },
+        "images_400/Cinefex-55-p106-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p106-img01.jpg",
+          "size": [
+            627,
+            483
+          ]
+        },
+        "images_400/Cinefex-55-p106-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p106-img02.jpg",
+          "size": [
+            617,
+            489
+          ]
+        },
+        "images_400/Cinefex-55-p106-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p106-img03.jpg",
+          "size": [
+            624,
+            486
+          ]
+        },
+        "images_400/Cinefex-55-p106-img04.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p106-img04.jpg",
+          "size": [
+            624,
+            486
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "105"
+    },
+    {
+      "id": "9",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/9.ReadingView.html",
+      "sourceBytes": 15148,
+      "sourceCrc": 2633498913,
+      "title": "EFFE.T. SCENE:IN THE DIGITAL DOMAIN",
+      "author": "Don Shay",
+      "indices": [
+        110,
+        111
+      ],
+      "refs": [
+        "111",
+        "112"
+      ],
+      "images": {
+        "images_400/Cinefex-55-p112-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p112-img01.jpg",
+          "size": [
+            1273,
+            863
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "111"
+    },
+    {
+      "id": "10",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/10.ReadingView.html",
+      "sourceBytes": 11426,
+      "sourceCrc": 1000450358,
+      "title": "QUICK CUTS:A CRASH IN THE ANDES",
+      "author": "Jody Duncan",
+      "indices": [
+        116,
+        117
+      ],
+      "refs": [
+        "117",
+        "118"
+      ],
+      "images": {
+        "images_400/Cinefex-55-p117-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p117-img01.jpg",
+          "size": [
+            1250,
+            847
+          ]
+        },
+        "images_400/Cinefex-55-p118-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p118-img01.jpg",
+          "size": [
+            1308,
+            882
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "117"
+    },
+    {
+      "id": "11",
+      "format": "indexed",
+      "title": "Effects Scene: Cinematic Archaeology",
+      "author": "Scott MacQueen",
+      "indices": [
+        122,
+        123
+      ],
+      "refs": [
+        "123",
+        "124"
+      ],
+      "startRef": "123",
+      "needsIndex": true,
+      "indexCrc": {
+        "123": 1026943024,
+        "124": 2655192409
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "123",
+              "start": 63,
+              "end": 659,
+              "patches": [
+                [
+                  52,
+                  52,
+                  "'"
+                ],
+                [
+                  143,
+                  143,
+                  " "
+                ]
+              ]
+            }
+          ],
+          "ref": "123"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "123",
+              "start": 660,
+              "end": 1054
+            }
+          ],
+          "ref": "123"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "123",
+              "start": 1055,
+              "end": 1705
+            }
+          ],
+          "ref": "123"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "123",
+              "start": 1706,
+              "end": 2078
+            }
+          ],
+          "ref": "123"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "123",
+              "start": 2079,
+              "end": 2126
+            },
+            {
+              "index": "123",
+              "start": 2126,
+              "end": 2756,
+              "join": ""
+            }
+          ],
+          "ref": "123"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "123",
+              "start": 2757,
+              "end": 3619
+            }
+          ],
+          "ref": "123"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "123",
+              "start": 3620,
+              "end": 4009
+            }
+          ],
+          "ref": "123"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "123",
+              "start": 4010,
+              "end": 4266
+            },
+            {
+              "index": "123",
+              "start": 4267,
+              "end": 4889
+            }
+          ],
+          "ref": "123"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "123",
+              "start": 4890,
+              "end": 5930,
+              "patches": [
+                [
+                  645,
+                  649,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "123"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "123",
+              "start": 5931,
+              "end": 6730
+            }
+          ],
+          "ref": "123"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "123",
+              "start": 6731,
+              "end": 6878
+            },
+            {
+              "index": "124",
+              "start": 0,
+              "end": 3020,
+              "patches": [
+                [
+                  0,
+                  629,
+                  ""
+                ],
+                [
+                  1254,
+                  3020,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "123"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "124",
+              "start": 24,
+              "end": 3071,
+              "patches": [
+                [
+                  0,
+                  1231,
+                  ""
+                ],
+                [
+                  1744,
+                  1745,
+                  "E"
+                ],
+                [
+                  2338,
+                  3047,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "124"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "124",
+              "start": 285,
+              "end": 3120,
+              "patches": [
+                [
+                  0,
+                  2078,
+                  ""
+                ],
+                [
+                  2419,
+                  2421,
+                  "er"
+                ],
+                [
+                  2787,
+                  2795,
+                  ""
+                ],
+                [
+                  2796,
+                  2801,
+                  "i"
+                ],
+                [
+                  2803,
+                  2806,
+                  ""
+                ],
+                [
+                  2808,
+                  2812,
+                  ""
+                ],
+                [
+                  2814,
+                  2835,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "124"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "124",
+              "start": 380,
+              "end": 3173,
+              "patches": [
+                [
+                  0,
+                  2692,
+                  ""
+                ],
+                [
+                  2793,
+                  2793,
+                  "ered and returned once more to The Lost World."
+                ]
+              ]
+            }
+          ],
+          "ref": "124"
+        },
+        {
+          "type": "figure",
+          "parts": [
+            {
+              "index": "124",
+              "start": 470,
+              "end": 3219,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "Though barely half of the silent film classic The Lost World survives today, efforts are underway to restore as much of it as possible. Among recent findings is an eight-minute roll of dinosaur outtakes that had been rejected for technical problems of one sort or another. In addition to providing alternate takes for shots that have been lost for more than half a century, these illuminating morsels dispel the popular belief that Willis O'Brien animated all but a few "
+                ],
+                [
+                  141,
+                  2749,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "124",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p124-img01.jpg",
+              "size": [
+                1285,
+                831
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p124-img02.jpg",
+              "size": [
+                633,
+                575
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1993/CineFex%201993%20No%20055.zip/images%2FCinefex-55-p124-img03.jpg",
+              "size": [
+                630,
+                575
+              ]
+            }
+          ]
+        }
+      ],
+      "ocr": true
+    },
+    {
+      "id": "12",
+      "format": "indexed",
+      "title": "LaserDisc Revolution: Jurassic Reality",
+      "author": "",
+      "indices": [
+        128
+      ],
+      "refs": [
+        "129"
+      ],
+      "startRef": "129",
+      "needsIndex": true,
+      "indexCrc": {
+        "129": 1198792799
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "129",
+              "start": 39,
+              "end": 62
+            }
+          ],
+          "ref": "129"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "129",
+              "start": 63,
+              "end": 603
+            }
+          ],
+          "ref": "129"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "129",
+              "start": 604,
+              "end": 1253
+            }
+          ],
+          "ref": "129"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "129",
+              "start": 1254,
+              "end": 1782
+            }
+          ],
+          "ref": "129"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "129",
+              "start": 1783,
+              "end": 2195
+            },
+            {
+              "index": "129",
+              "start": 2196,
+              "end": 2676
+            }
+          ],
+          "ref": "129"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "129",
+              "start": 2677,
+              "end": 3402
+            }
+          ],
+          "ref": "129"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "129",
+              "start": 3403,
+              "end": 4283
+            }
+          ],
+          "ref": "129"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "129",
+              "start": 4284,
+              "end": 4770,
+              "patches": [
+                [
+                  405,
+                  406,
+                  "f"
+                ]
+              ]
+            }
+          ],
+          "ref": "129"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "129",
+              "start": 4771,
+              "end": 5620
+            }
+          ],
+          "ref": "129"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "129",
+              "start": 5621,
+              "end": 6931
+            }
+          ],
+          "ref": "129"
+        }
+      ],
+      "ocr": true
+    }
+  ]
+}

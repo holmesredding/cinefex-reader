@@ -1,0 +1,1 @@
+CinefexSearchData.register("words/hk",{"hk":"109t,3,1,2,1,g9p,3,1,2,1,1,4,3,1kv,pl,27,n2c,m,cdc,r5,2,1,3,3,33s,g83,mg3","hkitc":"1iuk","hkm":"1fpo","hks":"109w,4,g9o,5,2,1,5,1lx2,j9p,d,358","hksrelied":"1gjp"});

@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  function create({ viewport, paper, button, width, height, getFrame, turn, blocked }) {
+  function create({ viewport, paper, button, width, height, getFrame, turn, blocked, restoreControls }) {
     let chosen = null, scale = 1, fitScale = 1, gesture = null, mouseDrag = null, suppressClickUntil = 0;
     const menu = document.createElement('dialog');
     menu.id = 'pageZoom'; menu.setAttribute('aria-labelledby', 'pageZoomTitle');
@@ -122,15 +122,21 @@
         g.last = points[0]; return;
       }
       gesture = null;
-      if (!last || !g.first || g.pinched || g.wasZoomed || zoomed() || (window.visualViewport?.scale || 1) > 1.01) return;
+      if (!last || !g.first || g.pinched || (window.visualViewport?.scale || 1) > 1.01) return;
+      const tap = !g.moved && !g.interactive && performance.now() - g.started < 400;
+      if (g.wasZoomed || zoomed()) {
+        const r = viewport.getBoundingClientRect(), fraction = (last.x - r.left) / r.width;
+        if (tap && fraction >= .25 && fraction <= .75 && restoreControls?.()) suppressClickUntil = performance.now() + 700;
+        return;
+      }
       const dx = last.x - g.first.x, dy = last.y - g.first.y;
       if (performance.now() - g.started < 1000 && Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
         suppressClickUntil = performance.now() + 700; turn(dx < 0 ? 1 : -1);
-      } else if (!g.moved && !g.interactive && performance.now() - g.started < 400) {
+      } else if (tap) {
         const r = paper.getBoundingClientRect(), fraction = (last.x - r.left) / r.width;
         if (last.y >= r.top && last.y <= r.bottom && fraction >= 0 && fraction <= 1 && (fraction < .25 || fraction > .75)) {
           suppressClickUntil = performance.now() + 700; turn(fraction < .25 ? -1 : 1);
-        }
+        } else if (fraction >= .25 && fraction <= .75 && restoreControls?.()) suppressClickUntil = performance.now() + 700;
       }
     }
     const points = list => [...list].map(p => ({ x: p.screenX, y: p.screenY, cx: p.clientX, cy: p.clientY }));

@@ -1,0 +1,3975 @@
+{
+  "issue": 70,
+  "articles": [
+    {
+      "id": "1",
+      "format": "indexed",
+      "title": "Basic Black",
+      "author": "Janine Pourroy",
+      "indices": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        22,
+        23,
+        24,
+        25,
+        30,
+        31,
+        36,
+        37,
+        42,
+        43,
+        154,
+        155,
+        165
+      ],
+      "refs": [
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "23",
+        "24",
+        "25",
+        "26",
+        "31",
+        "32",
+        "37",
+        "38",
+        "43",
+        "44",
+        "155",
+        "156",
+        "166"
+      ],
+      "pageAliases": {},
+      "needsIndex": true,
+      "blocks": [
+        {
+          "type": "figure",
+          "ref": "15",
+          "parts": [],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p15-img01.jpg",
+              "size": [
+                1728,
+                1536
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "16",
+          "parts": [
+            {
+              "index": "16",
+              "start": 2149,
+              "end": 2343
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p16-img01.jpg",
+              "size": [
+                1274,
+                828
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "16",
+          "parts": [
+            {
+              "index": "16",
+              "start": 2346,
+              "end": 2410
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p16-img02.jpg",
+              "size": [
+                626,
+                827
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "16",
+          "parts": [
+            {
+              "index": "16",
+              "start": 2413,
+              "end": 2471
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p16-img03.jpg",
+              "size": [
+                624,
+                827
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "16",
+          "parts": [
+            {
+              "index": "16",
+              "start": 0,
+              "end": 439,
+              "patches": [
+                [
+                  199,
+                  199,
+                  "s"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "16",
+          "parts": [
+            {
+              "index": "16",
+              "start": 440,
+              "end": 1080
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "16",
+          "parts": [
+            {
+              "index": "16",
+              "start": 1081,
+              "end": 1870,
+              "patches": [
+                [
+                  42,
+                  42,
+                  "-"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "17",
+          "parts": [
+            {
+              "index": "17",
+              "start": 0,
+              "end": 486,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "With Sonnenfeld firmly at the helm — and with backing from Columbia Pictures — Men in Black entered preproduction in the spring of 1995. Sonnenfeld collaborator Don Peterman, who had photographed the director’s Addams Family Values and Get Shorty, was brought on board as cinema"
+                ],
+                [
+                  439,
+                  439,
+                  "- "
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "17",
+          "parts": [
+            {
+              "index": "17",
+              "start": 2230,
+              "end": 2342,
+              "patches": [
+                [
+                  0,
+                  4,
+                  ""
+                ],
+                [
+                  54,
+                  54,
+                  "and Magic — blazes across the sky and crash-"
+                ],
+                [
+                  70,
+                  112,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p17-img01.jpg",
+              "size": [
+                1274,
+                828
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "17",
+          "parts": [
+            {
+              "index": "17",
+              "start": 2303,
+              "end": 2471,
+              "patches": [
+                [
+                  127,
+                  127,
+                  "through "
+                ],
+                [
+                  128,
+                  130,
+                  ""
+                ],
+                [
+                  131,
+                  134,
+                  "ser"
+                ],
+                [
+                  135,
+                  143,
+                  ""
+                ],
+                [
+                  146,
+                  146,
+                  "of Rick B"
+                ],
+                [
+                  147,
+                  148,
+                  "ke"
+                ],
+                [
+                  149,
+                  150,
+                  " makeup"
+                ],
+                [
+                  151,
+                  168,
+                  "."
+                ]
+              ]
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p17-img02.jpg",
+              "size": [
+                626,
+                827
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "17",
+          "parts": [
+            {
+              "index": "17",
+              "start": 2515,
+              "end": 2563
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p17-img03.jpg",
+              "size": [
+                624,
+                827
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "17",
+          "parts": [
+            {
+              "index": "17",
+              "start": 487,
+              "end": 1273,
+              "patches": [
+                [
+                  785,
+                  786,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "17",
+          "parts": [
+            {
+              "index": "17",
+              "start": 1274,
+              "end": 2187,
+              "patches": [
+                [
+                  799,
+                  799,
+                  "\""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "18",
+          "parts": [
+            {
+              "index": "18",
+              "start": 0,
+              "end": 861,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "The story begins with several agents from the "
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "18",
+          "parts": [
+            {
+              "index": "18",
+              "start": 2545,
+              "end": 2760,
+              "patches": [
+                [
+                  155,
+                  156,
+                  "y"
+                ]
+              ]
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p18-img01.jpg",
+              "size": [
+                1289,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "18",
+          "parts": [
+            {
+              "index": "18",
+              "start": 2763,
+              "end": 2884
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p18-img02.jpg",
+              "size": [
+                609,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "18",
+          "parts": [
+            {
+              "index": "18",
+              "start": 863,
+              "end": 1848,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "T"
+                ],
+                [
+                  389,
+                  405,
+                  ""
+                ],
+                [
+                  985,
+                  985,
+                  "n’t complain.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "18",
+          "parts": [
+            {
+              "index": "18",
+              "start": 1863,
+              "end": 3090,
+              "patches": [
+                [
+                  143,
+                  143,
+                  "-"
+                ],
+                [
+                  534,
+                  534,
+                  "-"
+                ],
+                [
+                  602,
+                  602,
+                  ".”"
+                ],
+                [
+                  681,
+                  1021,
+                  ""
+                ],
+                [
+                  1227,
+                  1227,
+                  "-controlled flippers that jutted out from the torso, with antennae emerging from the ear. Three-fingered arm extensions were cable-rigged to provide the character with dexterous movement, while simpler, poseable arms were exchanged whenever longer camera shots permitted. Two-and-a-half-foot leg extensions elevated Mikey to seven feet."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "18",
+          "parts": [
+            {
+              "index": "18",
+              "start": 3425,
+              "end": 3779,
+              "patches": [
+                [
+                  347,
+                  348,
+                  "the shoot, we puppetee"
+                ],
+                [
+                  349,
+                  349,
+                  "ed Sergi"
+                ],
+                [
+                  350,
+                  350,
+                  "’s "
+                ],
+                [
+                  352,
+                  352,
+                  "uth to move while Mikey was doing the talking — which looked "
+                ],
+                [
+                  353,
+                  353,
+                  "e"
+                ],
+                [
+                  354,
+                  354,
+                  "lly great.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "19",
+          "parts": [
+            {
+              "index": "19",
+              "start": 0,
+              "end": 64
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p19-img01.jpg",
+              "size": [
+                626,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "19",
+          "parts": [
+            {
+              "index": "19",
+              "start": 67,
+              "end": 157,
+              "patches": [
+                [
+                  43,
+                  44,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p19-img02.jpg",
+              "size": [
+                624,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "19",
+          "parts": [
+            {
+              "index": "19",
+              "start": 155,
+              "end": 269,
+              "patches": [
+                [
+                  0,
+                  5,
+                  ""
+                ],
+                [
+                  41,
+                  42,
+                  ""
+                ],
+                [
+                  112,
+                  114,
+                  "xs"
+                ]
+              ]
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p19-img03.jpg",
+              "size": [
+                624,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "19",
+          "parts": [
+            {
+              "index": "19",
+              "start": 381,
+              "end": 977
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "19",
+          "parts": [
+            {
+              "index": "19",
+              "start": 978,
+              "end": 2113,
+              "patches": [
+                [
+                  540,
+                  542,
+                  "’”"
+                ],
+                [
+                  1134,
+                  1135,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "19",
+          "parts": [
+            {
+              "index": "19",
+              "start": 2114,
+              "end": 3187,
+              "patches": [
+                [
+                  143,
+                  144,
+                  "“"
+                ],
+                [
+                  1073,
+                  1073,
+                  "y.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "19",
+          "parts": [
+            {
+              "index": "19",
+              "start": 3191,
+              "end": 3754,
+              "patches": [
+                [
+                  41,
+                  41,
+                  "- "
+                ],
+                [
+                  548,
+                  548,
+                  "out how it•ll work is through previsualization, which functions like a moving storyboard. The previz of Mikey running through the desert helped Barry set up his shots. He was able to use the "
+                ],
+                [
+                  549,
+                  555,
+                  "G"
+                ],
+                [
+                  556,
+                  558,
+                  "as"
+                ],
+                [
+                  559,
+                  560,
+                  "reference"
+                ],
+                [
+                  561,
+                  563,
+                  "for the kind of camera angles he wanted to select. We could then animate back into those plates with a pretty good idea of what our creature was going to do, what his stride length was going to be, and how he was going to interact within the context of the setting.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "20",
+          "parts": [
+            {
+              "index": "20",
+              "start": 0,
+              "end": 127,
+              "patches": [
+                [
+                  122,
+                  123,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p20-img01.jpg",
+              "size": [
+                1266,
+                831
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "20",
+          "parts": [
+            {
+              "index": "20",
+              "start": 130,
+              "end": 284
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p20-img02.jpg",
+              "size": [
+                1266,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "20",
+          "parts": [
+            {
+              "index": "20",
+              "start": 759,
+              "end": 1134
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "20",
+          "parts": [
+            {
+              "index": "20",
+              "start": 1135,
+              "end": 2052,
+              "patches": [
+                [
+                  916,
+                  917,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "20",
+          "parts": [
+            {
+              "index": "20",
+              "start": 2053,
+              "end": 2506,
+              "patches": [
+                [
+                  438,
+                  440,
+                  "we"
+                ],
+                [
+                  441,
+                  442,
+                  "want"
+                ],
+                [
+                  443,
+                  450,
+                  "it"
+                ],
+                [
+                  451,
+                  453,
+                  "to be like an embryo head that grows into a full human? Or should we make it more of an alien growing into its disguise as a human? We were certain of two things: we didn’t want it simply to be a small head growing into a larger one, and we didn’t want it to look like a morph. We wanted Jeebs to grow his features one by one.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "23",
+          "parts": [
+            {
+              "index": "23",
+              "start": 0,
+              "end": 69
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p23-img01.jpg",
+              "size": [
+                1266,
+                825
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "23",
+          "parts": [
+            {
+              "index": "23",
+              "start": 409,
+              "end": 1680,
+              "patches": [
+                [
+                  1270,
+                  1271,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "23",
+          "parts": [
+            {
+              "index": "23",
+              "start": 1681,
+              "end": 2531,
+              "patches": [
+                [
+                  300,
+                  301,
+                  "g"
+                ],
+                [
+                  849,
+                  850,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "23",
+          "parts": [
+            {
+              "index": "23",
+              "start": 2532,
+              "end": 3521,
+              "patches": [
+                [
+                  977,
+                  977,
+                  "- "
+                ],
+                [
+                  988,
+                  989,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "23",
+          "parts": [
+            {
+              "index": "23",
+              "start": 3522,
+              "end": 4198,
+              "patches": [
+                [
+                  675,
+                  676,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "23",
+          "parts": [
+            {
+              "index": "23",
+              "start": 4199,
+              "end": 5010,
+              "patches": [
+                [
+                  796,
+                  803,
+                  "form."
+                ],
+                [
+                  804,
+                  806,
+                  "This"
+                ],
+                [
+                  807,
+                  808,
+                  "was"
+                ],
+                [
+                  809,
+                  811,
+                  "probably the closest we have ever come to simulating an actor full screen.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "24",
+          "parts": [
+            {
+              "index": "24",
+              "start": 0,
+              "end": 105
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p24-img01.jpg",
+              "size": [
+                1289,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "24",
+          "parts": [
+            {
+              "index": "24",
+              "start": 108,
+              "end": 234
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p24-img02.jpg",
+              "size": [
+                609,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "24",
+          "parts": [
+            {
+              "index": "24",
+              "start": 330,
+              "end": 1416,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "Imme"
+                ],
+                [
+                  874,
+                  890,
+                  ""
+                ],
+                [
+                  935,
+                  935,
+                  "-"
+                ],
+                [
+                  1086,
+                  1086,
+                  " the shot."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "24",
+          "parts": [
+            {
+              "index": "24",
+              "start": 1427,
+              "end": 2061
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "24",
+          "parts": [
+            {
+              "index": "24",
+              "start": 2062,
+              "end": 2962,
+              "patches": [
+                [
+                  899,
+                  900,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "24",
+          "parts": [
+            {
+              "index": "24",
+              "start": 2963,
+              "end": 3750,
+              "patches": [
+                [
+                  787,
+                  787,
+                  " appliances, plumpers were inserted in the actor’s mouth to distort its shape. Altogether, the make- up required as long as six hours to apply."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "25",
+          "parts": [
+            {
+              "index": "25",
+              "start": 0,
+              "end": 191,
+              "patches": [
+                [
+                  75,
+                  76,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p25-img01.jpg",
+              "size": [
+                1266,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "25",
+          "parts": [
+            {
+              "index": "25",
+              "start": 333,
+              "end": 925,
+              "patches": [
+                [
+                  443,
+                  443,
+                  "- "
+                ],
+                [
+                  585,
+                  587,
+                  "in"
+                ],
+                [
+                  588,
+                  592,
+                  "1961."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "25",
+          "parts": [
+            {
+              "index": "25",
+              "start": 918,
+              "end": 1742,
+              "patches": [
+                [
+                  203,
+                  203,
+                  "”"
+                ],
+                [
+                  241,
+                  241,
+                  "- "
+                ],
+                [
+                  823,
+                  824,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "25",
+          "parts": [
+            {
+              "index": "25",
+              "start": 1743,
+              "end": 2631,
+              "patches": [
+                [
+                  447,
+                  447,
+                  "”"
+                ],
+                [
+                  627,
+                  627,
+                  "-"
+                ],
+                [
+                  707,
+                  707,
+                  ".” "
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "25",
+          "parts": [
+            {
+              "index": "25",
+              "start": 2632,
+              "end": 3767,
+              "patches": [
+                [
+                  1134,
+                  1135,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "25",
+          "parts": [
+            {
+              "index": "25",
+              "start": 3768,
+              "end": 5024,
+              "patches": [
+                [
+                  1241,
+                  1248,
+                  "arate"
+                ],
+                [
+                  1249,
+                  1251,
+                  "effects"
+                ],
+                [
+                  1252,
+                  1256,
+                  "houses."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "26",
+          "parts": [
+            {
+              "index": "26",
+              "start": 0,
+              "end": 125
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p26-img01.jpg",
+              "size": [
+                1266,
+                831
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "26",
+          "parts": [
+            {
+              "index": "26",
+              "start": 128,
+              "end": 247
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p26-img02.jpg",
+              "size": [
+                1266,
+                823
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "26",
+          "parts": [
+            {
+              "index": "26",
+              "start": 270,
+              "end": 893,
+              "patches": [
+                [
+                  505,
+                  506,
+                  ".”"
+                ],
+                [
+                  623,
+                  623,
+                  "h."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "26",
+          "parts": [
+            {
+              "index": "26",
+              "start": 896,
+              "end": 1311,
+              "patches": [
+                [
+                  414,
+                  415,
+                  ".”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "26",
+          "parts": [
+            {
+              "index": "26",
+              "start": 1312,
+              "end": 2208,
+              "patches": [
+                [
+                  93,
+                  93,
+                  "-"
+                ],
+                [
+                  734,
+                  734,
+                  "-"
+                ],
+                [
+                  895,
+                  896,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "31",
+          "parts": [
+            {
+              "index": "31",
+              "start": 0,
+              "end": 738,
+              "patches": [
+                [
+                  0,
+                  3,
+                  "XFX’s"
+                ],
+                [
+                  4,
+                  14,
+                  "se"
+                ],
+                [
+                  17,
+                  17,
+                  "d offering was “Slug Guy,” an amorphous, undula"
+                ],
+                [
+                  20,
+                  20,
+                  "g, green and pink mass, meas"
+                ],
+                [
+                  21,
+                  21,
+                  "ring approximately ten feet in height. “We want"
+                ],
+                [
+                  24,
+                  26,
+                  "Slug Guy t"
+                ],
+                [
+                  27,
+                  28,
+                  ""
+                ],
+                [
+                  29,
+                  32,
+                  "b"
+                ],
+                [
+                  34,
+                  37,
+                  "translucent,”"
+                ],
+                [
+                  38,
+                  38,
+                  "related Johnson, “so I con"
+                ],
+                [
+                  737,
+                  738,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "31",
+          "parts": [
+            {
+              "index": "31",
+              "start": 1937,
+              "end": 2148
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p31-img01.jpg",
+              "size": [
+                622,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "31",
+          "parts": [
+            {
+              "index": "31",
+              "start": 2151,
+              "end": 2259
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p31-img02.jpg",
+              "size": [
+                622,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "31",
+          "parts": [
+            {
+              "index": "31",
+              "start": 739,
+              "end": 1404,
+              "patches": [
+                [
+                  664,
+                  665,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "31",
+          "parts": [
+            {
+              "index": "31",
+              "start": 1400,
+              "end": 2180,
+              "patches": [
+                [
+                  0,
+                  5,
+                  ""
+                ],
+                [
+                  213,
+                  213,
+                  "”"
+                ],
+                [
+                  537,
+                  538,
+                  "radi"
+                ],
+                [
+                  539,
+                  539,
+                  "-cont"
+                ],
+                [
+                  540,
+                  540,
+                  "olled cars built by Larry Odien. They basically puttered"
+                ],
+                [
+                  542,
+                  546,
+                  "rou"
+                ],
+                [
+                  547,
+                  557,
+                  "d"
+                ],
+                [
+                  562,
+                  562,
+                  "set. The shells were p"
+                ],
+                [
+                  563,
+                  564,
+                  "inted a tannish-brown with lots of pearlesc"
+                ],
+                [
+                  567,
+                  569,
+                  ""
+                ],
+                [
+                  570,
+                  572,
+                  ""
+                ],
+                [
+                  573,
+                  581,
+                  ""
+                ],
+                [
+                  582,
+                  587,
+                  ""
+                ],
+                [
+                  588,
+                  597,
+                  "k"
+                ],
+                [
+                  603,
+                  604,
+                  "blu"
+                ],
+                [
+                  605,
+                  606,
+                  "s; so when you "
+                ],
+                [
+                  607,
+                  607,
+                  "ooked at them, your eye was always mov"
+                ],
+                [
+                  611,
+                  665,
+                  ""
+                ],
+                [
+                  667,
+                  739,
+                  ""
+                ],
+                [
+                  744,
+                  752,
+                  "di"
+                ],
+                [
+                  755,
+                  761,
+                  ""
+                ],
+                [
+                  763,
+                  763,
+                  "nt "
+                ],
+                [
+                  764,
+                  765,
+                  "ol"
+                ],
+                [
+                  767,
+                  780,
+                  "s.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "31",
+          "parts": [
+            {
+              "index": "31",
+              "start": 2506,
+              "end": 4068,
+              "patches": [
+                [
+                  91,
+                  91,
+                  "-"
+                ],
+                [
+                  979,
+                  979,
+                  ".”"
+                ],
+                [
+                  1491,
+                  1491,
+                  "-"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "31",
+          "parts": [
+            {
+              "index": "31",
+              "start": 4069,
+              "end": 4824,
+              "patches": [
+                [
+                  740,
+                  741,
+                  "most of the creatures on the show. They were very talented actors, and "
+                ],
+                [
+                  742,
+                  747,
+                  ""
+                ],
+                [
+                  748,
+                  750,
+                  "was"
+                ],
+                [
+                  751,
+                  752,
+                  "very"
+                ],
+                [
+                  753,
+                  755,
+                  "pleased with their work — as was Barry.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "32",
+          "parts": [
+            {
+              "index": "32",
+              "start": 2510,
+              "end": 2613
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p32-img01.jpg",
+              "size": [
+                1266,
+                825
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "32",
+          "parts": [
+            {
+              "index": "32",
+              "start": 123,
+              "end": 783,
+              "patches": [
+                [
+                  233,
+                  234,
+                  "."
+                ],
+                [
+                  659,
+                  660,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "32",
+          "parts": [
+            {
+              "index": "32",
+              "start": 786,
+              "end": 1569,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "Sh"
+                ],
+                [
+                  440,
+                  456,
+                  ""
+                ],
+                [
+                  783,
+                  783,
+                  "ed on stage."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "32",
+          "parts": [
+            {
+              "index": "32",
+              "start": 1681,
+              "end": 3111,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "The sequence was supervised by John Berton and animated by Glenn Sylvester. “The Redgick sequence w"
+                ],
+                [
+                  338,
+                  338,
+                  "-"
+                ],
+                [
+                  828,
+                  932,
+                  ""
+                ],
+                [
+                  1430,
+                  1430,
+                  "er.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "32",
+          "parts": [
+            {
+              "index": "32",
+              "start": 3116,
+              "end": 4234
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "32",
+          "parts": [
+            {
+              "index": "32",
+              "start": 4223,
+              "end": 4996,
+              "patches": [
+                [
+                  0,
+                  12,
+                  ""
+                ],
+                [
+                  190,
+                  191,
+                  ",”"
+                ],
+                [
+                  755,
+                  756,
+                  "methyl"
+                ],
+                [
+                  757,
+                  757,
+                  "ellul"
+                ],
+                [
+                  758,
+                  758,
+                  "se a"
+                ],
+                [
+                  759,
+                  764,
+                  ""
+                ],
+                [
+                  767,
+                  770,
+                  ""
+                ],
+                [
+                  771,
+                  772,
+                  "tm"
+                ],
+                [
+                  773,
+                  773,
+                  "al.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "37",
+          "parts": [
+            {
+              "index": "37",
+              "start": 2037,
+              "end": 2210
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p37-img01.jpg",
+              "size": [
+                1266,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "37",
+          "parts": [
+            {
+              "index": "37",
+              "start": 68,
+              "end": 645
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "37",
+          "parts": [
+            {
+              "index": "37",
+              "start": 646,
+              "end": 1086
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "37",
+          "parts": [
+            {
+              "index": "37",
+              "start": 1087,
+              "end": 1988
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "37",
+          "parts": [
+            {
+              "index": "37",
+              "start": 2164,
+              "end": 3095,
+              "patches": [
+                [
+                  0,
+                  1,
+                  "The l"
+                ],
+                [
+                  3,
+                  3,
+                  "ger"
+                ],
+                [
+                  4,
+                  4,
+                  "Chucky w"
+                ],
+                [
+                  5,
+                  5,
+                  "s sen"
+                ],
+                [
+                  6,
+                  12,
+                  ""
+                ],
+                [
+                  16,
+                  19,
+                  "ILM, wher"
+                ],
+                [
+                  21,
+                  24,
+                  "it"
+                ],
+                [
+                  26,
+                  30,
+                  ""
+                ],
+                [
+                  31,
+                  32,
+                  ""
+                ],
+                [
+                  33,
+                  46,
+                  ""
+                ],
+                [
+                  660,
+                  661,
+                  "H"
+                ],
+                [
+                  689,
+                  689,
+                  "-"
+                ],
+                [
+                  930,
+                  931,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "37",
+          "parts": [
+            {
+              "index": "37",
+              "start": 3096,
+              "end": 3860
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "37",
+          "parts": [
+            {
+              "index": "37",
+              "start": 3861,
+              "end": 4787,
+              "patches": [
+                [
+                  887,
+                  894,
+                  "the"
+                ],
+                [
+                  895,
+                  897,
+                  "animation"
+                ],
+                [
+                  898,
+                  899,
+                  "of"
+                ],
+                [
+                  900,
+                  902,
+                  "the"
+                ],
+                [
+                  903,
+                  906,
+                  "eleven"
+                ],
+                [
+                  907,
+                  916,
+                  "talking"
+                ],
+                [
+                  917,
+                  926,
+                  "dog shots."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "38",
+          "parts": [
+            {
+              "index": "38",
+              "start": 0,
+              "end": 111
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p38-img01.jpg",
+              "size": [
+                1266,
+                831
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "38",
+          "parts": [
+            {
+              "index": "38",
+              "start": 114,
+              "end": 179
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p38-img02.jpg",
+              "size": [
+                1266,
+                823
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "38",
+          "parts": [
+            {
+              "index": "38",
+              "start": 227,
+              "end": 1009,
+              "patches": [
+                [
+                  781,
+                  782,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "38",
+          "parts": [
+            {
+              "index": "38",
+              "start": 1010,
+              "end": 1850
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "38",
+          "parts": [
+            {
+              "index": "38",
+              "start": 1851,
+              "end": 2511,
+              "patches": [
+                [
+                  622,
+                  625,
+                  "then pai"
+                ],
+                [
+                  627,
+                  627,
+                  "ed out the practical mouthpiece, and "
+                ],
+                [
+                  629,
+                  630,
+                  "serted modified CG mandibles bas"
+                ],
+                [
+                  636,
+                  636,
+                  "a com"
+                ],
+                [
+                  637,
+                  638,
+                  "uter "
+                ],
+                [
+                  640,
+                  640,
+                  "nerated"
+                ],
+                [
+                  641,
+                  644,
+                  "model"
+                ],
+                [
+                  645,
+                  647,
+                  "of"
+                ],
+                [
+                  648,
+                  649,
+                  "the"
+                ],
+                [
+                  650,
+                  660,
+                  "creature."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "43",
+          "parts": [
+            {
+              "index": "43",
+              "start": 2163,
+              "end": 2245
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p43-img01.jpg",
+              "size": [
+                1266,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "43",
+          "parts": [
+            {
+              "index": "43",
+              "start": 169,
+              "end": 516
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "43",
+          "parts": [
+            {
+              "index": "43",
+              "start": 517,
+              "end": 897,
+              "patches": [
+                [
+                  189,
+                  190,
+                  "F"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "43",
+          "parts": [
+            {
+              "index": "43",
+              "start": 898,
+              "end": 1522,
+              "patches": [
+                [
+                  0,
+                  1,
+                  "“"
+                ],
+                [
+                  623,
+                  624,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "43",
+          "parts": [
+            {
+              "index": "43",
+              "start": 1578,
+              "end": 2447,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "A background plate of the real Midtown Tunnel had origi"
+                ],
+                [
+                  585,
+                  668,
+                  ""
+                ],
+                [
+                  869,
+                  869,
+                  "at and expanded its length.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "43",
+          "parts": [
+            {
+              "index": "43",
+              "start": 2476,
+              "end": 3280,
+              "patches": [
+                [
+                  687,
+                  687,
+                  ".”"
+                ],
+                [
+                  700,
+                  700,
+                  "-"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "43",
+          "parts": [
+            {
+              "index": "43",
+              "start": 3281,
+              "end": 4292,
+              "patches": [
+                [
+                  41,
+                  41,
+                  "-"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "43",
+          "parts": [
+            {
+              "index": "43",
+              "start": 4293,
+              "end": 4754,
+              "patches": [
+                [
+                  446,
+                  453,
+                  "and"
+                ],
+                [
+                  454,
+                  456,
+                  "into"
+                ],
+                [
+                  457,
+                  458,
+                  "an"
+                ],
+                [
+                  459,
+                  461,
+                  "adjacent park, where it churns up dirt like an Olympian plow."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "44",
+          "parts": [
+            {
+              "index": "44",
+              "start": 0,
+              "end": 153,
+              "patches": [
+                [
+                  46,
+                  47,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p44-img02.jpg",
+              "size": [
+                1266,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "44",
+          "parts": [
+            {
+              "index": "44",
+              "start": 228,
+              "end": 1283,
+              "patches": [
+                [
+                  696,
+                  696,
+                  "-"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "44",
+          "parts": [
+            {
+              "index": "44",
+              "start": 1284,
+              "end": 2089,
+              "patches": [
+                [
+                  302,
+                  303,
+                  ",”"
+                ],
+                [
+                  805,
+                  805,
+                  "e."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "44",
+          "parts": [
+            {
+              "index": "44",
+              "start": 2092,
+              "end": 2466,
+              "patches": [
+                [
+                  335,
+                  337,
+                  "“so as so"
+                ],
+                [
+                  339,
+                  339,
+                  " as "
+                ],
+                [
+                  340,
+                  340,
+                  "he saucer h"
+                ],
+                [
+                  341,
+                  341,
+                  "t a specific mark, it would tur"
+                ],
+                [
+                  342,
+                  345,
+                  ""
+                ],
+                [
+                  349,
+                  349,
+                  "a timing circuit and start firing four different events on a "
+                ],
+                [
+                  350,
+                  352,
+                  "reset tim"
+                ],
+                [
+                  354,
+                  358,
+                  "delay."
+                ],
+                [
+                  359,
+                  361,
+                  "We"
+                ],
+                [
+                  362,
+                  363,
+                  "planned"
+                ],
+                [
+                  364,
+                  371,
+                  "another"
+                ],
+                [
+                  372,
+                  374,
+                  "explosion to happen right over camera.” The sturdy saucer withstood a single preliminary test and two highly successful takes."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "155",
+          "parts": [
+            {
+              "index": "155",
+              "start": 2080,
+              "end": 2264
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p155-img01.jpg",
+              "size": [
+                1266,
+                824
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "155",
+          "parts": [
+            {
+              "index": "155",
+              "start": 328,
+              "end": 1744,
+              "patches": [
+                [
+                  514,
+                  515,
+                  "."
+                ],
+                [
+                  1415,
+                  1416,
+                  "’”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "155",
+          "parts": [
+            {
+              "index": "155",
+              "start": 1741,
+              "end": 2114,
+              "patches": [
+                [
+                  0,
+                  4,
+                  ""
+                ],
+                [
+                  339,
+                  366,
+                  ""
+                ],
+                [
+                  373,
+                  373,
+                  "onics and computer graphics."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "155",
+          "parts": [
+            {
+              "index": "155",
+              "start": 2301,
+              "end": 3104,
+              "patches": [
+                [
+                  802,
+                  803,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "155",
+          "parts": [
+            {
+              "index": "155",
+              "start": 3105,
+              "end": 3833,
+              "patches": [
+                [
+                  727,
+                  728,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "156",
+          "parts": [
+            {
+              "index": "156",
+              "start": 0,
+              "end": 1039,
+              "patches": [
+                [
+                  0,
+                  83,
+                  ""
+                ],
+                [
+                  98,
+                  101,
+                  "art dir"
+                ],
+                [
+                  102,
+                  106,
+                  "ct"
+                ],
+                [
+                  109,
+                  114,
+                  "David"
+                ],
+                [
+                  115,
+                  116,
+                  "N"
+                ],
+                [
+                  117,
+                  119,
+                  "k"
+                ],
+                [
+                  120,
+                  121,
+                  "bayashi"
+                ],
+                [
+                  134,
+                  134,
+                  "mod"
+                ],
+                [
+                  135,
+                  141,
+                  "l"
+                ],
+                [
+                  153,
+                  154,
+                  "Geoff Campbe"
+                ],
+                [
+                  156,
+                  156,
+                  " picked up where Baker left off. “We had already completed our CG version of Rick’s Edgar wh"
+                ],
+                [
+                  159,
+                  160,
+                  "the change was made,” said Nakabayashi. “The character was fully m"
+                ],
+                [
+                  161,
+                  161,
+                  "deled and we were starting to get ready for shots — so it didn’t leave us much time to come up with an entirely new creature. We tried to make use of the model that existed in the computer, but we still had to do a c"
+                ],
+                [
+                  163,
+                  163,
+                  "siderable"
+                ],
+                [
+                  165,
+                  165,
+                  "moun"
+                ],
+                [
+                  166,
+                  166,
+                  " of redesign"
+                ],
+                [
+                  175,
+                  175,
+                  "it. They wanted "
+                ],
+                [
+                  179,
+                  180,
+                  "creature to look more mean and v"
+                ],
+                [
+                  181,
+                  181,
+                  "cious; and to accommodate the script revisions, he now needed to "
+                ],
+                [
+                  182,
+                  182,
+                  "ook like an insect and "
+                ],
+                [
+                  183,
+                  184,
+                  "ove like an in"
+                ],
+                [
+                  185,
+                  185,
+                  "ect.” Team members Jean Bolte, Benton Jew and Derek Thompson started playing with the Edgar design — altering the eyes, adding antennae, and increasing the leg"
+                ],
+                [
+                  188,
+                  199,
+                  ""
+                ],
+                [
+                  200,
+                  200,
+                  "n"
+                ],
+                [
+                  203,
+                  203,
+                  "rom four to six — and the "
+                ],
+                [
+                  205,
+                  205,
+                  "sect qu"
+                ],
+                [
+                  207,
+                  207,
+                  "ity b"
+                ],
+                [
+                  208,
+                  208,
+                  "gan to surface immediately"
+                ],
+                [
+                  209,
+                  209,
+                  " Digital modeler Wayne Kennedy, who"
+                ],
+                [
+                  1038,
+                  1039,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "156",
+          "parts": [
+            {
+              "index": "156",
+              "start": 0,
+              "end": 80
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p156-img01.jpg",
+              "size": [
+                632,
+                825
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "156",
+          "parts": [
+            {
+              "index": "156",
+              "start": 83,
+              "end": 209
+            }
+          ],
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p156-img02.jpg",
+              "size": [
+                1266,
+                825
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "156",
+          "parts": [
+            {
+              "index": "156",
+              "start": 1046,
+              "end": 1706,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "One is"
+                ],
+                [
+                  36,
+                  36,
+                  "-"
+                ],
+                [
+                  131,
+                  148,
+                  ""
+                ],
+                [
+                  660,
+                  660,
+                  "y evident.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "156",
+          "parts": [
+            {
+              "index": "156",
+              "start": 1713,
+              "end": 2419,
+              "patches": [
+                [
+                  0,
+                  5,
+                  ""
+                ],
+                [
+                  702,
+                  705,
+                  ""
+                ],
+                [
+                  706,
+                  706,
+                  "gg sac.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "156",
+          "parts": [
+            {
+              "index": "156",
+              "start": 2415,
+              "end": 3664,
+              "patches": [
+                [
+                  635,
+                  635,
+                  "“"
+                ],
+                [
+                  1226,
+                  1227,
+                  "mouth — his head and torso "
+                ],
+                [
+                  1229,
+                  1229,
+                  "uld "
+                ],
+                [
+                  1230,
+                  1230,
+                  "ever have made it. So we planned to pick him up in one angle and then, by changing angles, have him far enough in so that only his legs and feet were showing. And by shoo"
+                ],
+                [
+                  1233,
+                  1234,
+                  "g it in profil"
+                ],
+                [
+                  1235,
+                  1236,
+                  ","
+                ],
+                [
+                  1237,
+                  1237,
+                  "the physical impossibility of the acti"
+                ],
+                [
+                  1240,
+                  1240,
+                  "was not ap"
+                ],
+                [
+                  1242,
+                  1243,
+                  "r"
+                ],
+                [
+                  1244,
+                  1249,
+                  "nt.”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "166",
+          "parts": [
+            {
+              "index": "166",
+              "start": 2510,
+              "end": 3241,
+              "patches": [
+                [
+                  730,
+                  731,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "166",
+          "parts": [
+            {
+              "index": "166",
+              "start": 3242,
+              "end": 4527
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "166",
+          "parts": [
+            {
+              "index": "166",
+              "start": 4528,
+              "end": 5306
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "166",
+          "parts": [
+            {
+              "index": "166",
+              "start": 5307,
+              "end": 6667,
+              "patches": [
+                [
+                  58,
+                  60,
+                  "44"
+                ],
+                [
+                  1359,
+                  1360,
+                  "”"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "ref": "166",
+          "parts": [
+            {
+              "index": "166",
+              "start": 6668,
+              "end": 6986
+            }
+          ],
+          "credit": true
+        }
+      ],
+      "startRef": "15",
+      "indexCrc": {
+        "37": 1670447012,
+        "23": 3169002615,
+        "24": 1408465490,
+        "17": 1124036161,
+        "166": 3219409566,
+        "19": 3451477251,
+        "16": 3065056158,
+        "25": 3969513984,
+        "43": 3254212580,
+        "155": 901911582,
+        "156": 2575050094,
+        "31": 165059074,
+        "38": 967905090,
+        "18": 1937682642,
+        "44": 3600637566,
+        "20": 1289578784,
+        "32": 1086689103,
+        "26": 1263615417
+      }
+    },
+    {
+      "id": "2",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/2.ReadingView.html",
+      "sourceBytes": 30669,
+      "sourceCrc": 1073595457,
+      "title": "CON AIRSKYJINKS",
+      "author": "Matthew J. MacDonald",
+      "indices": [
+        48,
+        49,
+        54,
+        55,
+        136,
+        137
+      ],
+      "refs": [
+        "49",
+        "50",
+        "55",
+        "56",
+        "137",
+        "138"
+      ],
+      "images": {
+        "images_400/Cinefex-70-p49-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p49-img01.jpg",
+          "size": [
+            1266,
+            824
+          ]
+        },
+        "images_400/Cinefex-70-p50-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p50-img01.jpg",
+          "size": [
+            1266,
+            587
+          ]
+        },
+        "images_400/Cinefex-70-p50-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p50-img02.jpg",
+          "size": [
+            1266,
+            591
+          ]
+        },
+        "images_400/Cinefex-70-p55-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p55-img01.jpg",
+          "size": [
+            1266,
+            824
+          ]
+        },
+        "images_400/Cinefex-70-p56-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p56-img01.jpg",
+          "size": [
+            621,
+            825
+          ]
+        },
+        "images_400/Cinefex-70-p56-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p56-img02.jpg",
+          "size": [
+            622,
+            825
+          ]
+        },
+        "images_400/Cinefex-70-p137-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p137-img01.jpg",
+          "size": [
+            632,
+            824
+          ]
+        },
+        "images_400/Cinefex-70-p137-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p137-img02.jpg",
+          "size": [
+            1266,
+            824
+          ]
+        },
+        "images_400/Cinefex-70-p138-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p138-img01.jpg",
+          "size": [
+            1266,
+            591
+          ]
+        },
+        "images_400/Cinefex-70-p138-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p138-img02.jpg",
+          "size": [
+            1266,
+            591
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "49"
+    },
+    {
+      "id": "3",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/3.ReadingView.html",
+      "sourceBytes": 32696,
+      "sourceCrc": 883204637,
+      "title": "ANACONDASNAKE CHARMERS",
+      "author": "Paula Parisi",
+      "indices": [
+        60,
+        61,
+        66,
+        67,
+        160,
+        161
+      ],
+      "refs": [
+        "61",
+        "62",
+        "67",
+        "68",
+        "161",
+        "162"
+      ],
+      "images": {
+        "images_400/Cinefex-70-p61-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p61-img01.jpg",
+          "size": [
+            1266,
+            825
+          ]
+        },
+        "images_400/Cinefex-70-p62-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p62-img01.jpg",
+          "size": [
+            632,
+            825
+          ]
+        },
+        "images_400/Cinefex-70-p62-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p62-img02.jpg",
+          "size": [
+            1266,
+            825
+          ]
+        },
+        "images_400/Cinefex-70-p67-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p67-img01.jpg",
+          "size": [
+            622,
+            824
+          ]
+        },
+        "images_400/Cinefex-70-p67-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p67-img02.jpg",
+          "size": [
+            622,
+            824
+          ]
+        },
+        "images_400/Cinefex-70-p68-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p68-img01.jpg",
+          "size": [
+            1266,
+            825
+          ]
+        },
+        "images_400/Cinefex-70-p161-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p161-img01.jpg",
+          "size": [
+            1266,
+            825
+          ]
+        },
+        "images_400/Cinefex-70-p162-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p162-img01.jpg",
+          "size": [
+            621,
+            856
+          ]
+        },
+        "images_400/Cinefex-70-p162-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p162-img02.jpg",
+          "size": [
+            622,
+            856
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "61"
+    },
+    {
+      "id": "4",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/4.ReadingView.html",
+      "sourceBytes": 162930,
+      "sourceCrc": 1335272218,
+      "title": "ON THESHOULDERSOF GIANTS",
+      "author": "Jody Duncan",
+      "indices": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "refs": [
+        "72",
+        "74",
+        "77",
+        "78",
+        "81",
+        "82",
+        "85",
+        "86",
+        "87",
+        "88",
+        "89",
+        "90",
+        "93",
+        "94",
+        "96",
+        "97",
+        "98",
+        "101",
+        "102",
+        "105",
+        "106",
+        "107",
+        "108"
+      ],
+      "images": {
+        "images_400/Cinefex-70-p72-img01a.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p72-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ]
+        },
+        "images_400/Cinefex-70-p75-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p75-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p75-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p75-img02.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p75-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p75-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p76-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p76-img01.jpg",
+          "size": [
+            1277,
+            825
+          ]
+        },
+        "images_400/Cinefex-70-p76-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p76-img02.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p76-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p76-img03.jpg",
+          "size": [
+            739,
+            1677
+          ]
+        },
+        "images_400/Cinefex-70-p77-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p77-img01.jpg",
+          "size": [
+            741,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p77-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p77-img02.jpg",
+          "size": [
+            741,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p78-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p78-img01.jpg",
+          "size": [
+            741,
+            1678
+          ]
+        },
+        "images_400/Cinefex-70-p79-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p79-img01.jpg",
+          "size": [
+            739,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p79-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p79-img02.jpg",
+          "size": [
+            1278,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p79-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p79-img03.jpg",
+          "size": [
+            2040,
+            831
+          ]
+        },
+        "images_400/Cinefex-70-p80-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p80-img01.jpg",
+          "size": [
+            1277,
+            825
+          ]
+        },
+        "images_400/Cinefex-70-p80-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p80-img02.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p80-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p80-img03.jpg",
+          "size": [
+            739,
+            1677
+          ]
+        },
+        "images_400/Cinefex-70-p83-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p83-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p83-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p83-img02.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p83-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p83-img03.jpg",
+          "size": [
+            1277,
+            828
+          ]
+        },
+        "images_400/Cinefex-70-p84-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p84-img01.jpg",
+          "size": [
+            1261,
+            1678
+          ]
+        },
+        "images_400/Cinefex-70-p84-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p84-img02.jpg",
+          "size": [
+            277,
+            615
+          ]
+        },
+        "images_400/Cinefex-70-p87-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p87-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p87-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p87-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p88-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p88-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p88-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p88-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p90-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p90-img01.jpg",
+          "size": [
+            741,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p90-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p90-img02.jpg",
+          "size": [
+            741,
+            828
+          ]
+        },
+        "images_400/Cinefex-70-p91-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p91-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p91-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p91-img02.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p91-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p91-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p92-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p92-img01.jpg",
+          "size": [
+            1277,
+            825
+          ]
+        },
+        "images_400/Cinefex-70-p92-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p92-img02.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p92-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p92-img03.jpg",
+          "size": [
+            739,
+            1677
+          ]
+        },
+        "images_400/Cinefex-70-p95-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p95-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p95-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p95-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p96-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p96-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p96-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p96-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p99-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p99-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p99-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p99-img02.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p99-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p99-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p100-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p100-img01.jpg",
+          "size": [
+            1277,
+            825
+          ]
+        },
+        "images_400/Cinefex-70-p100-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p100-img02.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p100-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p100-img03.jpg",
+          "size": [
+            739,
+            1677
+          ]
+        },
+        "images_400/Cinefex-70-p102-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p102-img01.jpg",
+          "size": [
+            741,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p102-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p102-img02.jpg",
+          "size": [
+            741,
+            827
+          ]
+        },
+        "images_400/Cinefex-70-p103-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p103-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p103-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p103-img02.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p103-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p103-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p104-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p104-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p104-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p104-img02.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p104-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p104-img03.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p107-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p107-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p107-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p107-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p108-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p108-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p108-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p108-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "72"
+    },
+    {
+      "id": "5",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/5.ReadingView.html",
+      "sourceBytes": 73839,
+      "sourceCrc": 1971712441,
+      "title": "ELEMENTALIMAGES",
+      "author": "Ted Elrick",
+      "indices": [
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132
+      ],
+      "refs": [
+        "114",
+        "117",
+        "118",
+        "121",
+        "122",
+        "123",
+        "125",
+        "126",
+        "129",
+        "130",
+        "132",
+        "133"
+      ],
+      "images": {
+        "images_400/Cinefex-70-p114-img01a.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p114-img01.jpg",
+          "size": [
+            683,
+            1536
+          ]
+        },
+        "images_400/Cinefex-70-p116-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p116-img01.jpg",
+          "size": [
+            1277,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p116-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p116-img02.jpg",
+          "size": [
+            740,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p116-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p116-img03.jpg",
+          "size": [
+            2041,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p119-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p119-img01.jpg",
+          "size": [
+            2040,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p119-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p119-img02.jpg",
+          "size": [
+            2040,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p120-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p120-img01.jpg",
+          "size": [
+            1277,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p120-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p120-img02.jpg",
+          "size": [
+            740,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p120-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p120-img03.jpg",
+          "size": [
+            2041,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p121-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p121-img01.jpg",
+          "size": [
+            741,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p121-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p121-img02.jpg",
+          "size": [
+            741,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p123-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p123-img01.jpg",
+          "size": [
+            1260,
+            547
+          ]
+        },
+        "images_400/Cinefex-70-p123-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p123-img02.jpg",
+          "size": [
+            1260,
+            535
+          ]
+        },
+        "images_400/Cinefex-70-p123-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p123-img03.jpg",
+          "size": [
+            1260,
+            548
+          ]
+        },
+        "images_400/Cinefex-70-p124-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p124-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p124-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p124-img02.jpg",
+          "size": [
+            2041,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p125-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p125-img01.jpg",
+          "size": [
+            741,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p125-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p125-img02.jpg",
+          "size": [
+            741,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p126-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p126-img01.jpg",
+          "size": [
+            741,
+            1678
+          ]
+        },
+        "images_400/Cinefex-70-p127-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p127-img01.jpg",
+          "size": [
+            2040,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p127-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p127-img02.jpg",
+          "size": [
+            2040,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p128-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p128-img01.jpg",
+          "size": [
+            1277,
+            825
+          ]
+        },
+        "images_400/Cinefex-70-p128-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p128-img02.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p128-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p128-img03.jpg",
+          "size": [
+            739,
+            1677
+          ]
+        },
+        "images_400/Cinefex-70-p131-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p131-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p131-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p131-img02.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p131-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p131-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-70-p132-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p132-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-70-p132-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p132-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "114"
+    },
+    {
+      "id": "6",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/6.ReadingView.html",
+      "sourceBytes": 23817,
+      "sourceCrc": 1187009906,
+      "title": "CLASSIC RESTORATIONTHE LOST WORLD - FOUND!",
+      "author": "Scott MacQueen",
+      "indices": [
+        142,
+        143,
+        148,
+        149
+      ],
+      "refs": [
+        "143",
+        "144",
+        "149",
+        "p150"
+      ],
+      "images": {
+        "images_400/Cinefex-70-p143-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p143-img01.jpg",
+          "size": [
+            1266,
+            856
+          ]
+        },
+        "images_400/Cinefex-70-p144-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p144-img01.jpg",
+          "size": [
+            946,
+            730
+          ]
+        },
+        "images_400/Cinefex-70-p149-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p149-img01.jpg",
+          "size": [
+            1266,
+            855
+          ]
+        },
+        "images_400/Cinefex-70-p150-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1997/CineFex%201997%20No%20070.zip/images%2FCinefex-70-p150-img01.jpg",
+          "size": [
+            1266,
+            855
+          ]
+        }
+      },
+      "pageAliases": {
+        "p150": "150"
+      },
+      "replacements": {},
+      "startRef": "143"
+    }
+  ]
+}

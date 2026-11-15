@@ -9,7 +9,7 @@ import json, os, re, sys
 from collections import Counter, defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from common import load_issue, CATEGORY_OF
+from common import load_issue, page_text, CATEGORY_OF
 from advertisers import A, VFX, FX, SOFT, HARD, POST, STUDIO
 
 root = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, '..', '..'))
@@ -77,15 +77,19 @@ def main():
     pats = patterns()
     rows = []
     for n in range(1, 173):
-        path = os.path.join(TEXT, f'{n}.json')
-        if not os.path.exists(path): continue
-        text = json.load(open(path))
+        text = page_text(root, n)
         d = load_issue(root, n); pages = d['pages']
         starts = sorted((s['article'], s) for s in d['stories'] if isinstance(s.get('article'), int))
         for k, (start, story) in enumerate(starts):
             end = starts[k + 1][0] if k + 1 < len(starts) else len(pages)
-            body = [(pages[i]['ref'], text.get(pages[i]['ref'], '')) for i in range(start, end)
-                    if pages[i]['title'] != 'Advertisement']
+            body, seen = [], set()
+            for i in range(start, end):
+                ref = pages[i]['ref']
+                value = text.get(ref, '')
+                key = ' '.join(value.split())
+                if pages[i]['title'] == 'Advertisement' or not key or key in seen: continue
+                seen.add(key)
+                body.append((ref, value))
             counts, first = Counter(), {}
             for ref, t in body:
                 for rx, name, cat in pats:

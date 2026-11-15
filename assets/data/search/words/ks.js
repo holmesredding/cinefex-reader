@@ -1,0 +1,1 @@
+CinefexSearchData.register("words/ks",{"ks":"1mpe,ljp,122c,1,1dx,4,1,1,5,1,1,1,2,1,1,1,8,n,2,6,1,6,1,4,1,1,1,6,1,g,1,343,1,57b,rm","ksander":"28bu","kshama":"3a9n,29i","kshatriya":"370i,34x,xg,58g","kshay":"3gdl","kshetri":"3a9n","kshirsagar":"3a9n","ksi":"1f0w,sb"});

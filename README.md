@@ -12,11 +12,35 @@ The magazine files come from [Internet Archive](https://archive.org/details/cine
 
 [Open Cinefex Reader](https://holmesredding.github.io/cinefex-reader/). Images, videos and fonts load from Internet Archive, which can sometimes be slow.
 
+On iPhone or iPad, open the Share menu in Safari and choose **Add to Home Screen**. This adds **Cinefex Reader** with its own home screen icon.
+
 Your reading position, bookmarks and read status are saved in that browser.
+
+## Browsing and search
 
 Choose **Small grid**, **Large grid** or **List** from the View menu on Issues and Browse. Your choice is remembered. In Browse, the letter shortcuts jump through titles when sorted A–Z.
 
-On a phone or tablet, swipe or tap the left and right edges to turn pages. Pinch to zoom the magazine page, then drag to move around it. The zoom control in the toolbar also has preset sizes and a slider. Choose **Fit** to return to the whole page and swipe between pages again. With a mouse, click and drag the page to move around while zoomed in.
+**Search** looks through the magazine text for names, companies and other words. Put a phrase in quotes to search for those words together, or use `harryhaus*` to match the start of a word. Results are grouped by issue, with the total number of matching pages shown above them. Open an issue’s results to see the matching pages, or choose **Pages** from the View menu for a flat list.
+
+On the home page, typing filters the issue covers. Press **Enter** or choose **Search catalogue** to look through the magazine text. Some of the text was recognised from page images, so names and spellings can be wrong.
+
+Browse also has **Companies** and **Ads** tabs. Related-title links bring together films, series and features from the same franchise or filmmaker.
+
+## Reading
+
+On a computer, use the **left and right arrow keys** or **scroll over the page** to turn pages. **Space** moves forward, **Shift+Space** goes back.
+
+On a phone or tablet, **swipe** or **tap the left and right edges** to turn pages. **Pinch** to zoom the page, then **drag** to move around it. With a mouse, **click and drag** while zoomed in. The zoom control also has preset sizes and a slider. Choose **Fit** to return to the whole page and swipe between pages again.
+
+**Reader view** lets you change the text size and scroll through an article with its photos and captions. It is available throughout the catalogue. Click a photo to enlarge it. Comparison images stay together, and switching between **Page** and **Reader view** keeps you near the same passage.
+
+Most articles use the original iPad text. Some earlier features use recognised text from the scans. Those have been checked and corrected, but may still contain transcription errors.
+
+Where **Fit text** is available, it enlarges the text area while keeping the original page layout.
+
+Choose your default in **Information → Default view**. You can still switch between **Page** and **Reader view** while reading. Covers and ads always use Page view.
+
+Choose **Hide controls** in the top toolbar or **Contents** to fill the window with the page. Page turning, scrolling and zoom still work. Press **Escape**, use your browser’s **Back** button, or tap the middle of the page on a touch screen to bring the controls back.
 
 ## Using local files
 
@@ -32,11 +56,15 @@ To keep the magazine files together on your computer:
      Cinefex Reader Repairs 011-016.zip
    ```
 
-3. In the reader, click **ⓘ → Choose folder** and select **Cinefex files**. Wait for the file check to finish.
+3. In the reader, click **Information → Choose folder** and select **Cinefex files**. Wait for the file check to finish.
 
 The reader searches subfolders and recognises matching originals and repairs automatically. Individual issue ZIPs and the repair ZIP can stay zipped. If a download is an outer ZIP containing more ZIPs, extract that outer ZIP first. Already-extracted issue folders work too. Keep their contents together.
 
+Keep the HTML files when extracting an issue. Reader view can use the original ReadingView files from your selected folder or from inside the issue ZIPs. It loads anything missing from Archive.org.
+
 For a fully local setup, also [download the reader](https://github.com/holmesredding/cinefex-reader/archive/refs/heads/main.zip), extract it into the same folder and open its `index.html`. Select **Cinefex files** as above. With all the issue files and repairs present, the reader can load the magazine material locally. Anything missing will still be requested from Internet Archive.
+
+The search index is included with the reader download and works offline too.
 
 Chrome and Edge can remember your folder. Safari keeps it selected while you move between issues in the same tab. Select it again after reloading or closing the tab.
 
@@ -60,6 +88,10 @@ Issues 1–126 are faithful reproductions of the printed issues, preserving thei
 
 Missing local files stop a local export. You can add the files or switch to Archive.org. The catalogue export lists incomplete issues and skips them. The PDFs keep the original colours and image resolution. Article text remains part of the page images, so it is not searchable.
 
+## Thanks
+
+Thanks to [Mike Parsons](https://github.com/mikeparsonstv-rgb) for [the OCR and indexing work](https://github.com/holmesredding/cinefex-reader/pull/1). Mike added full-text search, company and advertiser browsing, related titles and title corrections.
+
 ## Hosting
 
 You can host the reader as a static website. There’s nothing to build: upload this folder’s contents and keep the directory structure intact.
@@ -68,19 +100,23 @@ For GitHub Pages, go to **Settings → Pages**, choose **Deploy from a branch**,
 
 ## Repository contents
 
-The reader, catalogue and original magazine HTML/CSS layouts are stored here. Images, videos and fonts are loaded from Internet Archive or your selected folder.
+The reader, catalogue, search index and original magazine HTML/CSS layouts are stored here. The search files include recognised page text for matching phrases and showing excerpts. Magazine images, videos and fonts are loaded from Internet Archive or your selected folder.
 
 - `assets/js/` contains the reader code and PDF tools.
 - `assets/css/` contains the reader styles.
-- `assets/data/` contains the issue catalogue and feature index.
+- `assets/data/` contains the catalogue, browsing indexes and searchable page text.
+- `assets/icons/` contains the reader’s app icon in three sizes. File details are recorded in `docs/APP-ICON.json`.
+- `assets/app.webmanifest` sets the home screen name and launch settings.
 - `assets/vendor/` contains pdf-lib and its licence.
-- `issues/` contains each issue’s page layouts and PDF export data.
+- `issues/` contains each issue’s page layouts, Reader view mappings and PDF export data.
 - `scripts/` contains the build and verification tools.
 - `docs/` contains the verification results.
 
-The three HTML files at the top level open the library, feature index and reader session.
+The four HTML files at the top level open Issues, Browse, Search and the reader session.
 
-Run `python3 scripts/verify-package.py` to check the package for missing file references and bundled media. Browser check results are in `docs/VERIFICATION.json`.
+Run `python3 scripts/verify-package.py` to check the package for missing file references and unexpected media files. Browser check results are in `docs/VERIFICATION.json`.
+
+The indexing tools are documented in [scripts/indexing](scripts/indexing/README.md). Reader view build and proofreading tools are in [scripts/reader-view](scripts/reader-view/README.md). Coverage and source checks are recorded in [docs/READER-VIEW.json](docs/READER-VIEW.json).
 
 ## PDF export development
 

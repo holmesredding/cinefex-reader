@@ -44,3 +44,18 @@
 #viewport.page-zoomed{cursor:grab;user-select:none;-webkit-user-select:none}#viewport.page-panning{cursor:grabbing}
 
 .story-related{font:11px/1.6 Arial,sans-serif;color:var(--muted);margin:6px 0 0;padding-left:0}.story-related a{color:var(--red);text-decoration:none}.story-related a:hover{text-decoration:underline}
+
+body.controls-hidden>.topbar,body.controls-hidden #sidebar,body.controls-hidden #scrim,body.controls-hidden .reading-heading,body.controls-hidden .reading>footer,body.controls-hidden #galleryTray,body.controls-hidden .article-tools{display:none!important}
+body.controls-hidden .workspace{height:100dvh}
+body.controls-hidden .reading{grid-template-rows:minmax(0,1fr)}
+body.controls-hidden #viewport,body.controls-hidden .article-reading{grid-column:1;grid-row:1}
+body.controls-hidden #viewport{padding:0}
+body.controls-hidden .article-reading{padding-top:max(20px,env(safe-area-inset-top))}
+#showControlsButton{position:fixed;left:12px;top:12px;z-index:40;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+#showControlsButton:focus-visible{width:auto;height:auto;padding:12px 16px;clip-path:none;background:var(--bg);border:1px solid var(--line);border-radius:4px;font-size:14px}
+#hideControlsButton{min-height:44px;align-items:center}
+#hideControlsToolbar{min-height:44px}
+@media(max-width:1100px){.topbar .wordmark span,.topbar .tool span,.topbar .divider{display:none}#hideControlsToolbar{padding:8px}}
+@media(max-width:380px){.topbar{padding:0 10px;gap:6px}.topbar .wordmark{font-size:26px}.topbar nav{gap:1px}.topbar .tool,.topbar #hideControlsToolbar{padding:8px 6px}}
+.display-hint{position:fixed;bottom:max(20px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);z-index:40;max-width:calc(100vw - 40px);width:max-content;background:var(--ink);color:var(--bg);padding:12px 16px;border-radius:4px;font:13px/1.5 Arial,sans-serif;opacity:0;pointer-events:none}
+.display-hint.visible{opacity:1}

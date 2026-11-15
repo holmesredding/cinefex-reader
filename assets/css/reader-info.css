@@ -2,6 +2,12 @@
 
 .folder-progress{display:block;width:100%;height:4px;margin:0 0 18px;accent-color:var(--red,#a6382b)}.folder-progress[hidden]{display:none}
 
+#readerInfo .view-preference{border-top:1px solid var(--line);margin-top:24px;padding-top:22px}
+#readerInfo .view-options{display:flex;flex-wrap:wrap;gap:8px 24px}
+#readerInfo .view-options label{display:flex;align-items:center;gap:8px;min-height:44px;font:15px/1.4 Arial,sans-serif;letter-spacing:normal;text-transform:none;cursor:pointer}
+#readerInfo .view-options input{width:17px;height:17px;margin:0;accent-color:var(--red)}
+#readerInfo .view-options input:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+
 .pdf-collection{border-top:1px solid var(--line);margin-top:24px;padding-top:22px}.pdf-collection progress{width:100%;height:6px;accent-color:var(--red)}#readerInfo #batchSave{display:inline-block;padding:10px 13px;border:1px solid var(--line);border-radius:4px;font:13px Arial,sans-serif;text-decoration:none}#batchDetails{font-size:12px;color:var(--muted);max-height:90px;overflow:auto}#batchEstimate{font-weight:bold}#batchStatus{font-size:13px}
 .batch-source{border:0;padding:0;margin:18px 0;display:flex;flex-wrap:wrap;gap:12px 22px}.batch-source legend{font-size:13px;margin-bottom:12px}.batch-source label{display:flex;align-items:center;gap:7px;font-size:14px;font-weight:normal;letter-spacing:normal;text-transform:none;cursor:pointer}.batch-source input{margin:0;accent-color:var(--red);width:16px;height:16px}.batch-source input:focus-visible{outline:2px solid var(--red);outline-offset:3px}
 

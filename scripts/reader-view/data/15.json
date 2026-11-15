@@ -1,0 +1,5733 @@
+{
+  "issue": 15,
+  "articles": [
+    {
+      "id": "1",
+      "format": "indexed",
+      "title": "Never Say Never Again",
+      "author": "Don Shay",
+      "indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "refs": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "startRef": "4",
+      "needsIndex": true,
+      "indexCrc": {
+        "4": 1906729410,
+        "17": 1278037548,
+        "7": 2938181793,
+        "19": 1394603717,
+        "24": 214771539,
+        "15": 3018844818,
+        "16": 3634531777,
+        "12": 1936026628,
+        "23": 3426387838,
+        "27": 3907049882,
+        "20": 1528117797,
+        "11": 1456043716,
+        "8": 1826280483
+      },
+      "blocks": [
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "4",
+              "start": 0,
+              "end": 1535
+            }
+          ],
+          "ref": "4"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "4",
+              "start": 1536,
+              "end": 2178
+            }
+          ],
+          "ref": "4"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "4",
+              "start": 2179,
+              "end": 3209
+            },
+            {
+              "index": "4",
+              "start": 3223,
+              "end": 3290
+            },
+            {
+              "index": "4",
+              "start": 3300,
+              "end": 3363
+            },
+            {
+              "index": "4",
+              "start": 3364,
+              "end": 3468
+            }
+          ],
+          "ref": "4"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "4",
+              "start": 3469,
+              "end": 3528
+            }
+          ],
+          "ref": "4"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "4",
+              "start": 3529,
+              "end": 4821,
+              "patches": [
+                [
+                  684,
+                  696,
+                  ""
+                ],
+                [
+                  1009,
+                  1033,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "4"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "4",
+              "start": 4822,
+              "end": 4885
+            }
+          ],
+          "ref": "4"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "4",
+              "start": 4886,
+              "end": 5671
+            }
+          ],
+          "ref": "4"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "4",
+              "start": 5672,
+              "end": 6298
+            },
+            {
+              "index": "7",
+              "start": 0,
+              "end": 980
+            }
+          ],
+          "ref": "7"
+        },
+        {
+          "type": "figure",
+          "ref": "5",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0004.jpg",
+              "size": [
+                1728,
+                1536
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "figure",
+          "ref": "6",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0006.jpg",
+              "size": [
+                2042,
+                836
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0007.jpg",
+              "size": [
+                1278,
+                846
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0008.jpg",
+              "size": [
+                737,
+                846
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "7",
+              "start": 981,
+              "end": 2593
+            },
+            {
+              "index": "7",
+              "start": 2263,
+              "end": 2275,
+              "patches": [
+                [
+                  9,
+                  12,
+                  "l"
+                ]
+              ]
+            }
+          ],
+          "ref": "7"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "7",
+              "start": 2594,
+              "end": 3284
+            },
+            {
+              "index": "8",
+              "start": 516,
+              "end": 1489
+            }
+          ],
+          "ref": "8"
+        },
+        {
+          "type": "figure",
+          "ref": "7",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0010.jpg",
+              "size": [
+                737,
+                846
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0011.jpg",
+              "size": [
+                737,
+                842
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "7",
+              "start": 3285,
+              "end": 4117
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "8",
+              "start": 1490,
+              "end": 1560
+            }
+          ],
+          "ref": "8"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "8",
+              "start": 1561,
+              "end": 2301
+            }
+          ],
+          "ref": "8"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "8",
+              "start": 2302,
+              "end": 3341
+            }
+          ],
+          "ref": "8"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "8",
+              "start": 3342,
+              "end": 3641
+            }
+          ],
+          "ref": "8"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "8",
+              "start": 3642,
+              "end": 3698
+            }
+          ],
+          "ref": "8"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "8",
+              "start": 3699,
+              "end": 3758
+            },
+            {
+              "index": "8",
+              "start": 3759,
+              "end": 3883
+            },
+            {
+              "index": "8",
+              "start": 3912,
+              "end": 4976
+            }
+          ],
+          "ref": "8"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "8",
+              "start": 4977,
+              "end": 6043,
+              "patches": [
+                [
+                  412,
+                  413,
+                  "!"
+                ],
+                [
+                  487,
+                  488,
+                  " \""
+                ]
+              ]
+            }
+          ],
+          "ref": "8"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "8",
+              "start": 6044,
+              "end": 6168
+            }
+          ],
+          "ref": "8"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "8",
+              "start": 6169,
+              "end": 6593
+            },
+            {
+              "index": "8",
+              "start": 6614,
+              "end": 7175
+            },
+            {
+              "index": "11",
+              "start": 0,
+              "end": 68,
+              "patches": [
+                [
+                  15,
+                  16,
+                  "."
+                ]
+              ]
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "figure",
+          "ref": "9",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0014.jpg",
+              "size": [
+                2069,
+                846
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0015.jpg",
+              "size": [
+                2060,
+                848
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "8",
+              "start": 0,
+              "end": 515,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "Fore and aft views of the missiles cruising over the English countryside were "
+                ],
+                [
+                  103,
+                  103,
+                  "matted over aerial "
+                ],
+                [
+                  130,
+                  130,
+                  " a helicopter by effects supervisor David Dryer."
+                ],
+                [
+                  269,
+                  269,
+                  "miniatures, which would "
+                ],
+                [
+                  298,
+                  298,
+                  "\""
+                ],
+                [
+                  324,
+                  493,
+                  ""
+                ],
+                [
+                  515,
+                  515,
+                  " bluescreen."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "10",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p10-img01.jpg",
+              "size": [
+                2050,
+                839
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p10-img02.jpg",
+              "size": [
+                2038,
+                832
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "11",
+              "start": 6637,
+              "end": 7121
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "11",
+              "start": 69,
+              "end": 118
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "11",
+              "start": 119,
+              "end": 539
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "11",
+              "start": 540,
+              "end": 1072
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "11",
+              "start": 1073,
+              "end": 1111
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "11",
+              "start": 1112,
+              "end": 2487
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "11",
+              "start": 2488,
+              "end": 2540
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "11",
+              "start": 2541,
+              "end": 3230
+            },
+            {
+              "index": "11",
+              "start": 3231,
+              "end": 3291
+            },
+            {
+              "index": "11",
+              "start": 3292,
+              "end": 3540
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "11",
+              "start": 3541,
+              "end": 4664
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "11",
+              "start": 4665,
+              "end": 4784
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "11",
+              "start": 4785,
+              "end": 5521
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "11",
+              "start": 5522,
+              "end": 5574
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "11",
+              "start": 5575,
+              "end": 6441
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "11",
+              "start": 6442,
+              "end": 6504
+            },
+            {
+              "index": "11",
+              "start": 6505,
+              "end": 6571
+            },
+            {
+              "index": "11",
+              "start": 6572,
+              "end": 6636
+            },
+            {
+              "index": "12",
+              "start": 825,
+              "end": 1775,
+              "patches": [
+                [
+                  950,
+                  950,
+                  " the ground."
+                ]
+              ]
+            }
+          ],
+          "ref": "11"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "12",
+              "start": 1788,
+              "end": 1853
+            }
+          ],
+          "ref": "12"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "12",
+              "start": 1854,
+              "end": 2593
+            }
+          ],
+          "ref": "12"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "12",
+              "start": 2594,
+              "end": 4002
+            }
+          ],
+          "ref": "12"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "12",
+              "start": 4003,
+              "end": 4062
+            },
+            {
+              "index": "12",
+              "start": 4063,
+              "end": 5005
+            }
+          ],
+          "ref": "12"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "12",
+              "start": 5006,
+              "end": 5067
+            },
+            {
+              "index": "12",
+              "start": 1114,
+              "end": 1122
+            }
+          ],
+          "ref": "12"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "12",
+              "start": 5078,
+              "end": 5275
+            }
+          ],
+          "ref": "12"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "12",
+              "start": 5276,
+              "end": 5377
+            }
+          ],
+          "ref": "12"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "12",
+              "start": 5378,
+              "end": 6004
+            }
+          ],
+          "ref": "12"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "12",
+              "start": 6005,
+              "end": 6055
+            }
+          ],
+          "ref": "12"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "12",
+              "start": 6056,
+              "end": 6438
+            },
+            {
+              "index": "12",
+              "start": 6453,
+              "end": 6974
+            }
+          ],
+          "ref": "12"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "12",
+              "start": 6975,
+              "end": 7288
+            },
+            {
+              "index": "15",
+              "start": 0,
+              "end": 419
+            }
+          ],
+          "ref": "15"
+        },
+        {
+          "type": "figure",
+          "ref": "13",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p13-img01.jpg",
+              "size": [
+                2044,
+                868
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p13-img03.jpg",
+              "size": [
+                1266,
+                858
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p13-img02.jpg",
+              "size": [
+                746,
+                855
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "12",
+              "start": 0,
+              "end": 807,
+              "patches": [
+                [
+                  53,
+                  53,
+                  " Largo prepare to play \"Domination\" - a supposedly holographic"
+                ],
+                [
+                  166,
+                  166,
+                  " was generated in postproduction via model"
+                ],
+                [
+                  451,
+                  451,
+                  "/ Working over global "
+                ],
+                [
+                  479,
+                  717,
+                  ""
+                ],
+                [
+                  784,
+                  784,
+                  "continental land masses and then transferred them to the "
+                ],
+                [
+                  807,
+                  807,
+                  "plates over which the sheer fabric could be stretched."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "14",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p14-img01.jpg",
+              "size": [
+                2037,
+                842
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p14-img02.jpg",
+              "size": [
+                2034,
+                846
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "15",
+              "start": 420,
+              "end": 1033,
+              "patches": [
+                [
+                  50,
+                  51,
+                  "₂"
+                ]
+              ]
+            }
+          ],
+          "ref": "15"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "15",
+              "start": 1034,
+              "end": 1098
+            }
+          ],
+          "ref": "15"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "15",
+              "start": 1099,
+              "end": 2491
+            }
+          ],
+          "ref": "15"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "15",
+              "start": 2492,
+              "end": 3247
+            },
+            {
+              "index": "15",
+              "start": 3247,
+              "end": 4029,
+              "join": ""
+            }
+          ],
+          "ref": "15"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "15",
+              "start": 4030,
+              "end": 4087
+            }
+          ],
+          "ref": "15"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "15",
+              "start": 4088,
+              "end": 4703
+            }
+          ],
+          "ref": "15"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "15",
+              "start": 4704,
+              "end": 6138
+            }
+          ],
+          "ref": "15"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "15",
+              "start": 6139,
+              "end": 6182
+            }
+          ],
+          "ref": "15"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "15",
+              "start": 6183,
+              "end": 6566
+            },
+            {
+              "index": "16",
+              "start": 1133,
+              "end": 1504
+            }
+          ],
+          "ref": "16"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "16",
+              "start": 1505,
+              "end": 3579
+            }
+          ],
+          "ref": "16"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "16",
+              "start": 3580,
+              "end": 3682
+            }
+          ],
+          "ref": "16"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "16",
+              "start": 3683,
+              "end": 4438
+            }
+          ],
+          "ref": "16"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "16",
+              "start": 4439,
+              "end": 4499
+            }
+          ],
+          "ref": "16"
+        },
+        {
+          "type": "figure",
+          "ref": "16",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p16-img01.jpg",
+              "size": [
+                753,
+                834
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p16-img02.jpg",
+              "size": [
+                730,
+                828
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "15",
+              "start": 6358,
+              "end": 7412,
+              "patches": [
+                [
+                  0,
+                  209,
+                  ""
+                ],
+                [
+                  903,
+                  903,
+                  "-"
+                ]
+              ]
+            },
+            {
+              "index": "16",
+              "start": 0,
+              "end": 1116,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "Since one of the countries "
+                ],
+                [
+                  30,
+                  30,
+                  "the game, a wire-frame representation was "
+                ],
+                [
+                  56,
+                  56,
+                  " Mike Speaker and Ilyanna Lowry solder the faceted segments together."
+                ],
+                [
+                  84,
+                  84,
+                  "rendered on glass. To generate an appropriate image, however, a three"
+                ],
+                [
+                  110,
+                  110,
+                  " to match the receding perspective of the game,"
+                ],
+                [
+                  168,
+                  168,
+                  "drawn on its walls. / The "
+                ],
+                [
+                  197,
+                  197,
+                  "ame table and photog"
+                ],
+                [
+                  225,
+                  225,
+                  "then traced onto a large "
+                ],
+                [
+                  251,
+                  251,
+                  " black paint. Following the"
+                ],
+                [
+                  395,
+                  395,
+                  "with laser light to achieve the desired scintillating effect. / Jim Dickson, "
+                ],
+                [
+                  538,
+                  538,
+                  "lit, each fiber optic bit "
+                ],
+                [
+                  568,
+                  568,
+                  " Individual facets were"
+                ],
+                [
+                  623,
+                  1103,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "17",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p17-img02.jpg",
+              "size": [
+                1253,
+                836
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p17-img01.jpg",
+              "size": [
+                736,
+                839
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p17-img03.jpg",
+              "size": [
+                2028,
+                842
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "17",
+              "start": 0,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "18",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p18-img01.jpg",
+              "size": [
+                2060,
+                826
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p18-img02.jpg",
+              "size": [
+                1276,
+                833
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p18-img03.jpg",
+              "size": [
+                753,
+                839
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "19",
+              "start": 0,
+              "end": 644,
+              "patches": [
+                [
+                  644,
+                  644,
+                  " exclusively."
+                ]
+              ]
+            }
+          ],
+          "ref": "19"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "19",
+              "start": 658,
+              "end": 711
+            }
+          ],
+          "ref": "19"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "19",
+              "start": 712,
+              "end": 2286
+            }
+          ],
+          "ref": "19"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "19",
+              "start": 2287,
+              "end": 2917
+            }
+          ],
+          "ref": "19"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "19",
+              "start": 2918,
+              "end": 2985
+            }
+          ],
+          "ref": "19"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "19",
+              "start": 2986,
+              "end": 3296
+            },
+            {
+              "index": "19",
+              "start": 3297,
+              "end": 3964
+            }
+          ],
+          "ref": "19"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "19",
+              "start": 3965,
+              "end": 6149
+            }
+          ],
+          "ref": "19"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "19",
+              "start": 6150,
+              "end": 6215
+            }
+          ],
+          "ref": "19"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "19",
+              "start": 6216,
+              "end": 6658
+            },
+            {
+              "index": "20",
+              "start": 1024,
+              "end": 1111
+            }
+          ],
+          "ref": "20"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "20",
+              "start": 1112,
+              "end": 1165
+            }
+          ],
+          "ref": "20"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "20",
+              "start": 1166,
+              "end": 1679
+            }
+          ],
+          "ref": "20"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "20",
+              "start": 1680,
+              "end": 1776
+            }
+          ],
+          "ref": "20"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "20",
+              "start": 1777,
+              "end": 2496
+            }
+          ],
+          "ref": "20"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "20",
+              "start": 2497,
+              "end": 2993
+            }
+          ],
+          "ref": "20"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "20",
+              "start": 2994,
+              "end": 3070
+            }
+          ],
+          "ref": "20"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "20",
+              "start": 3071,
+              "end": 3505
+            }
+          ],
+          "ref": "20"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "20",
+              "start": 3513,
+              "end": 3613
+            }
+          ],
+          "ref": "20"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "20",
+              "start": 3614,
+              "end": 3734,
+              "patches": [
+                [
+                  120,
+                  120,
+                  " percent."
+                ]
+              ]
+            }
+          ],
+          "ref": "20"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "20",
+              "start": 3735,
+              "end": 3787
+            }
+          ],
+          "ref": "20"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "20",
+              "start": 3788,
+              "end": 4036
+            },
+            {
+              "index": "23",
+              "start": 0,
+              "end": 586
+            }
+          ],
+          "ref": "23"
+        },
+        {
+          "type": "figure",
+          "ref": "20",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p20-img01.jpg",
+              "size": [
+                750,
+                823
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p20-img02.jpg",
+              "size": [
+                750,
+                839
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "19",
+              "start": 6659,
+              "end": 7129
+            },
+            {
+              "index": "20",
+              "start": 0,
+              "end": 1007,
+              "patches": [
+                [
+                  107,
+                  107,
+                  " plastic model horse was purchased, then cut into "
+                ],
+                [
+                  163,
+                  163,
+                  " Lowry adds some early"
+                ],
+                [
+                  249,
+                  249,
+                  "iniature riding gear. / Although the primary m"
+                ],
+                [
+                  300,
+                  300,
+                  " motion control, animator Harry Walton was called upon to add subtle"
+                ],
+                [
+                  458,
+                  458,
+                  "were exposed - then "
+                ],
+                [
+                  546,
+                  546,
+                  "by Harry Stover and Catherine Nobel - were "
+                ],
+                [
+                  573,
+                  573,
+                  " After determining that"
+                ],
+                [
+                  687,
+                  958,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "21",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p21-img02.jpg",
+              "size": [
+                1252,
+                826
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p21-img01.jpg",
+              "size": [
+                743,
+                836
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p21-img03.jpg",
+              "size": [
+                2037,
+                836
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "figure",
+          "ref": "22",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p22-img01.jpg",
+              "size": [
+                2047,
+                833
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p22-img02.jpg",
+              "size": [
+                2047,
+                839
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "23",
+              "start": 6566,
+              "end": 7274
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "23",
+              "start": 113,
+              "end": 646,
+              "patches": [
+                [
+                  0,
+                  474,
+                  ""
+                ],
+                [
+                  533,
+                  533,
+                  " the game?"
+                ]
+              ]
+            }
+          ],
+          "ref": "23"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "23",
+              "start": 657,
+              "end": 1296
+            }
+          ],
+          "ref": "23"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "23",
+              "start": 1297,
+              "end": 2084
+            }
+          ],
+          "ref": "23"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "23",
+              "start": 2085,
+              "end": 2188
+            }
+          ],
+          "ref": "23"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "23",
+              "start": 2189,
+              "end": 3043
+            }
+          ],
+          "ref": "23"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "23",
+              "start": 3044,
+              "end": 4721,
+              "patches": [
+                [
+                  1375,
+                  1391,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "23"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "23",
+              "start": 4722,
+              "end": 6032,
+              "patches": [
+                [
+                  631,
+                  631,
+                  "- "
+                ]
+              ]
+            }
+          ],
+          "ref": "23"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "23",
+              "start": 6033,
+              "end": 6121
+            }
+          ],
+          "ref": "23"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "23",
+              "start": 6122,
+              "end": 6565
+            },
+            {
+              "index": "24",
+              "start": 492,
+              "end": 601
+            }
+          ],
+          "ref": "24"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "24",
+              "start": 602,
+              "end": 731,
+              "patches": [
+                [
+                  129,
+                  129,
+                  " as well?"
+                ]
+              ]
+            }
+          ],
+          "ref": "24"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "24",
+              "start": 732,
+              "end": 1536,
+              "patches": [
+                [
+                  61,
+                  61,
+                  "-"
+                ]
+              ]
+            }
+          ],
+          "ref": "24"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "24",
+              "start": 1559,
+              "end": 1621
+            }
+          ],
+          "ref": "24"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "24",
+              "start": 1622,
+              "end": 2288
+            }
+          ],
+          "ref": "24"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "24",
+              "start": 2289,
+              "end": 2341
+            }
+          ],
+          "ref": "24"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "24",
+              "start": 2342,
+              "end": 3175
+            }
+          ],
+          "ref": "24"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "24",
+              "start": 3176,
+              "end": 3803
+            },
+            {
+              "index": "24",
+              "start": 3804,
+              "end": 4540
+            }
+          ],
+          "ref": "24"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "24",
+              "start": 4541,
+              "end": 6085,
+              "patches": [
+                [
+                  919,
+                  920,
+                  " \""
+                ],
+                [
+                  1005,
+                  1005,
+                  "-"
+                ]
+              ]
+            }
+          ],
+          "ref": "24"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "24",
+              "start": 6086,
+              "end": 6148
+            }
+          ],
+          "ref": "24"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "24",
+              "start": 6149,
+              "end": 7108
+            },
+            {
+              "index": "27",
+              "start": 0,
+              "end": 56
+            }
+          ],
+          "ref": "27"
+        },
+        {
+          "type": "figure",
+          "ref": "25",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p25-img03.jpg",
+              "size": [
+                1260,
+                1716
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p25-img01.jpg",
+              "size": [
+                750,
+                836
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p25-img02.jpg",
+              "size": [
+                748,
+                838
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "24",
+              "start": 0,
+              "end": 475,
+              "patches": [
+                [
+                  26,
+                  26,
+                  "d Beasley interfaces an articulated James Bon"
+                ],
+                [
+                  111,
+                  290,
+                  ""
+                ],
+                [
+                  380,
+                  380,
+                  "connects the puppet wiring "
+                ],
+                [
+                  405,
+                  405,
+                  "Actor Sean Connery aboard a "
+                ],
+                [
+                  428,
+                  428,
+                  " hovercraft, constructed for"
+                ],
+                [
+                  454,
+                  454,
+                  "used also on the stage to produce a number of front"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "26",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p26-img01.jpg",
+              "size": [
+                2050,
+                823
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p26-img02.jpg",
+              "size": [
+                1266,
+                826
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p26-img03.jpg",
+              "size": [
+                753,
+                833
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "27",
+              "start": 57,
+              "end": 107
+            }
+          ],
+          "ref": "27"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "27",
+              "start": 108,
+              "end": 326
+            }
+          ],
+          "ref": "27"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "27",
+              "start": 327,
+              "end": 441
+            },
+            {
+              "index": "27",
+              "start": 899,
+              "end": 906,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "o"
+                ],
+                [
+                  1,
+                  1,
+                  " e"
+                ],
+                [
+                  3,
+                  6,
+                  ""
+                ],
+                [
+                  7,
+                  7,
+                  "?"
+                ]
+              ]
+            }
+          ],
+          "ref": "27"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "27",
+              "start": 442,
+              "end": 1170
+            }
+          ],
+          "ref": "27"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "27",
+              "start": 1171,
+              "end": 3254
+            }
+          ],
+          "ref": "27"
+        },
+        {
+          "type": "figure",
+          "ref": "27",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p27-img01.jpg",
+              "size": [
+                737,
+                836
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p27-img02.jpg",
+              "size": [
+                730,
+                834
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "27",
+              "start": 3255,
+              "end": 3939
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "4",
+              "start": 6298,
+              "end": 6469
+            }
+          ],
+          "ref": "4",
+          "credit": true
+        }
+      ],
+      "ocr": true
+    },
+    {
+      "id": "2",
+      "format": "indexed",
+      "title": "The Day After",
+      "author": "Adam Eisenberg",
+      "indices": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "refs": [
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49"
+      ],
+      "startRef": "28",
+      "needsIndex": true,
+      "indexCrc": {
+        "30": 1745850987,
+        "46": 2701113614,
+        "38": 2800802588,
+        "39": 1971712568,
+        "42": 1269239339,
+        "49": 1375986824,
+        "45": 1498097673,
+        "33": 3973815787,
+        "34": 3561897573,
+        "29": 2877167987,
+        "35": 2777927306,
+        "37": 151634522,
+        "41": 1911970122,
+        "44": 1641591583
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "ref": "28",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p28-img01.jpg",
+              "size": [
+                1729,
+                1536
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 0,
+              "end": 447
+            }
+          ],
+          "ref": "29"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 448,
+              "end": 1007
+            }
+          ],
+          "ref": "29"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 1008,
+              "end": 1664,
+              "patches": [
+                [
+                  172,
+                  173,
+                  " \""
+                ]
+              ]
+            }
+          ],
+          "ref": "29"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 1665,
+              "end": 2354
+            }
+          ],
+          "ref": "29"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 2355,
+              "end": 2965
+            },
+            {
+              "index": "29",
+              "start": 3136,
+              "end": 3189
+            }
+          ],
+          "ref": "29"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 698,
+              "end": 3960,
+              "patches": [
+                [
+                  0,
+                  2492,
+                  ""
+                ],
+                [
+                  2726,
+                  2727,
+                  " "
+                ],
+                [
+                  3262,
+                  3262,
+                  " about"
+                ]
+              ]
+            }
+          ],
+          "ref": "29"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 3961,
+              "end": 4323
+            }
+          ],
+          "ref": "29"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 4324,
+              "end": 5290,
+              "patches": [
+                [
+                  347,
+                  347,
+                  "\""
+                ]
+              ]
+            }
+          ],
+          "ref": "29"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 5291,
+              "end": 5800
+            },
+            {
+              "index": "29",
+              "start": 5691,
+              "end": 5706
+            }
+          ],
+          "ref": "29"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 5817,
+              "end": 6251
+            },
+            {
+              "index": "29",
+              "start": 6263,
+              "end": 6325
+            },
+            {
+              "index": "29",
+              "start": 6341,
+              "end": 6406
+            },
+            {
+              "index": "30",
+              "start": 636,
+              "end": 1397
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 1398,
+              "end": 2198
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 2199,
+              "end": 2992,
+              "patches": [
+                [
+                  280,
+                  281,
+                  " \""
+                ]
+              ]
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 2993,
+              "end": 3951
+            },
+            {
+              "index": "30",
+              "start": 3951,
+              "end": 4203,
+              "join": ""
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 4204,
+              "end": 4851,
+              "patches": [
+                [
+                  64,
+                  65,
+                  ""
+                ],
+                [
+                  647,
+                  647,
+                  " \"The"
+                ]
+              ]
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 4853,
+              "end": 5364
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 5362,
+              "end": 6010
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 6011,
+              "end": 6870,
+              "patches": [
+                [
+                  284,
+                  285,
+                  " \""
+                ]
+              ]
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 6871,
+              "end": 7232,
+              "patches": [
+                [
+                  135,
+                  135,
+                  " \""
+                ]
+              ]
+            },
+            {
+              "index": "33",
+              "start": 0,
+              "end": 163
+            }
+          ],
+          "ref": "33"
+        },
+        {
+          "type": "figure",
+          "ref": "31",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p31-img02.jpg",
+              "size": [
+                1261,
+                844
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p31-img01.jpg",
+              "size": [
+                748,
+                836
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p31-img03.jpg",
+              "size": [
+                2042,
+                838
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "30",
+              "start": 0,
+              "end": 25
+            },
+            {
+              "index": "30",
+              "start": 411,
+              "end": 462
+            },
+            {
+              "index": "30",
+              "start": 26,
+              "end": 250
+            },
+            {
+              "index": "30",
+              "start": 463,
+              "end": 513
+            },
+            {
+              "index": "30",
+              "start": 251,
+              "end": 275
+            },
+            {
+              "index": "30",
+              "start": 514,
+              "end": 564
+            },
+            {
+              "index": "30",
+              "start": 276,
+              "end": 303
+            },
+            {
+              "index": "30",
+              "start": 565,
+              "end": 606
+            },
+            {
+              "index": "30",
+              "start": 304,
+              "end": 410
+            },
+            {
+              "index": "30",
+              "start": 607,
+              "end": 619
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "32",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p32-img03.jpg",
+              "size": [
+                733,
+                1684
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p32-img01.jpg",
+              "size": [
+                1263,
+                830
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p32-img02.jpg",
+              "size": [
+                1265,
+                849
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "33",
+              "start": 6563,
+              "end": 7443
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "33",
+              "start": 164,
+              "end": 1008
+            }
+          ],
+          "ref": "33"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "33",
+              "start": 1009,
+              "end": 1892
+            }
+          ],
+          "ref": "33"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "33",
+              "start": 1893,
+              "end": 2703
+            }
+          ],
+          "ref": "33"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "33",
+              "start": 2704,
+              "end": 3019
+            },
+            {
+              "index": "33",
+              "start": 3035,
+              "end": 3289
+            },
+            {
+              "index": "33",
+              "start": 3290,
+              "end": 3375
+            }
+          ],
+          "ref": "33"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "33",
+              "start": 3376,
+              "end": 4219,
+              "patches": [
+                [
+                  60,
+                  60,
+                  "\""
+                ]
+              ]
+            }
+          ],
+          "ref": "33"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "33",
+              "start": 4220,
+              "end": 5815,
+              "patches": [
+                [
+                  142,
+                  143,
+                  " \""
+                ]
+              ]
+            }
+          ],
+          "ref": "33"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "33",
+              "start": 5816,
+              "end": 6563
+            },
+            {
+              "index": "34",
+              "start": 376,
+              "end": 554
+            }
+          ],
+          "ref": "34"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "34",
+              "start": 555,
+              "end": 1781
+            }
+          ],
+          "ref": "34"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "34",
+              "start": 1782,
+              "end": 2779
+            }
+          ],
+          "ref": "34"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "34",
+              "start": 2780,
+              "end": 3289
+            }
+          ],
+          "ref": "34"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "34",
+              "start": 3290,
+              "end": 3658
+            },
+            {
+              "index": "34",
+              "start": 3659,
+              "end": 4014
+            }
+          ],
+          "ref": "34"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "34",
+              "start": 4015,
+              "end": 5224
+            }
+          ],
+          "ref": "34"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "34",
+              "start": 5225,
+              "end": 6274
+            }
+          ],
+          "ref": "34"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "34",
+              "start": 6275,
+              "end": 6952
+            },
+            {
+              "index": "35",
+              "start": 0,
+              "end": 274
+            }
+          ],
+          "ref": "35"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "35",
+              "start": 275,
+              "end": 1034
+            }
+          ],
+          "ref": "35"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "35",
+              "start": 1035,
+              "end": 2042,
+              "patches": [
+                [
+                  122,
+                  141,
+                  ""
+                ],
+                [
+                  713,
+                  714,
+                  "!"
+                ]
+              ]
+            }
+          ],
+          "ref": "35"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "35",
+              "start": 2043,
+              "end": 3177,
+              "patches": [
+                [
+                  63,
+                  63,
+                  "\""
+                ]
+              ]
+            }
+          ],
+          "ref": "35"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "35",
+              "start": 3178,
+              "end": 3300
+            },
+            {
+              "index": "37",
+              "start": 0,
+              "end": 981
+            }
+          ],
+          "ref": "37"
+        },
+        {
+          "type": "figure",
+          "ref": "35",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p35-img01.jpg",
+              "size": [
+                1244,
+                836
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p35-img02.jpg",
+              "size": [
+                1244,
+                823
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "34",
+              "start": 0,
+              "end": 372,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "Seven frames after it is introduced, the animated "
+                ],
+                [
+                  25,
+                  25,
+                  " point where it almost"
+                ],
+                [
+                  54,
+                  54,
+                  " the shadow-creating"
+                ],
+                [
+                  194,
+                  194,
+                  "which point the already"
+                ],
+                [
+                  220,
+                  335,
+                  ""
+                ],
+                [
+                  361,
+                  372,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "36",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p36-img03.jpg",
+              "size": [
+                753,
+                1690
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p36-img01.jpg",
+              "size": [
+                1262,
+                825
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p36-img02.jpg",
+              "size": [
+                1268,
+                819
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "37",
+              "start": 982,
+              "end": 2271,
+              "patches": [
+                [
+                  142,
+                  143,
+                  " \""
+                ]
+              ]
+            }
+          ],
+          "ref": "37"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "37",
+              "start": 2272,
+              "end": 2667
+            }
+          ],
+          "ref": "37"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "37",
+              "start": 2668,
+              "end": 3304
+            },
+            {
+              "index": "38",
+              "start": 556,
+              "end": 875
+            }
+          ],
+          "ref": "38"
+        },
+        {
+          "type": "figure",
+          "ref": "37",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p37-img01.jpg",
+              "size": [
+                759,
+                834
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p37-img02.jpg",
+              "size": [
+                759,
+                842
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "37",
+              "start": 3304,
+              "end": 4197
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "38",
+              "start": 876,
+              "end": 2243,
+              "patches": [
+                [
+                  733,
+                  734,
+                  " \""
+                ],
+                [
+                  1267,
+                  1268,
+                  "I"
+                ]
+              ]
+            }
+          ],
+          "ref": "38"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "38",
+              "start": 2244,
+              "end": 2366
+            },
+            {
+              "index": "38",
+              "start": 2367,
+              "end": 2975
+            }
+          ],
+          "ref": "38"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "38",
+              "start": 2976,
+              "end": 3476,
+              "patches": [
+                [
+                  142,
+                  143,
+                  " \""
+                ]
+              ]
+            }
+          ],
+          "ref": "38"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "38",
+              "start": 3477,
+              "end": 4035,
+              "patches": [
+                [
+                  558,
+                  558,
+                  " expected.\""
+                ]
+              ]
+            }
+          ],
+          "ref": "38"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "38",
+              "start": 4036,
+              "end": 5030
+            }
+          ],
+          "ref": "38"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "38",
+              "start": 5031,
+              "end": 5829,
+              "patches": [
+                [
+                  128,
+                  128,
+                  "\""
+                ]
+              ]
+            }
+          ],
+          "ref": "38"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "38",
+              "start": 5830,
+              "end": 6994,
+              "patches": [
+                [
+                  112,
+                  113,
+                  "I"
+                ],
+                [
+                  323,
+                  323,
+                  "\""
+                ]
+              ]
+            }
+          ],
+          "ref": "38"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "38",
+              "start": 6995,
+              "end": 7178
+            },
+            {
+              "index": "39",
+              "start": 0,
+              "end": 1238
+            }
+          ],
+          "ref": "39"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "39",
+              "start": 1239,
+              "end": 2277
+            }
+          ],
+          "ref": "39"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "39",
+              "start": 2278,
+              "end": 2764
+            },
+            {
+              "index": "39",
+              "start": 786,
+              "end": 792,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "s"
+                ],
+                [
+                  2,
+                  3,
+                  ""
+                ],
+                [
+                  6,
+                  6,
+                  ".\""
+                ]
+              ]
+            }
+          ],
+          "ref": "39"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "39",
+              "start": 2765,
+              "end": 3266,
+              "patches": [
+                [
+                  384,
+                  384,
+                  "\""
+                ]
+              ]
+            },
+            {
+              "index": "41",
+              "start": 0,
+              "end": 762
+            }
+          ],
+          "ref": "41"
+        },
+        {
+          "type": "figure",
+          "ref": "39",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p39-img01.jpg",
+              "size": [
+                1240,
+                849
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p39-img02.jpg",
+              "size": [
+                1234,
+                839
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "38",
+              "start": 0,
+              "end": 555,
+              "patches": [
+                [
+                  27,
+                  27,
+                  " seen from the streets of"
+                ],
+                [
+                  196,
+                  196,
+                  "Using a technique extra"
+                ],
+                [
+                  222,
+                  222,
+                  " Wolfen and Cat People,"
+                ],
+                [
+                  251,
+                  251,
+                  " distorted the color in the"
+                ],
+                [
+                  311,
+                  311,
+                  "effect. Throughout the "
+                ],
+                [
+                  365,
+                  365,
+                  "used to more closely "
+                ],
+                [
+                  393,
+                  535,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "40",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p40-img01.jpg",
+              "size": [
+                2050,
+                836
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p40-img02.jpg",
+              "size": [
+                1266,
+                842
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p40-img03.jpg",
+              "size": [
+                756,
+                849
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "41",
+              "start": 763,
+              "end": 1252
+            }
+          ],
+          "ref": "41"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "41",
+              "start": 1253,
+              "end": 2103,
+              "patches": [
+                [
+                  64,
+                  64,
+                  "\""
+                ],
+                [
+                  357,
+                  358,
+                  "\""
+                ]
+              ]
+            }
+          ],
+          "ref": "41"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "41",
+              "start": 2104,
+              "end": 2967
+            }
+          ],
+          "ref": "41"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "41",
+              "start": 2969,
+              "end": 3348
+            },
+            {
+              "index": "42",
+              "start": 543,
+              "end": 659
+            }
+          ],
+          "ref": "42"
+        },
+        {
+          "type": "figure",
+          "ref": "41",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p41-img01.jpg",
+              "size": [
+                759,
+                836
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p41-img02.jpg",
+              "size": [
+                756,
+                839
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "41",
+              "start": 3349,
+              "end": 4403
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "42",
+              "start": 660,
+              "end": 1992
+            }
+          ],
+          "ref": "42"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "42",
+              "start": 1993,
+              "end": 2811
+            }
+          ],
+          "ref": "42"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "42",
+              "start": 2812,
+              "end": 3734,
+              "patches": [
+                [
+                  263,
+                  264,
+                  " "
+                ]
+              ]
+            }
+          ],
+          "ref": "42"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "42",
+              "start": 3735,
+              "end": 3921
+            },
+            {
+              "index": "42",
+              "start": 3921,
+              "end": 4946,
+              "join": ""
+            }
+          ],
+          "ref": "42"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "42",
+              "start": 4947,
+              "end": 6370,
+              "patches": [
+                [
+                  561,
+                  562,
+                  "\""
+                ]
+              ]
+            }
+          ],
+          "ref": "42"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "42",
+              "start": 6372,
+              "end": 7271
+            },
+            {
+              "index": "44",
+              "start": 0,
+              "end": 141
+            }
+          ],
+          "ref": "44"
+        },
+        {
+          "type": "figure",
+          "ref": "43",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p43-img03.jpg",
+              "size": [
+                1240,
+                1713
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p43-img01.jpg",
+              "size": [
+                743,
+                842
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p43-img02.jpg",
+              "size": [
+                746,
+                833
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "42",
+              "start": 0,
+              "end": 526,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "Vaporization effects "
+                ],
+                [
+                  29,
+                  29,
+                  "of Nikita Knatz were "
+                ],
+                [
+                  54,
+                  54,
+                  " and visceral than those which ended up in the"
+                ],
+                [
+                  86,
+                  86,
+                  "two disturbing images, a woman bursts into flame "
+                ],
+                [
+                  112,
+                  112,
+                  " her; and then, moments"
+                ],
+                [
+                  143,
+                  143,
+                  "blown apart by the shock "
+                ],
+                [
+                  170,
+                  170,
+                  "the effects shots story"
+                ],
+                [
+                  195,
+                  195,
+                  " was an aerial view of a"
+                ],
+                [
+                  251,
+                  483,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "44",
+              "start": 142,
+              "end": 1082
+            }
+          ],
+          "ref": "44"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "44",
+              "start": 1083,
+              "end": 1937
+            }
+          ],
+          "ref": "44"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "44",
+              "start": 1938,
+              "end": 3011
+            }
+          ],
+          "ref": "44"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "44",
+              "start": 3012,
+              "end": 3343,
+              "patches": [
+                [
+                  315,
+                  331,
+                  ""
+                ]
+              ]
+            },
+            {
+              "index": "45",
+              "start": 0,
+              "end": 555,
+              "patches": [
+                [
+                  29,
+                  30,
+                  " \""
+                ]
+              ]
+            }
+          ],
+          "ref": "45"
+        },
+        {
+          "type": "figure",
+          "ref": "44",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p44-img01.jpg",
+              "size": [
+                1255,
+                841
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p44-img02.jpg",
+              "size": [
+                1255,
+                841
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "45",
+              "start": 6433,
+              "end": 6983
+            },
+            {
+              "index": "45",
+              "start": 202,
+              "end": 208
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "45",
+              "start": 556,
+              "end": 1539,
+              "patches": [
+                [
+                  515,
+                  516,
+                  " \""
+                ]
+              ]
+            }
+          ],
+          "ref": "45"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "45",
+              "start": 1540,
+              "end": 2156
+            }
+          ],
+          "ref": "45"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "45",
+              "start": 2157,
+              "end": 2915
+            }
+          ],
+          "ref": "45"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "45",
+              "start": 2916,
+              "end": 3348,
+              "patches": [
+                [
+                  157,
+                  158,
+                  " \""
+                ]
+              ]
+            }
+          ],
+          "ref": "45"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "45",
+              "start": 3349,
+              "end": 4373,
+              "patches": [
+                [
+                  160,
+                  161,
+                  " \""
+                ]
+              ]
+            }
+          ],
+          "ref": "45"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "45",
+              "start": 1536,
+              "end": 5018,
+              "patches": [
+                [
+                  0,
+                  2838,
+                  ""
+                ],
+                [
+                  3399,
+                  3399,
+                  "kathump caused by the pressure hitting the ground. All of this was done at Disneyland during one of the nightly Tinker Bell parades. Since I had worked for Disney before, I knew everyone "
+                ]
+              ]
+            }
+          ],
+          "ref": "45"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "45",
+              "start": 5019,
+              "end": 5809
+            }
+          ],
+          "ref": "45"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "45",
+              "start": 5810,
+              "end": 6434
+            },
+            {
+              "index": "46",
+              "start": 1063,
+              "end": 1781
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 1782,
+              "end": 2656
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 2657,
+              "end": 3097
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 3098,
+              "end": 3306
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 3307,
+              "end": 4127,
+              "patches": [
+                [
+                  820,
+                  820,
+                  " it off."
+                ]
+              ]
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 4128,
+              "end": 4253
+            },
+            {
+              "index": "46",
+              "start": 4254,
+              "end": 5058
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 5059,
+              "end": 5613
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 5614,
+              "end": 6566
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 6567,
+              "end": 7012
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 7013,
+              "end": 7201
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 7202,
+              "end": 7265
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 7266,
+              "end": 7451
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 7452,
+              "end": 7578
+            },
+            {
+              "index": "49",
+              "start": 0,
+              "end": 747
+            }
+          ],
+          "ref": "49"
+        },
+        {
+          "type": "figure",
+          "ref": "47",
+          "images": [
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p47-img02.jpg",
+              "size": [
+                1254,
+                846
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p47-img01.jpg",
+              "size": [
+                756,
+                849
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0111.jpg",
+              "size": [
+                1263,
+                833
+              ]
+            },
+            {
+              "url": "https://archive.org/download/CineFex_1984/CineFex%201984%20No%2015/images/Cinefex-15-p47-img03.jpg",
+              "size": [
+                746,
+                842
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "46",
+              "start": 0,
+              "end": 1062,
+              "patches": [
+                [
+                  28,
+                  28,
+                  " Stevens engineered and constructed most of the film's custom artifacts -"
+                ],
+                [
+                  83,
+                  83,
+                  " to produce the nuclear explosions and missile contrails. / Like the mushroom clouds, the contrails were formed by"
+                ],
+                [
+                  173,
+                  173,
+                  "to perform at real-time speeds - drew a high"
+                ],
+                [
+                  200,
+                  200,
+                  " water along a typical"
+                ],
+                [
+                  369,
+                  369,
+                  "A pair of ascending vapor "
+                ],
+                [
+                  429,
+                  429,
+                  " U.S. missiles are on their way to Russia - and vice"
+                ],
+                [
+                  625,
+                  625,
+                  "with a fire extinguisher. "
+                ],
+                [
+                  652,
+                  652,
+                  " by an oxyacetylene torch"
+                ],
+                [
+                  681,
+                  722,
+                  ""
+                ],
+                [
+                  723,
+                  730,
+                  ""
+                ],
+                [
+                  731,
+                  866,
+                  ""
+                ],
+                [
+                  867,
+                  950,
+                  ""
+                ],
+                [
+                  954,
+                  958,
+                  ""
+                ],
+                [
+                  959,
+                  961,
+                  "ig"
+                ],
+                [
+                  962,
+                  1062,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "48",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0114.jpg",
+              "size": [
+                2050,
+                840
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0115.jpg",
+              "size": [
+                1266,
+                842
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0116.jpg",
+              "size": [
+                748,
+                850
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "49",
+              "start": 748,
+              "end": 1967
+            }
+          ],
+          "ref": "49"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "49",
+              "start": 1968,
+              "end": 2502,
+              "patches": [
+                [
+                  219,
+                  219,
+                  "\""
+                ]
+              ]
+            }
+          ],
+          "ref": "49"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "49",
+              "start": 2503,
+              "end": 3304
+            }
+          ],
+          "ref": "49"
+        },
+        {
+          "type": "figure",
+          "ref": "49",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0118.jpg",
+              "size": [
+                746,
+                820
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0119.jpg",
+              "size": [
+                750,
+                846
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "49",
+              "start": 3305,
+              "end": 4082
+            },
+            {
+              "index": "49",
+              "start": 1051,
+              "end": 1063
+            },
+            {
+              "index": "49",
+              "start": 4097,
+              "end": 4112
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 2966,
+              "end": 3135
+            }
+          ],
+          "ref": "29",
+          "credit": true
+        }
+      ],
+      "ocr": true
+    },
+    {
+      "id": "3",
+      "format": "indexed",
+      "title": "Ralph Hammeras",
+      "author": "",
+      "indices": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "refs": [
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67"
+      ],
+      "startRef": "50",
+      "needsIndex": true,
+      "indexCrc": {
+        "61": 1537117693,
+        "60": 3732041868,
+        "59": 4023286372,
+        "52": 2707334623,
+        "64": 1836680176,
+        "56": 2281207505,
+        "55": 3200239595,
+        "65": 2657688110,
+        "63": 3240618717,
+        "67": 3681406976,
+        "51": 999326707
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "ref": "50",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0120.jpg",
+              "size": [
+                1728,
+                1536
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "51",
+              "start": 0,
+              "end": 1187
+            }
+          ],
+          "ref": "51"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "51",
+              "start": 1204,
+              "end": 1757
+            }
+          ],
+          "ref": "51"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "51",
+              "start": 1758,
+              "end": 2680
+            }
+          ],
+          "ref": "51"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "51",
+              "start": 2681,
+              "end": 3243
+            },
+            {
+              "index": "51",
+              "start": 3244,
+              "end": 3294
+            }
+          ],
+          "ref": "51"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "51",
+              "start": 3295,
+              "end": 3825
+            }
+          ],
+          "ref": "51"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "51",
+              "start": 3826,
+              "end": 5312
+            }
+          ],
+          "ref": "51"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "51",
+              "start": 5313,
+              "end": 6591,
+              "patches": [
+                [
+                  1142,
+                  1152,
+                  ""
+                ],
+                [
+                  1207,
+                  1216,
+                  ""
+                ]
+              ]
+            },
+            {
+              "index": "52",
+              "start": 1145,
+              "end": 1401
+            },
+            {
+              "index": "52",
+              "start": 244,
+              "end": 248
+            }
+          ],
+          "ref": "52"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "52",
+              "start": 1408,
+              "end": 2753
+            },
+            {
+              "index": "52",
+              "start": 1334,
+              "end": 1339
+            }
+          ],
+          "ref": "52"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "52",
+              "start": 2761,
+              "end": 3883
+            }
+          ],
+          "ref": "52"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "52",
+              "start": 3884,
+              "end": 4454
+            },
+            {
+              "index": "55",
+              "start": 0,
+              "end": 215
+            }
+          ],
+          "ref": "55"
+        },
+        {
+          "type": "figure",
+          "ref": "52",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0123.jpg",
+              "size": [
+                759,
+                826
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0124.jpg",
+              "size": [
+                754,
+                827
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "52",
+              "start": 0,
+              "end": 1128,
+              "patches": [
+                [
+                  26,
+                  26,
+                  " film business in 1915, working for Realart as a"
+                ],
+                [
+                  87,
+                  87,
+                  "miniatures - such as this "
+                ],
+                [
+                  113,
+                  113,
+                  " Reid western. In all"
+                ],
+                [
+                  201,
+                  585,
+                  ""
+                ],
+                [
+                  723,
+                  723,
+                  "patent for the \"glass shot\" - a technique that allowed "
+                ],
+                [
+                  748,
+                  748,
+                  " partial sets, which could then"
+                ],
+                [
+                  823,
+                  823,
+                  "positioned about eight feet in "
+                ],
+                [
+                  854,
+                  854,
+                  "'"
+                ],
+                [
+                  988,
+                  988,
+                  "surviving behind-the-scenes "
+                ],
+                [
+                  1013,
+                  1013,
+                  " from the original The Lost"
+                ],
+                [
+                  1078,
+                  1078,
+                  "tabletop settings. During the climactic holocaust sequence, Willis O'Brien animated some two dozen dinosaurs at once "
+                ],
+                [
+                  1128,
+                  1128,
+                  " the plateau."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "53",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0126.jpg",
+              "size": [
+                2068,
+                867
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0127.jpg",
+              "size": [
+                1252,
+                828
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0128.jpg",
+              "size": [
+                746,
+                831
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "figure",
+          "ref": "54",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0130.jpg",
+              "size": [
+                999,
+                842
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0131.jpg",
+              "size": [
+                1019,
+                843
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0132.jpg",
+              "size": [
+                2047,
+                850
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "55",
+              "start": 216,
+              "end": 1859
+            },
+            {
+              "index": "55",
+              "start": 766,
+              "end": 772
+            }
+          ],
+          "ref": "55"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "55",
+              "start": 1868,
+              "end": 2685
+            }
+          ],
+          "ref": "55"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "55",
+              "start": 2686,
+              "end": 3311
+            },
+            {
+              "index": "55",
+              "start": 3312,
+              "end": 3526
+            }
+          ],
+          "ref": "55"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "55",
+              "start": 3527,
+              "end": 4379
+            }
+          ],
+          "ref": "55"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "55",
+              "start": 4380,
+              "end": 4881
+            },
+            {
+              "index": "55",
+              "start": 812,
+              "end": 818
+            }
+          ],
+          "ref": "55"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "55",
+              "start": 4890,
+              "end": 5615
+            }
+          ],
+          "ref": "55"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "55",
+              "start": 5616,
+              "end": 5808
+            },
+            {
+              "index": "55",
+              "start": 5051,
+              "end": 5112,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "di"
+                ],
+                [
+                  1,
+                  14,
+                  ""
+                ],
+                [
+                  16,
+                  25,
+                  "t"
+                ],
+                [
+                  27,
+                  27,
+                  " match"
+                ],
+                [
+                  42,
+                  43,
+                  "s"
+                ],
+                [
+                  44,
+                  45,
+                  "w"
+                ],
+                [
+                  46,
+                  46,
+                  " were mak"
+                ],
+                [
+                  50,
+                  51,
+                  "to cut i"
+                ],
+                [
+                  53,
+                  55,
+                  "wi"
+                ],
+                [
+                  56,
+                  60,
+                  ""
+                ]
+              ]
+            },
+            {
+              "index": "55",
+              "start": 1071,
+              "end": 1137,
+              "patches": [
+                [
+                  1,
+                  1,
+                  "he live-"
+                ],
+                [
+                  2,
+                  5,
+                  "c"
+                ],
+                [
+                  6,
+                  6,
+                  "ion"
+                ],
+                [
+                  19,
+                  31,
+                  ""
+                ],
+                [
+                  32,
+                  57,
+                  "f"
+                ],
+                [
+                  62,
+                  62,
+                  "cast. When Earl Hudson f"
+                ],
+                [
+                  63,
+                  63,
+                  "na"
+                ],
+                [
+                  65,
+                  66,
+                  "y"
+                ]
+              ]
+            },
+            {
+              "index": "55",
+              "start": 5809,
+              "end": 6073
+            }
+          ],
+          "ref": "55"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "55",
+              "start": 6074,
+              "end": 6388
+            },
+            {
+              "index": "56",
+              "start": 798,
+              "end": 1105
+            }
+          ],
+          "ref": "56"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "56",
+              "start": 1106,
+              "end": 1757
+            }
+          ],
+          "ref": "56"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "56",
+              "start": 1758,
+              "end": 2324,
+              "patches": [
+                [
+                  488,
+                  504,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "56"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "56",
+              "start": 2325,
+              "end": 2689
+            }
+          ],
+          "ref": "56"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "56",
+              "start": 2690,
+              "end": 3499
+            }
+          ],
+          "ref": "56"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "56",
+              "start": 3500,
+              "end": 4139
+            },
+            {
+              "index": "59",
+              "start": 0,
+              "end": 390
+            }
+          ],
+          "ref": "59"
+        },
+        {
+          "type": "figure",
+          "ref": "56",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0135.jpg",
+              "size": [
+                756,
+                833
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0136.jpg",
+              "size": [
+                750,
+                830
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "55",
+              "start": 6389,
+              "end": 6748
+            },
+            {
+              "index": "55",
+              "start": 2789,
+              "end": 2815
+            },
+            {
+              "index": "55",
+              "start": 6776,
+              "end": 7245
+            },
+            {
+              "index": "56",
+              "start": 0,
+              "end": 781,
+              "patches": [
+                [
+                  112,
+                  112,
+                  "conceived but limply "
+                ],
+                [
+                  139,
+                  139,
+                  " in futuristic (1980) New"
+                ],
+                [
+                  170,
+                  170,
+                  "was performed in a spacecraft that would be "
+                ],
+                [
+                  197,
+                  197,
+                  "its subsequent re"
+                ],
+                [
+                  222,
+                  222,
+                  " Flash Gordon serial. /"
+                ],
+                [
+                  339,
+                  339,
+                  " reveal the detail and complexity of the Just"
+                ],
+                [
+                  505,
+                  505,
+                  "swarming ground-level "
+                ],
+                [
+                  533,
+                  730,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "57",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0138.jpg",
+              "size": [
+                1233,
+                1692
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0139.jpg",
+              "size": [
+                744,
+                836
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0140.jpg",
+              "size": [
+                740,
+                846
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "figure",
+          "ref": "58",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0142.jpg",
+              "size": [
+                1262,
+                832
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0143.jpg",
+              "size": [
+                746,
+                839
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0144.jpg",
+              "size": [
+                2032,
+                839
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "59",
+              "start": 6489,
+              "end": 7380
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "59",
+              "start": 391,
+              "end": 1088
+            },
+            {
+              "index": "59",
+              "start": 4592,
+              "end": 4596,
+              "patches": [
+                [
+                  3,
+                  4,
+                  "y.)"
+                ]
+              ]
+            }
+          ],
+          "ref": "59"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "59",
+              "start": 1089,
+              "end": 2113
+            }
+          ],
+          "ref": "59"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "59",
+              "start": 2114,
+              "end": 3294
+            }
+          ],
+          "ref": "59"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "59",
+              "start": 3295,
+              "end": 3988
+            }
+          ],
+          "ref": "59"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "59",
+              "start": 3989,
+              "end": 5127
+            }
+          ],
+          "ref": "59"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "59",
+              "start": 5128,
+              "end": 6360
+            }
+          ],
+          "ref": "59"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "59",
+              "start": 6361,
+              "end": 6488
+            },
+            {
+              "index": "60",
+              "start": 464,
+              "end": 1266
+            }
+          ],
+          "ref": "60"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "60",
+              "start": 1267,
+              "end": 1845
+            }
+          ],
+          "ref": "60"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "60",
+              "start": 1846,
+              "end": 2580
+            },
+            {
+              "index": "60",
+              "start": 6401,
+              "end": 6422,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "t"
+                ],
+                [
+                  1,
+                  1,
+                  "e"
+                ],
+                [
+                  2,
+                  3,
+                  "r"
+                ],
+                [
+                  12,
+                  20,
+                  "live"
+                ],
+                [
+                  21,
+                  21,
+                  ".)"
+                ]
+              ]
+            }
+          ],
+          "ref": "60"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "60",
+              "start": 2581,
+              "end": 3698
+            },
+            {
+              "index": "60",
+              "start": 3699,
+              "end": 5380
+            }
+          ],
+          "ref": "60"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "60",
+              "start": 5381,
+              "end": 7059
+            },
+            {
+              "index": "61",
+              "start": 0,
+              "end": 1009
+            },
+            {
+              "index": "61",
+              "start": 648,
+              "end": 653
+            }
+          ],
+          "ref": "61"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "61",
+              "start": 1017,
+              "end": 3323
+            },
+            {
+              "index": "63",
+              "start": 0,
+              "end": 255,
+              "patches": [
+                [
+                  255,
+                  255,
+                  " report to them."
+                ]
+              ]
+            }
+          ],
+          "ref": "63"
+        },
+        {
+          "type": "figure",
+          "ref": "61",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0148.jpg",
+              "size": [
+                1250,
+                825
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0149.jpg",
+              "size": [
+                1247,
+                852
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "60",
+              "start": 0,
+              "end": 254,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "In Belle Starr, a resolute "
+                ],
+                [
+                  27,
+                  27,
+                  " smoldering ruins of her"
+                ],
+                [
+                  85,
+                  85,
+                  "discovered harboring a "
+                ],
+                [
+                  112,
+                  112,
+                  " To accomplish the shot, a"
+                ],
+                [
+                  145,
+                  145,
+                  "combined with miniature footage of the smoking "
+                ],
+                [
+                  173,
+                  173,
+                  " was then filled in with a"
+                ],
+                [
+                  233,
+                  234,
+                  "are standing i"
+                ],
+                [
+                  236,
+                  240,
+                  "for th"
+                ],
+                [
+                  242,
+                  244,
+                  "princip"
+                ],
+                [
+                  245,
+                  248,
+                  "l"
+                ],
+                [
+                  250,
+                  251,
+                  "cto"
+                ],
+                [
+                  252,
+                  253,
+                  ""
+                ],
+                [
+                  254,
+                  254,
+                  "."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "62",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0151.jpg",
+              "size": [
+                1279,
+                839
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0152.jpg",
+              "size": [
+                746,
+                833
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0153.jpg",
+              "size": [
+                2053,
+                836
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "63",
+              "start": 6656,
+              "end": 7256
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "63",
+              "start": 272,
+              "end": 1075,
+              "patches": [
+                [
+                  553,
+                  554,
+                  "\""
+                ],
+                [
+                  687,
+                  687,
+                  "t"
+                ],
+                [
+                  765,
+                  766,
+                  "y"
+                ]
+              ]
+            }
+          ],
+          "ref": "63"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "63",
+              "start": 1076,
+              "end": 2170
+            }
+          ],
+          "ref": "63"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "63",
+              "start": 2171,
+              "end": 3312
+            },
+            {
+              "index": "63",
+              "start": 3313,
+              "end": 5340
+            },
+            {
+              "index": "63",
+              "start": 266,
+              "end": 271
+            }
+          ],
+          "ref": "63"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "63",
+              "start": 5349,
+              "end": 6087
+            }
+          ],
+          "ref": "63"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "63",
+              "start": 6088,
+              "end": 6655
+            },
+            {
+              "index": "64",
+              "start": 327,
+              "end": 667
+            }
+          ],
+          "ref": "64"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "64",
+              "start": 668,
+              "end": 2151
+            }
+          ],
+          "ref": "64"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "64",
+              "start": 2152,
+              "end": 3596
+            }
+          ],
+          "ref": "64"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "64",
+              "start": 3597,
+              "end": 5234,
+              "patches": [
+                [
+                  419,
+                  419,
+                  "-"
+                ],
+                [
+                  668,
+                  668,
+                  "- "
+                ]
+              ]
+            }
+          ],
+          "ref": "64"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "64",
+              "start": 5235,
+              "end": 5824
+            }
+          ],
+          "ref": "64"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "64",
+              "start": 5825,
+              "end": 6883
+            }
+          ],
+          "ref": "64"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "65",
+              "start": 0,
+              "end": 934
+            }
+          ],
+          "ref": "65"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "65",
+              "start": 935,
+              "end": 1501
+            }
+          ],
+          "ref": "65"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "65",
+              "start": 1502,
+              "end": 2499
+            }
+          ],
+          "ref": "65"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "65",
+              "start": 2500,
+              "end": 3008
+            }
+          ],
+          "ref": "65"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "65",
+              "start": 3009,
+              "end": 3300
+            }
+          ],
+          "ref": "65"
+        },
+        {
+          "type": "figure",
+          "ref": "65",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0157.jpg",
+              "size": [
+                1253,
+                836
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0158.jpg",
+              "size": [
+                1256,
+                839
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "64",
+              "start": 0,
+              "end": 310
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "66",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0160.jpg",
+              "size": [
+                1266,
+                836
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0161.jpg",
+              "size": [
+                750,
+                836
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0162.jpg",
+              "size": [
+                2047,
+                830
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "67",
+              "start": 0,
+              "end": 1306,
+              "patches": [
+                [
+                  1306,
+                  1306,
+                  " standbys."
+                ]
+              ]
+            }
+          ],
+          "ref": "67"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "67",
+              "start": 1307,
+              "end": 1934
+            }
+          ],
+          "ref": "67"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "67",
+              "start": 1935,
+              "end": 2244,
+              "patches": [
+                [
+                  309,
+                  309,
+                  " out of it."
+                ]
+              ]
+            }
+          ],
+          "ref": "67"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "67",
+              "start": 2245,
+              "end": 2755
+            }
+          ],
+          "ref": "67"
+        },
+        {
+          "type": "figure",
+          "ref": "67",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex-reader-repairs-011-016/Cinefex%20Reader%20Repairs%20011-016.zip/issues%2F15%2Fassets%2F0164.jpg",
+              "size": [
+                746,
+                1697
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "67",
+              "start": 3037,
+              "end": 3112
+            },
+            {
+              "index": "67",
+              "start": 6,
+              "end": 30
+            },
+            {
+              "index": "67",
+              "start": 3138,
+              "end": 4078
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "67",
+              "start": 2756,
+              "end": 3036
+            }
+          ],
+          "ref": "67",
+          "credit": true
+        }
+      ],
+      "ocr": true
+    }
+  ]
+}

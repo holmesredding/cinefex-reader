@@ -1,0 +1,1127 @@
+{
+  "issue": 63,
+  "articles": [
+    {
+      "id": "1",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/1.ReadingView.html",
+      "sourceBytes": 22810,
+      "sourceCrc": 3526979787,
+      "title": "QUICK CUTSTHE GHOST AND MR. MUREN",
+      "author": "Jody Duncan",
+      "indices": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "refs": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "images": {
+        "images_400/Cinefex-63-p13-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p13-img01.jpg",
+          "size": [
+            1278,
+            833
+          ]
+        },
+        "images_400/Cinefex-63-p14-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p14-img01.jpg",
+          "size": [
+            1270,
+            824
+          ]
+        },
+        "images_400/Cinefex-63-p14-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p14-img02.jpg",
+          "size": [
+            619,
+            424
+          ]
+        },
+        "images_400/Cinefex-63-p14-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p14-img03.jpg",
+          "size": [
+            626,
+            419
+          ]
+        },
+        "images_400/Cinefex-63-p15-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p15-img01.jpg",
+          "size": [
+            1280,
+            829
+          ]
+        },
+        "images_400/Cinefex-63-p16-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p16-img01.jpg",
+          "size": [
+            1277,
+            831
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "13"
+    },
+    {
+      "id": "2",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/2.ReadingView.html",
+      "sourceBytes": 10652,
+      "sourceCrc": 4247159397,
+      "title": "SPECIAL VENUESMGM’S GRAND EFX",
+      "author": "Jody Duncan",
+      "indices": [
+        20,
+        21
+      ],
+      "refs": [
+        "21",
+        "22"
+      ],
+      "images": {
+        "images_400/Cinefex-63-p21-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p21-img01.jpg",
+          "size": [
+            1278,
+            668
+          ]
+        },
+        "images_400/Cinefex-63-p22-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p22-img01.jpg",
+          "size": [
+            1272,
+            653
+          ]
+        },
+        "images_400/Cinefex-63-p22-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p22-img02.jpg",
+          "size": [
+            1272,
+            653
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "21"
+    },
+    {
+      "id": "3",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/3.ReadingView.html",
+      "sourceBytes": 11054,
+      "sourceCrc": 1986151455,
+      "title": "QUICK CUTSCOWBOYS AND INDIANS",
+      "author": "Jody Duncan",
+      "indices": [
+        26,
+        27
+      ],
+      "refs": [
+        "27",
+        "28"
+      ],
+      "images": {
+        "images_400/Cinefex-63-p27-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p27-img01.jpg",
+          "size": [
+            1275,
+            860
+          ]
+        },
+        "images_400/Cinefex-63-p28-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p28-img01.jpg",
+          "size": [
+            1274,
+            885
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "27"
+    },
+    {
+      "id": "4",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/4.ReadingView.html",
+      "sourceBytes": 11828,
+      "sourceCrc": 1724261626,
+      "title": "COMMERCIAL SPOTBEAR NECESSITIES",
+      "author": "Estelle Shay",
+      "indices": [
+        32,
+        33
+      ],
+      "refs": [
+        "33",
+        "34"
+      ],
+      "images": {
+        "images_400/Cinefex-63-p33-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p33-img01.jpg",
+          "size": [
+            1275,
+            858
+          ]
+        },
+        "images_400/Cinefex-63-p34-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p34-img01.jpg",
+          "size": [
+            624,
+            827
+          ]
+        },
+        "images_400/Cinefex-63-p34-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p34-img02.jpg",
+          "size": [
+            626,
+            829
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "33"
+    },
+    {
+      "id": "5",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/5.ReadingView.html",
+      "sourceBytes": 11678,
+      "sourceCrc": 1688199638,
+      "title": "QUICK CUTSAN ENDANGERING SPECIES",
+      "author": "Estelle Shay",
+      "indices": [
+        38,
+        39
+      ],
+      "refs": [
+        "39",
+        "40"
+      ],
+      "images": {
+        "images_400/Cinefex-63-p40-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p40-img01.jpg",
+          "size": [
+            1269,
+            1684
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "39"
+    },
+    {
+      "id": "6",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/6.ReadingView.html",
+      "sourceBytes": 23109,
+      "sourceCrc": 2411184879,
+      "title": "QUICK CUTSCAPTURING AN ALIEN SPECIES",
+      "author": "Estelle Shay",
+      "indices": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "refs": [
+        "45",
+        "46",
+        "47",
+        "48"
+      ],
+      "images": {
+        "images_400/Cinefex-63-p45-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p45-img01.jpg",
+          "size": [
+            616,
+            1057
+          ]
+        },
+        "images_400/Cinefex-63-p46-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p46-img01.jpg",
+          "size": [
+            1277,
+            624
+          ]
+        },
+        "images_400/Cinefex-63-p46-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p46-img02.jpg",
+          "size": [
+            1274,
+            624
+          ]
+        },
+        "images_400/Cinefex-63-p47-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p47-img01.jpg",
+          "size": [
+            1275,
+            624
+          ]
+        },
+        "images_400/Cinefex-63-p48-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p48-img01.jpg",
+          "size": [
+            1274,
+            858
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "45"
+    },
+    {
+      "id": "7",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/7.ReadingView.html",
+      "sourceBytes": 11950,
+      "sourceCrc": 2076601712,
+      "title": "QUICK CUTSBONNIE AND CLYDE",
+      "author": "Jody Duncan",
+      "indices": [
+        52,
+        53
+      ],
+      "refs": [
+        "53",
+        "54"
+      ],
+      "images": {
+        "images_400/Cinefex-63-p54-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p54-img01.jpg",
+          "size": [
+            954,
+            573
+          ]
+        },
+        "images_400/Cinefex-63-p54-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p54-img02.jpg",
+          "size": [
+            946,
+            577
+          ]
+        },
+        "images_400/Cinefex-63-p54-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p54-img03.jpg",
+          "size": [
+            955,
+            576
+          ]
+        },
+        "images_400/Cinefex-63-p54-img04.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p54-img04.jpg",
+          "size": [
+            951,
+            576
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "53"
+    },
+    {
+      "id": "8",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/8.ReadingView.html",
+      "sourceBytes": 113123,
+      "sourceCrc": 1198666502,
+      "title": "LAUNCHINGAPOLLO 13",
+      "author": "Tim Prokop",
+      "indices": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "refs": [
+        "58",
+        "60",
+        "61",
+        "62",
+        "64",
+        "65",
+        "66",
+        "68",
+        "69",
+        "70",
+        "72",
+        "73",
+        "74",
+        "77",
+        "78",
+        "80",
+        "81",
+        "82",
+        "84",
+        "85"
+      ],
+      "images": {
+        "images_400/Cinefex-63-p58a-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p58-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ]
+        },
+        "images_400/Cinefex-63-p60-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p60-img01.jpg",
+          "size": [
+            1254,
+            832
+          ]
+        },
+        "images_400/Cinefex-63-p60-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p60-img02.jpg",
+          "size": [
+            1259,
+            833
+          ]
+        },
+        "images_400/Cinefex-63-p62-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p62-img01.jpg",
+          "size": [
+            737,
+            824
+          ]
+        },
+        "images_400/Cinefex-63-p62-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p62-img02.jpg",
+          "size": [
+            745,
+            836
+          ]
+        },
+        "images_400/Cinefex-63-p63-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p63-img01.jpg",
+          "size": [
+            2048,
+            829
+          ]
+        },
+        "images_400/Cinefex-63-p63-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p63-img02.jpg",
+          "size": [
+            2045,
+            840
+          ]
+        },
+        "images_400/Cinefex-63-p64-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p64-img01.jpg",
+          "size": [
+            1258,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p64-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p64-img02.jpg",
+          "size": [
+            1259,
+            836
+          ]
+        },
+        "images_400/Cinefex-63-p67-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p67-img01.jpg",
+          "size": [
+            2038,
+            823
+          ]
+        },
+        "images_400/Cinefex-63-p67-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p67-img02.jpg",
+          "size": [
+            745,
+            838
+          ]
+        },
+        "images_400/Cinefex-63-p67-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p67-img03.jpg",
+          "size": [
+            1267,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p68-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p68-img01.jpg",
+          "size": [
+            1254,
+            822
+          ]
+        },
+        "images_400/Cinefex-63-p68-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p68-img02.jpg",
+          "size": [
+            1251,
+            832
+          ]
+        },
+        "images_400/Cinefex-63-p71-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p71-img01.jpg",
+          "size": [
+            745,
+            830
+          ]
+        },
+        "images_400/Cinefex-63-p71-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p71-img02.jpg",
+          "size": [
+            1273,
+            832
+          ]
+        },
+        "images_400/Cinefex-63-p71-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p71-img03.jpg",
+          "size": [
+            2054,
+            841
+          ]
+        },
+        "images_400/Cinefex-63-p72-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p72-img01.jpg",
+          "size": [
+            953,
+            546
+          ]
+        },
+        "images_400/Cinefex-63-p72-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p72-img02.jpg",
+          "size": [
+            956,
+            544
+          ]
+        },
+        "images_400/Cinefex-63-p72-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p72-img03.jpg",
+          "size": [
+            953,
+            546
+          ]
+        },
+        "images_400/Cinefex-63-p72-img04.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p72-img04.jpg",
+          "size": [
+            953,
+            550
+          ]
+        },
+        "images_400/Cinefex-63-p72-img05.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p72-img05.jpg",
+          "size": [
+            954,
+            542
+          ]
+        },
+        "images_400/Cinefex-63-p72-img06.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p72-img06.jpg",
+          "size": [
+            959,
+            543
+          ]
+        },
+        "images_400/Cinefex-63-p73-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p73-img01.jpg",
+          "size": [
+            957,
+            551
+          ]
+        },
+        "images_400/Cinefex-63-p73-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p73-img02.jpg",
+          "size": [
+            955,
+            537
+          ]
+        },
+        "images_400/Cinefex-63-p73-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p73-img03.jpg",
+          "size": [
+            956,
+            553
+          ]
+        },
+        "images_400/Cinefex-63-p73-img04.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p73-img04.jpg",
+          "size": [
+            959,
+            551
+          ]
+        },
+        "images_400/Cinefex-63-p73-img05.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p73-img05.jpg",
+          "size": [
+            958,
+            546
+          ]
+        },
+        "images_400/Cinefex-63-p73-img06.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p73-img06.jpg",
+          "size": [
+            962,
+            550
+          ]
+        },
+        "images_400/Cinefex-63-p75-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p75-img01.jpg",
+          "size": [
+            2045,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p75-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p75-img02.jpg",
+          "size": [
+            2045,
+            841
+          ]
+        },
+        "images_400/Cinefex-63-p76-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p76-img01.jpg",
+          "size": [
+            1276,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p76-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p76-img02.jpg",
+          "size": [
+            744,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p76-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p76-img03.jpg",
+          "size": [
+            2051,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p78-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p78-img01.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-63-p78-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p78-img02.jpg",
+          "size": [
+            741,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p79-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p79-img01.jpg",
+          "size": [
+            2038,
+            825
+          ]
+        },
+        "images_400/Cinefex-63-p79-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p79-img02.jpg",
+          "size": [
+            2041,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p80-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p80-img01.jpg",
+          "size": [
+            1251,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p80-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p80-img02.jpg",
+          "size": [
+            1254,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p83-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p83-img01.jpg",
+          "size": [
+            2051,
+            828
+          ]
+        },
+        "images_400/Cinefex-63-p83-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p83-img02.jpg",
+          "size": [
+            2051,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p84-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p84-img01.jpg",
+          "size": [
+            1248,
+            825
+          ]
+        },
+        "images_400/Cinefex-63-p84-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p84-img02.jpg",
+          "size": [
+            1254,
+            825
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "58"
+    },
+    {
+      "id": "9",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/9.ReadingView.html",
+      "sourceBytes": 106306,
+      "sourceCrc": 1435557683,
+      "title": "FOREVERAND AKNIGHT",
+      "author": "Mark Cotta Vaz",
+      "indices": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "refs": [
+        "90",
+        "93",
+        "94",
+        "97",
+        "98",
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "108",
+        "109",
+        "110",
+        "113"
+      ],
+      "images": {
+        "images_400/Cinefex-63-p90a-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p90-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ]
+        },
+        "images_400/Cinefex-63-p92-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p92-img01.jpg",
+          "size": [
+            1251,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p92-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p92-img02.jpg",
+          "size": [
+            1246,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p95-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p95-img01.jpg",
+          "size": [
+            731,
+            1690
+          ]
+        },
+        "images_400/Cinefex-63-p95-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p95-img02.jpg",
+          "size": [
+            1268,
+            823
+          ]
+        },
+        "images_400/Cinefex-63-p95-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p95-img03.jpg",
+          "size": [
+            1269,
+            833
+          ]
+        },
+        "images_400/Cinefex-63-p96-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p96-img01.jpg",
+          "size": [
+            1270,
+            1692
+          ]
+        },
+        "images_400/Cinefex-63-p96-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p96-img02.jpg",
+          "size": [
+            745,
+            831
+          ]
+        },
+        "images_400/Cinefex-63-p96-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p96-img03.jpg",
+          "size": [
+            745,
+            835
+          ]
+        },
+        "images_400/Cinefex-63-p99-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p99-img01.jpg",
+          "size": [
+            2044,
+            831
+          ]
+        },
+        "images_400/Cinefex-63-p99-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p99-img02.jpg",
+          "size": [
+            738,
+            835
+          ]
+        },
+        "images_400/Cinefex-63-p99-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p99-img03.jpg",
+          "size": [
+            1276,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p100-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p100-img01.jpg",
+          "size": [
+            1270,
+            1692
+          ]
+        },
+        "images_400/Cinefex-63-p100-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p100-img02.jpg",
+          "size": [
+            742,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p100-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p100-img03.jpg",
+          "size": [
+            739,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p103-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p103-img01.jpg",
+          "size": [
+            1254,
+            816
+          ]
+        },
+        "images_400/Cinefex-63-p103-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p103-img02.jpg",
+          "size": [
+            1252,
+            826
+          ]
+        },
+        "images_400/Cinefex-63-p104-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p104-img01.jpg",
+          "size": [
+            1254,
+            828
+          ]
+        },
+        "images_400/Cinefex-63-p104-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p104-img02.jpg",
+          "size": [
+            1251,
+            822
+          ]
+        },
+        "images_400/Cinefex-63-p106-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p106-img01.jpg",
+          "size": [
+            734,
+            1672
+          ]
+        },
+        "images_400/Cinefex-63-p107-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p107-img01.jpg",
+          "size": [
+            2031,
+            829
+          ]
+        },
+        "images_400/Cinefex-63-p107-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p107-img02.jpg",
+          "size": [
+            740,
+            830
+          ]
+        },
+        "images_400/Cinefex-63-p107-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p107-img03.jpg",
+          "size": [
+            1266,
+            832
+          ]
+        },
+        "images_400/Cinefex-63-p108-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p108-img01.jpg",
+          "size": [
+            1249,
+            830
+          ]
+        },
+        "images_400/Cinefex-63-p108-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p108-img02.jpg",
+          "size": [
+            1251,
+            834
+          ]
+        },
+        "images_400/Cinefex-63-p111-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p111-img01.jpg",
+          "size": [
+            742,
+            822
+          ]
+        },
+        "images_400/Cinefex-63-p111-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p111-img02.jpg",
+          "size": [
+            1272,
+            822
+          ]
+        },
+        "images_400/Cinefex-63-p111-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p111-img03.jpg",
+          "size": [
+            2040,
+            836
+          ]
+        },
+        "images_400/Cinefex-63-p112-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p112-img01.jpg",
+          "size": [
+            1264,
+            830
+          ]
+        },
+        "images_400/Cinefex-63-p112-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p112-img02.jpg",
+          "size": [
+            1268,
+            836
+          ]
+        },
+        "images_400/Cinefex-63-p112-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p112-img03.jpg",
+          "size": [
+            729,
+            1688
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "90"
+    },
+    {
+      "id": "10",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/10.ReadingView.html",
+      "sourceBytes": 11199,
+      "sourceCrc": 2133106556,
+      "title": "EFFECTS SCENETHE LAST HURRAH",
+      "author": "Nary C. Mason",
+      "indices": [
+        116,
+        117
+      ],
+      "refs": [
+        "117",
+        "118"
+      ],
+      "images": {
+        "images_400/Cinefex-63-p117-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p117-img01.jpg",
+          "size": [
+            1262,
+            855
+          ]
+        },
+        "images_400/Cinefex-63-p118-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p118-img01.jpg",
+          "size": [
+            1270,
+            1050
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "117"
+    },
+    {
+      "id": "11",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/11.ReadingView.html",
+      "sourceBytes": 11414,
+      "sourceCrc": 1985869780,
+      "title": "COMMERCIAL SPOTTHIS FROG’S FOR YOU",
+      "author": "Estelle Shay",
+      "indices": [
+        122,
+        123
+      ],
+      "refs": [
+        "123",
+        "124"
+      ],
+      "images": {
+        "images_400/Cinefex-63-p123-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p123-img01.jpg",
+          "size": [
+            1273,
+            825
+          ]
+        },
+        "images_400/Cinefex-63-p124-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p124-img01.jpg",
+          "size": [
+            1274,
+            893
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "123"
+    },
+    {
+      "id": "12",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/12.ReadingView.html",
+      "sourceBytes": 10991,
+      "sourceCrc": 533586634,
+      "title": "COMMERCIAL SPOTBATTERIES INCLUDED",
+      "author": "Estelle Shay",
+      "indices": [
+        128,
+        129
+      ],
+      "refs": [
+        "129",
+        "130"
+      ],
+      "images": {
+        "images_400/Cinefex-63-p129-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p129-img01.jpg",
+          "size": [
+            1273,
+            893
+          ]
+        },
+        "images_400/Cinefex-63-p130-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p130-img01.jpg",
+          "size": [
+            1277,
+            894
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "129"
+    },
+    {
+      "id": "13",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/13.ReadingView.html",
+      "sourceBytes": 11184,
+      "sourceCrc": 3304477637,
+      "title": "VIDEO BEATSOLDIERS OF FORTUNE",
+      "author": "Nark Sawicki",
+      "indices": [
+        134,
+        135
+      ],
+      "refs": [
+        "135",
+        "136"
+      ],
+      "images": {
+        "images_400/Cinefex-63-p135-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p135-img01.jpg",
+          "size": [
+            1275,
+            857
+          ]
+        },
+        "images_400/Cinefex-63-p136-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1995/CineFex%201995%20No%20063.zip/images%2FCinefex-63-p136-img01.jpg",
+          "size": [
+            1264,
+            823
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "135"
+    }
+  ]
+}

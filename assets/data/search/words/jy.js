@@ -1,0 +1,1 @@
+CinefexSearchData.register("words/jy",{"jye":"3e1l,629","jyf212":"2gr7","jyn":"38m0,g,1,1,1,1,2,2,2,1,2,1,7,a,b,1,1,1,7,1,1,c,1,1,1,7","jyns":"38ml","jyotiprakash":"3gdl","jyotirmaya":"370h,42e,4gx,q0","jyotsna":"39by","jystemu":"19m7"});

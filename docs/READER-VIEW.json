@@ -1,0 +1,3022 @@
+{
+  "issuesWithReaderView": 172,
+  "articles": 786,
+  "onlineArticles": 786,
+  "localOnlyArticles": 0,
+  "onlineIssueRanges": [
+    "1–172"
+  ],
+  "laterArticles": [
+    {
+      "issue": 127,
+      "article": "Cowboys & Aliens",
+      "paragraphs": 85,
+      "galleryGroups": 26,
+      "photographs": 45
+    },
+    {
+      "issue": 127,
+      "article": "Anonymous",
+      "paragraphs": 40,
+      "galleryGroups": 13,
+      "photographs": 20
+    },
+    {
+      "issue": 127,
+      "article": "Captain America",
+      "paragraphs": 85,
+      "galleryGroups": 26,
+      "photographs": 49
+    },
+    {
+      "issue": 127,
+      "article": "Harry Potter 7.2",
+      "paragraphs": 84,
+      "galleryGroups": 26,
+      "photographs": 40
+    },
+    {
+      "issue": 128,
+      "article": "Hugo",
+      "paragraphs": 65,
+      "galleryGroups": 26,
+      "photographs": 63
+    },
+    {
+      "issue": 128,
+      "article": "Rise of the Planet of the Apes",
+      "paragraphs": 59,
+      "galleryGroups": 31,
+      "photographs": 54
+    },
+    {
+      "issue": 128,
+      "article": "Tree of Life",
+      "paragraphs": 50,
+      "galleryGroups": 23,
+      "photographs": 36
+    },
+    {
+      "issue": 128,
+      "article": "Real Steel",
+      "paragraphs": 85,
+      "galleryGroups": 34,
+      "photographs": 47
+    },
+    {
+      "issue": 129,
+      "article": "Red Tails",
+      "paragraphs": 77,
+      "galleryGroups": 22,
+      "photographs": 43
+    },
+    {
+      "issue": 129,
+      "article": "John Carter",
+      "paragraphs": 83,
+      "galleryGroups": 32,
+      "photographs": 66
+    },
+    {
+      "issue": 129,
+      "article": "The Adventures of Tintin",
+      "paragraphs": 63,
+      "galleryGroups": 21,
+      "photographs": 43
+    },
+    {
+      "issue": 129,
+      "article": "Mission: Impossible - Ghost Protocol",
+      "paragraphs": 52,
+      "galleryGroups": 17,
+      "photographs": 36
+    },
+    {
+      "issue": 130,
+      "article": "Snow White and the Huntsman",
+      "paragraphs": 71,
+      "galleryGroups": 21,
+      "photographs": 44
+    },
+    {
+      "issue": 130,
+      "article": "Prometheus",
+      "paragraphs": 87,
+      "galleryGroups": 39,
+      "photographs": 66
+    },
+    {
+      "issue": 130,
+      "article": "The Avengers",
+      "paragraphs": 107,
+      "galleryGroups": 27,
+      "photographs": 53
+    },
+    {
+      "issue": 130,
+      "article": "Battleship",
+      "paragraphs": 72,
+      "galleryGroups": 28,
+      "photographs": 57
+    },
+    {
+      "issue": 131,
+      "article": "The Amazing Spider-Man",
+      "paragraphs": 69,
+      "galleryGroups": 24,
+      "photographs": 43
+    },
+    {
+      "issue": 131,
+      "article": "The Dark Knight Rises",
+      "paragraphs": 88,
+      "galleryGroups": 26,
+      "photographs": 40
+    },
+    {
+      "issue": 131,
+      "article": "Total Recall",
+      "paragraphs": 61,
+      "galleryGroups": 22,
+      "photographs": 52
+    },
+    {
+      "issue": 131,
+      "article": "Abraham Lincoln: Vampire Hunter",
+      "paragraphs": 62,
+      "galleryGroups": 18,
+      "photographs": 42
+    },
+    {
+      "issue": 132,
+      "article": "Beasts of the Southern Wild",
+      "paragraphs": 59,
+      "galleryGroups": 14,
+      "photographs": 23
+    },
+    {
+      "issue": 132,
+      "article": "Cloud Atlas",
+      "paragraphs": 75,
+      "galleryGroups": 26,
+      "photographs": 58
+    },
+    {
+      "issue": 132,
+      "article": "Life of Pi",
+      "paragraphs": 79,
+      "galleryGroups": 24,
+      "photographs": 54
+    },
+    {
+      "issue": 132,
+      "article": "The Hobbit: An Unexpected Journey",
+      "paragraphs": 81,
+      "galleryGroups": 24,
+      "photographs": 53
+    },
+    {
+      "issue": 133,
+      "article": "Les Miserables",
+      "paragraphs": 37,
+      "galleryGroups": 8,
+      "photographs": 15
+    },
+    {
+      "issue": 133,
+      "article": "Skyfall",
+      "paragraphs": 72,
+      "galleryGroups": 32,
+      "photographs": 76
+    },
+    {
+      "issue": 133,
+      "article": "Jack the Giant Slayer",
+      "paragraphs": 85,
+      "galleryGroups": 32,
+      "photographs": 49
+    },
+    {
+      "issue": 133,
+      "article": "Oz: The Great and Powerful",
+      "paragraphs": 72,
+      "galleryGroups": 25,
+      "photographs": 43
+    },
+    {
+      "issue": 134,
+      "article": "Iron Man 3",
+      "paragraphs": 88,
+      "galleryGroups": 22,
+      "photographs": 43
+    },
+    {
+      "issue": 134,
+      "article": "White House Down",
+      "paragraphs": 62,
+      "galleryGroups": 14,
+      "photographs": 33
+    },
+    {
+      "issue": 134,
+      "article": "Star Trek Into Darkness",
+      "paragraphs": 63,
+      "galleryGroups": 25,
+      "photographs": 51
+    },
+    {
+      "issue": 134,
+      "article": "Oblivion",
+      "paragraphs": 79,
+      "galleryGroups": 21,
+      "photographs": 36
+    },
+    {
+      "issue": 134,
+      "article": "HENRi",
+      "paragraphs": 70,
+      "galleryGroups": 13,
+      "photographs": 20
+    },
+    {
+      "issue": 135,
+      "article": "World War Z",
+      "paragraphs": 67,
+      "galleryGroups": 15,
+      "photographs": 32
+    },
+    {
+      "issue": 135,
+      "article": "Elysium",
+      "paragraphs": 70,
+      "galleryGroups": 23,
+      "photographs": 43
+    },
+    {
+      "issue": 135,
+      "article": "Pacific Rim",
+      "paragraphs": 71,
+      "galleryGroups": 28,
+      "photographs": 43
+    },
+    {
+      "issue": 135,
+      "article": "Man of Steel",
+      "paragraphs": 73,
+      "galleryGroups": 24,
+      "photographs": 38
+    },
+    {
+      "issue": 136,
+      "article": "Thor: The Dark World",
+      "paragraphs": 69,
+      "galleryGroups": 27,
+      "photographs": 56
+    },
+    {
+      "issue": 136,
+      "article": "Gravity",
+      "paragraphs": 80,
+      "galleryGroups": 25,
+      "photographs": 38
+    },
+    {
+      "issue": 136,
+      "article": "Rush",
+      "paragraphs": 73,
+      "galleryGroups": 14,
+      "photographs": 21
+    },
+    {
+      "issue": 136,
+      "article": "Carrie",
+      "paragraphs": 51,
+      "galleryGroups": 14,
+      "photographs": 34
+    },
+    {
+      "issue": 137,
+      "article": "The Hobbit: The Desolation of Smaug",
+      "paragraphs": 68,
+      "galleryGroups": 17,
+      "photographs": 36
+    },
+    {
+      "issue": 137,
+      "article": "Game of Thrones",
+      "paragraphs": 106,
+      "galleryGroups": 29,
+      "photographs": 50
+    },
+    {
+      "issue": 137,
+      "article": "RoboCop",
+      "paragraphs": 57,
+      "galleryGroups": 16,
+      "photographs": 37
+    },
+    {
+      "issue": 137,
+      "article": "The Secret Life of Walter Mitty",
+      "paragraphs": 44,
+      "galleryGroups": 10,
+      "photographs": 11
+    },
+    {
+      "issue": 138,
+      "article": "O'Brien vs Dawley",
+      "paragraphs": 56,
+      "galleryGroups": 15,
+      "photographs": 22
+    },
+    {
+      "issue": 138,
+      "article": "Captain America: The Winter Soldier",
+      "paragraphs": 62,
+      "galleryGroups": 19,
+      "photographs": 46
+    },
+    {
+      "issue": 138,
+      "article": "The Amazing Spider-Man 2",
+      "paragraphs": 81,
+      "galleryGroups": 29,
+      "photographs": 41
+    },
+    {
+      "issue": 138,
+      "article": "Maleficent",
+      "paragraphs": 84,
+      "galleryGroups": 19,
+      "photographs": 35
+    },
+    {
+      "issue": 138,
+      "article": "Godzilla",
+      "paragraphs": 62,
+      "galleryGroups": 13,
+      "photographs": 25
+    },
+    {
+      "issue": 139,
+      "article": "Guardians of the Galaxy",
+      "paragraphs": 66,
+      "galleryGroups": 27,
+      "photographs": 48
+    },
+    {
+      "issue": 139,
+      "article": "Edge of Tomorrow",
+      "paragraphs": 86,
+      "galleryGroups": 23,
+      "photographs": 37
+    },
+    {
+      "issue": 139,
+      "article": "Dawn of the Planet of the Apes",
+      "paragraphs": 71,
+      "galleryGroups": 28,
+      "photographs": 44
+    },
+    {
+      "issue": 139,
+      "article": "X-Men: Days of Future Past",
+      "paragraphs": 77,
+      "galleryGroups": 23,
+      "photographs": 38
+    },
+    {
+      "issue": 140,
+      "article": "The Zero Theorem",
+      "paragraphs": 61,
+      "galleryGroups": 13,
+      "photographs": 20
+    },
+    {
+      "issue": 140,
+      "article": "Interstellar",
+      "paragraphs": 92,
+      "galleryGroups": 34,
+      "photographs": 36
+    },
+    {
+      "issue": 140,
+      "article": "Exodus: Gods and Kings",
+      "paragraphs": 54,
+      "galleryGroups": 17,
+      "photographs": 30
+    },
+    {
+      "issue": 140,
+      "article": "ADI",
+      "paragraphs": 87,
+      "galleryGroups": 20,
+      "photographs": 20
+    },
+    {
+      "issue": 141,
+      "article": "Unbroken",
+      "paragraphs": 64,
+      "galleryGroups": 19,
+      "photographs": 32
+    },
+    {
+      "issue": 141,
+      "article": "The Hobbit: The Battle of the Five Armies",
+      "paragraphs": 82,
+      "galleryGroups": 27,
+      "photographs": 35
+    },
+    {
+      "issue": 141,
+      "article": "Jupiter Ascending",
+      "paragraphs": 77,
+      "galleryGroups": 31,
+      "photographs": 50
+    },
+    {
+      "issue": 141,
+      "article": "Chappie",
+      "paragraphs": 58,
+      "galleryGroups": 14,
+      "photographs": 21
+    },
+    {
+      "issue": 142,
+      "article": "Mad Max: Fury Road",
+      "paragraphs": 69,
+      "galleryGroups": 24,
+      "photographs": 43
+    },
+    {
+      "issue": 142,
+      "article": "Avengers: Age of Ultron",
+      "paragraphs": 98,
+      "galleryGroups": 29,
+      "photographs": 36
+    },
+    {
+      "issue": 142,
+      "article": "Jurassic World",
+      "paragraphs": 76,
+      "galleryGroups": 20,
+      "photographs": 27
+    },
+    {
+      "issue": 142,
+      "article": "San Andreas",
+      "paragraphs": 63,
+      "galleryGroups": 22,
+      "photographs": 41
+    },
+    {
+      "issue": 143,
+      "article": "The Walk",
+      "paragraphs": 67,
+      "galleryGroups": 14,
+      "photographs": 23
+    },
+    {
+      "issue": 143,
+      "article": "Ant-Man",
+      "paragraphs": 69,
+      "galleryGroups": 19,
+      "photographs": 29
+    },
+    {
+      "issue": 143,
+      "article": "Terminator Genisys",
+      "paragraphs": 73,
+      "galleryGroups": 22,
+      "photographs": 39
+    },
+    {
+      "issue": 143,
+      "article": "Mission: Impossible - Rogue Nation",
+      "paragraphs": 82,
+      "galleryGroups": 0,
+      "photographs": 0
+    },
+    {
+      "issue": 144,
+      "article": "In the Heart of the Sea",
+      "paragraphs": 74,
+      "galleryGroups": 17,
+      "photographs": 35
+    },
+    {
+      "issue": 144,
+      "article": "Crimson Peak",
+      "paragraphs": 71,
+      "galleryGroups": 17,
+      "photographs": 34
+    },
+    {
+      "issue": 144,
+      "article": "The Martian",
+      "paragraphs": 68,
+      "galleryGroups": 20,
+      "photographs": 27
+    },
+    {
+      "issue": 144,
+      "article": "Everest",
+      "paragraphs": 96,
+      "galleryGroups": 18,
+      "photographs": 35
+    },
+    {
+      "issue": 145,
+      "article": "Spectre",
+      "paragraphs": 90,
+      "galleryGroups": 30,
+      "photographs": 55
+    },
+    {
+      "issue": 145,
+      "article": "Star Wars: The Force Awakens",
+      "paragraphs": 100,
+      "galleryGroups": 40,
+      "photographs": 51
+    },
+    {
+      "issue": 145,
+      "article": "Ex Machina",
+      "paragraphs": 42,
+      "galleryGroups": 5,
+      "photographs": 8
+    },
+    {
+      "issue": 145,
+      "article": "The Revenant",
+      "paragraphs": 74,
+      "galleryGroups": 16,
+      "photographs": 28
+    },
+    {
+      "issue": 145,
+      "article": "The Finest Hours",
+      "paragraphs": 58,
+      "galleryGroups": 9,
+      "photographs": 13
+    },
+    {
+      "issue": 146,
+      "article": "Deadpool",
+      "paragraphs": 128,
+      "galleryGroups": 22,
+      "photographs": 39
+    },
+    {
+      "issue": 146,
+      "article": "Hail, Caesar!",
+      "paragraphs": 84,
+      "galleryGroups": 19,
+      "photographs": 27
+    },
+    {
+      "issue": 146,
+      "article": "Batman v Superman: Dawn of Justice",
+      "paragraphs": 89,
+      "galleryGroups": 27,
+      "photographs": 44
+    },
+    {
+      "issue": 146,
+      "article": "The 5th Wave",
+      "paragraphs": 81,
+      "galleryGroups": 18,
+      "photographs": 37
+    },
+    {
+      "issue": 146,
+      "article": "Gods of Egypt",
+      "paragraphs": 58,
+      "galleryGroups": 13,
+      "photographs": 22
+    },
+    {
+      "issue": 147,
+      "article": "Captain America: Civil War",
+      "paragraphs": 111,
+      "galleryGroups": 25,
+      "photographs": 41
+    },
+    {
+      "issue": 147,
+      "article": "X-Men: Apocalypse",
+      "paragraphs": 118,
+      "galleryGroups": 26,
+      "photographs": 41
+    },
+    {
+      "issue": 147,
+      "article": "The Jungle Book",
+      "paragraphs": 84,
+      "galleryGroups": 23,
+      "photographs": 45
+    },
+    {
+      "issue": 147,
+      "article": "Alice Through the Looking Glass",
+      "paragraphs": 58,
+      "galleryGroups": 20,
+      "photographs": 44
+    },
+    {
+      "issue": 148,
+      "article": "Independence Day: Resurgence",
+      "paragraphs": 95,
+      "galleryGroups": 22,
+      "photographs": 38
+    },
+    {
+      "issue": 148,
+      "article": "Warcraft",
+      "paragraphs": 104,
+      "galleryGroups": 19,
+      "photographs": 31
+    },
+    {
+      "issue": 148,
+      "article": "Star Trek Beyond",
+      "paragraphs": 99,
+      "galleryGroups": 19,
+      "photographs": 33
+    },
+    {
+      "issue": 148,
+      "article": "The Legend of Tarzan",
+      "paragraphs": 75,
+      "galleryGroups": 17,
+      "photographs": 33
+    },
+    {
+      "issue": 149,
+      "article": "Miss Peregrine's Home for Peculiar Children",
+      "paragraphs": 84,
+      "galleryGroups": 20,
+      "photographs": 41
+    },
+    {
+      "issue": 149,
+      "article": "Suicide Squad",
+      "paragraphs": 74,
+      "galleryGroups": 19,
+      "photographs": 36
+    },
+    {
+      "issue": 149,
+      "article": "The BFG",
+      "paragraphs": 73,
+      "galleryGroups": 20,
+      "photographs": 34
+    },
+    {
+      "issue": 149,
+      "article": "Ben-Hur",
+      "paragraphs": 86,
+      "galleryGroups": 14,
+      "photographs": 21
+    },
+    {
+      "issue": 149,
+      "article": "Approaching the Unknown",
+      "paragraphs": 65,
+      "galleryGroups": 13,
+      "photographs": 26
+    },
+    {
+      "issue": 150,
+      "article": "Fantastic Beasts and Where to Find Them",
+      "paragraphs": 85,
+      "galleryGroups": 19,
+      "photographs": 42
+    },
+    {
+      "issue": 150,
+      "article": "Arrival",
+      "paragraphs": 90,
+      "galleryGroups": 11,
+      "photographs": 25
+    },
+    {
+      "issue": 150,
+      "article": "Doctor Strange",
+      "paragraphs": 87,
+      "galleryGroups": 13,
+      "photographs": 35
+    },
+    {
+      "issue": 150,
+      "article": "Allied",
+      "paragraphs": 103,
+      "galleryGroups": 11,
+      "photographs": 24
+    },
+    {
+      "issue": 151,
+      "article": "A Monster Calls",
+      "paragraphs": 55,
+      "galleryGroups": 15,
+      "photographs": 34
+    },
+    {
+      "issue": 151,
+      "article": "Westworld",
+      "paragraphs": 81,
+      "galleryGroups": 16,
+      "photographs": 29
+    },
+    {
+      "issue": 151,
+      "article": "Rogue One",
+      "paragraphs": 95,
+      "galleryGroups": 30,
+      "photographs": 55
+    },
+    {
+      "issue": 151,
+      "article": "Virtual Reality",
+      "paragraphs": 69,
+      "galleryGroups": 19,
+      "photographs": 23
+    },
+    {
+      "issue": 151,
+      "article": "Passengers",
+      "paragraphs": 82,
+      "galleryGroups": 13,
+      "photographs": 24
+    },
+    {
+      "issue": 152,
+      "article": "The Great Wall",
+      "paragraphs": 82,
+      "galleryGroups": 13,
+      "photographs": 19
+    },
+    {
+      "issue": 152,
+      "article": "A Cure for Wellness",
+      "paragraphs": 67,
+      "galleryGroups": 17,
+      "photographs": 31
+    },
+    {
+      "issue": 152,
+      "article": "Kong: Skull Island",
+      "paragraphs": 95,
+      "galleryGroups": 24,
+      "photographs": 48
+    },
+    {
+      "issue": 152,
+      "article": "Logan",
+      "paragraphs": 73,
+      "galleryGroups": 17,
+      "photographs": 30
+    },
+    {
+      "issue": 153,
+      "article": "Alien: Covenant",
+      "paragraphs": 102,
+      "galleryGroups": 24,
+      "photographs": 36
+    },
+    {
+      "issue": 153,
+      "article": "The Fate of the Furious",
+      "paragraphs": 96,
+      "galleryGroups": 16,
+      "photographs": 34
+    },
+    {
+      "issue": 153,
+      "article": "Guardians of the Galaxy Vol. 2",
+      "paragraphs": 83,
+      "galleryGroups": 26,
+      "photographs": 39
+    },
+    {
+      "issue": 153,
+      "article": "Life",
+      "paragraphs": 76,
+      "galleryGroups": 16,
+      "photographs": 28
+    },
+    {
+      "issue": 153,
+      "article": "Ghost in the Shell",
+      "paragraphs": 62,
+      "galleryGroups": 14,
+      "photographs": 24
+    },
+    {
+      "issue": 154,
+      "article": "War for the Planet of the Apes",
+      "paragraphs": 65,
+      "galleryGroups": 22,
+      "photographs": 37
+    },
+    {
+      "issue": 154,
+      "article": "Pirates of the Caribbean 5",
+      "paragraphs": 103,
+      "galleryGroups": 21,
+      "photographs": 38
+    },
+    {
+      "issue": 154,
+      "article": "Spider-Man: Homecoming",
+      "paragraphs": 92,
+      "galleryGroups": 18,
+      "photographs": 33
+    },
+    {
+      "issue": 154,
+      "article": "Valerian",
+      "paragraphs": 92,
+      "galleryGroups": 14,
+      "photographs": 32
+    },
+    {
+      "issue": 154,
+      "article": "The Mummy",
+      "paragraphs": 77,
+      "galleryGroups": 17,
+      "photographs": 31
+    },
+    {
+      "issue": 155,
+      "article": "Dunkirk",
+      "paragraphs": 59,
+      "galleryGroups": 26,
+      "photographs": 31
+    },
+    {
+      "issue": 155,
+      "article": "The Dark Tower",
+      "paragraphs": 91,
+      "galleryGroups": 15,
+      "photographs": 28
+    },
+    {
+      "issue": 155,
+      "article": "Blade Runner 2049",
+      "paragraphs": 75,
+      "galleryGroups": 34,
+      "photographs": 61
+    },
+    {
+      "issue": 155,
+      "article": "Blade Runner",
+      "paragraphs": 7,
+      "galleryGroups": 12,
+      "photographs": 12
+    },
+    {
+      "issue": 155,
+      "article": "Kingsman: The Golden Circle",
+      "paragraphs": 60,
+      "galleryGroups": 14,
+      "photographs": 24
+    },
+    {
+      "issue": 156,
+      "article": "It",
+      "paragraphs": 54,
+      "galleryGroups": 8,
+      "photographs": 18
+    },
+    {
+      "issue": 156,
+      "article": "The Shape of Water",
+      "paragraphs": 71,
+      "galleryGroups": 18,
+      "photographs": 39
+    },
+    {
+      "issue": 156,
+      "article": "Only the Brave",
+      "paragraphs": 37,
+      "galleryGroups": 8,
+      "photographs": 17
+    },
+    {
+      "issue": 156,
+      "article": "Thor: Ragnarok",
+      "paragraphs": 124,
+      "galleryGroups": 25,
+      "photographs": 46
+    },
+    {
+      "issue": 156,
+      "article": "Wonder Woman",
+      "paragraphs": 74,
+      "galleryGroups": 14,
+      "photographs": 24
+    },
+    {
+      "issue": 157,
+      "article": "Downsizing",
+      "paragraphs": 60,
+      "galleryGroups": 19,
+      "photographs": 42
+    },
+    {
+      "issue": 157,
+      "article": "Star Wars: The Last Jedi",
+      "paragraphs": 96,
+      "galleryGroups": 30,
+      "photographs": 63
+    },
+    {
+      "issue": 157,
+      "article": "Game of Thrones (Season 7)",
+      "paragraphs": 117,
+      "galleryGroups": 32,
+      "photographs": 54
+    },
+    {
+      "issue": 157,
+      "article": "Jumanji: Welcome to the Jungle",
+      "paragraphs": 48,
+      "galleryGroups": 11,
+      "photographs": 24
+    },
+    {
+      "issue": 158,
+      "article": "Stan Lee Tribute",
+      "paragraphs": 12,
+      "galleryGroups": 5,
+      "photographs": 18
+    },
+    {
+      "issue": 158,
+      "article": "Q&A: Victoria Alonso",
+      "paragraphs": 63,
+      "galleryGroups": 5,
+      "photographs": 5
+    },
+    {
+      "issue": 158,
+      "article": "MCU: The Big Bang",
+      "paragraphs": 154,
+      "galleryGroups": 18,
+      "photographs": 18
+    },
+    {
+      "issue": 158,
+      "article": "Black Panther",
+      "paragraphs": 95,
+      "galleryGroups": 26,
+      "photographs": 56
+    },
+    {
+      "issue": 158,
+      "article": "The Marvel Effect",
+      "paragraphs": 190,
+      "galleryGroups": 22,
+      "photographs": 22
+    },
+    {
+      "issue": 158,
+      "article": "Keepers of the Flame",
+      "paragraphs": 49,
+      "galleryGroups": 31,
+      "photographs": 35
+    },
+    {
+      "issue": 159,
+      "article": "Annihilation",
+      "paragraphs": 61,
+      "galleryGroups": 23,
+      "photographs": 45
+    },
+    {
+      "issue": 159,
+      "article": "Pacific Rim Uprising",
+      "paragraphs": 74,
+      "galleryGroups": 27,
+      "photographs": 47
+    },
+    {
+      "issue": 159,
+      "article": "Avengers: Infinity War",
+      "paragraphs": 102,
+      "galleryGroups": 29,
+      "photographs": 53
+    },
+    {
+      "issue": 159,
+      "article": "Ready Player One",
+      "paragraphs": 75,
+      "galleryGroups": 36,
+      "photographs": 61
+    },
+    {
+      "issue": 160,
+      "article": "Ant-Man and the Wasp",
+      "paragraphs": 66,
+      "galleryGroups": 19,
+      "photographs": 41
+    },
+    {
+      "issue": 160,
+      "article": "Deadpool 2",
+      "paragraphs": 71,
+      "galleryGroups": 18,
+      "photographs": 30
+    },
+    {
+      "issue": 160,
+      "article": "Solo: A Star Wars Story",
+      "paragraphs": 82,
+      "galleryGroups": 23,
+      "photographs": 46
+    },
+    {
+      "issue": 160,
+      "article": "Jurassic World: Fallen Kingdom",
+      "paragraphs": 82,
+      "galleryGroups": 21,
+      "photographs": 39
+    },
+    {
+      "issue": 161,
+      "article": "Alpha",
+      "paragraphs": 80,
+      "galleryGroups": 19,
+      "photographs": 36
+    },
+    {
+      "issue": 161,
+      "article": "The Meg",
+      "paragraphs": 68,
+      "galleryGroups": 16,
+      "photographs": 35
+    },
+    {
+      "issue": 161,
+      "article": "First Man",
+      "paragraphs": 74,
+      "galleryGroups": 27,
+      "photographs": 38
+    },
+    {
+      "issue": 161,
+      "article": "A.X.L.",
+      "paragraphs": 64,
+      "galleryGroups": 15,
+      "photographs": 23
+    },
+    {
+      "issue": 161,
+      "article": "Venom",
+      "paragraphs": 63,
+      "galleryGroups": 14,
+      "photographs": 18
+    },
+    {
+      "issue": 162,
+      "article": "Welcome to Marwen",
+      "paragraphs": 74,
+      "galleryGroups": 19,
+      "photographs": 36
+    },
+    {
+      "issue": 162,
+      "article": "Q&A",
+      "paragraphs": 27,
+      "galleryGroups": 4,
+      "photographs": 4
+    },
+    {
+      "issue": 162,
+      "article": "Aquaman",
+      "paragraphs": 97,
+      "galleryGroups": 23,
+      "photographs": 48
+    },
+    {
+      "issue": 162,
+      "article": "Fantastic Beasts 2",
+      "paragraphs": 73,
+      "galleryGroups": 25,
+      "photographs": 53
+    },
+    {
+      "issue": 162,
+      "article": "20,000 Leagues Under the Sea",
+      "paragraphs": 73,
+      "galleryGroups": 10,
+      "photographs": 14
+    },
+    {
+      "issue": 163,
+      "article": "Alita: Battle Angel",
+      "paragraphs": 69,
+      "galleryGroups": 26,
+      "photographs": 44
+    },
+    {
+      "issue": 163,
+      "article": "Mortal Engines",
+      "paragraphs": 55,
+      "galleryGroups": 23,
+      "photographs": 43
+    },
+    {
+      "issue": 163,
+      "article": "Bumblebee",
+      "paragraphs": 58,
+      "galleryGroups": 17,
+      "photographs": 29
+    },
+    {
+      "issue": 163,
+      "article": "Mary Poppins Returns",
+      "paragraphs": 75,
+      "galleryGroups": 18,
+      "photographs": 24
+    },
+    {
+      "issue": 164,
+      "article": "Hellboy",
+      "paragraphs": 73,
+      "galleryGroups": 27,
+      "photographs": 55
+    },
+    {
+      "issue": 164,
+      "article": "Captain Marvel",
+      "paragraphs": 87,
+      "galleryGroups": 28,
+      "photographs": 47
+    },
+    {
+      "issue": 164,
+      "article": "Dumbo",
+      "paragraphs": 89,
+      "galleryGroups": 20,
+      "photographs": 39
+    },
+    {
+      "issue": 164,
+      "article": "The Nature of the Beast",
+      "paragraphs": 75,
+      "galleryGroups": 22,
+      "photographs": 35
+    },
+    {
+      "issue": 165,
+      "article": "X-Men: Dark Phoenix",
+      "paragraphs": 74,
+      "galleryGroups": 19,
+      "photographs": 36
+    },
+    {
+      "issue": 165,
+      "article": "Godzilla: King of the Monsters",
+      "paragraphs": 76,
+      "galleryGroups": 19,
+      "photographs": 28
+    },
+    {
+      "issue": 165,
+      "article": "Avengers: Endgame",
+      "paragraphs": 92,
+      "galleryGroups": 25,
+      "photographs": 51
+    },
+    {
+      "issue": 165,
+      "article": "Good Omens",
+      "paragraphs": 48,
+      "galleryGroups": 6,
+      "photographs": 11
+    },
+    {
+      "issue": 165,
+      "article": "Pokemon: Detective Pikachu",
+      "paragraphs": 51,
+      "galleryGroups": 14,
+      "photographs": 27
+    },
+    {
+      "issue": 166,
+      "article": "MIB: International",
+      "paragraphs": 64,
+      "galleryGroups": 21,
+      "photographs": 42
+    },
+    {
+      "issue": 166,
+      "article": "Spider-Man: Far From Home",
+      "paragraphs": 93,
+      "galleryGroups": 19,
+      "photographs": 50
+    },
+    {
+      "issue": 166,
+      "article": "The Lion King",
+      "paragraphs": 92,
+      "galleryGroups": 21,
+      "photographs": 31
+    },
+    {
+      "issue": 166,
+      "article": "Game of Thrones (Season 8)",
+      "paragraphs": 97,
+      "galleryGroups": 30,
+      "photographs": 64
+    },
+    {
+      "issue": 167,
+      "article": "Ad Astra",
+      "paragraphs": 74,
+      "galleryGroups": 20,
+      "photographs": 31
+    },
+    {
+      "issue": 167,
+      "article": "The Dark Crystal",
+      "paragraphs": 71,
+      "galleryGroups": 22,
+      "photographs": 46
+    },
+    {
+      "issue": 167,
+      "article": "Gemini Man",
+      "paragraphs": 75,
+      "galleryGroups": 13,
+      "photographs": 21
+    },
+    {
+      "issue": 167,
+      "article": "Hobbs & Shaw",
+      "paragraphs": 73,
+      "galleryGroups": 19,
+      "photographs": 36
+    },
+    {
+      "issue": 167,
+      "article": "Q&A: Stephan Trojansky",
+      "paragraphs": 50,
+      "galleryGroups": 5,
+      "photographs": 9
+    },
+    {
+      "issue": 168,
+      "article": "Midway",
+      "paragraphs": 66,
+      "galleryGroups": 15,
+      "photographs": 34
+    },
+    {
+      "issue": 168,
+      "article": "Ford v Ferrari",
+      "paragraphs": 77,
+      "galleryGroups": 15,
+      "photographs": 28
+    },
+    {
+      "issue": 168,
+      "article": "Terminator: Dark Fate",
+      "paragraphs": 80,
+      "galleryGroups": 27,
+      "photographs": 57
+    },
+    {
+      "issue": 168,
+      "article": "The Irishman",
+      "paragraphs": 85,
+      "galleryGroups": 12,
+      "photographs": 17
+    },
+    {
+      "issue": 168,
+      "article": "Q&A: John Fragomeni",
+      "paragraphs": 44,
+      "galleryGroups": 4,
+      "photographs": 5
+    },
+    {
+      "issue": 169,
+      "article": "40 Is The New 80",
+      "paragraphs": 7,
+      "galleryGroups": 0,
+      "photographs": 0
+    },
+    {
+      "issue": 169,
+      "article": "The Illusionists",
+      "paragraphs": 159,
+      "galleryGroups": 22,
+      "photographs": 22
+    },
+    {
+      "issue": 169,
+      "article": "James Cameron",
+      "paragraphs": 43,
+      "galleryGroups": 6,
+      "photographs": 6
+    },
+    {
+      "issue": 169,
+      "article": "George Lucas",
+      "paragraphs": 36,
+      "galleryGroups": 6,
+      "photographs": 6
+    },
+    {
+      "issue": 169,
+      "article": "Christopher Nolan",
+      "paragraphs": 52,
+      "galleryGroups": 6,
+      "photographs": 6
+    },
+    {
+      "issue": 169,
+      "article": "Robert Zemeckis",
+      "paragraphs": 33,
+      "galleryGroups": 5,
+      "photographs": 5
+    },
+    {
+      "issue": 169,
+      "article": "Star Wars: The Last Skywalker",
+      "paragraphs": 92,
+      "galleryGroups": 30,
+      "photographs": 49
+    },
+    {
+      "issue": 169,
+      "article": "The Mandalorian",
+      "paragraphs": 96,
+      "galleryGroups": 27,
+      "photographs": 34
+    },
+    {
+      "issue": 170,
+      "article": "1917",
+      "paragraphs": 67,
+      "galleryGroups": 18,
+      "photographs": 32
+    },
+    {
+      "issue": 170,
+      "article": "Watchmen",
+      "paragraphs": 98,
+      "galleryGroups": 20,
+      "photographs": 37
+    },
+    {
+      "issue": 170,
+      "article": "Underwater",
+      "paragraphs": 47,
+      "galleryGroups": 8,
+      "photographs": 20
+    },
+    {
+      "issue": 170,
+      "article": "Mulan",
+      "paragraphs": 62,
+      "galleryGroups": 14,
+      "photographs": 16
+    },
+    {
+      "issue": 170,
+      "article": "The New Mutants",
+      "paragraphs": 59,
+      "galleryGroups": 10,
+      "photographs": 22
+    },
+    {
+      "issue": 171,
+      "article": "Star Trek: Picard",
+      "paragraphs": 61,
+      "galleryGroups": 14,
+      "photographs": 23
+    },
+    {
+      "issue": 171,
+      "article": "Tales from the Loop",
+      "paragraphs": 85,
+      "galleryGroups": 12,
+      "photographs": 23
+    },
+    {
+      "issue": 171,
+      "article": "The Boys",
+      "paragraphs": 83,
+      "galleryGroups": 15,
+      "photographs": 35
+    },
+    {
+      "issue": 171,
+      "article": "Devs",
+      "paragraphs": 41,
+      "galleryGroups": 11,
+      "photographs": 22
+    },
+    {
+      "issue": 171,
+      "article": "Altered Carbon",
+      "paragraphs": 55,
+      "galleryGroups": 11,
+      "photographs": 18
+    },
+    {
+      "issue": 171,
+      "article": "Westworld",
+      "paragraphs": 55,
+      "galleryGroups": 10,
+      "photographs": 24
+    },
+    {
+      "issue": 172,
+      "article": "Mank",
+      "paragraphs": 62,
+      "galleryGroups": 14,
+      "photographs": 30
+    },
+    {
+      "issue": 172,
+      "article": "Raised by Wolves",
+      "paragraphs": 74,
+      "galleryGroups": 15,
+      "photographs": 23
+    },
+    {
+      "issue": 172,
+      "article": "Star Trek: Discovery",
+      "paragraphs": 109,
+      "galleryGroups": 19,
+      "photographs": 43
+    },
+    {
+      "issue": 172,
+      "article": "The Mandalorian",
+      "paragraphs": 99,
+      "galleryGroups": 29,
+      "photographs": 35
+    },
+    {
+      "issue": 172,
+      "article": "The Stand",
+      "paragraphs": 58,
+      "galleryGroups": 13,
+      "photographs": 24
+    }
+  ],
+  "localOnlyIssues": [],
+  "remainingLaterIssues": [],
+  "enabledArticleIds": {
+    "1": [
+      "1",
+      "2"
+    ],
+    "2": [
+      "1",
+      "2",
+      "3"
+    ],
+    "3": [
+      "1",
+      "2",
+      "3"
+    ],
+    "4": [
+      "1",
+      "2"
+    ],
+    "5": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "6": [
+      "1",
+      "2",
+      "3"
+    ],
+    "7": [
+      "1"
+    ],
+    "8": [
+      "1",
+      "2"
+    ],
+    "9": [
+      "1"
+    ],
+    "10": [
+      "1",
+      "2"
+    ],
+    "11": [
+      "1",
+      "2"
+    ],
+    "12": [
+      "1",
+      "2",
+      "3"
+    ],
+    "13": [
+      "1"
+    ],
+    "14": [
+      "1",
+      "2",
+      "3"
+    ],
+    "15": [
+      "1",
+      "2",
+      "3"
+    ],
+    "16": [
+      "1"
+    ],
+    "17": [
+      "1",
+      "2"
+    ],
+    "18": [
+      "1",
+      "2"
+    ],
+    "19": [
+      "1",
+      "2",
+      "3"
+    ],
+    "20": [
+      "1"
+    ],
+    "21": [
+      "1",
+      "2"
+    ],
+    "22": [
+      "1",
+      "2"
+    ],
+    "23": [
+      "1",
+      "2",
+      "3"
+    ],
+    "24": [
+      "1",
+      "2"
+    ],
+    "25": [
+      "1",
+      "2",
+      "3"
+    ],
+    "26": [
+      "1",
+      "2"
+    ],
+    "27": [
+      "1"
+    ],
+    "28": [
+      "1",
+      "2",
+      "3"
+    ],
+    "29": [
+      "1",
+      "2",
+      "3"
+    ],
+    "30": [
+      "1",
+      "2",
+      "3"
+    ],
+    "31": [
+      "1",
+      "2",
+      "3"
+    ],
+    "32": [
+      "1",
+      "2"
+    ],
+    "33": [
+      "1",
+      "2",
+      "3"
+    ],
+    "34": [
+      "1",
+      "2"
+    ],
+    "35": [
+      "1",
+      "2"
+    ],
+    "36": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "37": [
+      "1",
+      "2",
+      "3"
+    ],
+    "38": [
+      "1"
+    ],
+    "39": [
+      "1"
+    ],
+    "40": [
+      "1",
+      "2"
+    ],
+    "41": [
+      "1",
+      "2"
+    ],
+    "42": [
+      "1",
+      "2",
+      "3"
+    ],
+    "43": [
+      "1",
+      "2"
+    ],
+    "44": [
+      "1",
+      "2",
+      "3"
+    ],
+    "45": [
+      "1",
+      "2",
+      "3"
+    ],
+    "46": [
+      "1",
+      "2",
+      "3"
+    ],
+    "47": [
+      "1"
+    ],
+    "48": [
+      "1",
+      "2",
+      "3"
+    ],
+    "49": [
+      "1",
+      "2",
+      "3"
+    ],
+    "50": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "51": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "52": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "53": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "54": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "55": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "56": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "57": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "58": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "59": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "60": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "61": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "62": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "63": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "64": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "65": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "66": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "67": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "68": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "69": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "70": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "71": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "72": [
+      "1",
+      "2",
+      "3"
+    ],
+    "73": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "74": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "75": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "76": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "77": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "78": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "79": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "80": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "81": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "82": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "83": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "84": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "85": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "86": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "87": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "88": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "89": [
+      "1",
+      "2",
+      "3"
+    ],
+    "90": [
+      "1",
+      "2"
+    ],
+    "91": [
+      "1",
+      "2",
+      "3"
+    ],
+    "92": [
+      "1",
+      "2",
+      "3"
+    ],
+    "93": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "94": [
+      "1",
+      "2",
+      "3"
+    ],
+    "95": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "96": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "97": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "98": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "99": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "100": [
+      "1",
+      "2",
+      "3"
+    ],
+    "101": [
+      "1",
+      "2",
+      "3"
+    ],
+    "102": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "103": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "104": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "105": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "106": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "107": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "108": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "109": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "110": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "111": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "112": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "113": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "114": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "115": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "116": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "117": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "118": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "119": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "120": [
+      "1",
+      "2",
+      "3"
+    ],
+    "121": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "122": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "123": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "124": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "125": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "126": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "127": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "128": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "129": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "130": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "131": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "132": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "133": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "134": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "135": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "136": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "137": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "138": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "139": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "140": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "141": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "142": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "143": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "144": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "145": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "146": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "147": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "148": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "149": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "150": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "151": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "152": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "153": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "154": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "155": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "156": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "157": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "158": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5",
+      "feature-6"
+    ],
+    "159": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "160": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "161": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "162": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "163": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "164": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "165": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "166": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4"
+    ],
+    "167": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "168": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "169": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5",
+      "feature-6",
+      "feature-7",
+      "feature-8"
+    ],
+    "170": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ],
+    "171": [
+      "feature-1",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5",
+      "feature-6"
+    ],
+    "172": [
+      "mank",
+      "feature-2",
+      "feature-3",
+      "feature-4",
+      "feature-5"
+    ]
+  },
+  "checks": {
+    "nativeArticlesCompared": 507,
+    "missingParagraphs": 0,
+    "missingCaptions": 0,
+    "unexpectedActiveHTML": 0,
+    "interactiveArticlesCompared": 209,
+    "newInteractiveArticlesRendered": 208,
+    "textPagesCompared": 5736,
+    "galleryCaptionsCompared": 3998,
+    "captionIndexRepairs": 54,
+    "chromeOriginalArticleFetches": 209,
+    "chromeOriginalArticleFetchErrors": 0,
+    "chromeAndSafariLocalFolderAndZIP": true,
+    "mankParagraphsUnchanged": 62,
+    "remainingCoverage": {
+      "articlesRendered": 76,
+      "contentProblems": 0,
+      "chromeCases": 16,
+      "safariChecks": 31,
+      "chromeSessionChecks": 32
+    }
+  },
+  "localSourceSupport": [
+    "Original ReadingView HTML in extracted folders",
+    "Original ReadingView HTML in issue ZIPs",
+    "CRC and byte-size matching",
+    "Folder retained across issue navigation in Safari session"
+  ],
+  "mediaBundled": false,
+  "originalArticleHTMLBundled": false,
+  "interactiveLayout": {
+    "galleryPlacement": "Gallery photos follow related passages. Comparison images share a caption. Portfolio photos follow the introduction.",
+    "roundtables": "The Marvel Effect and The Illusionists follow column reading order, with speaker names in bold.",
+    "retrospective": "MCU: The Big Bang retains its 18 film sections and their photographs.",
+    "embeddedPhotos": "62 photographs are displayed from their original page images using crop coordinates.",
+    "textCorrections": "Incorrect and missing passages use the existing search index, with corrections checked against page images. Original source files remain unchanged."
+  },
+  "reconstructedEarlyArticles": [
+    {
+      "issue": 11,
+      "id": "2",
+      "title": "Special Visual Effects: Robert Swarthe"
+    },
+    {
+      "issue": 12,
+      "id": "1",
+      "title": "Something Wicked This Way Comes"
+    },
+    {
+      "issue": 12,
+      "id": "2",
+      "title": "The Howling, The Thing, Krull"
+    },
+    {
+      "issue": 12,
+      "id": "3",
+      "title": "Dream Quest"
+    },
+    {
+      "issue": 15,
+      "id": "1",
+      "title": "Never Say Never Again"
+    },
+    {
+      "issue": 15,
+      "id": "2",
+      "title": "The Day After"
+    },
+    {
+      "issue": 15,
+      "id": "3",
+      "title": "Ralph Hammeras"
+    },
+    {
+      "issue": 16,
+      "id": "1",
+      "title": "Greystoke and Altered States"
+    },
+    {
+      "issue": 17,
+      "id": "1",
+      "title": "Ghostbusters"
+    },
+    {
+      "issue": 17,
+      "id": "2",
+      "title": "The Last Starfighter"
+    },
+    {
+      "issue": 18,
+      "id": "1",
+      "title": "Indiana Jones II"
+    },
+    {
+      "issue": 18,
+      "id": "2",
+      "title": "Star Trek III"
+    },
+    {
+      "issue": 19,
+      "id": "1",
+      "title": "Gremlins"
+    },
+    {
+      "issue": 19,
+      "id": "2",
+      "title": "Buckaroo Banzai"
+    },
+    {
+      "issue": 19,
+      "id": "3",
+      "title": "Dreamscape"
+    },
+    {
+      "issue": 20,
+      "id": "1",
+      "title": "2010"
+    },
+    {
+      "issue": 21,
+      "id": "1",
+      "title": "The Terminator"
+    },
+    {
+      "issue": 21,
+      "id": "2",
+      "title": "The Shape of ‘Dune’"
+    },
+    {
+      "issue": 22,
+      "id": "1",
+      "title": "Return to Oz"
+    },
+    {
+      "issue": 22,
+      "id": "2",
+      "title": "Baby"
+    },
+    {
+      "issue": 23,
+      "id": "1",
+      "title": "Explorers"
+    },
+    {
+      "issue": 23,
+      "id": "2",
+      "title": "Lifeforce"
+    },
+    {
+      "issue": 23,
+      "id": "3",
+      "title": "My Science Project"
+    },
+    {
+      "issue": 24,
+      "id": "1",
+      "title": "Cocoon"
+    },
+    {
+      "issue": 24,
+      "id": "2",
+      "title": "The Goonies"
+    },
+    {
+      "issue": 25,
+      "id": "1",
+      "title": "Enemy Mine"
+    },
+    {
+      "issue": 25,
+      "id": "2",
+      "title": "German special effects"
+    },
+    {
+      "issue": 25,
+      "id": "3",
+      "title": "Fright Night"
+    },
+    {
+      "issue": 26,
+      "id": "1",
+      "title": "Poltergeist II"
+    },
+    {
+      "issue": 26,
+      "id": "2",
+      "title": "Young Sherlock Holmes"
+    },
+    {
+      "issue": 27,
+      "id": "1",
+      "title": "Aliens"
+    },
+    {
+      "issue": 28,
+      "id": "1",
+      "title": "The Fly"
+    },
+    {
+      "issue": 28,
+      "id": "2",
+      "title": "Big Trouble in Little China"
+    },
+    {
+      "issue": 28,
+      "id": "3",
+      "title": "Short Circuit"
+    },
+    {
+      "issue": 29,
+      "id": "1",
+      "title": "Humpback to the Future"
+    },
+    {
+      "issue": 29,
+      "id": "2",
+      "title": "After the Fall"
+    },
+    {
+      "issue": 29,
+      "id": "3",
+      "title": "Sky Wars"
+    },
+    {
+      "issue": 30,
+      "id": "1",
+      "title": "Little Shop of Horrors"
+    },
+    {
+      "issue": 30,
+      "id": "2",
+      "title": "The Gate"
+    },
+    {
+      "issue": 30,
+      "id": "3",
+      "title": "The Golden Child"
+    },
+    {
+      "issue": 31,
+      "id": "1",
+      "title": "Spaceballs"
+    },
+    {
+      "issue": 31,
+      "id": "2",
+      "title": "The Witches of Eastwick"
+    },
+    {
+      "issue": 31,
+      "id": "3",
+      "title": "Masters of the Universe"
+    },
+    {
+      "issue": 32,
+      "id": "1",
+      "title": "RoboCop"
+    },
+    {
+      "issue": 32,
+      "id": "2",
+      "title": "Innerspace"
+    },
+    {
+      "issue": 33,
+      "id": "1",
+      "title": "Moonraker, Octopussy, A View to a kill and The Living Daylights"
+    },
+    {
+      "issue": 33,
+      "id": "2",
+      "title": "Aging Gracefully with Dick Smith"
+    },
+    {
+      "issue": 33,
+      "id": "3",
+      "title": "Predator"
+    },
+    {
+      "issue": 34,
+      "id": "1",
+      "title": "Beetlejuice"
+    },
+    {
+      "issue": 34,
+      "id": "2",
+      "title": "Batteries Not Included"
+    },
+    {
+      "issue": 35,
+      "id": "1",
+      "title": "Who Framed Roger Rabbit"
+    },
+    {
+      "issue": 35,
+      "id": "2",
+      "title": "Willow"
+    },
+    {
+      "issue": 36,
+      "id": "1",
+      "title": "Alien Nation"
+    },
+    {
+      "issue": 36,
+      "id": "2",
+      "title": "Die Hard"
+    },
+    {
+      "issue": 36,
+      "id": "3",
+      "title": "Dead Ringers"
+    },
+    {
+      "issue": 36,
+      "id": "4",
+      "title": "The Blob"
+    },
+    {
+      "issue": 37,
+      "id": "1",
+      "title": "Star Trek - The Next Generation"
+    },
+    {
+      "issue": 37,
+      "id": "2",
+      "title": "The Fly II"
+    },
+    {
+      "issue": 37,
+      "id": "3",
+      "title": "From Science to Showbiz"
+    },
+    {
+      "issue": 38,
+      "id": "1",
+      "title": "The Adventures of Baron Munchausen"
+    },
+    {
+      "issue": 39,
+      "id": "1",
+      "title": "The Abyss"
+    },
+    {
+      "issue": 40,
+      "id": "1",
+      "title": "Ghostbusters II"
+    },
+    {
+      "issue": 40,
+      "id": "2",
+      "title": "Indiana Jones and the Last Crusade"
+    },
+    {
+      "issue": 55,
+      "id": "11",
+      "title": "Effects Scene: Cinematic Archaeology"
+    },
+    {
+      "issue": 55,
+      "id": "12",
+      "title": "LaserDisc Revolution: Jurassic Reality"
+    }
+  ],
+  "remainingSourceRepairs": {
+    "onlineFallback": [
+      11,
+      13,
+      14
+    ],
+    "nativeImageReferences": [
+      69,
+      75,
+      86
+    ],
+    "portfolio": 55,
+    "characterEncoding": 70,
+    "duplicateInterview": 113,
+    "textSource": "The existing recognised-text index supplies the reconstructed articles and online fallbacks. Layout data restores paragraph order, inline photographs, captions and source-page positions. Original native text is retained where available.",
+    "proofreading": "OCR-based articles can still contain transcription errors.",
+    "catalogueCorrection": "Issue 11 contains a Robert Swarthe feature. Its former Blade Runner label was corrected."
+  },
+  "ocrProofreading": {
+    "date": "2026-11-15",
+    "articles": 65,
+    "sourceImages": 1715,
+    "comparison": "Apple Vision and Tesseract English recognition compared with the existing text index. All 1212 unique lexical disagreements were reviewed. Flagged passages and missing paragraph endings were checked against the scans.",
+    "corrections": [
+      "Recognition errors and missing words",
+      "Missing lines and paragraph endings",
+      "Repeated text and captions mixed into article prose",
+      "Paragraph joins, bylines and false headings"
+    ],
+    "inlinePhotographsPreserved": 2744,
+    "nonOCRArticlesUnchanged": true,
+    "originalSourcesUnchanged": true,
+    "validation": {
+      "contentChecks": 76,
+      "chromeArticleChecks": 16,
+      "packageErrors": 0
+    },
+    "limit": "This was a machine-assisted comparison with visual checking of flagged passages, not a word-for-word manual proofread. Some transcription errors may remain."
+  },
+  "buildTools": {
+    "path": "scripts/reader-view",
+    "checkedIssues": 172,
+    "checkedArticles": 786,
+    "duplicateRemoved": {
+      "issue": 80,
+      "article": "2",
+      "retainedSource": "2.ReadingView.html",
+      "reason": "Two source variants were assigned to the same article pages. The later entry was already used by the reader."
+    }
+  }
+}

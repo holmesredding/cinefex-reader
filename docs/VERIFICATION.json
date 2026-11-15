@@ -417,8 +417,7 @@
       "mobileFits": true,
       "pageErrors": []
     },
-    "testScope": "Full live PDFs for issues 11 and 172. Complete 172-issue sequence and failure recovery used small fixtures in Chrome and Safari. Folder writing used a browser storage directory in place of the output picker.",
-    "published": false
+    "testScope": "Full live PDFs for issues 11 and 172. Complete 172-issue sequence and failure recovery used small fixtures in Chrome and Safari. Folder writing used a browser storage directory in place of the output picker."
   },
   "informationAndPDFDefaults": {
     "date": "2026-11-14",
@@ -479,8 +478,7 @@
     "safariTestMethod": "Native Safari, programmatic button activation and hit-target inspection. User physical click awaiting confirmation.",
     "interfaceMiddleDotsRemaining": 0,
     "PDFDefault": "Archive.org",
-    "catalogueNotice": "This can take a very long time.",
-    "published": false
+    "catalogueNotice": "This can take a very long time."
   },
   "mousePan": {
     "date": "2026-11-14",
@@ -548,8 +546,7 @@
     "entrypointsUpdated": 172,
     "pageBridgeReferencesUpdated": 28895,
     "packageErrors": [],
-    "installedFilesMatchTestedFiles": true,
-    "published": false
+    "installedFilesMatchTestedFiles": true
   },
   "repositoryLayout": {
     "checked": "2026-11-14",
@@ -617,8 +614,7 @@
         326096
       ]
     },
-    "safariMethod": "Native Safari with programmatic navigation and local File objects. Sample PDF builds used original files supplied by the local test server.",
-    "published": false
+    "safariMethod": "Native Safari with programmatic navigation and local File objects. Sample PDF builds used original files supplied by the local test server."
   },
   "pdfSourceDefault": {
     "checked": "2026-11-14",
@@ -669,8 +665,7 @@
     "scriptReferencesUpdated": {
       "single": 172,
       "catalogue": 175
-    },
-    "published": false
+    }
   },
   "browseViews": {
     "views": [
@@ -680,7 +675,7 @@
     ],
     "default": "Small grid",
     "preference": "Shared between Issues and Browse, saved in the browser",
-    "letterJumps": "Numbers and A\u2013Z, available with Title A\u2013Z sorting and updated for active filters",
+    "letterJumps": "Numbers and A–Z, available with Title A–Z sorting and updated for active filters",
     "chrome": [
       {
         "viewport": [
@@ -763,7 +758,1341 @@
       "viewRetainedAcrossPages": true,
       "viewRetainedAfterReload": true,
       "errors": []
+    }
+  },
+  "contributedIndex": {
+    "pullRequest": 1,
+    "contributor": "Mike Parsons",
+    "originalHead": "7029b34c68db78fa5f457a29447b53e5d9acee28",
+    "originalCommitsRetained": 4,
+    "recognisedTextIncluded": true,
+    "captionRecovery": {
+      "pages": 28895,
+      "pagesWithText": 28552,
+      "previouslyEmptyPagesWithText": 6309,
+      "backgroundPageStatesRead": 6823,
+      "originalRecognisedTextPreserved": true,
+      "issue172Gallery171Recovered": true
     },
-    "published": false
+    "indexAudit": {
+      "pageReferencesValid": true,
+      "postingsChecked": 4047288,
+      "noDuplicateJSONCopies": true,
+      "relatedTitlesAndCorrectionsPreserved": true,
+      "adEntriesPreserved": 8348,
+      "sourceVerifiedAdCorrection": {
+        "issue": 112,
+        "page": "99",
+        "advertiser": "Panavision"
+      }
+    },
+    "chrome": {
+      "single": {
+        "count": "164 pages",
+        "shown": 25,
+        "note": ""
+      },
+      "phrase": {
+        "count": "25+ pages with that phrase",
+        "shown": 25,
+        "note": ""
+      },
+      "prefix": {
+        "count": "191 pages",
+        "shown": 25,
+        "note": ""
+      },
+      "resultNavigation": {
+        "target": "issues/2/index.html#page=26",
+        "url": "http://127.0.0.1:8796/issues/2/index.html#page=26",
+        "ref": "26"
+      },
+      "companies": "261 companies, 4984 articles",
+      "companies_small": "small",
+      "companies_large": "large",
+      "companies_list": "list",
+      "ilmEntries": 268,
+      "ads": "1400 advertisers, 8349 ads",
+      "filteredAds": "22 advertisers, 68 ads",
+      "related": "16 titles, 18 features",
+      "mobile": [
+        {
+          "w": 390,
+          "file": "index.html",
+          "width": 390,
+          "header": [
+            {
+              "text": "cinefexREADER",
+              "x": 19.5,
+              "width": 107.453125
+            },
+            {
+              "text": "IssuesBrowseSearch",
+              "x": 153.15625,
+              "width": 217.34375
+            }
+          ],
+          "countVisible": "block"
+        },
+        {
+          "w": 390,
+          "file": "search.html",
+          "width": 390,
+          "header": [
+            {
+              "text": "cinefexREADER",
+              "x": 19.5,
+              "width": 107.453125
+            },
+            {
+              "text": "IssuesBrowseSearch",
+              "x": 153.15625,
+              "width": 217.34375
+            }
+          ],
+          "countVisible": "block"
+        },
+        {
+          "w": 390,
+          "file": "titles.html?type=companies",
+          "width": 390,
+          "header": [
+            {
+              "text": "cinefexREADER",
+              "x": 19.5,
+              "width": 107.453125
+            },
+            {
+              "text": "IssuesBrowseSearch",
+              "x": 153.15625,
+              "width": 217.34375
+            }
+          ],
+          "countVisible": "block"
+        },
+        {
+          "w": 375,
+          "file": "index.html",
+          "width": 375,
+          "header": [
+            {
+              "text": "cinefexREADER",
+              "x": 18.75,
+              "width": 107.453125
+            },
+            {
+              "text": "IssuesBrowseSearch",
+              "x": 138.90625,
+              "width": 217.34375
+            }
+          ],
+          "countVisible": "block"
+        },
+        {
+          "w": 375,
+          "file": "search.html",
+          "width": 375,
+          "header": [
+            {
+              "text": "cinefexREADER",
+              "x": 18.75,
+              "width": 107.453125
+            },
+            {
+              "text": "IssuesBrowseSearch",
+              "x": 138.90625,
+              "width": 217.34375
+            }
+          ],
+          "countVisible": "block"
+        },
+        {
+          "w": 375,
+          "file": "titles.html?type=companies",
+          "width": 375,
+          "header": [
+            {
+              "text": "cinefexREADER",
+              "x": 18.75,
+              "width": 107.453125
+            },
+            {
+              "text": "IssuesBrowseSearch",
+              "x": 138.90625,
+              "width": 217.34375
+            }
+          ],
+          "countVisible": "block"
+        },
+        {
+          "w": 320,
+          "file": "index.html",
+          "width": 320,
+          "header": [
+            {
+              "text": "cinefexREADER",
+              "x": 12,
+              "width": 92.78125
+            },
+            {
+              "text": "IssuesBrowseSearch",
+              "x": 106.65625,
+              "width": 201.34375
+            }
+          ],
+          "countVisible": "block"
+        },
+        {
+          "w": 320,
+          "file": "search.html",
+          "width": 320,
+          "header": [
+            {
+              "text": "cinefexREADER",
+              "x": 12,
+              "width": 92.78125
+            },
+            {
+              "text": "IssuesBrowseSearch",
+              "x": 106.65625,
+              "width": 201.34375
+            }
+          ],
+          "countVisible": "block"
+        },
+        {
+          "w": 320,
+          "file": "titles.html?type=companies",
+          "width": 320,
+          "header": [
+            {
+              "text": "cinefexREADER",
+              "x": 12,
+              "width": 92.78125
+            },
+            {
+              "text": "IssuesBrowseSearch",
+              "x": 106.65625,
+              "width": 201.34375
+            }
+          ],
+          "countVisible": "block"
+        }
+      ],
+      "networkFailure": "Search could not load",
+      "networkRetry": "164 pages",
+      "directFile": {
+        "count": "164 pages",
+        "matches": 25,
+        "route": "search.html?q=harryhausen",
+        "protocol": "file:"
+      },
+      "errors": []
+    },
+    "retryChecks": [
+      {
+        "file": "meta.js",
+        "recovered": true,
+        "attempts": 2
+      },
+      {
+        "file": "words/ha.js",
+        "recovered": true,
+        "attempts": 2
+      },
+      {
+        "file": "text/2.js",
+        "recovered": true,
+        "attempts": 2
+      },
+      {
+        "paginationRetry": true,
+        "results": 50,
+        "noMissingOrDuplicateResults": true
+      }
+    ],
+    "safariLocalFiles": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "protocol": "file:",
+      "checks": [
+        "Word search",
+        "Phrase search",
+        "Prefix search",
+        "Recovered gallery caption",
+        "Unknown word is not a download error",
+        "Loaded data scripts removed"
+      ],
+      "passed": true
+    },
+    "safariSession": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "checks": [
+        "Local image retained in search.html?q=harryhausen",
+        "Local image retained in issues/1/index.html#page=5",
+        "Local image retained in titles.html?type=companies",
+        "Browse fits 390px",
+        "Browse fits 375px",
+        "Browse fits 320px",
+        "Phone search count visible"
+      ],
+      "passed": true
+    },
+    "safariMethod": "Native Safari with programmatic searches, a local image File and the reader frame resized to phone widths.",
+    "rebuildWithoutOCRCache": "Passed with identical data"
+  },
+  "groupedSearch": {
+    "default": "Issues",
+    "otherView": "Pages",
+    "savedPreference": true,
+    "phraseCounts": "Full result and issue totals are counted automatically before requesting more results.",
+    "chrome": {
+      "defaultGrouped": true,
+      "noTextDownloadsBeforeExpansion": true,
+      "keyboardExpansion": true,
+      "reopeningUsesCache": true,
+      "firstTwelveIssues": [
+        {
+          "issue": 1,
+          "count": 9,
+          "open": false
+        },
+        {
+          "issue": 2,
+          "count": 12,
+          "open": false
+        },
+        {
+          "issue": 3,
+          "count": 11,
+          "open": false
+        },
+        {
+          "issue": 4,
+          "count": 5,
+          "open": false
+        },
+        {
+          "issue": 5,
+          "count": 1,
+          "open": false
+        },
+        {
+          "issue": 6,
+          "count": 10,
+          "open": false
+        },
+        {
+          "issue": 8,
+          "count": 3,
+          "open": false
+        },
+        {
+          "issue": 9,
+          "count": 3,
+          "open": false
+        },
+        {
+          "issue": 10,
+          "count": 5,
+          "open": false
+        },
+        {
+          "issue": 11,
+          "count": 6,
+          "open": false
+        },
+        {
+          "issue": 13,
+          "count": 21,
+          "open": false
+        },
+        {
+          "issue": 14,
+          "count": 2,
+          "open": false
+        }
+      ],
+      "issue1Results": 9,
+      "moreIssues": true,
+      "flatViewRemembered": true,
+      "filtersAndOrder": true,
+      "opensCorrectPage": true,
+      "expansionRetry": true,
+      "directFile": true,
+      "mobile": [
+        {
+          "width": 390,
+          "noOverflow": true
+        },
+        {
+          "width": 320,
+          "noOverflow": true
+        }
+      ],
+      "errors": []
+    },
+    "flatSearchRetries": [
+      {
+        "file": "meta.js",
+        "recovered": true,
+        "attempts": 2
+      },
+      {
+        "file": "words/ha.js",
+        "recovered": true,
+        "attempts": 2
+      },
+      {
+        "file": "text/2.js",
+        "recovered": true,
+        "attempts": 2
+      },
+      {
+        "paginationRetry": true,
+        "results": 50,
+        "noMissingOrDuplicateResults": true
+      }
+    ],
+    "safari": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "protocol": "file:",
+      "checks": [
+        "Issues in order",
+        "Issues collapsed",
+        "Count matches expanded pages",
+        "Issue collapses again",
+        "Flat page view",
+        "Saved view"
+      ],
+      "passed": true
+    }
+  },
+  "searchTotals": {
+    "chrome": {
+      "fullCount": "923 results in 130 issues",
+      "initialIssues": 12,
+      "automaticCount": true,
+      "canExpandWhileCounting": true,
+      "expansionPreserved": true,
+      "allIssueCountsVerified": true,
+      "flatCount": true,
+      "filters": true,
+      "noMatches": true,
+      "countRetryWithoutDuplicateResults": true,
+      "staleCountIgnored": true,
+      "directFile": true,
+      "noOverflowAt320": true,
+      "errors": []
+    },
+    "homeChrome": {
+      "homeLabel": "Search",
+      "quickIssueFilter": true,
+      "enterSearchesCatalogue": true,
+      "buttonSearchesCatalogue": true,
+      "yearFilter": true,
+      "mobileWidths": [
+        390,
+        320
+      ],
+      "errors": []
+    },
+    "safari": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "checks": [
+        "Home label is Search",
+        "Issue number filtering retained",
+        "Home search fits 390px",
+        "Home search fits 320px",
+        "Home search uses the shared session",
+        "Search label is Search",
+        "Home query preserved",
+        "Full total without More issues",
+        "Local folder retained after home search",
+        "Issue expands to its matching pages",
+        "Full total in Pages view"
+      ],
+      "passed": true
+    }
+  },
+  "mankReadingTrial": {
+    "issue": 172,
+    "article": "Mank",
+    "views": [
+      "Page",
+      "Fit text",
+      "Reader view"
+    ],
+    "source": "Original Archive.org readingView1.html, checked against 27 text-page images",
+    "paragraphs": 62,
+    "sourceImagesUnchanged": true,
+    "articleTextBundled": false,
+    "textSource": "Archive.org, with browser caching",
+    "chrome": {
+      "paragraphs": 62,
+      "sourcePages": 27,
+      "textMatchesPreparedProof": true,
+      "pagePositionPreserved": "15.11",
+      "textSize": true,
+      "galleryAndReturn": true,
+      "phoneWidths": [
+        390,
+        320
+      ],
+      "errors": []
+    },
+    "safari": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "checks": [
+        "Actual Archive.org reading-view file loads",
+        "Text includes all source pages",
+        "Fit text uses selected local image",
+        "Scrolling tracks source page",
+        "Page view preserves reading position",
+        "Text view fits 834px",
+        "Text view fits 390px",
+        "Text view fits 320px",
+        "Text size adjusts",
+        "Gallery returns to original reader"
+      ],
+      "passed": true
+    },
+    "failureAndNavigationChecks": {
+      "failedTextHasRetry": true,
+      "retryLoadsAllParagraphs": true,
+      "otherIssuesUnchanged": true
+    },
+    "readingPosition": {
+      "alignment": "Source page and approximate position within its text",
+      "images": "Gallery opens separately in the page view",
+      "chrome": {
+        "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+        "checks": [
+          "Reader view label",
+          "Page 3 opens at its text in Reader view",
+          "Immediate switch after scrolling selects the matching source page",
+          "Reader view restores the position within the page",
+          "Text size change keeps the reading position",
+          "Reading position survives resizing to 390px",
+          "Reader view fits 390px",
+          "Reading position survives resizing to 320px",
+          "Reader view fits 320px",
+          "Reading position survives resizing to 834px",
+          "Reader view fits 834px",
+          "Fit text and back retains position even if the crop cannot scroll far enough",
+          "Page navigation opens the start of the new source page",
+          "Fit text can scroll within this source page",
+          "Fit text scroll maps to the approximate Reader view position",
+          "Scrolling updates the source page and saved progress",
+          "Saved page matches Reader view progress",
+          "Repeated switching preserves the reading position",
+          "Gallery opens in the original page view",
+          "Returning from Gallery opens the requested text page"
+        ],
+        "passed": true,
+        "errors": []
+      },
+      "safari": {
+        "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+        "checks": [
+          "Reader view label",
+          "Page 3 opens at its text in Reader view",
+          "Immediate switch after scrolling selects the matching source page",
+          "Reader view restores the position within the page",
+          "Text size change keeps the reading position",
+          "Reading position survives resizing to 390px",
+          "Reader view fits 390px",
+          "Reading position survives resizing to 320px",
+          "Reader view fits 320px",
+          "Reading position survives resizing to 834px",
+          "Reader view fits 834px",
+          "Fit text and back retains position even if the crop cannot scroll far enough",
+          "Page navigation opens the start of the new source page",
+          "Fit text can scroll within this source page",
+          "Fit text scroll maps to the approximate Reader view position",
+          "Scrolling updates the source page and saved progress",
+          "Saved page matches Reader view progress",
+          "Repeated switching preserves the reading position",
+          "Gallery opens in the original page view",
+          "Returning from Gallery opens the requested text page"
+        ],
+        "passed": true
+      }
+    }
+  },
+  "readerView": {
+    "coverage": "READER-VIEW.json",
+    "nativeSourcePreservation": {
+      "nativeArticlesCompared": 507,
+      "missingParagraphs": 0,
+      "missingCaptions": 0,
+      "unexpectedActiveHTML": 0
+    },
+    "chrome": {
+      "checks": [
+        "Original inline photos and captions render in issue 1",
+        "Photo enlarges and returns to the same article",
+        "Page and Reader view preserve the reading position",
+        "Switching articles loads the right source text",
+        "Phone layout and dark mode keep photos in their original colours",
+        "All Mank text remains intact alongside 30 photographs in 14 groups",
+        "Comparison images stay together with their caption",
+        "Inline gallery layout fits 390px and 320px",
+        "Issue 65 opens in Reader view",
+        "Issue 126 opens in Reader view"
+      ],
+      "errors": [],
+      "passed": true
+    },
+    "localFolderChrome": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "checks": [
+        "Loose folder supplies article text and photographs",
+        "Issue 1 contains its original inline photo groups",
+        "Photo opens at full size",
+        "Local folder stays connected between issues",
+        "Identical reading-view filenames resolve to the right issue",
+        "Issue 13 uses the repaired local photographs",
+        "Mank includes all 14 gallery groups and 30 photographs",
+        "Page view opens the corresponding source page",
+        "Reader view restores the same paragraph position",
+        "Changing type size preserves the paragraph position",
+        "Position survives resizing to 390px",
+        "Reader fits 390px",
+        "Position survives resizing to 320px",
+        "Reader fits 320px",
+        "Position survives resizing to 834px",
+        "Reader fits 834px",
+        "Fit text also uses the selected local file",
+        "Fit text and Reader view retain the current paragraph",
+        "ZIP supplies original article text and photographs",
+        "ZIP selects the correct article across issues",
+        "All test articles loaded locally without Archive.org requests"
+      ],
+      "remoteTextRequests": [],
+      "passed": true
+    },
+    "localFolderSafari": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "checks": [
+        "Loose folder supplies article text and photographs",
+        "Issue 1 contains its original inline photo groups",
+        "Photo opens at full size",
+        "Local folder stays connected between issues",
+        "Identical reading-view filenames resolve to the right issue",
+        "Issue 13 uses the repaired local photographs",
+        "Mank includes all 14 gallery groups and 30 photographs",
+        "Page view opens the corresponding source page",
+        "Reader view restores the same paragraph position",
+        "Changing type size preserves the paragraph position",
+        "Position survives resizing to 390px",
+        "Reader fits 390px",
+        "Position survives resizing to 320px",
+        "Reader fits 320px",
+        "Position survives resizing to 834px",
+        "Reader fits 834px",
+        "Fit text also uses the selected local file",
+        "Fit text and Reader view retain the current paragraph",
+        "ZIP supplies original article text and photographs",
+        "ZIP selects the correct article across issues",
+        "All test articles loaded locally without Archive.org requests"
+      ],
+      "remoteTextRequests": [],
+      "passed": true
+    },
+    "archiveDownloads": {
+      "checks": [
+        {
+          "issue": 1,
+          "archiveHTMLLoaded": true,
+          "seconds": 1.7
+        },
+        {
+          "issue": 105,
+          "archiveHTMLLoaded": true,
+          "seconds": 1
+        },
+        {
+          "issue": 172,
+          "archiveHTMLLoaded": true,
+          "seconds": 1.1
+        },
+        "Failed article has a working Retry",
+        "A late response cannot replace the next article",
+        "Unconverted issues keep normal page navigation"
+      ],
+      "passed": true
+    },
+    "archiveDownloadsSafari": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "checks": [
+        "Issue 1 loads original article HTML directly from Archive.org",
+        "Issue 105 loads original article HTML directly from Archive.org",
+        "Issue 172 loads original article HTML directly from Archive.org",
+        "Issue 13 keeps Page view until original local article files are available"
+      ],
+      "passed": true
+    },
+    "interactiveRollout": {
+      "issues": "127–172",
+      "articles": 209,
+      "galleryGroups": 4062,
+      "photographs": 7219,
+      "originalHTMLFetchedInChrome": 209,
+      "contentComparisonErrors": 0,
+      "newContentComparisons": 208,
+      "mankRegression": true,
+      "localFolderAndZIP": [
+        "Chrome",
+        "Safari 27"
+      ],
+      "testedWidths": [
+        320,
+        390,
+        834,
+        1194
+      ],
+      "pageAndReaderPosition": true,
+      "imagesAndFontsBundled": false,
+      "archiveSafari": {
+        "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+        "checks": [
+          "Issue 127 renders original article HTML from Internet Archive with inline photographs",
+          "Issue 129 renders original article HTML from Internet Archive with inline photographs",
+          "Issue 133 renders original article HTML from Internet Archive with inline photographs",
+          "Issue 158 renders original article HTML from Internet Archive with inline photographs",
+          "Issue 160 renders original article HTML from Internet Archive with inline photographs",
+          "Issue 169 renders original article HTML from Internet Archive with inline photographs",
+          "Issue 172 renders original article HTML from Internet Archive with inline photographs"
+        ],
+        "passed": true
+      },
+      "localChrome": {
+        "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+        "checks": [
+          "Tintin opens with its inline gallery groups",
+          "Tintin uses the corrected captions",
+          "Photographs load from the local selection",
+          "The local folder stays selected between issues",
+          "The Marvel retrospective contains 18 film sections",
+          "Missing opening letters are restored",
+          "Enlarged retrospective photos exclude the surrounding page text",
+          "Page view opens the corresponding source page",
+          "Reader view restores the reading position",
+          "Reader view fits 390px",
+          "Reader view fits 320px",
+          "Reader view fits 834px",
+          "The roundtable reads the left column before the right",
+          "The roundtable retains its 22 photographs",
+          "ZIP files supply the correct article with its restored opening letter",
+          "Identical HTML filenames resolve to the right issue in a ZIP",
+          "All selected article HTML loaded locally"
+        ],
+        "remoteTextRequests": [],
+        "passed": true
+      },
+      "localSafari": {
+        "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+        "checks": [
+          "Tintin opens with its inline gallery groups",
+          "Tintin uses the corrected captions",
+          "Photographs load from the local selection",
+          "The local folder stays selected between issues",
+          "The Marvel retrospective contains 18 film sections",
+          "Missing opening letters are restored",
+          "Enlarged retrospective photos exclude the surrounding page text",
+          "Page view opens the corresponding source page",
+          "Reader view restores the reading position",
+          "Reader view fits 390px",
+          "Reader view fits 320px",
+          "Reader view fits 834px",
+          "The roundtable reads the left column before the right",
+          "The roundtable retains its 22 photographs",
+          "ZIP files supply the correct article with its restored opening letter",
+          "Identical HTML filenames resolve to the right issue in a ZIP",
+          "All selected article HTML loaded locally"
+        ],
+        "remoteTextRequests": [],
+        "positionBefore": {
+          "top": 8425,
+          "ref": "36.1"
+        },
+        "positionAfter": {
+          "ref": "36.1"
+        },
+        "passed": true
+      }
+    },
+    "remainingCoverage": {
+      "issues": 172,
+      "articles": 787,
+      "onlineArticles": 787,
+      "newAndRepairedArticlesChecked": 76,
+      "contentProblems": 0,
+      "chromeCases": 16,
+      "chromeLocalAndOnline": {
+        "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+        "checks": [
+          "Issue 11 opens without a local folder",
+          "Issue 11 has inline photographs",
+          "Issue 13 opens without a local folder",
+          "Issue 13 has inline photographs",
+          "Issue 14 opens without a local folder",
+          "Issue 14 has inline photographs",
+          "Issue 12 opens without a local folder",
+          "Issue 12 has inline photographs",
+          "Issue 17 opens without a local folder",
+          "Issue 17 has inline photographs",
+          "Issue 55 opens without a local folder",
+          "Issue 55 has inline photographs",
+          "Issue 70 opens without a local folder",
+          "Issue 70 has inline photographs",
+          "Issue 75 opens without a local folder",
+          "Issue 75 has inline photographs",
+          "Issue 86 opens without a local folder",
+          "Issue 86 has inline photographs",
+          "Issue 113 opens without a local folder",
+          "Issue 113 has inline photographs",
+          "Issue 11 uses the selected local photographs",
+          "Folder remains selected in issue 11",
+          "Issue 13 uses the selected local photographs",
+          "Folder remains selected in issue 13",
+          "Issue 17 uses the selected local photographs",
+          "Folder remains selected in issue 17",
+          "Page view opens at the corresponding scan",
+          "Reader view restores the scroll position",
+          "Reader view fits 390px",
+          "Reader view fits 320px",
+          "Reader view fits 834px",
+          "Changing the source updates photographs in the current article"
+        ],
+        "passed": true
+      },
+      "safariLocalAndOnline": {
+        "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+        "checks": [
+          "Issue 11 opens without a local folder",
+          "Issue 11 has inline photographs",
+          "Issue 13 opens without a local folder",
+          "Issue 13 has inline photographs",
+          "Issue 14 opens without a local folder",
+          "Issue 14 has inline photographs",
+          "Issue 12 opens without a local folder",
+          "Issue 12 has inline photographs",
+          "Issue 17 opens without a local folder",
+          "Issue 17 has inline photographs",
+          "Issue 55 opens without a local folder",
+          "Issue 55 has inline photographs",
+          "Issue 70 opens without a local folder",
+          "Issue 70 has inline photographs",
+          "Issue 75 opens without a local folder",
+          "Issue 75 has inline photographs",
+          "Issue 86 opens without a local folder",
+          "Issue 86 has inline photographs",
+          "Issue 113 opens without a local folder",
+          "Issue 113 has inline photographs",
+          "Issue 11 uses the selected local photographs",
+          "Folder remains selected in issue 11",
+          "Issue 13 uses the selected local photographs",
+          "Folder remains selected in issue 13",
+          "Issue 17 uses the selected local photographs",
+          "Folder remains selected in issue 17",
+          "Page view opens at the corresponding scan",
+          "Reader view restores the scroll position",
+          "Reader view fits 390px",
+          "Reader view fits 320px",
+          "Reader view fits 834px"
+        ],
+        "passed": true
+      },
+      "existingReaderRegression": {
+        "checks": [
+          "Original inline photos and captions render in issue 1",
+          "Photo enlarges and returns to the same article",
+          "Page and Reader view preserve the reading position",
+          "Switching articles loads the right source text",
+          "Phone layout and dark mode keep photos in their original colours",
+          "All Mank text remains intact alongside 30 photographs in 14 groups",
+          "Comparison images stay together with their caption",
+          "Inline gallery layout fits 390px and 320px",
+          "Issue 65 opens in Reader view",
+          "Issue 126 opens in Reader view"
+        ],
+        "errors": [],
+        "passed": true
+      },
+      "sourceChecks": "Original article paragraphs compared directly for the seven indexed native fallbacks. Scanned articles checked for column order, missing lines, repeated lines and inline captions.",
+      "ocrLimit": "Recognised text can still contain transcription errors.",
+      "mediaBundled": false,
+      "originalArticleHTMLBundled": false
+    },
+    "ocrProofreading": {
+      "date": "2026-11-15",
+      "articles": 65,
+      "sourceImages": 1715,
+      "comparison": "Apple Vision and Tesseract English recognition compared with the existing text index. All 1212 unique lexical disagreements were reviewed. Flagged passages and missing paragraph endings were checked against the scans.",
+      "corrections": [
+        "Recognition errors and missing words",
+        "Missing lines and paragraph endings",
+        "Repeated text and captions mixed into article prose",
+        "Paragraph joins, bylines and false headings"
+      ],
+      "inlinePhotographsPreserved": 2744,
+      "nonOCRArticlesUnchanged": true,
+      "originalSourcesUnchanged": true,
+      "validation": {
+        "contentChecks": 76,
+        "chromeArticleChecks": 16,
+        "packageErrors": 0
+      },
+      "limit": "This was a machine-assisted comparison with visual checking of flagged passages, not a word-for-word manual proofread. Some transcription errors may remain."
+    },
+    "defaultPreference": {
+      "date": "2026-11-15",
+      "control": "Information → Default view",
+      "options": [
+        "Page view",
+        "Reader view"
+      ],
+      "initialDefault": "Page view",
+      "storage": "cinefex-default-reading-view",
+      "behaviour": [
+        "Applies immediately while preserving the current page",
+        "Remembered across issues and reloads",
+        "Manual view switches and explicit links override the default for that issue",
+        "Covers and pages without article text use Page view",
+        "Changes in another tab update the saved preference without switching the current article",
+        "When browser storage is unavailable, the shared session keeps the choice across issue changes"
+      ],
+      "chrome": {
+        "checks": [
+          "Page view is the initial default",
+          "Information panel saves Reader view",
+          "Native interactive article opens in Reader view",
+          "Page button still works",
+          "Page selection is explicit in its link",
+          "Explicit Page selection survives reload",
+          "Per-article switches leave the global preference alone",
+          "Another issue uses the saved Reader view default",
+          "Changing the default applies to the current article",
+          "Changing the default keeps the current page",
+          "Changing the default removes the old per-link override",
+          "Explicit Reader view opens even when Page is the default",
+          "Another issue uses the saved Page view default",
+          "Covers stay in Page view",
+          "Moving from a cover to a story applies Reader view",
+          "Information panel fits a phone",
+          "A preference change in another tab leaves the current article view alone",
+          "Information panel reflects changes from another tab",
+          "Invalid saved values fall back to Page view",
+          "Session navigation keeps the preference",
+          "Session reload restores the preference",
+          "Session navigation keeps the preference when storage is unavailable"
+        ],
+        "errors": [],
+        "passed": true
+      },
+      "safari": {
+        "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+        "checks": [
+          "Page view is the initial default",
+          "Information panel remembers Reader view",
+          "Changing the default updates the open article",
+          "Current page is preserved",
+          "Reader view stays selected when changing issues",
+          "Manual Page choice works",
+          "Manual view changes leave the global default alone",
+          "Explicit Page links override Reader view default",
+          "Cover uses Page view",
+          "Opening a story uses Reader view",
+          "Reloading the session remembers the default",
+          "Information panel shows the remembered selection",
+          "Preference fits the phone layout"
+        ],
+        "passed": true
+      },
+      "visualChecks": [
+        "Desktop information panel",
+        "Phone information panel in dark mode"
+      ]
+    },
+    "buildTools": {
+      "date": "2026-11-15",
+      "issues": 172,
+      "uniqueArticles": 786,
+      "generatedFilesMatch": true,
+      "unitTests": 6,
+      "issue80": {
+        "issue": 80,
+        "uniqueArticles": 6,
+        "checks": [
+          {
+            "id": "1",
+            "title": "A LOOK BACK",
+            "characters": 32936
+          },
+          {
+            "id": "2",
+            "title": "“20” Questions",
+            "characters": 78861
+          },
+          {
+            "id": "3",
+            "title": "All Things Great and Little",
+            "characters": 56323
+          },
+          {
+            "id": "4",
+            "title": "A REGION OF SHADOWS",
+            "characters": 81824
+          },
+          {
+            "id": "5",
+            "title": "A World of Hurt",
+            "characters": 79619
+          },
+          {
+            "id": "6",
+            "title": "THE MOTION IN OUR MINDS",
+            "characters": 30632
+          }
+        ],
+        "errors": [],
+        "passed": true
+      }
+    }
+  },
+  "hiddenControls": {
+    "date": "2026-11-15",
+    "entry": "Contents → Hide controls",
+    "return": [
+      "Escape",
+      "Browser Back",
+      "Tap the middle on touch screens"
+    ],
+    "scope": [
+      "Page view",
+      "Reader view"
+    ],
+    "readingPositionPreserved": true,
+    "chrome": {
+      "checks": [
+        "Header is hidden",
+        "Footer is hidden",
+        "Page fills the available window",
+        "Hiding the controls enlarges the page",
+        "Arrow keys and Space still turn pages",
+        "Mousewheel still turns pages",
+        "Header returns",
+        "Footer returns",
+        "Back restores controls without changing the page",
+        "The next Back returns to the library",
+        "Escape works with the magazine frame focused",
+        "Chosen page zoom is retained",
+        "Gallery thumbnails are available before hiding",
+        "Gallery thumbnails are hidden too",
+        "Gallery thumbnails return with the controls",
+        "Reader view text tools are hidden",
+        "Reader view keeps its paragraph when controls return",
+        "Back preserves progress made while scrolling in Reader view",
+        "Back in the shared session restores controls at the current page",
+        "Escape in the shared session keeps the page",
+        "Tapping the right edge still turns pages without showing controls",
+        "Swiping still turns pages without showing controls",
+        "Tapping the middle of the page restores controls",
+        "Pinch zoom works while controls are hidden",
+        "Dragging pans the zoomed page without showing controls",
+        "Tapping the middle works while zoomed in",
+        "Reader view scrolls without reopening controls",
+        "A tap restores controls in Reader view",
+        "Phone layout stays within the viewport"
+      ],
+      "errors": [],
+      "passed": true
+    },
+    "safari": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "checks": [
+        "Header hides",
+        "Page fills the reader window",
+        "Back restores controls at the current page",
+        "Back removes the hidden-controls history entry",
+        "Escape restores controls without changing the page",
+        "Reader view tools hide",
+        "Reader view keeps its paragraph",
+        "Back keeps progress made while reading",
+        "Reader view fills the phone height",
+        "Phone layout fits",
+        "Controls return on the phone"
+      ],
+      "passed": true
+    },
+    "visualChecks": [
+      "Desktop gallery page",
+      "Desktop Reader view",
+      "Phone Reader view"
+    ],
+    "touchTesting": "Chrome touch emulation, including edge taps, swipes, pinch zoom and panning",
+    "toolbar": {
+      "location": "Top toolbar beside page zoom, also available in Contents",
+      "chrome": {
+        "checks": [
+          "Header is hidden",
+          "Footer is hidden",
+          "Page fills the available window",
+          "Hiding the controls enlarges the page",
+          "Arrow keys and Space still turn pages",
+          "Mousewheel still turns pages",
+          "Header returns",
+          "Footer returns",
+          "Back restores controls without changing the page",
+          "The next Back returns to the library",
+          "Escape works with the magazine frame focused",
+          "Chosen page zoom is retained",
+          "Gallery thumbnails are available before hiding",
+          "Gallery thumbnails are hidden too",
+          "Gallery thumbnails return with the controls",
+          "Reader view text tools are hidden",
+          "Reader view keeps its paragraph when controls return",
+          "Back preserves progress made while scrolling in Reader view",
+          "Back in the shared session restores controls at the current page",
+          "Escape in the shared session keeps the page",
+          "Tapping the right edge still turns pages without showing controls",
+          "Swiping still turns pages without showing controls",
+          "Tapping the middle of the page restores controls",
+          "Pinch zoom works while controls are hidden",
+          "Dragging pans the zoomed page without showing controls",
+          "Tapping the middle works while zoomed in",
+          "Reader view scrolls without reopening controls",
+          "A tap restores controls in Reader view",
+          "Phone layout stays within the viewport"
+        ],
+        "errors": [],
+        "passed": true
+      },
+      "safari": {
+        "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+        "checks": [
+          "Header hides",
+          "Page fills the reader window",
+          "Back restores controls at the current page",
+          "Back removes the hidden-controls history entry",
+          "Escape restores controls without changing the page",
+          "Reader view tools hide",
+          "Reader view keeps its paragraph",
+          "Back keeps progress made while reading",
+          "Reader view fills the phone height",
+          "Phone layout fits",
+          "Controls return on the phone"
+        ],
+        "passed": true
+      },
+      "layoutWidths": [
+        {
+          "width": 320,
+          "passed": true
+        },
+        {
+          "width": 360,
+          "passed": true
+        },
+        {
+          "width": 390,
+          "passed": true
+        },
+        {
+          "width": 768,
+          "passed": true
+        },
+        {
+          "width": 820,
+          "passed": true
+        },
+        {
+          "width": 1024,
+          "passed": true
+        },
+        {
+          "width": 1194,
+          "passed": true
+        },
+        {
+          "width": 1440,
+          "passed": true
+        }
+      ]
+    }
+  },
+  "homeScreen": {
+    "date": "2026-11-15",
+    "name": "Cinefex Reader",
+    "artwork": "Exact Georgia Bold Italic c from the reader header, with a wide rust bookmark on charcoal",
+    "sourceRecord": "docs/APP-ICON.json",
+    "entryPages": 176,
+    "appleTouchIconSize": 180,
+    "manifestIconSizes": [
+      192,
+      512
+    ],
+    "manifestDisplay": "standalone",
+    "launch": "Catalogue home page",
+    "scope": "Current reader installation, including GitHub Pages project paths",
+    "mediaException": "Only the three named app icon files are allowed by the package check",
+    "browser": {
+      "passed": true,
+      "checks": [
+        {
+          "page": "index.html",
+          "scope": "http://127.0.0.1:8797/",
+          "start": "http://127.0.0.1:8797/index.html",
+          "icon": "http://127.0.0.1:8797/assets/icons/reader-180.png",
+          "manifestErrors": []
+        },
+        {
+          "page": "issues/172/index.html",
+          "scope": "http://127.0.0.1:8797/",
+          "start": "http://127.0.0.1:8797/index.html",
+          "icon": "http://127.0.0.1:8797/assets/icons/reader-180.png",
+          "manifestErrors": []
+        },
+        {
+          "page": "session.html#issues%2F11%2Findex.html",
+          "scope": "http://127.0.0.1:8797/",
+          "start": "http://127.0.0.1:8797/index.html",
+          "icon": "http://127.0.0.1:8797/assets/icons/reader-180.png",
+          "manifestErrors": []
+        },
+        {
+          "page": "cinefex-reader/index.html",
+          "scope": "http://127.0.0.1:8797/cinefex-reader/",
+          "start": "http://127.0.0.1:8797/cinefex-reader/index.html",
+          "icon": "http://127.0.0.1:8797/cinefex-reader/assets/icons/reader-180.png",
+          "manifestErrors": []
+        },
+        {
+          "page": "cinefex-reader/issues/11/index.html",
+          "scope": "http://127.0.0.1:8797/cinefex-reader/",
+          "start": "http://127.0.0.1:8797/cinefex-reader/index.html",
+          "icon": "http://127.0.0.1:8797/cinefex-reader/assets/icons/reader-180.png",
+          "manifestErrors": []
+        },
+        {
+          "page": "cinefex-reader/session.html#issues%2F172%2Findex.html",
+          "scope": "http://127.0.0.1:8797/cinefex-reader/",
+          "start": "http://127.0.0.1:8797/cinefex-reader/index.html",
+          "icon": "http://127.0.0.1:8797/cinefex-reader/assets/icons/reader-180.png",
+          "manifestErrors": []
+        }
+      ]
+    },
+    "appIdentity": "Defaults to the stable launch URL within the installation path",
+    "iphoneSimulator": {
+      "system": "iOS 27.0",
+      "checks": [
+        "Safari Add to Home Screen displays the original icon",
+        "Suggested name is Cinefex Reader",
+        "Saved icon appears on the home screen",
+        "Tapping the icon opens the catalogue",
+        "navigator.standalone and display-mode: standalone are both true",
+        "Catalogue layout and cover images checked after the launch animation"
+      ],
+      "passed": true,
+      "launch": {
+        "url": "http://127.0.0.1:8800/cinefex-reader/session.html#index.html",
+        "standalone": true,
+        "display": true,
+        "icon": "http://127.0.0.1:8800/cinefex-reader/assets/icons/apple-touch-icon.png",
+        "title": "Cinefex Reader"
+      },
+      "artworkAtTimeOfTest": "Original blue Cinefex icon, before the replacement"
+    },
+    "customIconPreview": {
+      "platform": "Native Safari in the iPhone simulator, iOS 27.0",
+      "passed": true,
+      "checks": [
+        "New icon appears in Add to Home Screen",
+        "Suggested name is Cinefex Reader",
+        "Opaque square PNGs exported at 180, 192 and 512 pixels"
+      ]
+    },
+    "bookmarkRevision": {
+      "description": "Wider bookmark, approximately 13 percent of the icon width",
+      "validation": "Export dimensions and browser image decoding checked at 180, 192 and 512 pixels"
+    },
+    "letterformRevision": {
+      "font": "Georgia-BoldItalic",
+      "glyph": 70,
+      "method": "Direct Core Text outline, exported as SVG paths",
+      "checks": [
+        "Uniform scaling preserves the font’s exact glyph outline",
+        "PNG dimensions verified at 180, 192 and 512 pixels",
+        "512 pixel export visually checked"
+      ]
+    }
+  },
+  "releaseChecks": {
+    "date": "2026-11-15",
+    "package": {
+      "issues": 172,
+      "pageStates": 28895,
+      "mediaFiles": [
+        "assets/icons/reader-180.png",
+        "assets/icons/reader-192.png",
+        "assets/icons/reader-512.png"
+      ],
+      "errors": []
+    },
+    "chromeHiddenControls": {
+      "checks": [
+        "Header is hidden",
+        "Footer is hidden",
+        "Page fills the available window",
+        "Hiding the controls enlarges the page",
+        "Arrow keys and Space still turn pages",
+        "Mousewheel still turns pages",
+        "Header returns",
+        "Footer returns",
+        "Back restores controls without changing the page",
+        "The next Back returns to the library",
+        "Escape works with the magazine frame focused",
+        "Chosen page zoom is retained",
+        "Gallery thumbnails are available before hiding",
+        "Gallery thumbnails are hidden too",
+        "Gallery thumbnails return with the controls",
+        "Reader view text tools are hidden",
+        "Reader view keeps its paragraph when controls return",
+        "Back preserves progress made while scrolling in Reader view",
+        "Back in the shared session restores controls at the current page",
+        "Escape in the shared session keeps the page",
+        "Tapping the right edge still turns pages without showing controls",
+        "Swiping still turns pages without showing controls",
+        "Tapping the middle of the page restores controls",
+        "Pinch zoom works while controls are hidden",
+        "Dragging pans the zoomed page without showing controls",
+        "Tapping the middle works while zoomed in",
+        "Reader view scrolls without reopening controls",
+        "A tap restores controls in Reader view",
+        "Phone layout stays within the viewport"
+      ],
+      "errors": [],
+      "passed": true
+    },
+    "safariHiddenControls": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "checks": [
+        "Header hides",
+        "Page fills the reader window",
+        "Back restores controls at the current page",
+        "Back removes the hidden-controls history entry",
+        "Escape restores controls without changing the page",
+        "Reader view tools hide",
+        "Reader view keeps its paragraph",
+        "Back keeps progress made while reading",
+        "Reader view fills the phone height",
+        "Phone layout fits",
+        "Controls return on the phone"
+      ],
+      "passed": true
+    },
+    "readmeOpeningUnchanged": true
   }
 }

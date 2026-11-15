@@ -1,0 +1,1059 @@
+{
+  "issue": 76,
+  "articles": [
+    {
+      "id": "1",
+      "format": "native",
+      "source": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/1.ReadingView.html",
+      "sourceBytes": 29994,
+      "sourceCrc": 279935262,
+      "title": "PLEASANTVILLE COLOR MY WORLD",
+      "author": "Matthew J. Macdonald",
+      "indices": [
+        12,
+        13,
+        14,
+        15,
+        20,
+        21
+      ],
+      "refs": [
+        "13",
+        "14",
+        "15",
+        "16",
+        "21",
+        "22"
+      ],
+      "images": {
+        "images_400/Cinefex-76-p13-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p13-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p14-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p14-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p15-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p15-img01.jpg",
+          "size": [
+            1266,
+            828
+          ]
+        },
+        "images_400/Cinefex-76-p15-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p15-img02.jpg",
+          "size": [
+            1266,
+            827
+          ]
+        },
+        "images_400/Cinefex-76-p16-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p16-img01.jpg",
+          "size": [
+            1921,
+            1012
+          ]
+        },
+        "images_400/Cinefex-76-p21-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p21-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p22-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p22-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "13"
+    },
+    {
+      "id": "2",
+      "format": "native",
+      "source": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/2.ReadingView.html",
+      "sourceBytes": 48629,
+      "sourceCrc": 2326819137,
+      "title": "ANTZ ROAD TO INSECTOPIA",
+      "author": "Mark Cotta Vaz",
+      "indices": [
+        26,
+        27,
+        28,
+        29,
+        34,
+        35,
+        144,
+        145,
+        146
+      ],
+      "refs": [
+        "27",
+        "28",
+        "29",
+        "30",
+        "35",
+        "36",
+        "145",
+        "146",
+        "147"
+      ],
+      "images": {
+        "images_400/Cinefex-76-p27-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p27-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p28-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p28-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p29-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p29-img01.jpg",
+          "size": [
+            1266,
+            831
+          ]
+        },
+        "images_400/Cinefex-76-p29-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p29-img02.jpg",
+          "size": [
+            1266,
+            824
+          ]
+        },
+        "images_400/Cinefex-76-p30-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p30-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p35-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p35-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p36-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p36-img01.jpg",
+          "size": [
+            948,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p36-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p36-img02.jpg",
+          "size": [
+            950,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p145-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p145-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p146-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p146-img01.jpg",
+          "size": [
+            1266,
+            827
+          ]
+        },
+        "images_400/Cinefex-76-p146-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p146-img02.jpg",
+          "size": [
+            1266,
+            827
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "27"
+    },
+    {
+      "id": "3",
+      "format": "native",
+      "source": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/3.ReadingView.html",
+      "sourceBytes": 58459,
+      "sourceCrc": 78420757,
+      "title": "A BUG’S LIFE AN ENTOMOLOGICAL EPIC",
+      "author": "Mark Cotta Vaz",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        48,
+        49,
+        132,
+        133,
+        138,
+        139
+      ],
+      "refs": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "49",
+        "50",
+        "133",
+        "134",
+        "139",
+        "140"
+      ],
+      "images": {
+        "images_400/Cinefex-76-p41-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p41-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p42-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p42-img01.jpg",
+          "size": [
+            1266,
+            605
+          ]
+        },
+        "images_400/Cinefex-76-p42-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p42-img02.jpg",
+          "size": [
+            1266,
+            605
+          ]
+        },
+        "images_400/Cinefex-76-p43-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p43-img01.jpg",
+          "size": [
+            1266,
+            605
+          ]
+        },
+        "images_400/Cinefex-76-p43-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p43-img02.jpg",
+          "size": [
+            1266,
+            606
+          ]
+        },
+        "images_400/Cinefex-76-p49-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p49-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p50-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p50-img01.jpg",
+          "size": [
+            1266,
+            605
+          ]
+        },
+        "images_400/Cinefex-76-p50-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p50-img02.jpg",
+          "size": [
+            1266,
+            606
+          ]
+        },
+        "images_400/Cinefex-76-p134-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p134-img01.jpg",
+          "size": [
+            1266,
+            605
+          ]
+        },
+        "images_400/Cinefex-76-p134-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p134-img02.jpg",
+          "size": [
+            1266,
+            606
+          ]
+        },
+        "images_400/Cinefex-76-p139-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p139-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p140-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p140-img01.jpg",
+          "size": [
+            1266,
+            605
+          ]
+        },
+        "images_400/Cinefex-76-p140-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p140-img02.jpg",
+          "size": [
+            1266,
+            606
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "41"
+    },
+    {
+      "id": "4",
+      "format": "native",
+      "source": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/4.ReadingView.html",
+      "sourceBytes": 59498,
+      "sourceCrc": 1571416170,
+      "title": "VIRUS BUILDING A BETTER BORG",
+      "author": "Kevin H. Martin",
+      "indices": [
+        54,
+        55,
+        56,
+        57,
+        62,
+        63,
+        68,
+        69,
+        150,
+        151
+      ],
+      "refs": [
+        "55",
+        "56",
+        "57",
+        "58",
+        "63",
+        "64",
+        "69",
+        "70",
+        "151",
+        "152"
+      ],
+      "images": {
+        "images_400/Cinefex-76-p55-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p55-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p56-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p56-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p57-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p57-img01.jpg",
+          "size": [
+            1266,
+            1678
+          ]
+        },
+        "images_400/Cinefex-76-p58-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p58-img01.jpg",
+          "size": [
+            621,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p58-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p58-img02.jpg",
+          "size": [
+            622,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p63-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p63-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p64-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p64-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p69-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p69-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p70-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p70-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        },
+        "images_400/Cinefex-76-p151-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p151-img01.jpg",
+          "size": [
+            1266,
+            823
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "55"
+    },
+    {
+      "id": "5",
+      "format": "native",
+      "source": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/5.ReadingView.html",
+      "sourceBytes": 132235,
+      "sourceCrc": 2744104827,
+      "title": "AGORILLANAMED JOE",
+      "author": "Scott Essman",
+      "indices": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "refs": [
+        "76",
+        "78",
+        "79",
+        "80",
+        "83",
+        "84",
+        "86",
+        "87",
+        "88",
+        "89",
+        "90",
+        "91",
+        "92",
+        "95",
+        "96",
+        "98",
+        "99",
+        "100",
+        "101",
+        "103",
+        "104"
+      ],
+      "images": {
+        "images_400/Cinefex-76-p76a-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p76-img01.jpg",
+          "size": [
+            683,
+            1536
+          ]
+        },
+        "images_400/Cinefex-76-p78-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p78-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p78-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p78-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p80-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p80-img01.jpg",
+          "size": [
+            742,
+            832
+          ]
+        },
+        "images_400/Cinefex-76-p80-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p80-img02.jpg",
+          "size": [
+            742,
+            832
+          ]
+        },
+        "images_400/Cinefex-76-p81-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p81-img01.jpg",
+          "size": [
+            739,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p81-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p81-img02.jpg",
+          "size": [
+            739,
+            830
+          ]
+        },
+        "images_400/Cinefex-76-p81-img03.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p81-img03.jpg",
+          "size": [
+            1277,
+            1679
+          ]
+        },
+        "images_400/Cinefex-76-p82-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p82-img01.jpg",
+          "size": [
+            1277,
+            1678
+          ]
+        },
+        "images_400/Cinefex-76-p82-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p82-img02.jpg",
+          "size": [
+            739,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p82-img03.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p82-img03.jpg",
+          "size": [
+            739,
+            830
+          ]
+        },
+        "images_400/Cinefex-76-p83-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p83-img01.jpg",
+          "size": [
+            741,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p83-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p83-img02.jpg",
+          "size": [
+            741,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p85-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p85-img01.jpg",
+          "size": [
+            739,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p85-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p85-img02.jpg",
+          "size": [
+            739,
+            830
+          ]
+        },
+        "images_400/Cinefex-76-p85-img03.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p85-img03.jpg",
+          "size": [
+            1277,
+            1678
+          ]
+        },
+        "images_400/Cinefex-76-p86-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p86-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p86-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p86-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p89-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p89-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p89-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p89-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p90-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p90-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p90-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p90-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p93-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p93-img01.jpg",
+          "size": [
+            739,
+            1678
+          ]
+        },
+        "images_400/Cinefex-76-p93-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p93-img02.jpg",
+          "size": [
+            1277,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p93-img03.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p93-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p94-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p94-img01.jpg",
+          "size": [
+            1277,
+            825
+          ]
+        },
+        "images_400/Cinefex-76-p94-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p94-img02.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p94-img03.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p94-img03.jpg",
+          "size": [
+            739,
+            1677
+          ]
+        },
+        "images_400/Cinefex-76-p95-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p95-img01.jpg",
+          "size": [
+            741,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p95-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p95-img02.jpg",
+          "size": [
+            741,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p96-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p96-img01.jpg",
+          "size": [
+            741,
+            1678
+          ]
+        },
+        "images_400/Cinefex-76-p97-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p97-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p97-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p97-img02.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p97-img03.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p97-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p98-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p98-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p98-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p98-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p101-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p101-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p101-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p101-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p102-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p102-img01.jpg",
+          "size": [
+            1277,
+            825
+          ]
+        },
+        "images_400/Cinefex-76-p102-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p102-img02.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p102-img03.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p102-img03.jpg",
+          "size": [
+            739,
+            1677
+          ]
+        },
+        "images_400/Cinefex-76-p105-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p105-img01.jpg",
+          "size": [
+            676,
+            1536
+          ]
+        },
+        "images_400/Cinefex-76-p105-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p105-img02.jpg",
+          "size": [
+            1277,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p105-img03.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p105-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "76"
+    },
+    {
+      "id": "6",
+      "format": "native",
+      "source": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/6.ReadingView.html",
+      "sourceBytes": 86762,
+      "sourceCrc": 3683523327,
+      "title": "THESWEETHEREAFTER",
+      "author": "Kevin H. Martin",
+      "indices": [
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "refs": [
+        "110",
+        "112",
+        "113",
+        "114",
+        "115",
+        "116",
+        "119",
+        "120",
+        "121",
+        "123",
+        "124",
+        "125",
+        "127",
+        "128"
+      ],
+      "images": {
+        "images_400/Cinefex-76-p110a-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p110-img01.jpg",
+          "size": [
+            1728,
+            1536
+          ]
+        },
+        "images_400/Cinefex-76-p113-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p113-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p113-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p113-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p114-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p114-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p114-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p114-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p117-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p117-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p117-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p117-img02.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p117-img03.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p117-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p118-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p118-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p118-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p118-img02.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p118-img03.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p118-img03.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p121-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p121-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p121-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p121-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p122-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p122-img01.jpg",
+          "size": [
+            1277,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p122-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p122-img02.jpg",
+          "size": [
+            740,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p122-img03.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p122-img03.jpg",
+          "size": [
+            2041,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p123-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p123-img01.jpg",
+          "size": [
+            741,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p123-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p123-img02.jpg",
+          "size": [
+            741,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p125-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p125-img01.jpg",
+          "size": [
+            1260,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p125-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p125-img02.jpg",
+          "size": [
+            1260,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p126-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p126-img01.jpg",
+          "size": [
+            1277,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p126-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p126-img02.jpg",
+          "size": [
+            740,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p126-img03.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p126-img03.jpg",
+          "size": [
+            2041,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p127-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p127-img01.jpg",
+          "size": [
+            741,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p127-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p127-img02.jpg",
+          "size": [
+            741,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p129-img01.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p129-img01.jpg",
+          "size": [
+            2041,
+            826
+          ]
+        },
+        "images_400/Cinefex-76-p129-img02.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p129-img02.jpg",
+          "size": [
+            740,
+            829
+          ]
+        },
+        "images_400/Cinefex-76-p129-img03.jpg": {
+          "url": "https://archive.org/download/cinefex_1999/CineFex%201999%20No%20076.zip/images%2FCinefex-76-p129-img03.jpg",
+          "size": [
+            1277,
+            829
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "110"
+    }
+  ]
+}

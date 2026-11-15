@@ -1,0 +1,946 @@
+{
+  "issue": 52,
+  "articles": [
+    {
+      "id": "1",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/1.ReadingView.html",
+      "sourceBytes": 9718,
+      "sourceCrc": 1357711520,
+      "title": "COMMERCIAL SPOT:SIMIAN SIMULATION",
+      "author": "Janice Hubbard",
+      "indices": [
+        8,
+        9
+      ],
+      "refs": [
+        "9",
+        "10"
+      ],
+      "images": {
+        "images_400/Cinefex-52-p09-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p09-img01.jpg",
+          "size": [
+            1250,
+            796
+          ]
+        },
+        "images_400/Cinefex-52-p10-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p10-img01.jpg",
+          "size": [
+            1254,
+            826
+          ]
+        },
+        "images_400/Cinefex-52-p10-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p10-img02.jpg",
+          "size": [
+            1251,
+            825
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "9"
+    },
+    {
+      "id": "2",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/2.ReadingView.html",
+      "sourceBytes": 10142,
+      "sourceCrc": 2345820760,
+      "title": "COMMERCIAL SPOT:ELEVATOR TO THE STARS",
+      "author": "Bob Peishel",
+      "indices": [
+        13,
+        14
+      ],
+      "refs": [
+        "14",
+        "15"
+      ],
+      "images": {
+        "images_400/Cinefex-52-p14-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p14-img01.jpg",
+          "size": [
+            1255,
+            805
+          ]
+        },
+        "images_400/Cinefex-52-p15-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p15-img01.jpg",
+          "size": [
+            1249,
+            851
+          ]
+        },
+        "images_400/Cinefex-52-p15-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p15-img02.jpg",
+          "size": [
+            1249,
+            796
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "14"
+    },
+    {
+      "id": "3",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/3.ReadingView.html",
+      "sourceBytes": 12290,
+      "sourceCrc": 4211823226,
+      "title": "QUICK CUTS:VIDEO HELL",
+      "author": "Christalene Loren",
+      "indices": [
+        16,
+        17
+      ],
+      "refs": [
+        "17",
+        "18"
+      ],
+      "images": {
+        "images_400/Cinefex-52-p18-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p18-img01.jpg",
+          "size": [
+            1913,
+            857
+          ]
+        },
+        "images_400/Cinefex-52-p18-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p18-img02.jpg",
+          "size": [
+            616,
+            385
+          ]
+        },
+        "images_400/Cinefex-52-p18-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p18-img03.jpg",
+          "size": [
+            614,
+            385
+          ]
+        },
+        "images_400/Cinefex-52-p18-img04.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p18-img04.jpg",
+          "size": [
+            616,
+            385
+          ]
+        },
+        "images_400/Cinefex-52-p18-img05.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p18-img05.jpg",
+          "size": [
+            616,
+            385
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "17"
+    },
+    {
+      "id": "4",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/4.ReadingView.html",
+      "sourceBytes": 152046,
+      "sourceCrc": 364733511,
+      "title": "Blowing Up Baby",
+      "author": "Jody Duncan",
+      "indices": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "refs": [
+        "22",
+        "25",
+        "26",
+        "27",
+        "29",
+        "30",
+        "31",
+        "33",
+        "34",
+        "35",
+        "37",
+        "38",
+        "39",
+        "41",
+        "42",
+        "43",
+        "45",
+        "46",
+        "49",
+        "50",
+        "51",
+        "53"
+      ],
+      "images": {
+        "images_400/Cinefex-52-p22a-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p22-img01.jpg",
+          "size": [
+            1712,
+            1536
+          ]
+        },
+        "images_400/Cinefex-52-p24-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p24-img02.jpg",
+          "size": [
+            723,
+            821
+          ]
+        },
+        "images_400/Cinefex-52-p24-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p24-img03.jpg",
+          "size": [
+            727,
+            829
+          ]
+        },
+        "images_400/Cinefex-52-p18-img04.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p18-img04.jpg",
+          "size": [
+            616,
+            385
+          ]
+        },
+        "images_400/Cinefex-52-p27-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p27-img01.jpg",
+          "size": [
+            1265,
+            828
+          ]
+        },
+        "images_400/Cinefex-52-p27-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p27-img02.jpg",
+          "size": [
+            1275,
+            825
+          ]
+        },
+        "images_400/Cinefex-52-p28-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p28-img01.jpg",
+          "size": [
+            1260,
+            814
+          ]
+        },
+        "images_400/Cinefex-52-p28-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p28-img02.jpg",
+          "size": [
+            729,
+            814
+          ]
+        },
+        "images_400/Cinefex-52-p31-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p31-img01.jpg",
+          "size": [
+            1223,
+            831
+          ]
+        },
+        "images_400/Cinefex-52-p31-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p31-img02.jpg",
+          "size": [
+            1227,
+            826
+          ]
+        },
+        "images_400/Cinefex-52-p32-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p32-img01.jpg",
+          "size": [
+            1265,
+            1672
+          ]
+        },
+        "images_400/Cinefex-52-p32-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p32-img02.jpg",
+          "size": [
+            731,
+            828
+          ]
+        },
+        "images_400/Cinefex-52-p32-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p32-img03.jpg",
+          "size": [
+            727,
+            826
+          ]
+        },
+        "images_400/Cinefex-52-p33-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p33-img01.jpg",
+          "size": [
+            724,
+            828
+          ]
+        },
+        "images_400/Cinefex-52-p33-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p33-img02.jpg",
+          "size": [
+            727,
+            825
+          ]
+        },
+        "images_400/Cinefex-52-p35-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p35-img01.jpg",
+          "size": [
+            1278,
+            832
+          ]
+        },
+        "images_400/Cinefex-52-p35-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p35-img02.jpg",
+          "size": [
+            1283,
+            824
+          ]
+        },
+        "images_400/Cinefex-52-p36-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p36-img01.jpg",
+          "size": [
+            1255,
+            821
+          ]
+        },
+        "images_400/Cinefex-52-p36-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p36-img02.jpg",
+          "size": [
+            1258,
+            834
+          ]
+        },
+        "images_400/Cinefex-52-p36-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p36-img03.jpg",
+          "size": [
+            727,
+            1682
+          ]
+        },
+        "images_400/Cinefex-52-p39-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p39-img01.jpg",
+          "size": [
+            1262,
+            826
+          ]
+        },
+        "images_400/Cinefex-52-p39-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p39-img02.jpg",
+          "size": [
+            1264,
+            824
+          ]
+        },
+        "images_400/Cinefex-52-p40-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p40-img01.jpg",
+          "size": [
+            1256,
+            824
+          ]
+        },
+        "images_400/Cinefex-52-p40-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p40-img02.jpg",
+          "size": [
+            729,
+            821
+          ]
+        },
+        "images_400/Cinefex-52-p40-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p40-img03.jpg",
+          "size": [
+            2008,
+            819
+          ]
+        },
+        "images_400/Cinefex-52-p43-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p43-img01.jpg",
+          "size": [
+            1222,
+            830
+          ]
+        },
+        "images_400/Cinefex-52-p43-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p43-img02.jpg",
+          "size": [
+            1222,
+            824
+          ]
+        },
+        "images_400/Cinefex-52-p44-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p44-img01.jpg",
+          "size": [
+            2034,
+            826
+          ]
+        },
+        "images_400/Cinefex-52-p44-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p44-img02.jpg",
+          "size": [
+            1277,
+            832
+          ]
+        },
+        "images_400/Cinefex-52-p44-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p44-img03.jpg",
+          "size": [
+            729,
+            831
+          ]
+        },
+        "images_400/Cinefex-52-p47-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p47-img01.jpg",
+          "size": [
+            733,
+            1683
+          ]
+        },
+        "images_400/Cinefex-52-p47-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p47-img02.jpg",
+          "size": [
+            1295,
+            832
+          ]
+        },
+        "images_400/Cinefex-52-p47-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p47-img03.jpg",
+          "size": [
+            1300,
+            825
+          ]
+        },
+        "images_400/Cinefex-52-p48-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p48-img01.jpg",
+          "size": [
+            2030,
+            828
+          ]
+        },
+        "images_400/Cinefex-52-p48-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p48-img02.jpg",
+          "size": [
+            1268,
+            835
+          ]
+        },
+        "images_400/Cinefex-52-p48-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p48-img03.jpg",
+          "size": [
+            729,
+            828
+          ]
+        },
+        "images_400/Cinefex-52-p51-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p51-img01.jpg",
+          "size": [
+            1250,
+            833
+          ]
+        },
+        "images_400/Cinefex-52-p51-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p51-img02.jpg",
+          "size": [
+            1244,
+            811
+          ]
+        },
+        "images_400/Cinefex-52-p52-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p52-img01.jpg",
+          "size": [
+            1254,
+            809
+          ]
+        },
+        "images_400/Cinefex-52-p52-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p52-img02.jpg",
+          "size": [
+            725,
+            816
+          ]
+        },
+        "images_400/Cinefex-52-p52-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p52-img03.jpg",
+          "size": [
+            2032,
+            827
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "22"
+    },
+    {
+      "id": "5",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/5.ReadingView.html",
+      "sourceBytes": 97342,
+      "sourceCrc": 2777084230,
+      "title": "Life Neverlasting",
+      "author": "Kevin H. Martin",
+      "indices": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "refs": [
+        "54",
+        "56",
+        "57",
+        "58",
+        "60",
+        "61",
+        "62",
+        "63",
+        "65",
+        "66",
+        "67",
+        "69",
+        "70",
+        "72",
+        "73",
+        "74"
+      ],
+      "images": {
+        "images_400/Cinefex-52-p54a-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p54-img01.jpg",
+          "size": [
+            1693,
+            1536
+          ]
+        },
+        "images_400/Cinefex-52-p56-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p56-img01.jpg",
+          "size": [
+            1244,
+            823
+          ]
+        },
+        "images_400/Cinefex-52-p56-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p56-img02.jpg",
+          "size": [
+            1250,
+            831
+          ]
+        },
+        "images_400/Cinefex-52-p58-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p58-img01.jpg",
+          "size": [
+            723,
+            814
+          ]
+        },
+        "images_400/Cinefex-52-p58-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p58-img02.jpg",
+          "size": [
+            729,
+            816
+          ]
+        },
+        "images_400/Cinefex-52-p59-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p59-img01.jpg",
+          "size": [
+            730,
+            830
+          ]
+        },
+        "images_400/Cinefex-52-p59-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p59-img02.jpg",
+          "size": [
+            1282,
+            828
+          ]
+        },
+        "images_400/Cinefex-52-p59-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p59-img03.jpg",
+          "size": [
+            2033,
+            805
+          ]
+        },
+        "images_400/Cinefex-52-p60-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p60-img01.jpg",
+          "size": [
+            1244,
+            821
+          ]
+        },
+        "images_400/Cinefex-52-p60-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p60-img02.jpg",
+          "size": [
+            1251,
+            833
+          ]
+        },
+        "images_400/Cinefex-52-p63-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p63-img01.jpg",
+          "size": [
+            1245,
+            1678
+          ]
+        },
+        "images_400/Cinefex-52-p64-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p64-img01.jpg",
+          "size": [
+            2010,
+            821
+          ]
+        },
+        "images_400/Cinefex-52-p64-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p64-img02.jpg",
+          "size": [
+            1254,
+            829
+          ]
+        },
+        "images_400/Cinefex-52-p64-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p64-img03.jpg",
+          "size": [
+            723,
+            826
+          ]
+        },
+        "images_400/Cinefex-52-p65-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p65-img01.jpg",
+          "size": [
+            729,
+            831
+          ]
+        },
+        "images_400/Cinefex-52-p65-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p65-img02.jpg",
+          "size": [
+            727,
+            825
+          ]
+        },
+        "images_400/Cinefex-52-p67-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p67-img01.jpg",
+          "size": [
+            1228,
+            1644
+          ]
+        },
+        "images_400/Cinefex-52-p68-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p68-img01.jpg",
+          "size": [
+            1266,
+            818
+          ]
+        },
+        "images_400/Cinefex-52-p68-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p68-img02.jpg",
+          "size": [
+            1271,
+            826
+          ]
+        },
+        "images_400/Cinefex-52-p68-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p68-img03.jpg",
+          "size": [
+            722,
+            1683
+          ]
+        },
+        "images_400/Cinefex-52-p70-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p70-img01.jpg",
+          "size": [
+            732,
+            825
+          ]
+        },
+        "images_400/Cinefex-52-p70-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p70-img02.jpg",
+          "size": [
+            725,
+            827
+          ]
+        },
+        "images_400/Cinefex-52-p71-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p71-img01.jpg",
+          "size": [
+            728,
+            831
+          ]
+        },
+        "images_400/Cinefex-52-p71-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p71-img02.jpg",
+          "size": [
+            727,
+            823
+          ]
+        },
+        "images_400/Cinefex-52-p71-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p71-img03.jpg",
+          "size": [
+            1273,
+            1683
+          ]
+        },
+        "images_400/Cinefex-52-p72-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p72-img01.jpg",
+          "size": [
+            1245,
+            827
+          ]
+        },
+        "images_400/Cinefex-52-p72-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p72-img02.jpg",
+          "size": [
+            1256,
+            824
+          ]
+        },
+        "images_400/Cinefex-52-p75-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p75-img01.jpg",
+          "size": [
+            725,
+            833
+          ]
+        },
+        "images_400/Cinefex-52-p75-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p75-img02.jpg",
+          "size": [
+            728,
+            824
+          ]
+        },
+        "images_400/Cinefex-52-p75-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p75-img03.jpg",
+          "size": [
+            1259,
+            1680
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "54"
+    },
+    {
+      "id": "6",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/6.ReadingView.html",
+      "sourceBytes": 9638,
+      "sourceCrc": 3420006789,
+      "title": "QUICK CUTS:PANIC ON LIBERTY ISLAND",
+      "author": "John Shannon",
+      "indices": [
+        78,
+        79
+      ],
+      "refs": [
+        "79",
+        "80"
+      ],
+      "images": {
+        "images_400/Cinefex-52-p79-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p79-img01.jpg",
+          "size": [
+            1255,
+            784
+          ]
+        },
+        "images_400/Cinefex-52-p80-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p80-img01.jpg",
+          "size": [
+            1250,
+            1676
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "79"
+    },
+    {
+      "id": "7",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/7.ReadingView.html",
+      "sourceBytes": 7385,
+      "sourceCrc": 140281433,
+      "title": "PROFILE:ALAN MUNRO",
+      "author": "Richard Linton",
+      "indices": [
+        83
+      ],
+      "refs": [
+        "84"
+      ],
+      "images": {
+        "images_400/Cinefex-52-p84-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p84-img01.jpg",
+          "size": [
+            606,
+            848
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "84"
+    },
+    {
+      "id": "8",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/8.ReadingView.html",
+      "sourceBytes": 12456,
+      "sourceCrc": 4200548721,
+      "title": "VIDEO BEAT:MORPHING TO THE MADNESS",
+      "author": "Lance Gilmer",
+      "indices": [
+        87,
+        88
+      ],
+      "refs": [
+        "88",
+        "89"
+      ],
+      "images": {
+        "images_400/Cinefex-52-p88-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p88-img01.jpg",
+          "size": [
+            606,
+            688
+          ]
+        },
+        "images_400/Cinefex-52-p88-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p88-img02.jpg",
+          "size": [
+            618,
+            688
+          ]
+        },
+        "images_400/Cinefex-52-p88-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p88-img03.jpg",
+          "size": [
+            619,
+            685
+          ]
+        },
+        "images_400/Cinefex-52-p89-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p89-img01.jpg",
+          "size": [
+            619,
+            681
+          ]
+        },
+        "images_400/Cinefex-52-p89-img02.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p89-img02.jpg",
+          "size": [
+            620,
+            686
+          ]
+        },
+        "images_400/Cinefex-52-p89-img03.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p89-img03.jpg",
+          "size": [
+            608,
+            683
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "88"
+    },
+    {
+      "id": "9",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/9.ReadingView.html",
+      "sourceBytes": 8773,
+      "sourceCrc": 715190297,
+      "title": "LASER REVOLUTION:THE LOST WORLD REVISITED",
+      "author": "David C. Fein",
+      "indices": [
+        91
+      ],
+      "refs": [
+        "92"
+      ],
+      "images": {},
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "92"
+    },
+    {
+      "id": "10",
+      "format": "native",
+      "source": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/10.ReadingView.html",
+      "sourceBytes": 5528,
+      "sourceCrc": 3839158549,
+      "title": "EFFECTS SCENE:THERAPY IN PEN-AND-INK",
+      "author": "Estelle Shay",
+      "indices": [
+        94
+      ],
+      "refs": [
+        "95"
+      ],
+      "images": {
+        "images_400/Cinefex-52-p95-img01.jpg": {
+          "url": "https://archive.org/download/CineFex_1992/CineFex%201992%20No%20052.zip/images%2FCinefex-52-p95-img01.jpg",
+          "size": [
+            1254,
+            902
+          ]
+        }
+      },
+      "pageAliases": {},
+      "replacements": {},
+      "startRef": "95"
+    }
+  ]
+}

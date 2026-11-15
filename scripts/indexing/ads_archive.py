@@ -7,7 +7,7 @@ Anything left is listed as "Unidentified advertiser" so the ad is still browsabl
 """
 import json, os, re
 from collections import Counter, defaultdict
-from common import load_issue, ALIAS_OF, CATEGORY_OF, norm
+from common import load_issue, page_text as recognised_page_text, ALIAS_OF, CATEGORY_OF, norm
 from advertisers import VFX, FX, SOFT, HARD, POST, STUDIO, SCHOOL, EVENT, PUB, HOUSE
 
 HERE = os.path.dirname(__file__)
@@ -124,10 +124,10 @@ def ads(root):
     text = json.load(open(os.path.join(HERE, 'data', 'archive-ad-text.json')))
     # Full page text from ocr-pages.swift (Apple Vision), when it has been run, fills any gaps.
     for n in range(1, 127):
-        f = os.path.join(HERE, 'data', 'page-text', f'{n}.json')
-        if os.path.exists(f):
-            for ref, t in json.load(open(f)).items():
-                if t and len(t) > len(text.get(f'{n}:{ref}', '')): text[f'{n}:{ref}'] = t
+        try: recognised = recognised_page_text(root, n)
+        except FileNotFoundError: continue
+        for ref, t in recognised.items():
+            if t and len(t) > len(text.get(f'{n}:{ref}', '')): text[f'{n}:{ref}'] = t
     names = canonical_names(index)
     labels = {k: v for k, v in json.load(open(os.path.join(HERE, 'data', 'ad-labels.json'))).items() if not k.startswith('_')}
     known_tight = {tight(k): v for k, v in ALIAS_KEY.items()}

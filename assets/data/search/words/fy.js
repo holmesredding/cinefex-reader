@@ -1,0 +1,1 @@
+CinefexSearchData.register("words/fy",{"fy":"n67,cdi,md1,2e9,hpw,ru,1i5a","fyc":"3h0a,4y,6x0","fye":"uvg,1,3,3,h,1,3,1,nzy,1bup,1,j","fyear":"2wes","fyes":"uw8","fyfe":"1fsh","fying":"d5v,8h1,nwl,n6a,2cu,9ym","fylladitis":"370i","fyng":"223s","fynn":"3d95,9cw","fyperts":"18u2","fyrine":"jal,1,2,5,3,1,4,3,4,1,2,1,1,3","fyzee":"1b30"});

@@ -1,0 +1,4743 @@
+{
+  "issue": 34,
+  "articles": [
+    {
+      "id": "1",
+      "format": "indexed",
+      "title": "Beetlejuice",
+      "author": "Jody Duncan Shannon",
+      "indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "refs": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "startRef": "4",
+      "needsIndex": true,
+      "indexCrc": {
+        "17": 2028845036,
+        "22": 836242708,
+        "34": 2170588856,
+        "23": 2675119977,
+        "14": 781158197,
+        "38": 3632466859,
+        "13": 644352988,
+        "18": 493496307,
+        "16": 3901294239,
+        "9": 1837952803,
+        "29": 59248028,
+        "26": 1942018422,
+        "43": 1518427890,
+        "6": 4032918168,
+        "31": 3776108646,
+        "35": 2302780142,
+        "37": 2981502040,
+        "21": 4189065810,
+        "8": 50988541,
+        "41": 2020123185,
+        "10": 3996036001,
+        "30": 3843896408,
+        "42": 4021112036,
+        "33": 3301079747,
+        "28": 864726239,
+        "25": 448596790
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "ref": "4",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p4-img01.jpg",
+              "size": [
+                1763,
+                1536
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "figure",
+          "ref": "5",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p5-img01.jpg",
+              "size": [
+                1725,
+                1536
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "6",
+              "start": 861,
+              "end": 1832,
+              "patches": [
+                [
+                  416,
+                  416,
+                  "- "
+                ]
+              ]
+            }
+          ],
+          "ref": "6"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "6",
+              "start": 1833,
+              "end": 3043
+            }
+          ],
+          "ref": "6"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "6",
+              "start": 3044,
+              "end": 4083
+            }
+          ],
+          "ref": "6"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "6",
+              "start": 4084,
+              "end": 6628,
+              "patches": [
+                [
+                  55,
+                  68,
+                  ""
+                ],
+                [
+                  1537,
+                  1551,
+                  ""
+                ],
+                [
+                  2228,
+                  2244,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "6"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "6",
+              "start": 6629,
+              "end": 6928
+            },
+            {
+              "index": "8",
+              "start": 0,
+              "end": 2136
+            }
+          ],
+          "ref": "8"
+        },
+        {
+          "type": "figure",
+          "ref": "7",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p7-img02.jpg",
+              "size": [
+                1280,
+                833
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p7-img01.jpg",
+              "size": [
+                732,
+                834
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p7-img03.jpg",
+              "size": [
+                2035,
+                817
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "6",
+              "start": 0,
+              "end": 845,
+              "patches": [
+                [
+                  53,
+                  53,
+                  " Beetlejuice - a bizarre comedy about a young"
+                ],
+                [
+                  222,
+                  222,
+                  "the film's small town location with an "
+                ],
+                [
+                  274,
+                  274,
+                  " pass over a model of the"
+                ],
+                [
+                  333,
+                  333,
+                  "Though the model had "
+                ],
+                [
+                  390,
+                  390,
+                  "supervisor Alan Munro determined that a larger"
+                ],
+                [
+                  475,
+                  475,
+                  "miniature. Modelmaker Thomas Conti attends to "
+                ],
+                [
+                  555,
+                  777,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "8",
+              "start": 2137,
+              "end": 2622
+            },
+            {
+              "index": "8",
+              "start": 2640,
+              "end": 3192
+            }
+          ],
+          "ref": "8"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "8",
+              "start": 3193,
+              "end": 3249
+            },
+            {
+              "index": "9",
+              "start": 2,
+              "end": 2561,
+              "patches": [
+                [
+                  1478,
+                  1478,
+                  "-"
+                ]
+              ]
+            }
+          ],
+          "ref": "9"
+        },
+        {
+          "type": "figure",
+          "ref": "8",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p8-img01.jpg",
+              "size": [
+                1246,
+                832
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p8-img02.jpg",
+              "size": [
+                1251,
+                834
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "9",
+              "start": 6444,
+              "end": 7322
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "9",
+              "start": 2562,
+              "end": 3243
+            },
+            {
+              "index": "9",
+              "start": 3244,
+              "end": 4217
+            }
+          ],
+          "ref": "9"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "9",
+              "start": 4218,
+              "end": 5193
+            }
+          ],
+          "ref": "9"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "9",
+              "start": 5194,
+              "end": 6198
+            }
+          ],
+          "ref": "9"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "9",
+              "start": 6199,
+              "end": 6443
+            },
+            {
+              "index": "10",
+              "start": 910,
+              "end": 1521
+            },
+            {
+              "index": "10",
+              "start": 1533,
+              "end": 1707
+            }
+          ],
+          "ref": "10"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "10",
+              "start": 1708,
+              "end": 2504
+            }
+          ],
+          "ref": "10"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "10",
+              "start": 2505,
+              "end": 3125
+            }
+          ],
+          "ref": "10"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "10",
+              "start": 3126,
+              "end": 4216
+            }
+          ],
+          "ref": "10"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "10",
+              "start": 4217,
+              "end": 5936,
+              "patches": [
+                [
+                  564,
+                  564,
+                  "-"
+                ]
+              ]
+            }
+          ],
+          "ref": "10"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "10",
+              "start": 5937,
+              "end": 6780
+            }
+          ],
+          "ref": "10"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "10",
+              "start": 6781,
+              "end": 7395
+            },
+            {
+              "index": "13",
+              "start": 0,
+              "end": 1093
+            }
+          ],
+          "ref": "13"
+        },
+        {
+          "type": "figure",
+          "ref": "11",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p11-img03.jpg",
+              "size": [
+                1264,
+                1691
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p11-img01.jpg",
+              "size": [
+                733,
+                835
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p11-img02.jpg",
+              "size": [
+                735,
+                832
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "10",
+              "start": 0,
+              "end": 893,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "Unaware that they are invisible to mortals, the "
+                ],
+                [
+                  138,
+                  138,
+                  "of her husband in hand, Barbara (Geena Davis) welcomes the Deetzes as "
+                ],
+                [
+                  158,
+                  159,
+                  "."
+                ],
+                [
+                  164,
+                  164,
+                  " corpse and head were"
+                ],
+                [
+                  219,
+                  219,
+                  " was a generic foam construct, the head was"
+                ],
+                [
+                  361,
+                  361,
+                  "requiring Adam to speak, "
+                ],
+                [
+                  440,
+                  440,
+                  " front which on film appeared to be in the"
+                ],
+                [
+                  625,
+                  874,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "12",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p12-img01.jpg",
+              "size": [
+                2036,
+                828
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p12-img02.jpg",
+              "size": [
+                1280,
+                835
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p12-img03.jpg",
+              "size": [
+                734,
+                836
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "13",
+              "start": 1094,
+              "end": 2199
+            }
+          ],
+          "ref": "13"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "13",
+              "start": 2200,
+              "end": 2731
+            }
+          ],
+          "ref": "13"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "13",
+              "start": 2732,
+              "end": 3227
+            },
+            {
+              "index": "14",
+              "start": 904,
+              "end": 1394
+            }
+          ],
+          "ref": "14"
+        },
+        {
+          "type": "figure",
+          "ref": "13",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p13-img01.jpg",
+              "size": [
+                735,
+                835
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p13-img02.jpg",
+              "size": [
+                732,
+                831
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "13",
+              "start": 3228,
+              "end": 4307
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "14",
+              "start": 1395,
+              "end": 2646
+            }
+          ],
+          "ref": "14"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "14",
+              "start": 2647,
+              "end": 4771
+            }
+          ],
+          "ref": "14"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "14",
+              "start": 4772,
+              "end": 5928
+            },
+            {
+              "index": "14",
+              "start": 5951,
+              "end": 6024
+            }
+          ],
+          "ref": "14"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "14",
+              "start": 6025,
+              "end": 7388,
+              "patches": [
+                [
+                  558,
+                  566,
+                  ""
+                ]
+              ]
+            },
+            {
+              "index": "16",
+              "start": 0,
+              "end": 578
+            }
+          ],
+          "ref": "16"
+        },
+        {
+          "type": "figure",
+          "ref": "15",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p15-img03.jpg",
+              "size": [
+                1272,
+                1688
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p15-img01.jpg",
+              "size": [
+                734,
+                832
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p15-img02.jpg",
+              "size": [
+                734,
+                831
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "14",
+              "start": 0,
+              "end": 889,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "At a loss as to how to rid "
+                ],
+                [
+                  55,
+                  55,
+                  " their afterlife caseworker"
+                ],
+                [
+                  139,
+                  139,
+                  "clients - all locked into their moments of death "
+                ],
+                [
+                  215,
+                  566,
+                  ""
+                ],
+                [
+                  615,
+                  615,
+                  " diver with a shark attached"
+                ],
+                [
+                  732,
+                  732,
+                  "artificial body - complete with rod controlled arms - was attached at the neck to "
+                ],
+                [
+                  753,
+                  753,
+                  " o supervisor Douglas Turner"
+                ],
+                [
+                  793,
+                  793,
+                  " opening in the back of the set. / For one of the afterlife messengers - flattened by a"
+                ],
+                [
+                  864,
+                  864,
+                  "appliances and positioned "
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "16",
+              "start": 579,
+              "end": 1992
+            }
+          ],
+          "ref": "16"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "16",
+              "start": 1995,
+              "end": 2106
+            }
+          ],
+          "ref": "16"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "16",
+              "start": 2107,
+              "end": 3191
+            }
+          ],
+          "ref": "16"
+        },
+        {
+          "type": "figure",
+          "ref": "16",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p16-img01.jpg",
+              "size": [
+                1243,
+                829
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p16-img02.jpg",
+              "size": [
+                1245,
+                836
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "17",
+              "start": 6243,
+              "end": 6900
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "17",
+              "start": 0,
+              "end": 812
+            }
+          ],
+          "ref": "17"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "17",
+              "start": 813,
+              "end": 2101,
+              "patches": [
+                [
+                  590,
+                  590,
+                  "-"
+                ]
+              ]
+            }
+          ],
+          "ref": "17"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "17",
+              "start": 2102,
+              "end": 2936
+            }
+          ],
+          "ref": "17"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "17",
+              "start": 2937,
+              "end": 3701,
+              "patches": [
+                [
+                  677,
+                  677,
+                  "- "
+                ]
+              ]
+            }
+          ],
+          "ref": "17"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "17",
+              "start": 3702,
+              "end": 5259,
+              "patches": [
+                [
+                  176,
+                  176,
+                  "crawled inside her sleeping bag, a magician's assistant perma"
+                ],
+                [
+                  229,
+                  229,
+                  " had been shrunk, an open-heart surgery patient and a man who"
+                ],
+                [
+                  1484,
+                  1557,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "17"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "17",
+              "start": 5187,
+              "end": 6243
+            },
+            {
+              "index": "18",
+              "start": 1104,
+              "end": 1283
+            }
+          ],
+          "ref": "18"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "18",
+              "start": 1284,
+              "end": 2180
+            }
+          ],
+          "ref": "18"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "18",
+              "start": 2181,
+              "end": 2898,
+              "patches": [
+                [
+                  554,
+                  569,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "18"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "18",
+              "start": 2899,
+              "end": 4512,
+              "patches": [
+                [
+                  1613,
+                  1613,
+                  " of the cigarette.\""
+                ]
+              ]
+            }
+          ],
+          "ref": "18"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "18",
+              "start": 4513,
+              "end": 5442
+            }
+          ],
+          "ref": "18"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "18",
+              "start": 5443,
+              "end": 6594
+            }
+          ],
+          "ref": "18"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "18",
+              "start": 6595,
+              "end": 7451
+            },
+            {
+              "index": "21",
+              "start": 0,
+              "end": 318,
+              "patches": [
+                [
+                  318,
+                  318,
+                  " in one shot.\""
+                ]
+              ]
+            }
+          ],
+          "ref": "21"
+        },
+        {
+          "type": "figure",
+          "ref": "19",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p19-img01.jpg",
+              "size": [
+                729,
+                1686
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p19-img02.jpg",
+              "size": [
+                1262,
+                830
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p19-img03.jpg",
+              "size": [
+                1255,
+                824
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "18",
+              "start": 0,
+              "end": 326
+            },
+            {
+              "index": "18",
+              "start": 1041,
+              "end": 1056
+            },
+            {
+              "index": "18",
+              "start": 911,
+              "end": 929
+            },
+            {
+              "index": "18",
+              "start": 327,
+              "end": 508
+            },
+            {
+              "index": "18",
+              "start": 1057,
+              "end": 1074
+            },
+            {
+              "index": "18",
+              "start": 930,
+              "end": 971
+            },
+            {
+              "index": "18",
+              "start": 509,
+              "end": 539
+            },
+            {
+              "index": "18",
+              "start": 972,
+              "end": 995
+            },
+            {
+              "index": "18",
+              "start": 540,
+              "end": 859
+            },
+            {
+              "index": "18",
+              "start": 996,
+              "end": 1017
+            },
+            {
+              "index": "18",
+              "start": 860,
+              "end": 910
+            },
+            {
+              "index": "18",
+              "start": 1018,
+              "end": 1040
+            },
+            {
+              "index": "18",
+              "start": 1075,
+              "end": 1087
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "20",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p20-img03.jpg",
+              "size": [
+                729,
+                1690
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p20-img01.jpg",
+              "size": [
+                1260,
+                830
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p20-img02.jpg",
+              "size": [
+                1259,
+                830
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "21",
+              "start": 6354,
+              "end": 7411
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "21",
+              "start": 319,
+              "end": 806
+            }
+          ],
+          "ref": "21"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "21",
+              "start": 807,
+              "end": 1809
+            }
+          ],
+          "ref": "21"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "21",
+              "start": 1810,
+              "end": 3092
+            },
+            {
+              "index": "21",
+              "start": 3093,
+              "end": 3519
+            }
+          ],
+          "ref": "21"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "21",
+              "start": 3520,
+              "end": 4367
+            }
+          ],
+          "ref": "21"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "21",
+              "start": 4368,
+              "end": 5440
+            }
+          ],
+          "ref": "21"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "21",
+              "start": 5441,
+              "end": 6353
+            },
+            {
+              "index": "22",
+              "start": 1113,
+              "end": 1218
+            }
+          ],
+          "ref": "22"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "22",
+              "start": 1219,
+              "end": 2109
+            }
+          ],
+          "ref": "22"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "22",
+              "start": 2110,
+              "end": 4088,
+              "patches": [
+                [
+                  362,
+                  381,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "22"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "22",
+              "start": 4089,
+              "end": 4327
+            },
+            {
+              "index": "22",
+              "start": 4328,
+              "end": 4998
+            }
+          ],
+          "ref": "22"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "22",
+              "start": 4999,
+              "end": 5775,
+              "patches": [
+                [
+                  190,
+                  191,
+                  "."
+                ]
+              ]
+            }
+          ],
+          "ref": "22"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "22",
+              "start": 5776,
+              "end": 6978,
+              "patches": [
+                [
+                  122,
+                  122,
+                  "moment was realized at VCE"
+                ],
+                [
+                  153,
+                  181,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "22"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "22",
+              "start": 6979,
+              "end": 7521
+            },
+            {
+              "index": "23",
+              "start": 0,
+              "end": 801
+            }
+          ],
+          "ref": "23"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "23",
+              "start": 802,
+              "end": 2268
+            }
+          ],
+          "ref": "23"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "23",
+              "start": 2269,
+              "end": 2930
+            }
+          ],
+          "ref": "23"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "23",
+              "start": 2931,
+              "end": 3229,
+              "patches": [
+                [
+                  205,
+                  206,
+                  "g"
+                ]
+              ]
+            },
+            {
+              "index": "25",
+              "start": 0,
+              "end": 1758
+            }
+          ],
+          "ref": "25"
+        },
+        {
+          "type": "figure",
+          "ref": "23",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p23-img01.jpg",
+              "size": [
+                1237,
+                834
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p23-img02.jpg",
+              "size": [
+                1223,
+                824
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "22",
+              "start": 0,
+              "end": 1096,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "Eager to convince the "
+                ],
+                [
+                  80,
+                  80,
+                  "Betelgeuse transforms momentarily into a "
+                ],
+                [
+                  108,
+                  108,
+                  "aximize the inherent humor while leaving as m"
+                ],
+                [
+                  133,
+                  133,
+                  " possible, the effect was designed to be"
+                ],
+                [
+                  215,
+                  215,
+                  " apparatus that could be"
+                ],
+                [
+                  357,
+                  357,
+                  "tentacles equipped with "
+                ],
+                [
+                  487,
+                  487,
+                  "engaging outside help, Betelgeuse launches his "
+                ],
+                [
+                  511,
+                  511,
+                  " new homeowners by"
+                ],
+                [
+                  596,
+                  596,
+                  " her family. Short and company produced a number of mechanical"
+                ],
+                [
+                  756,
+                  1079,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "24",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p24-img03.jpg",
+              "size": [
+                730,
+                1690
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p24-img01.jpg",
+              "size": [
+                1257,
+                828
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p24-img02.jpg",
+              "size": [
+                1253,
+                830
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "25",
+              "start": 1759,
+              "end": 2462
+            }
+          ],
+          "ref": "25"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "25",
+              "start": 2463,
+              "end": 3208
+            },
+            {
+              "index": "25",
+              "start": 3209,
+              "end": 3659
+            }
+          ],
+          "ref": "25"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "25",
+              "start": 3660,
+              "end": 4326
+            }
+          ],
+          "ref": "25"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "25",
+              "start": 4325,
+              "end": 6102
+            }
+          ],
+          "ref": "25"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "25",
+              "start": 6103,
+              "end": 6345
+            },
+            {
+              "index": "26",
+              "start": 871,
+              "end": 1525
+            }
+          ],
+          "ref": "26"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "26",
+              "start": 1526,
+              "end": 2635,
+              "patches": [
+                [
+                  1109,
+                  1109,
+                  " so that was changed right off.\""
+                ]
+              ]
+            }
+          ],
+          "ref": "26"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "26",
+              "start": 2668,
+              "end": 3582,
+              "patches": [
+                [
+                  176,
+                  176,
+                  "- "
+                ]
+              ]
+            }
+          ],
+          "ref": "26"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "26",
+              "start": 3583,
+              "end": 4064
+            },
+            {
+              "index": "28",
+              "start": 0,
+              "end": 954
+            }
+          ],
+          "ref": "28"
+        },
+        {
+          "type": "figure",
+          "ref": "26",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p26-img01.jpg",
+              "size": [
+                729,
+                821
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p26-img02.jpg",
+              "size": [
+                729,
+                829
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "25",
+              "start": 6346,
+              "end": 7146
+            },
+            {
+              "index": "26",
+              "start": 0,
+              "end": 854,
+              "patches": [
+                [
+                  0,
+                  477,
+                  ""
+                ],
+                [
+                  621,
+                  621,
+                  "Steve Wang provides precise "
+                ],
+                [
+                  640,
+                  640,
+                  " coloration. / Since the snake had several lines of dialogue,"
+                ],
+                [
+                  689,
+                  689,
+                  "activated rod puppet would "
+                ],
+                [
+                  710,
+                  710,
+                  " approach to achieving the"
+                ],
+                [
+                  735,
+                  735,
+                  " member Tom Gleason holds the base of the neck while"
+                ],
+                [
+                  784,
+                  784,
+                  "Unabashedly irrepressible, the Betelgeuse snake darts between Delia's outspread legs in another employment "
+                ],
+                [
+                  810,
+                  810,
+                  "puppet. Eye slits were added later via cel animation. / In a "
+                ],
+                [
+                  830,
+                  830,
+                  "motion blurs, the sinister serpent grabs Charles Deetz by the leg and inverts him. / A setup for the shot on stage "
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "27",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p27-img02.jpg",
+              "size": [
+                1242,
+                829
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p27-img01.jpg",
+              "size": [
+                722,
+                832
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p27-img03.jpg",
+              "size": [
+                1989,
+                820
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "28",
+              "start": 955,
+              "end": 1196
+            },
+            {
+              "index": "28",
+              "start": 1197,
+              "end": 1257
+            },
+            {
+              "index": "28",
+              "start": 1258,
+              "end": 2340
+            }
+          ],
+          "ref": "28"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "28",
+              "start": 2341,
+              "end": 3084
+            }
+          ],
+          "ref": "28"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "28",
+              "start": 3085,
+              "end": 3202
+            },
+            {
+              "index": "29",
+              "start": 0,
+              "end": 556
+            }
+          ],
+          "ref": "29"
+        },
+        {
+          "type": "figure",
+          "ref": "28",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p28-img01.jpg",
+              "size": [
+                1215,
+                831
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p28-img02.jpg",
+              "size": [
+                1214,
+                836
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "29",
+              "start": 6558,
+              "end": 7258
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 557,
+              "end": 2352
+            }
+          ],
+          "ref": "29"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 2353,
+              "end": 3291
+            },
+            {
+              "index": "29",
+              "start": 3292,
+              "end": 3588
+            }
+          ],
+          "ref": "29"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 3589,
+              "end": 5631,
+              "patches": [
+                [
+                  808,
+                  817,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "29"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "29",
+              "start": 5632,
+              "end": 6557
+            },
+            {
+              "index": "30",
+              "start": 502,
+              "end": 778
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 779,
+              "end": 1950
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 1951,
+              "end": 3435
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 3436,
+              "end": 3688
+            },
+            {
+              "index": "30",
+              "start": 3689,
+              "end": 5002
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 5003,
+              "end": 5364
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 5367,
+              "end": 5909
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "30",
+              "start": 5910,
+              "end": 6933
+            }
+          ],
+          "ref": "30"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "31",
+              "start": 0,
+              "end": 1941,
+              "patches": [
+                [
+                  655,
+                  656,
+                  "c"
+                ]
+              ]
+            }
+          ],
+          "ref": "31"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "31",
+              "start": 1942,
+              "end": 3057
+            }
+          ],
+          "ref": "31"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "31",
+              "start": 3060,
+              "end": 3247
+            },
+            {
+              "index": "33",
+              "start": 0,
+              "end": 344
+            }
+          ],
+          "ref": "33"
+        },
+        {
+          "type": "figure",
+          "ref": "31",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p31-img01.jpg",
+              "size": [
+                1212,
+                828
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p31-img02.jpg",
+              "size": [
+                1216,
+                824
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "30",
+              "start": 0,
+              "end": 485,
+              "patches": [
+                [
+                  108,
+                  108,
+                  "to release him over the miniature town. Scenes "
+                ],
+                [
+                  190,
+                  190,
+                  " accomplished at VCE -"
+                ],
+                [
+                  382,
+                  451,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "32",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p32-img01.jpg",
+              "size": [
+                1230,
+                1686
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p32-img02.jpg",
+              "size": [
+                729,
+                828
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p32-img03.jpg",
+              "size": [
+                734,
+                833
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "33",
+              "start": 345,
+              "end": 1411
+            }
+          ],
+          "ref": "33"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "33",
+              "start": 1412,
+              "end": 2791
+            }
+          ],
+          "ref": "33"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "33",
+              "start": 2792,
+              "end": 3165
+            },
+            {
+              "index": "34",
+              "start": 885,
+              "end": 1663
+            }
+          ],
+          "ref": "34"
+        },
+        {
+          "type": "figure",
+          "ref": "33",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p33-img01.jpg",
+              "size": [
+                731,
+                834
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p33-img02.jpg",
+              "size": [
+                725,
+                830
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "33",
+              "start": 3166,
+              "end": 4196,
+              "patches": [
+                [
+                  774,
+                  775,
+                  "v"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "34",
+              "start": 1664,
+              "end": 1907
+            },
+            {
+              "index": "34",
+              "start": 1928,
+              "end": 3382
+            }
+          ],
+          "ref": "34"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "34",
+              "start": 3383,
+              "end": 4118
+            },
+            {
+              "index": "34",
+              "start": 4119,
+              "end": 4729
+            }
+          ],
+          "ref": "34"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "34",
+              "start": 4730,
+              "end": 5263
+            },
+            {
+              "index": "34",
+              "start": 5279,
+              "end": 5706
+            }
+          ],
+          "ref": "34"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "34",
+              "start": 5707,
+              "end": 6327
+            },
+            {
+              "index": "34",
+              "start": 3054,
+              "end": 3080,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "for "
+                ],
+                [
+                  1,
+                  1,
+                  "hem"
+                ],
+                [
+                  8,
+                  17,
+                  ""
+                ],
+                [
+                  23,
+                  23,
+                  "e"
+                ],
+                [
+                  24,
+                  25,
+                  ""
+                ],
+                [
+                  26,
+                  26,
+                  "\""
+                ]
+              ]
+            }
+          ],
+          "ref": "34"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "34",
+              "start": 6328,
+              "end": 7082
+            }
+          ],
+          "ref": "34"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "34",
+              "start": 7083,
+              "end": 7262
+            },
+            {
+              "index": "35",
+              "start": 0,
+              "end": 677
+            },
+            {
+              "index": "35",
+              "start": 689,
+              "end": 1034
+            }
+          ],
+          "ref": "35"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "35",
+              "start": 1035,
+              "end": 2319
+            }
+          ],
+          "ref": "35"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "35",
+              "start": 2320,
+              "end": 3247
+            },
+            {
+              "index": "37",
+              "start": 0,
+              "end": 542
+            }
+          ],
+          "ref": "37"
+        },
+        {
+          "type": "figure",
+          "ref": "35",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p35-img01.jpg",
+              "size": [
+                1246,
+                824
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p35-img02.jpg",
+              "size": [
+                1246,
+                824
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "34",
+              "start": 0,
+              "end": 868,
+              "patches": [
+                [
+                  162,
+                  162,
+                  "accomplished with two stages of progressively deteriorating makeup. To deemphasize the horror "
+                ],
+                [
+                  219,
+                  219,
+                  "istraught features were d"
+                ],
+                [
+                  248,
+                  248,
+                  "/ For Short, the most difficult aspect of the "
+                ],
+                [
+                  275,
+                  275,
+                  " hat worn by Betelgeuse when he is at last"
+                ],
+                [
+                  413,
+                  413,
+                  "demon creatures on its "
+                ],
+                [
+                  436,
+                  436,
+                  " down. As a further complication, the scene"
+                ],
+                [
+                  494,
+                  494,
+                  "rubberized foam arms capable of uncurling like "
+                ],
+                [
+                  548,
+                  868,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "36",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p36-img01.jpg",
+              "size": [
+                1261,
+                822
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p36-img02.jpg",
+              "size": [
+                726,
+                826
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p36-img03.jpg",
+              "size": [
+                2024,
+                834
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "37",
+              "start": 543,
+              "end": 1891
+            }
+          ],
+          "ref": "37"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "37",
+              "start": 1892,
+              "end": 3015
+            }
+          ],
+          "ref": "37"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "37",
+              "start": 3016,
+              "end": 4603
+            }
+          ],
+          "ref": "37"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "37",
+              "start": 4604,
+              "end": 5397
+            }
+          ],
+          "ref": "37"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "37",
+              "start": 5398,
+              "end": 6277
+            }
+          ],
+          "ref": "37"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "37",
+              "start": 6278,
+              "end": 6454
+            },
+            {
+              "index": "38",
+              "start": 1079,
+              "end": 1962,
+              "patches": [
+                [
+                  60,
+                  60,
+                  "-"
+                ]
+              ]
+            }
+          ],
+          "ref": "38"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "38",
+              "start": 1963,
+              "end": 4036
+            }
+          ],
+          "ref": "38"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "38",
+              "start": 4037,
+              "end": 4277
+            },
+            {
+              "index": "41",
+              "start": 0,
+              "end": 1916
+            }
+          ],
+          "ref": "41"
+        },
+        {
+          "type": "figure",
+          "ref": "38",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p38-img01.jpg",
+              "size": [
+                732,
+                828
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p38-img02.jpg",
+              "size": [
+                733,
+                835
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "37",
+              "start": 6455,
+              "end": 7230,
+              "patches": [
+                [
+                  550,
+                  550,
+                  "-"
+                ]
+              ]
+            },
+            {
+              "index": "38",
+              "start": 0,
+              "end": 1062,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "When Adam attempts to disrupt the wedding "
+                ],
+                [
+                  162,
+                  162,
+                  "Charles and Delia Deetz watch helplessly as Betelgeuse prepares to "
+                ],
+                [
+                  217,
+                  217,
+                  "up by the lecherous bridegroom entailed "
+                ],
+                [
+                  246,
+                  246,
+                  "nd his crew - of a"
+                ],
+                [
+                  272,
+                  272,
+                  "and an oversize cable"
+                ],
+                [
+                  299,
+                  299,
+                  "lip-syncing the wedding "
+                ],
+                [
+                  324,
+                  324,
+                  " sand planet in the fray,"
+                ],
+                [
+                  377,
+                  377,
+                  " ceiling astride the giant"
+                ],
+                [
+                  536,
+                  536,
+                  "them a stop-motion sandworm coupled with "
+                ],
+                [
+                  594,
+                  594,
+                  "the mechanical worm "
+                ],
+                [
+                  647,
+                  998,
+                  ""
+                ],
+                [
+                  1046,
+                  1046,
+                  "creature vanishing through "
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "39",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p39-img01.jpg",
+              "size": [
+                2017,
+                819
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p39-img03.jpg",
+              "size": [
+                1265,
+                828
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p39-img02.jpg",
+              "size": [
+                729,
+                828
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "figure",
+          "ref": "40",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p40-img03.jpg",
+              "size": [
+                731,
+                1685
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p40-img01.jpg",
+              "size": [
+                1268,
+                824
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p40-img02.jpg",
+              "size": [
+                1274,
+                830
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "41",
+              "start": 6517,
+              "end": 7416
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "41",
+              "start": 1917,
+              "end": 3251
+            }
+          ],
+          "ref": "41"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "41",
+              "start": 3252,
+              "end": 3921
+            },
+            {
+              "index": "41",
+              "start": 3936,
+              "end": 5107
+            }
+          ],
+          "ref": "41"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "41",
+              "start": 5108,
+              "end": 6402
+            }
+          ],
+          "ref": "41"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "41",
+              "start": 6403,
+              "end": 6516
+            },
+            {
+              "index": "42",
+              "start": 951,
+              "end": 1735,
+              "patches": [
+                [
+                  666,
+                  666,
+                  "."
+                ]
+              ]
+            }
+          ],
+          "ref": "42"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "42",
+              "start": 1736,
+              "end": 3522
+            }
+          ],
+          "ref": "42"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "42",
+              "start": 3523,
+              "end": 4186
+            },
+            {
+              "index": "42",
+              "start": 4187,
+              "end": 5122
+            }
+          ],
+          "ref": "42"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "42",
+              "start": 5123,
+              "end": 6632
+            }
+          ],
+          "ref": "42"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "42",
+              "start": 6633,
+              "end": 7412
+            },
+            {
+              "index": "43",
+              "start": 0,
+              "end": 623
+            }
+          ],
+          "ref": "43"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "43",
+              "start": 624,
+              "end": 2439
+            }
+          ],
+          "ref": "43"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "43",
+              "start": 2440,
+              "end": 3250
+            }
+          ],
+          "ref": "43"
+        },
+        {
+          "type": "figure",
+          "ref": "43",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p43-img01.jpg",
+              "size": [
+                1242,
+                835
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p43-img02.jpg",
+              "size": [
+                1244,
+                829
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "42",
+              "start": 0,
+              "end": 937,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "Moving to another sofa, "
+                ],
+                [
+                  24,
+                  24,
+                  " between a native witch"
+                ],
+                [
+                  76,
+                  76,
+                  " shrunken while still"
+                ],
+                [
+                  205,
+                  205,
+                  " at the elbow. A live performer provided the"
+                ],
+                [
+                  338,
+                  338,
+                  "sharing the fate of the "
+                ],
+                [
+                  387,
+                  387,
+                  " head to shrink down to miniature size. To accomplish the scene,"
+                ],
+                [
+                  543,
+                  543,
+                  "Michael Keaton on a "
+                ],
+                [
+                  571,
+                  571,
+                  " a reverse zoom - thus"
+                ],
+                [
+                  628,
+                  628,
+                  "Then the head was "
+                ],
+                [
+                  655,
+                  915,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "6",
+              "start": 6929,
+              "end": 7212,
+              "patches": [
+                [
+                  34,
+                  35,
+                  "©"
+                ]
+              ]
+            }
+          ],
+          "ref": "6",
+          "credit": true
+        }
+      ],
+      "ocr": true
+    },
+    {
+      "id": "2",
+      "format": "indexed",
+      "title": "Batteries Not Included",
+      "author": "Richard Linton",
+      "indices": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "refs": [
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67"
+      ],
+      "startRef": "44",
+      "needsIndex": true,
+      "indexCrc": {
+        "58": 1799049270,
+        "50": 21086815,
+        "46": 1546291989,
+        "49": 1435619795,
+        "61": 16889348,
+        "53": 3542774236,
+        "54": 685857060,
+        "57": 1081940033,
+        "59": 3304632296,
+        "64": 3206738196,
+        "47": 1078130465,
+        "66": 1211526993,
+        "65": 111773596,
+        "62": 279635885,
+        "67": 3398814346
+      },
+      "blocks": [
+        {
+          "type": "figure",
+          "ref": "44",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p44-img01.jpg",
+              "size": [
+                1715,
+                1536
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "figure",
+          "ref": "45",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p45-img01.jpg",
+              "size": [
+                1672,
+                1536
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 762,
+              "end": 1566
+            },
+            {
+              "index": "46",
+              "start": 3917,
+              "end": 3927,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "s"
+                ],
+                [
+                  1,
+                  2,
+                  "v"
+                ],
+                [
+                  7,
+                  9,
+                  ""
+                ],
+                [
+                  10,
+                  10,
+                  "."
+                ]
+              ]
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 1567,
+              "end": 2297
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 2298,
+              "end": 2533
+            },
+            {
+              "index": "46",
+              "start": 2548,
+              "end": 3057
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 3058,
+              "end": 3931
+            },
+            {
+              "index": "46",
+              "start": 3931,
+              "end": 4943,
+              "join": ""
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 4944,
+              "end": 5944,
+              "patches": [
+                [
+                  59,
+                  74,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "46"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 5945,
+              "end": 6685
+            },
+            {
+              "index": "47",
+              "start": 0,
+              "end": 784
+            }
+          ],
+          "ref": "47"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "47",
+              "start": 785,
+              "end": 1374
+            }
+          ],
+          "ref": "47"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "47",
+              "start": 1375,
+              "end": 2144
+            }
+          ],
+          "ref": "47"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "47",
+              "start": 2145,
+              "end": 2856
+            }
+          ],
+          "ref": "47"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "47",
+              "start": 2857,
+              "end": 3156
+            },
+            {
+              "index": "49",
+              "start": 0,
+              "end": 408
+            }
+          ],
+          "ref": "49"
+        },
+        {
+          "type": "figure",
+          "ref": "47",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p47-img01.jpg",
+              "size": [
+                1253,
+                835
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p47-img02.jpg",
+              "size": [
+                1253,
+                830
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "46",
+              "start": 0,
+              "end": 5795,
+              "patches": [
+                [
+                  82,
+                  82,
+                  " a family of tiny flying"
+                ],
+                [
+                  192,
+                  192,
+                  "Effects for the Amblin "
+                ],
+                [
+                  247,
+                  247,
+                  " under the supervision of"
+                ],
+                [
+                  332,
+                  332,
+                  "demonstrate saucer prototypes for director Matthew Robbins. / On a "
+                ],
+                [
+                  358,
+                  358,
+                  " Manhattan, production designer Ted Haworth"
+                ],
+                [
+                  411,
+                  411,
+                  "- fully detailed on three "
+                ],
+                [
+                  438,
+                  438,
+                  " After three weeks of"
+                ],
+                [
+                  517,
+                  549,
+                  ""
+                ],
+                [
+                  553,
+                  561,
+                  ""
+                ],
+                [
+                  563,
+                  3384,
+                  ""
+                ],
+                [
+                  3390,
+                  4680,
+                  ""
+                ],
+                [
+                  4682,
+                  5795,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "48",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p48-img03.jpg",
+              "size": [
+                727,
+                1685
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p48-img01.jpg",
+              "size": [
+                1266,
+                830
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p48-img02.jpg",
+              "size": [
+                1269,
+                833
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "49",
+              "start": 6438,
+              "end": 7241,
+              "patches": [
+                [
+                  569,
+                  569,
+                  "n"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "49",
+              "start": 409,
+              "end": 1381
+            }
+          ],
+          "ref": "49"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "49",
+              "start": 1382,
+              "end": 2513
+            }
+          ],
+          "ref": "49"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "49",
+              "start": 2514,
+              "end": 3174
+            },
+            {
+              "index": "49",
+              "start": 3175,
+              "end": 4600
+            }
+          ],
+          "ref": "49"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "49",
+              "start": 4601,
+              "end": 5643
+            }
+          ],
+          "ref": "49"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "49",
+              "start": 5644,
+              "end": 6437
+            }
+          ],
+          "ref": "49"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "50",
+              "start": 824,
+              "end": 2380
+            }
+          ],
+          "ref": "50"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "50",
+              "start": 2392,
+              "end": 3609
+            }
+          ],
+          "ref": "50"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "50",
+              "start": 3610,
+              "end": 4180,
+              "patches": [
+                [
+                  366,
+                  391,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "50"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "50",
+              "start": 4181,
+              "end": 4654
+            }
+          ],
+          "ref": "50"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "50",
+              "start": 4655,
+              "end": 5435
+            }
+          ],
+          "ref": "50"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "50",
+              "start": 5436,
+              "end": 6183
+            }
+          ],
+          "ref": "50"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "50",
+              "start": 6184,
+              "end": 7231
+            },
+            {
+              "index": "53",
+              "start": 0,
+              "end": 156
+            }
+          ],
+          "ref": "53"
+        },
+        {
+          "type": "figure",
+          "ref": "51",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p51-img03.jpg",
+              "size": [
+                1273,
+                1678
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p51-img01.jpg",
+              "size": [
+                735,
+                834
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p51-img02.jpg",
+              "size": [
+                726,
+                832
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "50",
+              "start": 436,
+              "end": 547
+            },
+            {
+              "index": "50",
+              "start": 0,
+              "end": 138
+            },
+            {
+              "index": "50",
+              "start": 548,
+              "end": 572
+            },
+            {
+              "index": "50",
+              "start": 139,
+              "end": 190
+            },
+            {
+              "index": "50",
+              "start": 573,
+              "end": 670
+            },
+            {
+              "index": "50",
+              "start": 191,
+              "end": 221
+            },
+            {
+              "index": "50",
+              "start": 673,
+              "end": 737
+            },
+            {
+              "index": "50",
+              "start": 222,
+              "end": 381
+            },
+            {
+              "index": "50",
+              "start": 738,
+              "end": 785
+            },
+            {
+              "index": "50",
+              "start": 382,
+              "end": 408
+            },
+            {
+              "index": "50",
+              "start": 786,
+              "end": 807
+            },
+            {
+              "index": "50",
+              "start": 409,
+              "end": 435
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "52",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p52-img01.jpg",
+              "size": [
+                2023,
+                834
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p52-img02.jpg",
+              "size": [
+                1275,
+                835
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p52-img03.jpg",
+              "size": [
+                733,
+                835
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "53",
+              "start": 157,
+              "end": 2496
+            }
+          ],
+          "ref": "53"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "53",
+              "start": 2497,
+              "end": 3163
+            },
+            {
+              "index": "54",
+              "start": 825,
+              "end": 1316
+            },
+            {
+              "index": "54",
+              "start": 7061,
+              "end": 7094,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "r"
+                ],
+                [
+                  1,
+                  5,
+                  "p"
+                ],
+                [
+                  6,
+                  8,
+                  ""
+                ],
+                [
+                  10,
+                  10,
+                  "abl"
+                ],
+                [
+                  11,
+                  12,
+                  ""
+                ],
+                [
+                  32,
+                  33,
+                  "\""
+                ]
+              ]
+            }
+          ],
+          "ref": "54"
+        },
+        {
+          "type": "figure",
+          "ref": "53",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p53-img01.jpg",
+              "size": [
+                731,
+                1690
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "53",
+              "start": 3164,
+              "end": 4093,
+              "patches": [
+                [
+                  318,
+                  318,
+                  "n"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "54",
+              "start": 1317,
+              "end": 2384
+            }
+          ],
+          "ref": "54"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "54",
+              "start": 2365,
+              "end": 3815,
+              "patches": [
+                [
+                  0,
+                  20,
+                  ""
+                ],
+                [
+                  1450,
+                  1450,
+                  " shadow on walls and furnishings."
+                ]
+              ]
+            }
+          ],
+          "ref": "54"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "54",
+              "start": 3816,
+              "end": 3940
+            },
+            {
+              "index": "54",
+              "start": 3941,
+              "end": 6047
+            }
+          ],
+          "ref": "54"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "54",
+              "start": 6049,
+              "end": 6611,
+              "patches": [
+                [
+                  0,
+                  0,
+                  "F"
+                ]
+              ]
+            }
+          ],
+          "ref": "54"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "54",
+              "start": 6612,
+              "end": 7162
+            },
+            {
+              "index": "57",
+              "start": 0,
+              "end": 777
+            }
+          ],
+          "ref": "57"
+        },
+        {
+          "type": "figure",
+          "ref": "55",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p55-img01.jpg",
+              "size": [
+                2025,
+                835
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p55-img03.jpg",
+              "size": [
+                1269,
+                830
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p55-img02.jpg",
+              "size": [
+                731,
+                831
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "54",
+              "start": 0,
+              "end": 808,
+              "patches": [
+                [
+                  82,
+                  82,
+                  "which were then "
+                ],
+                [
+                  137,
+                  137,
+                  " and other materials."
+                ],
+                [
+                  283,
+                  284,
+                  "c"
+                ],
+                [
+                  285,
+                  289,
+                  ""
+                ],
+                [
+                  290,
+                  315,
+                  ""
+                ],
+                [
+                  318,
+                  321,
+                  "lled "
+                ],
+                [
+                  322,
+                  329,
+                  ""
+                ],
+                [
+                  331,
+                  355,
+                  "v"
+                ],
+                [
+                  356,
+                  416,
+                  ""
+                ],
+                [
+                  459,
+                  459,
+                  " movements and also exterior"
+                ],
+                [
+                  574,
+                  574,
+                  "Electronics designer Marty Brenneis was responsible for "
+                ],
+                [
+                  687,
+                  687,
+                  "systems, each of the tightly "
+                ],
+                [
+                  775,
+                  808,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "56",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p56-img03.jpg",
+              "size": [
+                731,
+                1690
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p56-img01.jpg",
+              "size": [
+                1256,
+                830
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p56-img02.jpg",
+              "size": [
+                1261,
+                835
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "57",
+              "start": 778,
+              "end": 1735
+            }
+          ],
+          "ref": "57"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "57",
+              "start": 1736,
+              "end": 2571
+            }
+          ],
+          "ref": "57"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "57",
+              "start": 2572,
+              "end": 3186
+            },
+            {
+              "index": "58",
+              "start": 801,
+              "end": 1831
+            }
+          ],
+          "ref": "58"
+        },
+        {
+          "type": "figure",
+          "ref": "57",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p57-img01.jpg",
+              "size": [
+                731,
+                834
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p57-img02.jpg",
+              "size": [
+                733,
+                828
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "57",
+              "start": 3187,
+              "end": 3957
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "58",
+              "start": 1832,
+              "end": 3425
+            }
+          ],
+          "ref": "58"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "58",
+              "start": 3426,
+              "end": 4046
+            },
+            {
+              "index": "58",
+              "start": 4047,
+              "end": 4670
+            },
+            {
+              "index": "58",
+              "start": 4679,
+              "end": 5389
+            }
+          ],
+          "ref": "58"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "58",
+              "start": 5390,
+              "end": 6914
+            }
+          ],
+          "ref": "58"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "58",
+              "start": 6915,
+              "end": 7284
+            },
+            {
+              "index": "59",
+              "start": 0,
+              "end": 1244
+            }
+          ],
+          "ref": "59"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "59",
+              "start": 1245,
+              "end": 2321
+            }
+          ],
+          "ref": "59"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "59",
+              "start": 2322,
+              "end": 2878
+            }
+          ],
+          "ref": "59"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "59",
+              "start": 2879,
+              "end": 3190
+            },
+            {
+              "index": "61",
+              "start": 0,
+              "end": 652
+            }
+          ],
+          "ref": "61"
+        },
+        {
+          "type": "figure",
+          "ref": "59",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p59-img01.jpg",
+              "size": [
+                1258,
+                833
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p59-img02.jpg",
+              "size": [
+                1258,
+                830
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "58",
+              "start": 0,
+              "end": 784,
+              "patches": [
+                [
+                  293,
+                  293,
+                  "model shop staff "
+                ],
+                [
+                  427,
+                  427,
+                  "set wire work and "
+                ],
+                [
+                  738,
+                  773,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "ref": "60",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p60-img03.jpg",
+              "size": [
+                726,
+                1689
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p60-img01.jpg",
+              "size": [
+                1273,
+                827
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p60-img02.jpg",
+              "size": [
+                1279,
+                828
+              ]
+            }
+          ],
+          "parts": []
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "61",
+              "start": 653,
+              "end": 1499
+            }
+          ],
+          "ref": "61"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "61",
+              "start": 1500,
+              "end": 2719
+            }
+          ],
+          "ref": "61"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "61",
+              "start": 2720,
+              "end": 3215
+            },
+            {
+              "index": "62",
+              "start": 954,
+              "end": 1743
+            }
+          ],
+          "ref": "62"
+        },
+        {
+          "type": "figure",
+          "ref": "61",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p61-img01.jpg",
+              "size": [
+                735,
+                830
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p61-img02.jpg",
+              "size": [
+                735,
+                830
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "61",
+              "start": 1548,
+              "end": 4337,
+              "patches": [
+                [
+                  0,
+                  1668,
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "62",
+              "start": 1744,
+              "end": 2846,
+              "patches": [
+                [
+                  373,
+                  377,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "62"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "62",
+              "start": 2847,
+              "end": 3999
+            }
+          ],
+          "ref": "62"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "62",
+              "start": 4000,
+              "end": 5199,
+              "patches": [
+                [
+                  354,
+                  355,
+                  "."
+                ],
+                [
+                  493,
+                  493,
+                  "-"
+                ]
+              ]
+            }
+          ],
+          "ref": "62"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "62",
+              "start": 5200,
+              "end": 6593,
+              "patches": [
+                [
+                  1392,
+                  1393,
+                  ""
+                ]
+              ]
+            }
+          ],
+          "ref": "62"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "62",
+              "start": 6594,
+              "end": 7407
+            },
+            {
+              "index": "64",
+              "start": 0,
+              "end": 1464
+            }
+          ],
+          "ref": "64"
+        },
+        {
+          "type": "figure",
+          "ref": "63",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p63-img01.jpg",
+              "size": [
+                733,
+                1689
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p63-img02.jpg",
+              "size": [
+                1282,
+                831
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p63-img03.jpg",
+              "size": [
+                1284,
+                825
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "62",
+              "start": 0,
+              "end": 27
+            },
+            {
+              "index": "62",
+              "start": 601,
+              "end": 648
+            },
+            {
+              "index": "62",
+              "start": 28,
+              "end": 107
+            },
+            {
+              "index": "62",
+              "start": 649,
+              "end": 673
+            },
+            {
+              "index": "62",
+              "start": 108,
+              "end": 188
+            },
+            {
+              "index": "62",
+              "start": 676,
+              "end": 692
+            },
+            {
+              "index": "62",
+              "start": 189,
+              "end": 269
+            },
+            {
+              "index": "62",
+              "start": 693,
+              "end": 759
+            },
+            {
+              "index": "62",
+              "start": 270,
+              "end": 292
+            },
+            {
+              "index": "62",
+              "start": 760,
+              "end": 778
+            },
+            {
+              "index": "62",
+              "start": 293,
+              "end": 316
+            },
+            {
+              "index": "62",
+              "start": 779,
+              "end": 824
+            },
+            {
+              "index": "62",
+              "start": 317,
+              "end": 395
+            },
+            {
+              "index": "62",
+              "start": 825,
+              "end": 871
+            },
+            {
+              "index": "62",
+              "start": 396,
+              "end": 419
+            },
+            {
+              "index": "62",
+              "start": 872,
+              "end": 893
+            },
+            {
+              "index": "62",
+              "start": 420,
+              "end": 471
+            },
+            {
+              "index": "62",
+              "start": 894,
+              "end": 914
+            },
+            {
+              "index": "62",
+              "start": 472,
+              "end": 494
+            },
+            {
+              "index": "62",
+              "start": 915,
+              "end": 937
+            },
+            {
+              "index": "62",
+              "start": 495,
+              "end": 600
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "64",
+              "start": 1465,
+              "end": 3105
+            }
+          ],
+          "ref": "64"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "64",
+              "start": 3106,
+              "end": 3222
+            },
+            {
+              "index": "65",
+              "start": 0,
+              "end": 1494
+            }
+          ],
+          "ref": "65"
+        },
+        {
+          "type": "figure",
+          "ref": "64",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p64-img01.jpg",
+              "size": [
+                1250,
+                1684
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "65",
+              "start": 6396,
+              "end": 7245
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "65",
+              "start": 1495,
+              "end": 2709
+            }
+          ],
+          "ref": "65"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "65",
+              "start": 2710,
+              "end": 4775
+            }
+          ],
+          "ref": "65"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "65",
+              "start": 4776,
+              "end": 6019
+            }
+          ],
+          "ref": "65"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "65",
+              "start": 6020,
+              "end": 6395
+            },
+            {
+              "index": "66",
+              "start": 652,
+              "end": 1703
+            }
+          ],
+          "ref": "66"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "66",
+              "start": 1704,
+              "end": 2447,
+              "patches": [
+                [
+                  743,
+                  743,
+                  " had to match exactly.\""
+                ]
+              ]
+            }
+          ],
+          "ref": "66"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "66",
+              "start": 2448,
+              "end": 3672
+            }
+          ],
+          "ref": "66"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "66",
+              "start": 3673,
+              "end": 3852
+            },
+            {
+              "index": "66",
+              "start": 3853,
+              "end": 4152
+            }
+          ],
+          "ref": "66"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "66",
+              "start": 4153,
+              "end": 5142
+            }
+          ],
+          "ref": "66"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "66",
+              "start": 5143,
+              "end": 5956
+            }
+          ],
+          "ref": "66"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "66",
+              "start": 5957,
+              "end": 6866
+            }
+          ],
+          "ref": "66"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "66",
+              "start": 6867,
+              "end": 6986
+            },
+            {
+              "index": "67",
+              "start": 0,
+              "end": 2369
+            }
+          ],
+          "ref": "67"
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "67",
+              "start": 2370,
+              "end": 3213
+            }
+          ],
+          "ref": "67"
+        },
+        {
+          "type": "figure",
+          "ref": "67",
+          "images": [
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p67-img01.jpg",
+              "size": [
+                1253,
+                834
+              ]
+            },
+            {
+              "url": "https://archive.org/download/cinefex_1988/CineFex%201988%20No%2034.zip/CineFex%201988%20No%2034%2Fimages%2FCinefex-34-p67-img02.jpg",
+              "size": [
+                1247,
+                827
+              ]
+            }
+          ],
+          "parts": [
+            {
+              "index": "66",
+              "start": 361,
+              "end": 382
+            },
+            {
+              "index": "66",
+              "start": 0,
+              "end": 108
+            },
+            {
+              "index": "66",
+              "start": 383,
+              "end": 453
+            },
+            {
+              "index": "66",
+              "start": 109,
+              "end": 136
+            },
+            {
+              "index": "66",
+              "start": 454,
+              "end": 478
+            },
+            {
+              "index": "66",
+              "start": 137,
+              "end": 164
+            },
+            {
+              "index": "66",
+              "start": 479,
+              "end": 523
+            },
+            {
+              "index": "66",
+              "start": 165,
+              "end": 245
+            },
+            {
+              "index": "66",
+              "start": 524,
+              "end": 550
+            },
+            {
+              "index": "66",
+              "start": 246,
+              "end": 304
+            },
+            {
+              "index": "66",
+              "start": 551,
+              "end": 610
+            },
+            {
+              "index": "66",
+              "start": 305,
+              "end": 360
+            },
+            {
+              "index": "66",
+              "start": 611,
+              "end": 637
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "parts": [
+            {
+              "index": "46",
+              "start": 6686,
+              "end": 6983
+            },
+            {
+              "index": "46",
+              "start": 2319,
+              "end": 2330,
+              "patches": [
+                [
+                  0,
+                  3,
+                  "G"
+                ],
+                [
+                  5,
+                  5,
+                  "i"
+                ],
+                [
+                  6,
+                  7,
+                  "Dav"
+                ],
+                [
+                  8,
+                  9,
+                  ""
+                ],
+                [
+                  10,
+                  11,
+                  "."
+                ]
+              ]
+            }
+          ],
+          "ref": "46",
+          "credit": true
+        }
+      ],
+      "ocr": true
+    }
+  ]
+}

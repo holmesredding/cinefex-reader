@@ -1,0 +1,1 @@
+CinefexSearchData.register("words/cw",{"cw":"sl0","cwb":"1bx8","cwi":"lly,1,4,1,3,5,2,4,6xz,3,1,3,1,2,5,1,2,98t,4,1,3,2,2,1,tc,g,99b,11","cwis":"lmb,4,6y1,99p","cwm":"33a0,a,1,p,1,1,1","cws":"1rde"});

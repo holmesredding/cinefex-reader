@@ -1,0 +1,1 @@
+CinefexSearchData.register("words/cs",{"cs":"1ad4,q5,ru,u4,4ni,s5,k1s,33h,pw,si,rr,17xn,2bz","cs06":"2jtp","cs4":"2j2c","csantore":"23pq","cscreenings":"223a","csi":"25xo,z,qt,5,2d,j,29a,1,7,3,1,2,1s,qe,se,qc,rk,1w,pq,dvm","csilla":"3bph","csm":"3gct","csokas":"2m6w,736,z,1,1,1,1","css":"2x1l,1c","csss":"16iy","cstand":"xzm","csupo":"1z27","csuri":"4n9"});
