@@ -24,3 +24,4 @@ __pycache__/
 *.tif
 *.tiff
 *.eot
+scripts/indexing/data/page-text/
