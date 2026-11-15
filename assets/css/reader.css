@@ -7,7 +7,7 @@
 [hidden]{display:none!important}
 
 #viewport{align-items:flex-start;justify-content:flex-start}#paper{margin:auto}
-.reading{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:45px minmax(0,1fr) 70px}
+.reading{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto minmax(0,1fr) 70px}
 .reading-heading{grid-column:1/-1;grid-row:1}
 #viewport{grid-column:1;grid-row:2;min-width:0}
 #galleryTray{grid-column:2;grid-row:2;min-height:0;width:94px;flex-direction:column;justify-content:center;gap:16px;padding:18px 10px;border-top:0;border-left:1px solid var(--line)}
@@ -15,7 +15,7 @@
 #choices{flex-direction:column;max-width:100%;max-height:calc(100% - 50px);overflow-y:auto;overflow-x:hidden;gap:9px}
 #choices button{width:66px;height:48px}
 .reading>footer{grid-column:1/-1;grid-row:3}
-@media(max-width:760px){.reading{grid-template-rows:40px minmax(0,1fr) 65px}#galleryTray{width:64px;padding:10px 5px;gap:10px}#choices{padding:2px;gap:7px}#choices button{width:48px;height:36px}#galleryTray .gallery-label{min-width:0}.gallery-label span{font-size:6px;letter-spacing:1px}}
+@media(max-width:760px){.reading{grid-template-rows:auto minmax(0,1fr) 65px}#galleryTray{width:64px;padding:10px 5px;gap:10px}#choices{padding:2px;gap:7px}#choices button{width:48px;height:36px}#galleryTray .gallery-label{min-width:0}.gallery-label span{font-size:6px;letter-spacing:1px}}
 
 /* Floating gallery controls. */
 .reading{position:relative;grid-template-columns:minmax(0,1fr)}
