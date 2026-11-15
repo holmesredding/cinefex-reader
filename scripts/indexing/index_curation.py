@@ -101,7 +101,7 @@ FRANCHISES = {
     'MonsterVerse & King Kong': ['godzilla', 'kong skull island', 'king kong'],
     'The Mummy': ['the mummy'],
     'Hellboy': ['hellboy'],
-    'Blade Runner': ['blade runner'],
+    'Blade Runner': ['blade runner', '=robert swarthe'],
     'Tron': ['tron'],
     'Fast & Furious': ['the fast and the furious', 'the fate of the furious', 'hobbs shaw'],
     'Pacific Rim': ['pacific rim'],

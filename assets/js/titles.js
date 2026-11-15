@@ -19,20 +19,21 @@ const extra=window.CINEFEX_INDEX||{};
 const unpack=(set,kind)=>(set?.rows||[]).map(([issue,page,n,image,note],i)=>({id:`${kind==='ads'?'ad':'co'}:${issue}:${page}:${i}`,kind,title:set.names[n][0],headline:set.names[n][1],issue,page,date:extra.dates?.[issue]||'',href:`issues/${issue}/index.html#page=${encodeURIComponent(page)}`,image:image?extra.ia+image:'',note}));
 const entries=(window.TITLES||[]).map(x=>{const fix=extra.byId?.[x.id]||{},title=fix.title||extra.rename?.[x.title]||x.title;return{...x,...fix,title}}).concat(unpack(extra.ads,'ads'),unpack(extra.companies,'companies'));
 const franchisesOf=new Map();for(const [name,ids] of Object.entries(extra.franchises||{}))for(const id of ids){if(!franchisesOf.has(id))franchisesOf.set(id,[]);franchisesOf.get(id).push(name)}
+const filterWords=new Map(entries.map(x=>[x,CinefexFilter.words([x.title,x.headline,x.issue,x.date,...((x.kind==='companies'||x.kind==='ads')?extra.aliases?.[x.title]||[]:[])].join(' '))]));
 const KINDS={films:'Films',tv:'TV',features:'Features',ads:'Ads',companies:'Companies'};
 const present=new Set(entries.map(x=>x.kind));for(const tab of document.querySelectorAll('[data-kind]'))tab.hidden=!present.has(tab.dataset.kind);
 const grouped=k=>k==='ads'||k==='companies';
 
 for(const year of [...new Set(entries.map(yearOf))].filter(Boolean).sort().reverse()){const option=document.createElement('option');option.value=option.textContent=year;$('year').append(option)}
 const initial=new URLSearchParams(location.search);let kind=Object.keys(KINDS).includes(initial.get('type'))&&present.has(initial.get('type'))?initial.get('type'):'films';let franchise=extra.franchises?.[initial.get('franchise')]?initial.get('franchise'):'';
-$('search').value=initial.get('q')||'';if([...$('year').options].some(o=>o.value===initial.get('year')))$('year').value=initial.get('year');if(['az','newest','oldest','count'].includes(initial.get('sort')))$('order').value=initial.get('sort');
+$('filter').value=initial.get('filter')??initial.get('q')??'';if([...$('year').options].some(o=>o.value===initial.get('year')))$('year').value=initial.get('year');if(['az','newest','oldest','count'].includes(initial.get('sort')))$('order').value=initial.get('sort');
 function fillCategories(){const wrap=$('categoryWrap');if(!wrap)return;wrap.hidden=!grouped(kind)||!!franchise;const select=$('category'),keep=select.value||initial.get('category')||'';select.length=1;for(const c of [...new Set(entries.filter(x=>x.kind===kind).map(x=>x.headline).filter(Boolean))].sort()){const o=document.createElement('option');o.value=o.textContent=c;select.append(o)}select.value=[...select.options].some(o=>o.value===keep)?keep:''}
 function render(update=false){
- const query=normalize($('search').value),year=$('year').value,sort=$('order').value,category=$('category')?.value||'';
+ const raw=$('filter').value.trim(),query=CinefexFilter.words(raw),year=$('year').value,sort=$('order').value,category=$('category')?.value||'';
  const ids=franchise?new Set(extra.franchises[franchise]):null;
  document.querySelectorAll('[data-kind]').forEach(a=>{if(!franchise&&a.dataset.kind===kind)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
- $('indexTitle').textContent=franchise||KINDS[kind];renderBanner();
- const rows=entries.filter(x=>(ids?ids.has(x.id):x.kind===kind)&&(!year||yearOf(x)===year)&&(!category||ids||x.headline===category)&&(!query||(/^\d{1,3}$/.test(query)?x.issue===Number(query):query.split(' ').every(word=>normalize([x.title,x.headline,x.issue,x.date].join(' ')).includes(word)))));
+ $('indexTitle').textContent=franchise||KINDS[kind];$('filterLabel').textContent=franchise?'Filter titles':({films:'Filter films',tv:'Filter TV',features:'Filter features',companies:'Filter companies',ads:'Filter advertisers'})[kind];$('filter').placeholder=grouped(kind)&&!franchise?'Name or issue':'Title or issue';renderBanner();
+ const rows=entries.filter(x=>(ids?ids.has(x.id):x.kind===kind)&&(!year||yearOf(x)===year)&&(!category||ids||x.headline===category)&&(!query.length||(/^\d{1,3}$/.test(raw)?x.issue===Number(raw):CinefexFilter.matches(filterWords.get(x),query))));
  const groups=new Map();for(const row of rows){const key=normalize(row.title);if(!groups.has(key))groups.set(key,{title:row.title,rows:[]});groups.get(key).rows.push(row)}
  const first=g=>Math.min(...g.rows.map(x=>x.issue)),last=g=>Math.max(...g.rows.map(x=>x.issue));
  const titles=[...groups.values()].sort((a,b)=>sort==='az'?collator.compare(sortTitle(a.title),sortTitle(b.title)):sort==='newest'?last(b)-last(a):sort==='count'?b.rows.length-a.rows.length||collator.compare(sortTitle(a.title),sortTitle(b.title)):first(a)-first(b));
@@ -63,7 +64,7 @@ function render(update=false){
  jumpBar.hidden=sort!=='az'||!titles.length;
  for(const button of jumpBar.children)button.disabled=!jumpTargets.has(button.dataset.letter);
  measureJumps();
- if(update){const params=new URLSearchParams();if(franchise)params.set('franchise',franchise);else params.set('type',kind);if($('search').value)params.set('q',$('search').value);if(year)params.set('year',year);if(category&&!franchise)params.set('category',category);if(sort!=='az')params.set('sort',sort);history.replaceState(null,'',location.pathname+(params.size?'?'+params:''))}
+ if(update){const params=new URLSearchParams();if(franchise)params.set('franchise',franchise);else params.set('type',kind);if($('filter').value)params.set('filter',$('filter').value);if(year)params.set('year',year);if(category&&!franchise)params.set('category',category);if(sort!=='az')params.set('sort',sort);history.replaceState(null,'',location.pathname+(params.size?'?'+params:''))}
 }
 function renderBanner(){let b=$('franchiseBanner');if(!franchise){b?.remove();return}if(!b){b=document.createElement('p');b.id='franchiseBanner';$('titleGrid').before(b)}b.replaceChildren();const n=extra.franchises[franchise].length;b.append(`Everything related to ${franchise}, ${n} ${n===1?'entry':'entries'} `);const clear=document.createElement('button');clear.type='button';clear.textContent='Show all titles';clear.onclick=()=>{franchise='';fillCategories();render(true)};b.append(clear)}
 const chooser=document.createElement('dialog');chooser.id='articleChooser';chooser.setAttribute('aria-labelledby','chooserTitle');
@@ -71,4 +72,4 @@ const chooserHead=document.createElement('div');chooserHead.className='chooser-h
 chooser.addEventListener('click',e=>{if(e.target===chooser){const r=chooser.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)chooser.close()}});
 function choose(group){chooserTitle.textContent=group.title;choices.replaceChildren();for(const row of group.rows){const li=document.createElement('li'),a=document.createElement('a'),issue=document.createElement('span'),detail=document.createElement('span');a.href=row.href;issue.className='feature-issue';issue.textContent=`Cinefex ${row.issue}, ${row.date}`;detail.className='feature-detail';detail.textContent=(row.kind==='ads'?(row.note||'Advertisement'):row.kind==='companies'?(row.note||'Article'):(row.headline||'Article'))+`, Page ${row.page}`;a.append(issue,detail);li.append(a);choices.append(li)}chooser.showModal()}
 for(const tab of document.querySelectorAll('[data-kind]'))tab.addEventListener('click',e=>{e.preventDefault();kind=tab.dataset.kind;franchise='';fillCategories();render(true)});
-for(const id of ['search','year','order','category'])$(id)?.addEventListener(id==='search'?'input':'change',()=>render(true));fillCategories();render();
+for(const id of ['filter','year','order','category'])$(id)?.addEventListener(id==='filter'?'input':'change',()=>render(true));fillCategories();render();

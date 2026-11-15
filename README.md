@@ -22,7 +22,7 @@ Choose **Small grid**, **Large grid** or **List** from the View menu on Issues a
 
 **Search** looks through the magazine text for names, companies and other words. Put a phrase in quotes to search for those words together, or use `harryhaus*` to match the start of a word. Results are grouped by issue, with the total number of matching pages shown above them. Open an issue’s results to see the matching pages, or choose **Pages** from the View menu for a flat list.
 
-On the home page, typing filters the issue covers. Press **Enter** or choose **Search catalogue** to look through the magazine text. Some of the text was recognised from page images, so names and spellings can be wrong.
+The **Search** field on Issues and Browse searches the same magazine text. Press **Enter** or choose **Search catalogue** to open the results. Use **Filter issues**, **Filter films** or the filter for your chosen category to narrow the items on that page. Company and advertiser filters recognise names such as ILM as well as Industrial Light & Magic. Some of the text was recognised from page images, so names and spellings can be wrong.
 
 Browse also has **Companies** and **Ads** tabs. Related-title links bring together films, series and features from the same franchise or filmmaker.
 

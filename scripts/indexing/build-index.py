@@ -11,6 +11,7 @@ sys.path.insert(0, HERE)
 from common import load_issue, CATEGORY_OF
 import ads_interactive, ads_archive
 from index_curation import RENAME, BY_ID, FRANCHISES
+from advertisers import A
 
 root = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, '..', '..'))
 
@@ -74,7 +75,9 @@ def pack(entries):
         if k not in index: index[k] = len(names); names.append(list(k))
         rows.append([e['issue'], e['page'], index[k], short(e['image']), '' if e['note'] == 'Advertisement' else e['note']])
     return {'names': names, 'rows': rows}
-data = dict(version=1, ia=IA, rename=rename, byId=byid, franchises=franchises, ads=pack(ads), companies=pack(companies),
+names = {row['title'] for row in ads + companies}
+aliases = {name: values[1] for name, values in A.items() if name in names and values[1]}
+data = dict(version=1, ia=IA, rename=rename, byId=byid, franchises=franchises, ads=pack(ads), companies=pack(companies), aliases=aliases,
             dates={str(n): load_issue(root, n)['date'] for n in range(1, 173)})
 packed_media = {short(u): [m['path'], m['name'], m['size'], m['crc']] for u, m in media.items()}
 out = os.path.join(root, 'assets', 'data', 'index-extra.js')

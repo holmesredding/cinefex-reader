@@ -2094,5 +2094,57 @@
       "passed": true
     },
     "readmeOpeningUnchanged": true
+  },
+  "sharedCatalogueSearch": {
+    "date": "2026-11-16",
+    "searchPages": [
+      "index.html",
+      "titles.html",
+      "search.html"
+    ],
+    "separateBrowseFilters": true,
+    "companyAndAdvertiserAliases": true,
+    "substringMatchesRemoved": true,
+    "existingIndexRecordsPreserved": true,
+    "chrome": {
+      "checks": [
+        "Issues separates its filter from catalogue search, including year filters",
+        "Issue filters survive Back and reload",
+        "Browse searches the full catalogue even when its category filter has no matches",
+        "ILM matches only Industrial Light & Magic, in either case and after reload",
+        "Company article links still open the chooser",
+        "Unknown filters return no matches and word prefixes still work",
+        "Old Browse links using q still work",
+        "Each tab has its own filter label and ILM does not match film",
+        "Blank catalogue searches stay on the current page",
+        "Quoted phrases and ILM use the same full-text search engine",
+        "Direct local files support both filters and full-text search",
+        "Issues, Browse and Search fit 320, 390, 834 and 1440px",
+        "Catalogue search retains the shared tab session used for local folders"
+      ],
+      "errors": [],
+      "passed": true
+    },
+    "safari": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "checks": [
+        "Catalogue search leaves the issue filter alone",
+        "Search keeps the shared session and local-file source",
+        "Back restores the issue filter",
+        "ILM finds Industrial Light & Magic",
+        "Catalogue search leaves the company filter alone",
+        "Browse and Issues return the same catalogue results",
+        "Exact phrases work",
+        "ILM uses full-text search on Search",
+        "Old Browse filter links still work",
+        "Advertiser filtering uses the same aliases",
+        "ILM does not match film",
+        "Partial title filtering still works",
+        "Browse fits 320px",
+        "Browse fits 390px",
+        "Browse fits 834px"
+      ],
+      "passed": true
+    }
   }
 }

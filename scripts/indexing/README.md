@@ -16,6 +16,8 @@
   - What's left is listed as *Unidentified advertiser*, so it can still be browsed.
 - **Companies.** These are the effects companies each article discusses (two or more mentions), from page text.
 
+Browse filters also use the company and advertiser aliases from `advertisers.py`, so ILM finds Industrial Light & Magic. Filters match from the start of a word. The separate Search field searches the magazine text.
+
 ## Files
 
 | file | what |

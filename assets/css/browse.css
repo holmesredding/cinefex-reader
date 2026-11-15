@@ -59,11 +59,3 @@
   .letter-jumps button{flex-basis:28px;min-height:32px;max-width:none;font-size:12px}
 }
 @media(max-width:359px){#issueGrid[data-view=small]{grid-template-columns:repeat(2,minmax(0,1fr))}}
-
-.library-search{min-width:0;margin:0}
-.library-search-input{display:flex;align-items:center;gap:12px}
-.library-search-input input{min-width:0;flex:1;min-height:44px}
-.library-search-input button{flex:none;min-height:44px;padding:9px 14px;border:1px solid var(--line);border-radius:3px;background:none;color:var(--ink);font:12px Arial,sans-serif;cursor:pointer}
-.library-search-input button:hover{color:var(--red);border-color:var(--red)}
-.library-search-input button:focus-visible{outline:2px solid var(--red);outline-offset:3px}
-@media(max-width:650px){.library-search-input{gap:8px}.library-search-input button{padding:9px 10px}}
