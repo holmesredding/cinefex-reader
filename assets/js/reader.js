@@ -62,7 +62,7 @@ window.addEventListener('pagehide',releaseClip);
 
 function route(href,fitRect){if(typeof href!=='string'||href==='#')return;if(href.startsWith('reader://state/')){const target=Number(href.slice(15));if(fitRect){try{pendingHighlight=JSON.parse(fitRect)}catch{}}show(target);}else if(href.startsWith('ns://Page/')){const id=href.slice(10),index=byId.get(id)??byId.get(id+'.1');if(index!==undefined)show(index);else note('This page is missing from the archive.')}else if(href.startsWith('ns://Video/'))play(href.slice(11));else if(href.startsWith('ns://'))note('This service is no longer available.');else if(/^(https?:|mailto:)/i.test(href))window.open(href,'_blank','noopener,noreferrer')}
 function key(e){if(window.CinefexDisplay?.key(e))return;if(window.CinefexReadingView?.key(e))return;if(document.querySelector('dialog[open]'))return;if(e.ctrlKey||e.metaKey||e.altKey)return;if(e.key===' '){e.preventDefault?.();if(!e.repeat)turn(e.shiftKey?-1:1)}else if(e.key==='ArrowRight'){e.preventDefault?.();turn(1)}else if(e.key==='ArrowLeft'){e.preventDefault?.();turn(-1)}else if(e.key==='Escape'){if(galleryOpen){galleryOpen=false;syncGallery();galleryToggle.focus()}else closeMobileContents()}}
-window.addEventListener('message',e=>{if(e.source!==frame.contentWindow||!e.data?.cinefex)return;if(e.data.panReady)pageZoom.syncFrame();else if(e.data.mouse)pageZoom.mouse(e.data.mouse,true);else if(e.data.touch)pageZoom.input(e.data.touch,true);else if(e.data.wheel)wheel(e.data.wheel,true);else if(e.data.key)key(e.data);else if(!pageZoom.blocksClick())route(e.data.href,e.data.fit)});
+window.addEventListener('message',e=>{if(!pageCache.owns(e.source)||!e.data?.cinefex)return;if(e.data.panReady)pageZoom.syncFrame();else if(e.data.mouse)pageZoom.mouse(e.data.mouse,true);else if(e.data.touch)pageZoom.input(e.data.touch,true);else if(e.data.wheel)wheel(e.data.wheel,true);else if(e.data.key)key(e.data);else if(!pageZoom.blocksClick())route(e.data.href,e.data.fit)});
 window.addEventListener('keydown',e=>{if(!e.target.closest('input,select,textarea,video,button,a,[contenteditable]:not([contenteditable=false])'))key(e)});
 let wheelTotal=0,wheelLast=0,wheelTurn=0;
 function wheel(e,fromPage=false){
@@ -123,6 +123,20 @@ function createPageCache(){
  const entries=new Map(),failures=new Map(),attempted=new Set(),paper=$('paper'),original=frame;
  const maxPages=7,maxEstimatedBytes=96*1024*1024;
  let originalUsed=false,activeIndex=-1,direction=1,galleryDirection=1,clock=0,timer=0,loading=null;
+ // The page being left stays on top until the next one has painted, so a turn never shows blank paper.
+ let held=null,holdTimer=0,swap=0;
+ const holdLimit=1500,paintLimit=800;
+ function conceal(record){record.element.hidden=true;record.element.setAttribute('aria-hidden','true');record.element.removeAttribute('id');record.element.style.zIndex=''}
+ function release(){
+  clearTimeout(holdTimer);holdTimer=0;swap++;const record=held;held=null;if(!record)return;
+  if(record.index===activeIndex){record.element.style.zIndex='';return}
+  conceal(record);if(record.failed)dispose(record);trim();
+ }
+ function reveal(record){
+  clearTimeout(holdTimer);holdTimer=0;const token=++swap;let decoded;
+  try{decoded=Promise.all([...record.element.contentDocument.images].filter(im=>im.getAttribute('src')).map(im=>im.decode().catch(()=>{})))}catch{decoded=new Promise(done=>setTimeout(done,120))}
+  Promise.race([decoded,new Promise(done=>setTimeout(done,paintLimit))]).then(()=>requestAnimationFrame(()=>requestAnimationFrame(()=>{if(token===swap)release()})));
+ }
  const connection=navigator.connection;
  function blocked(){return !!window.CinefexReadingView?.active()||document.hidden||$('player').open||connection?.saveData||['slow-2g','2g'].includes(connection?.effectiveType)}
  function candidates(){
@@ -134,14 +148,14 @@ function createPageCache(){
   return result.slice(0,4);
  }
  function dispose(record){
-  if(record.index===activeIndex)return;
+  if(record.index===activeIndex||record===held)return;
   clearTimeout(record.timeout);entries.delete(record.index);if(loading===record)loading=null;record.element.removeEventListener('load',record.loaded);
   record.element.src='about:blank';record.element.remove();
  }
  function trim(){
   let bytes=[...entries.values()].reduce((sum,r)=>sum+r.bytes,0);
   while(entries.size>maxPages||bytes>maxEstimatedBytes){
-   const victim=[...entries.values()].filter(r=>r.index!==activeIndex&&r!==loading).sort((a,b)=>a.used-b.used)[0];
+   const victim=[...entries.values()].filter(r=>r.index!==activeIndex&&r!==loading&&r!==held).sort((a,b)=>a.used-b.used)[0];
    if(!victim)break;bytes-=victim.bytes;dispose(victim);
   }
   pruneGalleryChoices(new Set([...entries.values()].map(r=>data.pages[r.index].group)));
@@ -151,6 +165,7 @@ function createPageCache(){
   record.element.contentWindow?.postMessage({cinefexDark:document.documentElement.dataset.theme==='dark'},'*');
   if(record.ready&&pendingHighlight){record.element.contentWindow.postMessage({cinefexHighlight:pendingHighlight},'*');pendingHighlight=null}
   fit();
+  if(held&&record.ready)reveal(record);
  }
  function create(index,foreground){
   const element=!originalUsed?(originalUsed=true,original):document.createElement('iframe');
@@ -185,12 +200,15 @@ function createPageCache(){
   if(loading&&loading.index!==index)dispose(loading);
   if(activeIndex>=0){const delta=data.pages[index].group-data.pages[activeIndex].group;if(Math.abs(delta)===1)direction=Math.sign(delta);else if(delta!==0)direction=1;else if(index!==activeIndex)galleryDirection=Math.sign(index-activeIndex);if(delta!==0)galleryDirection=1}
   const previous=entries.get(activeIndex);activeIndex=index;
+  if(held?.index===index)release();
   if(previous&&previous.index!==index&&!previous.ready)dispose(previous);
-  if(previous){previous.element.hidden=true;previous.element.setAttribute('aria-hidden','true');previous.element.removeAttribute('id')}
+  if(previous&&previous.index!==index&&!held&&previous.ready&&!previous.failed){held=previous;previous.element.style.zIndex='1';previous.element.setAttribute('aria-hidden','true');previous.element.removeAttribute('id')}
+  else if(previous)conceal(previous);
   let record=entries.get(index);
   if(record?.failed){activeIndex=-1;dispose(record);activeIndex=index;record=null}
   record ||= create(index,true);record.used=++clock;clearTimeout(record.timeout);if(loading===record)loading=null;
   frame=record.element;frame.id='page';frame.hidden=false;frame.removeAttribute('aria-hidden');activeReady(record);
+  if(held&&!record.ready){swap++;holdTimer||=setTimeout(release,holdLimit)}
   if(previous?.failed&&previous!==record)dispose(previous);
   trim();schedule();
  }
@@ -205,8 +223,8 @@ function createPageCache(){
  document.addEventListener('visibilitychange',()=>document.hidden?pause():schedule());
  connection?.addEventListener?.('change',()=>{pause();schedule()});
  $('player').addEventListener('close',schedule);addEventListener('pagehide',pause);
- function clear(){pause();activeIndex=-1;for(const r of [...entries.values()])dispose(r);attempted.clear();failures.clear();for(const choices of galleryChoices.values())for(const b of choices)for(const im of b.querySelectorAll('img'))CinefexSources.releaseImage(im);galleryChoices.clear();pageReady=false}
- return {open,pause,resume:schedule,clear};
+ function clear(){pause();activeIndex=-1;release();for(const r of [...entries.values()])dispose(r);attempted.clear();failures.clear();for(const choices of galleryChoices.values())for(const b of choices)for(const im of b.querySelectorAll('img'))CinefexSources.releaseImage(im);galleryChoices.clear();pageReady=false}
+ return {open,pause,resume:schedule,clear,owns:source=>source===frame.contentWindow||(!!held&&source===held.element.contentWindow)};
 }
 
 addEventListener('cinefexsourcechange',()=>{if($('player').open)$('player').close();pageCache.clear();show(current,'none')});
