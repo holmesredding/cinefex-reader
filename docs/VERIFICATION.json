@@ -2146,5 +2146,332 @@
       ],
       "passed": true
     }
+  },
+  "pageTurnFlash": {
+    "date": "2026-11-17",
+    "contribution": {
+      "author": "Geoff Pedder",
+      "commit": "9a2d0924ddaccf7d302af1d8fed6bdd3fc5cfa43",
+      "url": "https://github.com/geoffpedder/cinefex-reader/commit/9a2d0924ddaccf7d302af1d8fed6bdd3fc5cfa43"
+    },
+    "followup": "Keep the outgoing frame aligned and update its pan controls when zooming or resizing during a page turn.",
+    "method": "Native Safari and Google Chrome. Delayed and failed image requests exercise page transitions. Original magazine files from issues 11, 171 and 172 are served locally for repeatable content checks.",
+    "widths": [
+      390,
+      834,
+      1194
+    ],
+    "files": {
+      "assets/js/reader.js": "354c6eb8f756b3d7cfc121ebea03f67bd015278708e24ca15675f6798d3be04a",
+      "assets/js/reader-zoom.js": "1adf5457d7b90c8ed9fabb76297f49954009a4b69860944a8cee460b43a31c1e",
+      "assets/css/theme.css": "74f6fe041cef354730500d0a4f2237da4bef1548977cb39c9b62910b2660c4ee"
+    },
+    "chrome": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "checks": [
+        {
+          "label": "Original reader exposes the unloaded page",
+          "passed": true
+        },
+        {
+          "label": "Old page remains visible during loading",
+          "passed": true
+        },
+        {
+          "label": "Old page covers the incoming frame",
+          "passed": true
+        },
+        {
+          "label": "Old page clears when the new images are ready",
+          "passed": true
+        },
+        {
+          "label": "Cached pages reuse their frame without loading again",
+          "passed": true
+        },
+        {
+          "label": "Rapid turns keep the last readable page visible",
+          "passed": true
+        },
+        {
+          "label": "Rapid turns finish on the requested page",
+          "passed": true
+        },
+        {
+          "label": "Turning back to the held page restores it immediately",
+          "passed": true
+        },
+        {
+          "label": "Slow loads release the held page after the timeout",
+          "passed": true,
+          "detail": {
+            "ms": 1706
+          }
+        },
+        {
+          "label": "Loaded images finish decoding before the swap",
+          "passed": true
+        },
+        {
+          "label": "Decoding has a timeout too",
+          "passed": true
+        },
+        {
+          "label": "Failed pages expose the retry control",
+          "passed": true
+        },
+        {
+          "label": "Retry loads the page successfully",
+          "passed": true
+        },
+        {
+          "label": "Keyboard input from the held page still turns forward",
+          "passed": true
+        },
+        {
+          "label": "Mousewheel input from the held page still works",
+          "passed": true
+        },
+        {
+          "label": "Gallery choices keep the preceding image visible",
+          "passed": true
+        },
+        {
+          "label": "Gallery selection and counter agree",
+          "passed": true
+        },
+        {
+          "label": "Changing sources clears held frames and reloads the selected page",
+          "passed": true
+        },
+        {
+          "label": "Zoom keeps both visible frames at the same size",
+          "passed": true
+        },
+        {
+          "label": "The held page receives updated pan controls",
+          "passed": true
+        },
+        {
+          "label": "Dragging still pans after a page swap",
+          "passed": true
+        },
+        {
+          "label": "Resizing keeps the held page aligned",
+          "passed": true
+        },
+        {
+          "label": "Dark mode has no white frame background",
+          "passed": true
+        },
+        {
+          "label": "Page turns fit 390px",
+          "passed": true
+        },
+        {
+          "label": "Page turns fit 834px",
+          "passed": true
+        },
+        {
+          "label": "Page turns fit 1194px",
+          "passed": true
+        },
+        {
+          "label": "Light mode keeps its white paper background",
+          "passed": true
+        },
+        {
+          "label": "Issue 11 original pages load and turn correctly",
+          "passed": true
+        },
+        {
+          "label": "Issue 11 returns from Reader view without an old page overlay",
+          "passed": true
+        },
+        {
+          "label": "Issue 171 original pages load and turn correctly",
+          "passed": true
+        },
+        {
+          "label": "Issue 171 returns from Reader view without an old page overlay",
+          "passed": true
+        },
+        {
+          "label": "Issue 172 original pages load and turn correctly",
+          "passed": true
+        },
+        {
+          "label": "Issue 172 returns from Reader view without an old page overlay",
+          "passed": true
+        },
+        {
+          "label": "No browser errors",
+          "passed": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "baseline": {
+        "previousHidden": true,
+        "incomingReady": false
+      },
+      "passed": true
+    },
+    "safari": {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "checks": [
+        {
+          "label": "Original reader exposes the unloaded page",
+          "passed": true
+        },
+        {
+          "label": "Old page remains visible during loading",
+          "passed": true
+        },
+        {
+          "label": "Old page covers the incoming frame",
+          "passed": true
+        },
+        {
+          "label": "Old page clears when the new images are ready",
+          "passed": true
+        },
+        {
+          "label": "Cached pages reuse their frame without loading again",
+          "passed": true
+        },
+        {
+          "label": "Rapid turns keep the last readable page visible",
+          "passed": true
+        },
+        {
+          "label": "Rapid turns finish on the requested page",
+          "passed": true
+        },
+        {
+          "label": "Turning back to the held page restores it immediately",
+          "passed": true
+        },
+        {
+          "label": "Slow loads release the held page after the timeout",
+          "passed": true,
+          "detail": {
+            "ms": 1705
+          }
+        },
+        {
+          "label": "Loaded images finish decoding before the swap",
+          "passed": true
+        },
+        {
+          "label": "Decoding has a timeout too",
+          "passed": true
+        },
+        {
+          "label": "Failed pages expose the retry control",
+          "passed": true
+        },
+        {
+          "label": "Retry loads the page successfully",
+          "passed": true
+        },
+        {
+          "label": "Keyboard input from the held page still turns forward",
+          "passed": true
+        },
+        {
+          "label": "Mousewheel input from the held page still works",
+          "passed": true
+        },
+        {
+          "label": "Gallery choices keep the preceding image visible",
+          "passed": true
+        },
+        {
+          "label": "Gallery selection and counter agree",
+          "passed": true
+        },
+        {
+          "label": "Changing sources clears held frames and reloads the selected page",
+          "passed": true
+        },
+        {
+          "label": "Zoom keeps both visible frames at the same size",
+          "passed": true
+        },
+        {
+          "label": "The held page receives updated pan controls",
+          "passed": true
+        },
+        {
+          "label": "Dragging still pans after a page swap",
+          "passed": true
+        },
+        {
+          "label": "Resizing keeps the held page aligned",
+          "passed": true
+        },
+        {
+          "label": "Dark mode has no white frame background",
+          "passed": true
+        },
+        {
+          "label": "Page turns fit 390px",
+          "passed": true
+        },
+        {
+          "label": "Page turns fit 834px",
+          "passed": true
+        },
+        {
+          "label": "Page turns fit 1194px",
+          "passed": true
+        },
+        {
+          "label": "Light mode keeps its white paper background",
+          "passed": true
+        },
+        {
+          "label": "Issue 11 original pages load and turn correctly",
+          "passed": true
+        },
+        {
+          "label": "Issue 11 returns from Reader view without an old page overlay",
+          "passed": true
+        },
+        {
+          "label": "Issue 171 original pages load and turn correctly",
+          "passed": true
+        },
+        {
+          "label": "Issue 171 returns from Reader view without an old page overlay",
+          "passed": true
+        },
+        {
+          "label": "Issue 172 original pages load and turn correctly",
+          "passed": true
+        },
+        {
+          "label": "Issue 172 returns from Reader view without an old page overlay",
+          "passed": true
+        },
+        {
+          "label": "No browser errors",
+          "passed": true,
+          "detail": []
+        }
+      ],
+      "errors": [],
+      "baseline": {
+        "previousHidden": true,
+        "incomingReady": false
+      },
+      "passed": true
+    },
+    "packageCheck": {
+      "issues": 172,
+      "pageStates": 28895,
+      "errors": []
+    }
   }
 }

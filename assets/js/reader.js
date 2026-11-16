@@ -123,7 +123,7 @@ function createPageCache(){
  const entries=new Map(),failures=new Map(),attempted=new Set(),paper=$('paper'),original=frame;
  const maxPages=7,maxEstimatedBytes=96*1024*1024;
  let originalUsed=false,activeIndex=-1,direction=1,galleryDirection=1,clock=0,timer=0,loading=null;
- // The page being left stays on top until the next one has painted, so a turn never shows blank paper.
+ // Keep the previous page visible while the next page loads.
  let held=null,holdTimer=0,swap=0;
  const holdLimit=1500,paintLimit=800;
  function conceal(record){record.element.hidden=true;record.element.setAttribute('aria-hidden','true');record.element.removeAttribute('id');record.element.style.zIndex=''}

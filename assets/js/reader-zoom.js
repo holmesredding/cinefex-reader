@@ -10,7 +10,10 @@
     const zoomed = () => scale > fitScale + .005;
     const limit = () => Math.max(3, fitScale * 3);
     function syncFrame() {
-      getFrame().contentWindow?.postMessage({ cinefexPanMode: { zoomed: zoomed(), dragging: !!mouseDrag } }, '*');
+      for (const frame of paper.querySelectorAll('iframe:not([hidden])')) {
+        frame.style.transform = `scale(${scale})`;
+        frame.contentWindow?.postMessage({ cinefexPanMode: { zoomed: zoomed(), dragging: !!mouseDrag } }, '*');
+      }
     }
     function sync() {
       const label = chosen === null ? 'Fit' : Math.round(scale * 100) + '%';

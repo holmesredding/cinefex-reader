@@ -92,6 +92,8 @@ Missing local files stop a local export. You can add the files or switch to Arch
 
 Thanks to [Mike Parsons](https://github.com/mikeparsonstv-rgb) for [the OCR and indexing work](https://github.com/holmesredding/cinefex-reader/pull/1). Mike added full-text search, company and advertiser browsing, related titles and title corrections.
 
+Thanks to [Geoff Pedder](https://github.com/geoffpedder) for the fix that stops pages flashing white as you turn them.
+
 ## Hosting
 
 You can host the reader as a static website. There’s nothing to build: upload this folder’s contents and keep the directory structure intact.
