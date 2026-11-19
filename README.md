@@ -40,7 +40,7 @@ Where **Fit text** is available, it enlarges the text area while keeping the ori
 
 Choose your default in **Information → Default view**. You can still switch between **Page** and **Reader view** while reading. Covers and ads always use Page view.
 
-Choose **Hide controls** in the top toolbar or **Contents** to fill the window with the page. Page turning, scrolling and zoom still work. Press **Escape**, use your browser’s **Back** button, or tap the middle of the page on a touch screen to bring the controls back.
+Choose **Full screen** to expand the reader and hide its controls. **Show controls** in the lower right brings them back; **Exit full screen** returns to the browser. **Hide controls** above the page expands the reading area within the current window. Page turning, scrolling and zoom still work with the controls hidden. You can also press **Escape**, use your browser’s **Back** button, or tap the middle to bring them back. On iPad, the Contents panel opens over the page when space is limited.
 
 ## Using local files
 
@@ -116,7 +116,7 @@ The reader, catalogue, search index and original magazine HTML/CSS layouts are s
 
 The four HTML files at the top level open Issues, Browse, Search and the reader session.
 
-Run `python3 scripts/verify-package.py` to check the package for missing file references and unexpected media files. Browser check results are in `docs/VERIFICATION.json`.
+Run `python3 scripts/verify-package.py` to check the package for missing file references and unexpected media files. Browser check results are in `docs/VERIFICATION.json`. With Playwright available, run `node scripts/verify-reader-layout.js http://127.0.0.1:8766` against a local server to check responsive sizing, full-screen transitions, and reading-position preservation. Set `CHROME_BIN` if using an installed Chromium browser.
 
 The indexing tools are documented in [scripts/indexing](scripts/indexing/README.md). Reader view build and proofreading tools are in [scripts/reader-view](scripts/reader-view/README.md). Coverage and source checks are recorded in [docs/READER-VIEW.json](docs/READER-VIEW.json).
 

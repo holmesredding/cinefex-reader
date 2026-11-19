@@ -42,7 +42,7 @@
   toolbarButton.title = 'Hide controls'; toolbarButton.setAttribute('aria-label', 'Hide controls');
   toolbarButton.setAttribute('aria-controls', 'sidebar viewport');
   toolbarButton.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h16M4 21h16M8 8l4-4 4 4M8 16l4 4 4-4"/></svg><span>Hide controls</span>';
-  document.getElementById('fullscreenButton').before(toolbarButton);
+  document.querySelector('.reading-heading').append(toolbarButton);
   const show = document.createElement('button');
   show.id = 'showControlsButton'; show.type = 'button'; show.textContent = 'Show controls'; show.hidden = true;
   viewport.before(show);
@@ -58,13 +58,14 @@
       document.body.classList.remove('contents-open');
       document.getElementById('contentsButton').setAttribute('aria-expanded', 'false');
       (panel && !panel.hidden ? panel : viewport).focus({ preventScroll: true });
-      hint.textContent = matchMedia('(pointer:coarse)').matches ? 'Tap the middle or use Back to show controls.' : 'Press Escape or use Back to show controls.';
+      hint.textContent = 'Use Show controls to return. You can also tap the middle or press Escape.';
       hint.classList.add('visible'); clearTimeout(hintTimer);
       hintTimer = setTimeout(() => hint.classList.remove('visible'), 2800);
     } else {
       hint.classList.remove('visible'); clearTimeout(hintTimer);
-      const expanded = innerWidth > 760 && !document.body.classList.contains('focus');
+      const expanded = innerWidth > 1100 && !document.body.classList.contains('focus');
       document.getElementById('contentsButton').setAttribute('aria-expanded', String(expanded));
+      toolbarButton.focus({ preventScroll: true });
     }
   }
   function hide() {
@@ -121,6 +122,6 @@
   }
   const term = document.createElement('dt'), explanation = document.createElement('dd');
   term.textContent = 'Hide controls';
-  explanation.innerHTML = 'Choose <strong>Hide controls</strong> in the top toolbar or <strong>Contents</strong> to fill the window with the page. Use <strong>Escape</strong> or your browser’s <strong>Back</strong> button to bring the controls back. On a touch screen, you can also <strong>tap the middle</strong>.';
+  explanation.innerHTML = 'Choose <strong>Hide controls</strong> above the page or in <strong>Contents</strong> to fill the window with the page. Tap <strong>Show controls</strong>, or use <strong>Escape</strong> or your browser’s <strong>Back</strong> button to bring the controls back. On a touch screen, you can also <strong>tap the middle</strong>.';
   document.querySelector('#help dl').append(term, explanation);
 })();

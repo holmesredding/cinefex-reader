@@ -20,7 +20,7 @@ galleryToggle.onclick=()=>{galleryOpen=!galleryOpen;syncGallery()};
 function show(index,mode='push'){
  if(!Number.isInteger(index)||!data.pages[index])return;const changedGroup=data.pages[index].group!==data.pages[current].group;current=index;const p=data.pages[index],group=data.groups[p.group];
  if(!window.CinefexReadingView?.handles(index))pageCache.open(index);
- $('section').textContent=p.title;$('position').textContent=`${p.gallery?'Gallery, ':''}${p.group+1} / ${data.groups.length}`;
+ $('section').textContent=p.title;$('position').textContent=`${p.gallery?'Gallery · ':''}Page ${p.group+1} of ${data.groups.length}`;
 
  $('previous').disabled=p.group===0;$('next').disabled=p.group===data.groups.length-1;$('progress').value=p.group;$('progress').setAttribute('aria-valuetext',`Page ${p.group+1} of ${data.groups.length}, ${p.title}`);const percentage=(p.group+1)/data.groups.length*100;$('progress').style.setProperty('--progress',percentage+'%');$('percent').textContent=Math.round(percentage)+'%';
  $('choices').replaceChildren();syncGallery();
@@ -79,12 +79,30 @@ function wheel(e,fromPage=false){
 }
 $('viewport').addEventListener('wheel',e=>wheel(e),{passive:false});
 function closeMobileContents(){document.body.classList.remove('contents-open');updateContentsButton()}
-function updateContentsButton(){$('contentsButton').setAttribute('aria-expanded',String(innerWidth<=760?document.body.classList.contains('contents-open'):!document.body.classList.contains('focus')))}
-$('contentsButton').onclick=()=>{document.body.classList.toggle(innerWidth<=760?'contents-open':'focus');updateContentsButton();fit()};$('closeContents').onclick=closeMobileContents;$('scrim').onclick=closeMobileContents;
+function updateContentsButton(){$('contentsButton').setAttribute('aria-expanded',String(innerWidth<=1100?document.body.classList.contains('contents-open'):!document.body.classList.contains('focus')))}
+$('contentsButton').onclick=()=>{document.body.classList.toggle(innerWidth<=1100?'contents-open':'focus');updateContentsButton();fit()};$('closeContents').onclick=closeMobileContents;$('scrim').onclick=closeMobileContents;
 $('previous').onclick=()=>turn(-1);$('next').onclick=()=>turn(1);$('progress').max=data.groups.length-1;$('progress').addEventListener('input',e=>show(data.groups[Number(e.target.value)].states[0],'replace'));
 $('saveButton').onclick=()=>{const id=data.pages[current].ref,existed=saved.includes(id);saved=existed?saved.filter(s=>s!==id):[...saved,id];persist();syncSaved();toast(existed?'Saved page removed':'Page saved')};
 $('videosButton').onclick=()=>$('videos').showModal();$('helpButton').onclick=()=>$('help').showModal();$('coverButton').onclick=()=>{show(0);closeMobileContents()};$('indexButton').onclick=()=>{show(data.index);closeMobileContents()};
-$('fullscreenButton').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch{toast('Use your browser’s full-screen command.')}};document.addEventListener('fullscreenchange',()=>{$('fullscreenButton').setAttribute('aria-label',document.fullscreenElement?'Exit full screen':'Full screen');fit()});
+// Full-screen the session shell, so Safari resizes the owner of the viewport.
+const screenDocument=parent!==window&&window.name==='cinefex-session'?parent.document:document;
+const screenButton=$('fullscreenButton'),screenLabel=document.createElement('span');
+screenButton.className='tool';screenButton.append(screenLabel);
+function syncFullscreen(){
+ const active=Boolean(screenDocument.fullscreenElement||screenDocument.webkitFullscreenElement);
+ const label=active?'Exit full screen':'Full screen';screenLabel.textContent=label;screenButton.title=label;screenButton.setAttribute('aria-label',label);
+ if(active)window.CinefexDisplay?.hide();else window.CinefexDisplay?.restore();
+ requestAnimationFrame(fit);
+}
+screenButton.onclick=async()=>{
+ try{
+  if(screenDocument.fullscreenElement||screenDocument.webkitFullscreenElement)await(screenDocument.exitFullscreen||screenDocument.webkitExitFullscreen).call(screenDocument);
+  else{const root=screenDocument.documentElement,enter=root.requestFullscreen||root.webkitRequestFullscreen;if(enter)await enter.call(root);else window.CinefexDisplay?.hide()}
+ }catch{toast('Full screen is unavailable. Choose Hide controls to expand the page.')}
+};
+for(const name of ['fullscreenchange','webkitfullscreenchange'])screenDocument.addEventListener(name,syncFullscreen);
+addEventListener('pagehide',()=>{for(const name of ['fullscreenchange','webkitfullscreenchange'])screenDocument.removeEventListener(name,syncFullscreen)});
+syncFullscreen();
 data.stories.forEach((story,i)=>{const title=story.title,s=document.createElement('section');s.className='story';s.dataset.title=title;const top=document.createElement('div');top.className='story-top';const number=document.createElement('span');number.className='story-number';number.textContent=String(i+1).padStart(2,'0');const h=document.createElement('h3');h.textContent=title;const preview=document.createElement('button');preview.className='story-preview';preview.setAttribute('aria-label',`Read ${title}`);const image=document.createElement('img');CinefexSources.image(image,story.image);image.alt='';image.loading='lazy';image.decoding='async';preview.append(image);preview.onclick=()=>{show(story.article??story.gallery);closeMobileContents()};top.append(preview,h);const actions=document.createElement('div');actions.className='story-actions';for(const [kind,label,index] of [['article','Read',story.article],['gallery','Gallery',story.gallery]]){if(index===null)continue;const b=document.createElement('button');b.textContent=label;b.dataset.title=title;b.dataset.kind=kind;b.setAttribute('aria-label',`${title}: ${label}`);b.onclick=()=>{show(index);closeMobileContents()};actions.append(b)}s.append(top,actions);$('chapterList').append(s)});
 // Search link beside Browse in the reader's header.
 (()=>{const b=document.querySelector('nav a.library-link[href$="titles.html"]');if(b&&!document.querySelector('nav a[href$="search.html"]')){const a=document.createElement('a');a.className='library-link';a.href='../../search.html';a.textContent='Search';b.after(a)}})();
@@ -107,7 +125,7 @@ if(data.index===null)$('indexButton').hidden=true;
 if(!data.videos.length){$('videosButton').hidden=true;const dd=$('filmHelp');dd.hidden=true;dd.previousElementSibling.hidden=true;}
 if(data.edition==='archive'){const guide=document.querySelector('#help dl');guide.children[1].textContent='Turn pages with the arrow keys, Space or mousewheel. Shift–Space goes back.';guide.children[3].textContent='Use 100% to zoom. Choose Fit to resize.';}
 document.querySelector('#help dl').children[1].textContent='Turn pages with the arrow keys, Space or mousewheel. Shift–Space goes back.';
-const controls=document.createElement('button');controls.className='controls-button';controls.textContent='Controls';controls.onclick=()=>$('help').showModal();document.querySelector('.reading-heading').insertBefore(controls,$('saveButton'));
+const controls=document.createElement('button');controls.className='controls-button';controls.textContent='Help';controls.onclick=()=>$('help').showModal();document.querySelector('.reading-heading').insertBefore(controls,$('saveButton'));
 $('help').querySelector('h2').textContent='Reading controls';
 $('helpButton').textContent='Controls';
 $('help').querySelector('dl').innerHTML=`<dt>Page navigation</dt><dd class="desktop-controls">Use the <strong>left and right arrow keys</strong>, or <strong>scroll over the page</strong>. <strong>Space</strong> moves forward, <strong>Shift–Space</strong> goes back.</dd><dd class="mobile-controls"><strong>Swipe left</strong> for the next page, or <strong>swipe right</strong> to go back. You can also <strong>tap the left or right edge</strong> of the page, or use the <strong>arrows at the bottom</strong>.</dd><dt>Contents</dt><dd>Open <strong>Contents</strong> to choose a story. The <strong>slider at the bottom</strong> lets you jump through the issue.</dd><dt>Zoom</dt><dd>The <strong>zoom control</strong> in the toolbar has preset sizes and a slider. <strong>Fit</strong> shows the whole page.</dd><dd class="desktop-controls">When zoomed in, <strong>click and drag</strong> the page to move around it.</dd><dd class="mobile-controls"><strong>Pinch</strong> to zoom in on the page, then <strong>drag</strong> to move around it. Return to <strong>Fit</strong> to swipe between pages.</dd>${data.pages.some(p=>p.gallery)?'<dt>Galleries</dt><dd><strong>Tap a thumbnail</strong> to change the image. <strong>Hide images</strong> closes the thumbnails. <strong>Images</strong> brings them back.</dd>':''}<dt>Bookmarks</dt><dd>Your place is remembered automatically. <strong>Save page</strong> adds a bookmark in <strong>Contents</strong>.</dd>`;

@@ -46,16 +46,81 @@
 .story-related{font:11px/1.6 Arial,sans-serif;color:var(--muted);margin:6px 0 0;padding-left:0}.story-related a{color:var(--red);text-decoration:none}.story-related a:hover{text-decoration:underline}
 
 body.controls-hidden>.topbar,body.controls-hidden #sidebar,body.controls-hidden #scrim,body.controls-hidden .reading-heading,body.controls-hidden .reading>footer,body.controls-hidden #galleryTray,body.controls-hidden .article-tools{display:none!important}
-body.controls-hidden .workspace{height:100dvh}
 body.controls-hidden .reading{grid-template-rows:minmax(0,1fr)}
 body.controls-hidden #viewport,body.controls-hidden .article-reading{grid-column:1;grid-row:1}
 body.controls-hidden #viewport{padding:0}
-body.controls-hidden .article-reading{padding-top:max(20px,env(safe-area-inset-top))}
-#showControlsButton{position:fixed;left:12px;top:12px;z-index:40;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
-#showControlsButton:focus-visible{width:auto;height:auto;padding:12px 16px;clip-path:none;background:var(--bg);border:1px solid var(--line);border-radius:4px;font-size:14px}
 #hideControlsButton{min-height:44px;align-items:center}
 #hideControlsToolbar{min-height:44px}
 @media(max-width:1100px){.topbar .wordmark span,.topbar .tool span,.topbar .divider{display:none}#hideControlsToolbar{padding:8px}}
 @media(max-width:380px){.topbar{padding:0 10px;gap:6px}.topbar .wordmark{font-size:26px}.topbar nav{gap:1px}.topbar .tool,.topbar #hideControlsToolbar{padding:8px 6px}}
 .display-hint{position:fixed;bottom:max(20px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);z-index:40;max-width:calc(100vw - 40px);width:max-content;background:var(--ink);color:var(--bg);padding:12px 16px;border-radius:4px;font:13px/1.5 Arial,sans-serif;opacity:0;pointer-events:none}
 .display-hint.visible{opacity:1}
+
+/* Size the reader once, from its owning viewport. The workspace fills the
+   remaining space even when Safari's bars or our toolbar change height. */
+html{height:100%;overflow:hidden}
+body{height:var(--reader-height,100dvh);display:flex;flex-direction:column;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+html.reader-in-session body{height:100%;padding:0}
+.topbar{height:auto;min-height:64px;flex-shrink:0;padding:8px 22px;gap:20px}
+.workspace,body.controls-hidden .workspace{height:auto;flex:1;min-height:0;position:relative}
+.reading{min-height:0;grid-template-rows:auto minmax(0,1fr) 64px}
+.reading-heading{min-height:48px;height:auto;gap:12px;padding:4px 20px}
+.reading>footer{height:64px}
+.article-reading{grid-column:1;grid-row:2;min-width:0}
+.topbar .tool{min-height:44px;padding:10px;white-space:nowrap}
+.topbar .tool span{display:inline}
+.topbar .divider,.topbar .wordmark span{display:none}
+.topbar .wordmark{font-size:36px;letter-spacing:-2px}
+.topbar nav{gap:4px;min-width:0}
+.topbar .library-link{padding:12px 8px}
+.topbar #themeToggle,.topbar #infoButton{width:44px;height:44px;margin-left:0}
+#fullscreenButton{display:flex}
+#hideControlsToolbar{font-size:12px;min-height:44px;gap:7px;padding:8px 10px;border:1px solid var(--line);white-space:nowrap}
+#hideControlsToolbar svg{width:17px;height:17px}
+.controls-button{font-size:12px;min-height:44px;margin-left:auto}
+.save-button{font-size:12px;min-height:44px;padding:8px}
+.turn{width:44px;height:44px}
+.reading-position{min-width:0;width:190px}
+.reading-position strong{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.reading-position span{font-size:11px}
+#progress{height:28px;min-height:28px;background-size:100% 2px;background-repeat:no-repeat;background-position:center}
+#progress::-webkit-slider-thumb{width:14px;height:14px}
+#progress::-moz-range-thumb{width:14px;height:14px}
+#showControlsButton,#showControlsButton:focus-visible{position:absolute;z-index:40;left:auto;top:auto;right:12px;bottom:12px;width:auto;height:44px;clip-path:none;overflow:visible;padding:0 16px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:24px;box-shadow:0 2px 12px #0002;font:13px Arial,sans-serif;opacity:.85}
+#showControlsButton:hover,#showControlsButton:focus-visible{opacity:1}
+body.controls-hidden .article-reading{padding-top:20px;padding-bottom:72px}
+body.controls-hidden .reading{grid-template-rows:minmax(0,1fr)}
+.display-hint{bottom:72px}
+@media(max-width:1300px){.topbar .issue-meta{display:none}}
+@media(max-width:1100px){
+ aside,body.focus aside{display:none;position:absolute;top:0;bottom:0;width:min(340px,calc(100% - 44px));box-shadow:12px 0 40px #0003}
+ body.contents-open aside{display:block}
+ #closeContents{display:grid;width:44px;height:44px}
+ body.contents-open #scrim{display:block;position:absolute;inset:0;background:#18201b88;z-index:14}
+ .story-actions button{font-size:12px;min-height:44px;padding:8px 0}
+ .topbar{gap:12px;padding-inline:16px}
+}
+@media(max-width:900px){
+ .topbar{flex-wrap:wrap;gap:0;min-height:0;padding:6px 14px}
+ .topbar .wordmark{font-size:30px;line-height:36px}
+ .topbar nav{flex:1 0 100%;margin:0;justify-content:space-between;gap:2px}
+ .topbar .library-link{display:none}
+ .topbar .tool{padding:8px;font-size:12px}
+ .topbar .tool span{display:inline}
+ .reading-position{width:160px}
+}
+@media(max-width:600px){
+ .topbar{padding-inline:10px}
+ .topbar .wordmark{font-size:28px}
+ .topbar .tool{font-size:11px;padding:6px}
+ .topbar .tool svg{display:none}
+ .topbar #themeToggle,.topbar #infoButton{width:36px;height:44px}
+ .reading-heading{gap:4px;padding:4px 8px;flex-wrap:wrap}
+ .reading-heading:has(.reading-views:not([hidden])) #hideControlsToolbar{margin-left:auto}
+ #hideControlsToolbar{padding:6px 8px;font-size:11px}
+ #hideControlsToolbar svg{display:none}
+ .reading-position{flex:1;width:0}
+ #progress,#percent,.footer-divider,.progress-label{display:none}
+ .reading>footer{padding:0 12px}
+ .save-button{font-size:11px}
+}

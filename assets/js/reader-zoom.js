@@ -16,8 +16,8 @@
       }
     }
     function sync() {
-      const label = chosen === null ? 'Fit' : Math.round(scale * 100) + '%';
-      button.textContent = label; button.title = 'Page zoom'; button.setAttribute('aria-label', 'Page zoom, ' + label);
+      const label = chosen === null ? 'Fit page' : Math.round(scale * 100) + '%';
+      button.textContent = 'Zoom · ' + label; button.title = 'Page zoom'; button.setAttribute('aria-label', 'Page zoom, ' + label);
       button.removeAttribute('aria-pressed'); button.setAttribute('aria-haspopup', 'dialog'); button.setAttribute('aria-controls', menu.id);
       slider.min = Math.floor(Math.min(fitScale, 1) * 100); slider.max = Math.ceil(limit() * 100); slider.value = Math.round(scale * 100);
       output.textContent = Math.round(scale * 100) + '%'; slider.setAttribute('aria-valuetext', output.textContent);
